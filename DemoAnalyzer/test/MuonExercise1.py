@@ -11,7 +11,7 @@ process.MessageLogger.cerr.INFO = cms.untracked.PSet(
     limit = cms.untracked.int32(0)
 )
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(2000) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(False),
 SkipEvent = cms.untracked.vstring('ProductNotFound'))
@@ -30,13 +30,16 @@ inputlist = cms.untracked.vstring()
 
 
 if len(inputlist) == 0 :
-    input = os.getenv('INPUTDIR')
+    input = os.getenv('INPUT')
     if input == None : sys.exit('invalid INPUTDIR')
-    print 'reading from inputdir: ', input
-    for f in glob.glob(input+'/*.root'):
-        file='file:'+f
-        print 'adding: '+file
-        inputlist.extend(cms.vstring(file))
+    #print 'reading from inputdir: ', input
+    #for f in glob.glob(input+'/*.root'):
+    files=input.split(" ")
+    for i in range(len(files)) :
+        if ".root" in files[i] :
+            file='file:'+files[i]
+            print 'adding: '+file
+            inputlist.extend(cms.vstring(file))
      
 
 process.source = cms.Source("PoolSource", 
