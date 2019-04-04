@@ -144,13 +144,20 @@ int TMVAClassification( )
 
    // Read training and test data
    // (it is also possible to use ASCII format as input -> see TMVA Users Guide)
-   TFile inputS("THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1.root","read");
-   TFile inputB("TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8.root","read");
-   // Register the training and test trees
-   TTree *signalTree     = (TTree*)inputS.Get("demo/tuple");
-   TTree *background     = (TTree*)inputB.Get("demo/tuple");
-   if(!signalTree || !background){ cout<<"no trees found"<<endl; return 0;}
+   /* TFile inputS("THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1.root","read"); */
+   /* TFile inputB("TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8.root","read"); */
+   /* TTree *signalTree     = (TTree*)inputS.Get("demo/tuple"); */
+   /* TTree *background     = (TTree*)inputB.Get("demo/tuple"); */
+   /* if(!signalTree || !background){ cout<<"no trees found"<<endl; return 0;} */
 
+
+   TChain * signalTree = new TChain("demo/tuple");
+   TChain * background = new TChain("demo/tuple");
+
+   signalTree->Add("/Users/benitezj/analysis/tH_2lss/RunIISummer16MiniAODv3_tuples/THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1_*.root");
+   background->Add("/Users/benitezj/analysis/tH_2lss/RunIISummer16MiniAODv3_tuples/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8_*.root");
+
+   
    
    // Create a ROOT output file where TMVA will store ntuples, histograms, etc.
    TString outfileName( "TMVA.root" );
@@ -261,7 +268,7 @@ int TMVAClassification( )
    //    dataloader->PrepareTrainingAndTestTree( mycut,
    //         "NSigTrain=3000:NBkgTrain=3000:NSigTest=3000:NBkgTest=3000:SplitMode=Random:!V" );
    dataloader->PrepareTrainingAndTestTree( mycuts, mycutb,
-                                        "nTrain_Signal=1000:nTrain_Background=1000:SplitMode=Random:NormMode=NumEvents:!V" );
+                                        "nTrain_Signal=2000:nTrain_Background=7000:SplitMode=Random:NormMode=NumEvents:!V" );
 
    // ### Book MVA methods
    //
