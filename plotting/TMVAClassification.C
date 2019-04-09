@@ -188,8 +188,8 @@ int TMVAClassification( )
    // [all types of expressions that can also be parsed by TTree::Draw( "expression" )]
    //dataloader->AddVariable( "myvar1 := var1+var2", 'F' );
    //dataloader->AddVariable( "myvar2 := var1-var2", "Expression 2", "", 'F' );
-   dataloader->AddVariable( "abs(fj_eta)",                "|forwd jet eta|", "", 'F' );
-   dataloader->AddVariable( "l1_pt",                "lead muon pT", "GeV", 'F' );
+   dataloader->AddVariable( "abs(fj_eta)", "fwd jet |eta|", "", 'F' );
+   dataloader->AddVariable( "l1_pt", "lead muon pT", "GeV", 'F' );
 
    // You can add so-called "Spectator variables", which are not used in the MVA training,
    // but will appear in the final "TestTree" produced by TMVA. This TestTree will contain the

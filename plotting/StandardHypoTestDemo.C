@@ -77,10 +77,14 @@ struct HypoTestOptions {
 HypoTestOptions optHT;
 
 void StandardHypoTestDemo(const char *infile = "", const char *workspaceName = "combined",
-                          const char *modelSBName = "ModelConfig", const char *modelBName = "",
-                          const char *dataName = "obsData", int calcType = 0, /* 0 freq 1 hybrid, 2 asymptotic */
+                          const char *modelSBName = "ModelConfig",
+			  const char *modelBName = "",
+                          const char *dataName = "obsData",
+			  int calcType = 0, /* 0 freq 1 hybrid, 2 asymptotic */
                           int testStatType = 3, /* 0 LEP, 1 TeV, 2 LHC, 3 LHC - one sided*/
-                          int ntoys = 5000, bool useNC = false, const char *nuisPriorName = 0)
+                          int ntoys = 5000,
+			  bool useNC = false,
+			  const char *nuisPriorName = 0)
 {
 
    bool noSystematics = optHT.noSystematics;
