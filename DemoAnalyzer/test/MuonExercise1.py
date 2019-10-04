@@ -27,6 +27,7 @@ SkipEvent = cms.untracked.vstring('ProductNotFound'))
 
 inputlist = cms.untracked.vstring()
 #inputlist = cms.untracked.vstring('file:/eos/user/b/benitezj/RunIISummer16MiniAODv3/THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/MINIAODSIM/EE7BE19D-31EB-E811-AC13-44A84225D36F.root')
+#inputlist = cms.untracked.vstring('root://cms-xrd-global.cern.ch//store/mc/RunIISummer16MiniAODv3/THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1/MINIAODSIM/PUMoriond17_94X_mcRun2_asymptotic_v3-v2/120000/F8AF947C-2AEB-E811-BE18-246E96D14B94.root')
 
 
 if len(inputlist) == 0 :
@@ -37,7 +38,8 @@ if len(inputlist) == 0 :
     files=input.split(" ")
     for i in range(len(files)) :
         if ".root" in files[i] :
-            file='file:'+files[i]
+            #file='file:'+files[i]
+            file=files[i]
             print 'adding: '+file
             inputlist.extend(cms.vstring(file))
      
