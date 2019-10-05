@@ -2,7 +2,7 @@
 /// Limits: number counting experiment with uncertainty on both the background rate and signal efficiency.
 /// The usage of a Confidence Interval Calculator to set a limit on the signal is illustrated
 /// \author Kyle Cranmer
-
+
 #include "RooProfileLL.h"
 #include "RooAbsPdf.h"
 #include "RooStats/HypoTestResult.h"
@@ -56,7 +56,7 @@ void rs101_limitexample()
 
 
    /// define the observed data
-   RooRealVar *obs = wspace->var("obs");                                  // get the observable
+   RooRealVar *obs = wspace->var("obs");  // get the observable
    obs->setVal(100.);  // number of observed events
    RooDataSet *data = new RooDataSet("exampleData", "exampleData", RooArgSet(*obs));
    data->add(*obs);
@@ -68,25 +68,26 @@ void rs101_limitexample()
    b->setVal(100);
    b->setConstant();
    RooRealVar *ratioSigEff = wspace->var("ratioSigEff"); // get uncertain parameter to constrain
-   ratioSigEff->setConstant();    //fix the signal systematic
+   //ratioSigEff->setConstant();    //fix the signal systematic
    RooRealVar *ratioBkgEff = wspace->var("ratioBkgEff"); // get uncertain parameter to constrain
    //ratioBkgEff->setConstant();  //fix the background systematic
    RooArgSet constrainedParams(*ratioSigEff,*ratioBkgEff); // need to constrain these in the fit (should change default behavior)
 
    
-   // get the parameter of interest
-   RooRealVar *s = wspace->var("s");
+   ///  get the parameter of interest
+   RooRealVar *s = wspace->var("s"); //parametro de la senal
    RooArgSet paramOfInterest(*s);
    
 
    /// Configure the Model
    ModelConfig modelConfig(wspace);
-   modelConfig.SetPdf(*modelWithConstraints);
-   modelConfig.SetParametersOfInterest(paramOfInterest);
-   modelConfig.SetNuisanceParameters(constrainedParams);
-   modelConfig.SetObservables(*obs);
    modelConfig.SetName("ModelConfig");
-
+   modelConfig.SetObservables(*obs); // los datos 
+   modelConfig.SetPdf(*modelWithConstraints); // el modelo de los datos
+   modelConfig.SetParametersOfInterest(paramOfInterest); // parametro de la senal
+   modelConfig.SetNuisanceParameters(constrainedParams); // parametros de los sitematicos
+   
+  
    
    //  use test based on the Profile Likelihood Ratio
    ProfileLikelihoodCalculator plc(*data, modelConfig);
@@ -127,5 +128,3 @@ void rs101_limitexample()
 }
 
 
-
-
