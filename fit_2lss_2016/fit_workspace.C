@@ -19,7 +19,7 @@ ht->SetBinError(i,sqrt(ht->GetBinContent(i)));
 }
 }
 
-void simpleFit(string version, int strategy=0)
+void fit_workspace(string version, int strategy=0)
 {
   //Open the file, grab the workspace
   TFile* f = new TFile(Form("_combined_kinMVA_model.root",version.c_str(),version.c_str()));

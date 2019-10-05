@@ -9,7 +9,7 @@ ht->SetBinError(i,sqrt(ht->GetBinContent(i)));
 }
 }
 
-void kinmva(){
+void make_workspace(){
 
 TFile* f = TFile::Open("plots-thq-2lss-kinMVA.root");
 TH1D *tzq =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tZq");
