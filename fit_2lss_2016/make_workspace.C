@@ -24,7 +24,7 @@ TH1D *tth =(TH1D*)f->Get("thqMVA_ttv_2lss_40_ttH");
 TH1D *thw =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tHW_hww");
 TH1D *zz =(TH1D*)f->Get("thqMVA_ttv_2lss_40_ZZ");
 TH1D *ww =(TH1D*)f->Get("thqMVA_ttv_2lss_40_WWss");
-TH1D ww2=(TH1D*)f->Get("thqMVA_ttv_2lss_40_WWDPS");
+TH1D *ww2=(TH1D*)f->Get("thqMVA_ttv_2lss_40_WWDPS");
 TH1D *tttt =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tttt");
 TH1D *data =(TH1D*)f->Get("thqMVA_ttv_2lss_40_data");
 TH1D *wz =(TH1D*)f->Get("thqMVA_ttv_2lss_40_WZ");
@@ -35,7 +35,7 @@ TH1D *thq =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tHq_hww");
 tzq->Scale(5.8/tzq->Integral()); //tzq
 vvv->Scale(3/vvv->Integral()); //vvv
 ww->Scale(4.0/ww->Integral()); //wwss
-ww1->Scale(2.5/ww2->Integral());//wwdps
+ww2->Scale(2.5/ww2->Integral());//wwdps
 tttt->Scale(2.3/tttt->Integral()); // tttt
 fakes->Scale(80.9/fakes->Integral()); //non prompt
 wz->Scale(15.1/wz->Integral()); //WZ
