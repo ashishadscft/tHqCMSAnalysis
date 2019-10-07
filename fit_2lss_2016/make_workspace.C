@@ -24,6 +24,7 @@ TH1D *tth =(TH1D*)f->Get("thqMVA_ttv_2lss_40_ttH");
 TH1D *thw =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tHW_hww");
 TH1D *zz =(TH1D*)f->Get("thqMVA_ttv_2lss_40_ZZ");
 TH1D *ww =(TH1D*)f->Get("thqMVA_ttv_2lss_40_WWss");
+TH1D ww2=(TH1D*)f->Get("thqMVA_ttv_2lss_40_WWDPS");
 TH1D *tttt =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tttt");
 TH1D *data =(TH1D*)f->Get("thqMVA_ttv_2lss_40_data");
 TH1D *wz =(TH1D*)f->Get("thqMVA_ttv_2lss_40_WZ");
@@ -33,7 +34,8 @@ TH1D *thq =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tHq_hww");
 
 tzq->Scale(5.8/tzq->Integral()); //tzq
 vvv->Scale(3/vvv->Integral()); //vvv
-ww->Scale(6.5/ww->Integral()); //wwss
+ww->Scale(4.0/ww->Integral()); //wwss
+ww1->Scale(2.5/ww2->Integral());//wwdps
 tttt->Scale(2.3/tttt->Integral()); // tttt
 fakes->Scale(80.9/fakes->Integral()); //non prompt
 wz->Scale(15.1/wz->Integral()); //WZ
@@ -46,14 +48,40 @@ zz->Scale(1.16/zz->Integral()); //zz
 thq->Scale(1.43/thq->Integral());//thq
 thw->Scale(0.71/thw->Integral());//thw
 
+//for kt=-1
+//thq->Scale(18.5/thq->Integral());//thq
+//thw->Scale(7.72/thw->Integral());//thw
+
+
+////////////////////////////////////////////
+//for higher luminosities
+//////////////////////////////////
+//tzq->Scale(150.0/35.9); //tzq
+//vvv->Scale(150/35.9); //vvv
+//ww->Scale(150/35.9); //wwss
+//tttt->Scale(150/35.9); // tttt
+//fakes->Scale(150/35.9); //non prompt
+//wz->Scale(150/35.9); //WZ
+//ttz->Scale(150/35.9);//ttZ
+//ttw->Scale(150/35.9);//ttW
+//tth->Scale(150/35.9);//tth
+//thq->Scale(150/35.9);//thq
+//thw->Scale(150/35.9);//thw
+//tzw->Scale(150/35.9);//tzw
+//zz->Scale(150/35.9); //zz
+//ww2->Scale(150/35.9);//wwdps
+
 
 TH1F *th=(TH1F*)thq->Clone("th");
 th->Add(thw);
 
+TH1F *wwt=(TH1F*)ww->Clone("wwt");
+wwt->Add(ww2);
+
 TH1F *tz=(TH1F*)tzq->Clone("tz");
 tz->Add(vvv);
 tz->Add(tttt);
-tz->Add(ww);
+tz->Add(wwt);
 tz->Add(tzw);
 tz->Add(zz);
 
@@ -208,6 +236,7 @@ axis5->Draw();
 auto legend = new TLegend(0.6,0.6,0.89,0.89);
 //legend->SetHeader("Test","C"); // option "C" allows to center the header
 legend->AddEntry(hat,"Data","lep");
+//legend->AddEntry("th (k_t=-1)","f");
 legend->AddEntry(th,"tH (SM)","f");
 legend->AddEntry(tth,"t#bar{t}H","f");
 legend->AddEntry(ttw,"t#bar{t}W","f");
@@ -278,6 +307,6 @@ h->GetYaxis()->SetTitle("Events");
 legend->Draw();
 cs->RedrawAxis();
 cs->SaveAs("kos.png");
-
+//cs-<SaveAs("kos2.png");
 
 }
