@@ -142,23 +142,23 @@ data1->SetLineColor(kBlack);
 
 float i1 =(fakes->Integral())*(1.0+eps_fakes*alpha_fakes->getVal());//*lumi->getVal();  //fakes
 float i2 =(tz->Integral())*(1.0+ eps_tz*alpha_tz->getVal());//*lumi->getVal();  //Rares
-float i3=(wz->Integral())*(1.0+ eps_wz*alpha_wz->getVal());//*lumi->getVal(); //wz  
-float i4=(ttz->Integral())*(1.0+ eps_ttz*alpha_ttz->getVal());//*lumi->getVal(); //ttz  
-float i5=(ttw->Integral())*(1.0+ eps_ttw*alpha_ttw->getVal());//*lumi->getVal(); //ttw  
-float i6=(th->Integral())*(alpha_mu->getVal());//*lumi->getVal();  //signal 
-float i7=(tth->Integral())*(1.0+ eps_tth*alpha_tth->getVal());//*lumi->getVal(); //tth    
+float i3=(wz->Integral())*(1.0+ eps_wz*alpha_wz->getVal());//*lumi->getVal(); //wz
+float i4=(ttz->Integral())*(1.0+ eps_ttz*alpha_ttz->getVal());//*lumi->getVal(); //ttz
+float i5=(ttw->Integral())*(1.0+ eps_ttw*alpha_ttw->getVal());//*lumi->getVal(); //ttw
+float i6=(th->Integral())*(alpha_mu->getVal());//*lumi->getVal();  //signal
+float i7=(tth->Integral())*(1.0+ eps_tth*alpha_tth->getVal());//*lumi->getVal(); //tth
 float id=data1->Integral(); //data
 
 //cout<<params.InheritsFrom(RooAbsArg::Class())<<endl;
 //cout<< result->ClassName()<<endl;
 
-float(efakes)=(fakes->Integral())*(eps_fakes*alpha_fakes->getError()); //fakes eps=0.4
-float(etz)=(tz->Integral())*(eps_tz*alpha_tz->getError());  //tz    eps=0.5
-float(ewz)=(wz->Integral())*(eps_wz*alpha_wz->getError()); //wz   eps=0.5
-float(ettz)=(ttz->Integral())*(eps_ttz*alpha_ttz->getError()); //ttz  double  eps_ttz = sqrt(pow(0.04,2)+pow(0.1,2));
-float(ettw)=(ttw->Integral())*(eps_ttw*alpha_ttw->getError()); //ttw   double eps_ttw= sqrt(pow(0.04,2)+pow(0.12,2));
-float(eth)=(th->Integral())*(alpha_mu->getError());  //signal (kt--1 mu=6.12861e-01)
-float(etth)=(tth->Integral())*(eps_tth*alpha_tth->getError()); //tth    eps=0.05
+float(efakes)=(fakes->Integral())*(eps_fakes*alpha_fakes->getError()); //fakes
+float(etz)=(tz->Integral())*(eps_tz*alpha_tz->getError());  //tz
+float(ewz)=(wz->Integral())*(eps_wz*alpha_wz->getError()); //wz
+float(ettz)=(ttz->Integral())*(eps_ttz*alpha_ttz->getError()); //ttz
+float(ettw)=(ttw->Integral())*(eps_ttw*alpha_ttw->getError()); //ttw
+float(eth)=(th->Integral())*(alpha_mu->getError());  //signal
+float(etth)=(tth->Integral())*(eps_tth*alpha_tth->getError()); //tth
 
 cout<<"######################################"<<endl;
 cout<<"event  "<<"& "<<"N prefit  "<<"  & "<<"N Postfit "<<"\\"<<endl;
@@ -171,13 +171,13 @@ cout<<"WZ " <<"& "<<wz->Integral()<<" & " <<i3<<"$pm$"<<ewz<<"\\"<<endl;
 cout<<"fakes  " <<"& "<<fakes->Integral()<<"  & "<<i1<<"$pm$" << efakes<<"\\"<<endl;
 cout<<i1+i2+i3+i4+i5+i6+i7<<endl;
 
-fakes->Scale(i1/fakes->Integral()); //fakes 
+fakes->Scale(i1/fakes->Integral()); //fakes
 tz->Scale(i2/tz->Integral());  //rares
-wz->Scale(i3/wz->Integral()); //wz  
-ttz->Scale(i4/ttz->Integral()); //ttz  
-ttw->Scale(i5/ttw->Integral()); //ttw   
-th->Scale(i6/th->Integral());  //signal 
-tth->Scale(i7/tth->Integral()); //tth   
+wz->Scale(i3/wz->Integral()); //wz
+ttz->Scale(i4/ttz->Integral()); //ttz
+ttw->Scale(i5/ttw->Integral()); //ttw
+th->Scale(i6/th->Integral());  //signal
+tth->Scale(i7/tth->Integral()); //tth
 
 
 /////////////////////////////////////////////////////////////
@@ -217,8 +217,8 @@ data1->GetYaxis()->SetTitle("Events/bin");
 TLegend* legend1 = new TLegend(0.6,0.6,0.89,0.89);
 //legend->SetHeader("Test","C"); // option "C" allows to center the header
 legend1->AddEntry(data1,"Data","lep");
-legend1->AddEntry(th,"tH (SM)","f");
-//legend1->AddEntry(th,"tH (k_t=-1)","f"); 
+//legend1->AddEntry(th,"tH (SM)","f");
+legend1->AddEntry(th,"tH (k_{t}=-1)","f");
 legend1->AddEntry(tth,"t#bar{t}H","f");
 legend1->AddEntry(ttw,"t#bar{t}W","f");
 legend1->AddEntry(ttz,"t#bar{t}Z","f");
@@ -272,8 +272,8 @@ TLine *line = new TLine(-1.0,1,1,1.0);
 line->SetLineColor(kRed);
 line->Draw("same");
 
-cs->SaveAs("simple.png");
-//cs->SaveAs("simple-kt-1.png");
+//cs->SaveAs("simple.png");
+cs->SaveAs("simple-kt-1.png");
   //Save to file
   system(Form("mkdir -vp root-files/%s",version.c_str()));
   result->SetName("result");

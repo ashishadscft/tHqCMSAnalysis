@@ -45,12 +45,15 @@ tth->Scale(24.2/tth->Integral());//tth
 tzw->Scale(2.1/tzw->Integral());//tzw
 zz->Scale(1.16/zz->Integral()); //zz
 
-thq->Scale(1.43/thq->Integral());//thq
-thw->Scale(0.71/thw->Integral());//thw
+//////////////////////////////////////////////
+//for sm
+/////////////////////////////////////////////
+//thq->Scale(1.43/thq->Integral());//thq
+//thw->Scale(0.71/thw->Integral());//thw
 
 //for kt=-1
-//thq->Scale(18.5/thq->Integral());//thq
-//thw->Scale(7.72/thw->Integral());//thw
+thq->Scale(18.5/thq->Integral());//thq
+thw->Scale(7.72/thw->Integral());//thw
 
 
 ////////////////////////////////////////////
