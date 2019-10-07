@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{bb}
+{Search for the tH(H$\to \text{b}\bar{\text{b}}$) process in pp collisions at
+  $\sqrt{s}=13\,\mathrm{TeV}$ and study of Higgs boson couplings}.
+\newblock Technical Report CMS-PAS-HIG-17-016, CERN, Geneva, 2018.
+
+\bibitem{cern3}
+O.~Brüning P. Fessia M. Lamont L. Rossi L.~Tavian G.~Apollinari, I.
+  Béjar~Alonso.
+\newblock High-luminosity large hadron collider (hl-lhc). technical design
+  report v. 0.1,.
+\newblock {\em CERN Yellow}, (CERN-2017-007-M), 2017.
+
+\bibitem{cms-manual}
+G~L Bayatian, S~Chatrchyan, and Et~Al. Hmayakyan.
+\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2006.
+
+\bibitem{landau}
+L.D.~Landau y~E.M.~Lifschitz.
+\newblock {\em Mechanics}, volume~3 of {\em Course of Theoretical Physics}.
+\newblock Butterworth Heinemann, third edition, 1966.
+
+\bibitem{gross}
+Frank Gross.
+\newblock {\em Relativistic quantum mechanics and field theory}.
+\newblock WllEY-VCH Verlag GmbH Co. KGaA, first edition, 1998.
+
+\bibitem{pd}
+Tanabashi~M. Et~Al.
+\newblock {\em Review of Particle Physics}, volume~98.
+\newblock American Physical Society, Aug 2018.
+
+\bibitem{griff}
+D.J. Griffiths.
+\newblock {\em Introduction to elementary particles}.
+\newblock WllEY-VCH Verlag GmbH Co. KGaA, second edition, 2008.
+
+\bibitem{mark}
+Mark Thompson.
+\newblock {\em Modern particle physics}.
+\newblock Cambridge University press, first edition, 2013.
+
+\bibitem{higgsd}
+Chatrchyan et~al.
+\newblock Observation of a new boson at a mass of 125 gev with the cms
+  experiment at the lhc.
+\newblock {\em Physics Letters B}, 716(1):30 -- 61, 2012.
+
+\bibitem{top}
+Stephen Parke Tom~Schwarz Fr\'ed\'eric~D\'eliot, Nicholas~Hadley.
+\newblock Properties of top quark.
+\newblock {\em arXiv.org}, (arXiv:1803.00656):45, 2018.
+
+\bibitem{th1}
+The~CMS Collaboration.
+\newblock Search for production of a higgs boson and a single top quark in
+  multilepton final states in proton collisions at $\sqrt{s}$ = 13 tev.
+\newblock {\em The CMS Collaboration}, (CMS PAS HIG-17-005), May 2017.
+
+\bibitem{ew1}
+S.~Dawson.
+\newblock Introduction to electroweak symmetry breaking.
+\newblock {\em arXiv.org}, (arXiv:hep-ph/9901280):30, 1999.
+
+\bibitem{ew2}
+PAUL LANGACKER.
+\newblock Introduction to the standard model and electroweak physics.
+\newblock {\em arXiv.org}, (arXiv:0901.0241):45, 2009.
+
+\bibitem{cern1}
+LHC experiment.
+\newblock The large hadron collider.
+\newblock \url{https://home.cern/science/accelerators/large-hadron-collider},
+  2019.
+
+\bibitem{cern2}
+CMS experiment.
+\newblock The cms detector.
+\newblock \url{https://cms.cern/detector}, 2019.
+
+\bibitem{cms7}
+The~CMS collaboration.
+\newblock The performance of the cms muon detector in proton-proton collisions
+  at $\sqrt{s}$= 7 tev at the lhc.
+\newblock {\em Journal of Instrumentation}, 8(11):P11002--P11002, nov 2013.
+
+\bibitem{roofit}
+
+
+\bibitem{goldstein}
+Charles~Poole Herbert~Goldstein and John Safko.
+\newblock {\em Classical Mechanics}.
+\newblock Addison Wesley Longman Inc., 3 edition, 2002.
+
+\end{thebibliography}
