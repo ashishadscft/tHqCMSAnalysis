@@ -99,7 +99,7 @@ void scanLikelihood(string version, string parName="mu", double range=2, int nrP
   TGraph* graph = new TGraph(nrPoints+1, x_ary, y_ary);
   graph->Draw("alp*");
   graph->GetXaxis()->SetTitle(parName.c_str());
-  graph->GetYaxis()->SetTitle("-2 ln #Lambda");
+  graph->GetYaxis()->SetTitle("-2 ln #lambda(#mu)");
  graph->SetTitle();
  graph->GetXaxis()->SetLimits(0,50);
  graph->GetYaxis()->SetRangeUser(0,10);

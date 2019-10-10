@@ -217,7 +217,7 @@ hat->Draw("same");
 hat->SetStats(0);
 hat->GetYaxis()->SetRangeUser(0,40);
 hat->SetTitle("");
-hat->GetYaxis()->SetTitle("Events/bin");
+hat->GetYaxis()->SetTitle("Events");
 
 hat->GetXaxis()->SetLabelSize(0);
 TGaxis *axis = new TGaxis( -5, 20, -5, 220, 20,220,510,"");
@@ -294,6 +294,7 @@ line->SetLineColor(kBlue);
 /////////////////////////////////
 line->Draw("same");
 cs->SaveAs("kin.png");
+//cs->SaveAs("150fb.png");
 cs->Clear();
 ///////////////////////////////////////////
 TH1F *h = new TH1F("h","",16,-1,1);
@@ -309,7 +310,7 @@ h->GetXaxis()->SetTitle("BDT Discriminant");
 h->GetYaxis()->SetTitle("Events");
 legend->Draw();
 cs->RedrawAxis();
-cs->SaveAs("kos.png");
+//cs->SaveAs("kos.png");
 //cs-<SaveAs("kos2.png");
 
 }

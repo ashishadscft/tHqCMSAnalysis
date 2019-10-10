@@ -210,15 +210,15 @@ data1->Draw();
 hs->Draw("same");
 data1->Draw("same");
 data1->SetStats(0);
-data1->SetAxisRange(0,40,"Y");
+//data1->SetAxisRange(0,40,"Y");
 data1->SetTitle("");
 data1->GetYaxis()->SetTitle("Events/bin");
 
 TLegend* legend1 = new TLegend(0.6,0.6,0.89,0.89);
 //legend->SetHeader("Test","C"); // option "C" allows to center the header
 legend1->AddEntry(data1,"Data","lep");
-//legend1->AddEntry(th,"tH (SM)","f");
-legend1->AddEntry(th,"tH (k_{t}=-1)","f");
+legend1->AddEntry(th,"tH (SM)","f");
+//legend1->AddEntry(th,"tH (k_{t}=-1)","f");
 legend1->AddEntry(tth,"t#bar{t}H","f");
 legend1->AddEntry(ttw,"t#bar{t}W","f");
 legend1->AddEntry(ttz,"t#bar{t}Z","f");
@@ -272,8 +272,8 @@ TLine *line = new TLine(-1.0,1,1,1.0);
 line->SetLineColor(kRed);
 line->Draw("same");
 
-//cs->SaveAs("simple.png");
-cs->SaveAs("simple-kt-1.png");
+cs->SaveAs("simple-150.png");
+//cs->SaveAs("simple-kt-1.png");
   //Save to file
   system(Form("mkdir -vp root-files/%s",version.c_str()));
   result->SetName("result");
