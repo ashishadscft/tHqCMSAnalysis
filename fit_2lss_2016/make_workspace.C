@@ -55,24 +55,23 @@ zz->Scale(1.16/zz->Integral()); //zz
 thq->Scale(18.5/thq->Integral());//thq
 thw->Scale(7.72/thw->Integral());//thw
 
-
 ////////////////////////////////////////////
 //for higher luminosities
 //////////////////////////////////
-//tzq->Scale(150.0/35.9); //tzq
-//vvv->Scale(150/35.9); //vvv
-//ww->Scale(150/35.9); //wwss
-//tttt->Scale(150/35.9); // tttt
-//fakes->Scale(150/35.9); //non prompt
-//wz->Scale(150/35.9); //WZ
-//ttz->Scale(150/35.9);//ttZ
-//ttw->Scale(150/35.9);//ttW
-//tth->Scale(150/35.9);//tth
-//thq->Scale(150/35.9);//thq
-//thw->Scale(150/35.9);//thw
-//tzw->Scale(150/35.9);//tzw
-//zz->Scale(150/35.9); //zz
-//ww2->Scale(150/35.9);//wwdps
+tzq->Scale(3000.0/35.9); //tzq
+vvv->Scale(3000/35.9); //vvv
+ww->Scale(3000/35.9); //wwss
+tttt->Scale(3000/35.9); // tttt
+fakes->Scale(3000/35.9); //non prompt
+wz->Scale(3000/35.9); //WZ
+ttz->Scale(3000/35.9);//ttZ
+ttw->Scale(3000/35.9);//ttW
+tth->Scale(3000/35.9);//tth
+thq->Scale(3000/35.9);//thq
+thw->Scale(3000/35.9);//thw
+tzw->Scale(3000/35.9);//tzw
+zz->Scale(3000/35.9); //zz
+ww2->Scale(3000/35.9);//wwdps
 
 
 TH1F *th=(TH1F*)thq->Clone("th");
@@ -127,7 +126,7 @@ normS.SetVal(1); // nominal value
 RooStats::HistFactory::Channel SR("SR");
 SR.SetData(hat);
 
-//add the signal and background samples
+//add the signal and background samples300
 RooStats::HistFactory::Sample sample_th("th"); //signal thq
 sample_th.SetHisto(th);
 sample_th.AddNormFactor(normS);
@@ -293,8 +292,8 @@ TLine *line = new TLine(-1.0,1,1,1.0);
 line->SetLineColor(kBlue);
 /////////////////////////////////
 line->Draw("same");
-cs->SaveAs("kin.png");
-//cs->SaveAs("150fb.png");
+//cs->SaveAs("kin.png");
+cs->SaveAs("300fb.png");
 cs->Clear();
 ///////////////////////////////////////////
 TH1F *h = new TH1F("h","",16,-1,1);

@@ -96,7 +96,7 @@ void limite()
    // Let's make a plot
    TCanvas *dataCanvas = new TCanvas("dataCanvas");
    LikelihoodIntervalPlot plotInt((LikelihoodInterval *)lrinterval);
-   plotInt.SetTitle("; #mu ; -2ln#lambda(#mu)");
+   plotInt.SetTitle("; #mu ; -2ln#lambda(#mu) ");
 //   plotInt.SetTitle("Profile Likelihood Ratio and Posterior for S");
    plotInt.SetNPoints(300);
    plotInt.SetRange(0,60);

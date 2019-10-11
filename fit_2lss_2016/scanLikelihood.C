@@ -146,7 +146,7 @@ hoto->GetYaxis()->SetRangeUser(0,1.1);
 fa2->DrawIntegral("same");
 
 
-TF1 *fa3 = new TF1("fa3","((1/sqrt(2.*pi))*(1/sqrt(x))*exp(-x/2.))/1.8",0,10);
+TF1 *fa3 = new TF1("fa3","((1/sqrt(2.*pi))*(1/sqrt(x))*exp(-x/2.))",0,10);
 fa3->SetLineColor(kBlue);
 fa3->Draw("same");
 ///////////////////////////////////////////
@@ -192,11 +192,8 @@ axis5->SetLabelSize(0.04);
 axis5->SetTitle("P_{#mu}");
 axis5->Draw();
 
-TGaxis *axis6 = new TGaxis(0,1.1,10.9,1.1,0,10.9,510,"-L");
-//axis5->SetLabelFont(0.5); // Absolute font size in pixel (precision 3)
-axis6->SetLabelSize(0.04);
-axis6->SetTitle("f(t_{#mu}|#mu)");
-axis6->Draw();
+
+cout<<fa3->Integral(0,4)<<endl;
 
 tm1->SaveAs("nos.png");
 
