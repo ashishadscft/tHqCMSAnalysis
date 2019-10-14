@@ -217,8 +217,8 @@ data1->GetYaxis()->SetTitle("Events");
 TLegend* legend1 = new TLegend(0.6,0.6,0.89,0.89);
 //legend->SetHeader("Test","C"); // option "C" allows to center the header
 legend1->AddEntry(data1,"Data","lep");
-//legend1->AddEntry(th,"tH (SM)","f");
-legend1->AddEntry(th,"tH (k_{t}=-1)","f");
+legend1->AddEntry(th,"tH (SM)","f");
+//legend1->AddEntry(th,"tH (k_{t}=-1)","f");
 legend1->AddEntry(tth,"t#bar{t}H","f");
 legend1->AddEntry(ttw,"t#bar{t}W","f");
 legend1->AddEntry(ttz,"t#bar{t}Z","f");
@@ -272,8 +272,8 @@ TLine *line = new TLine(-1.0,1,1,1.0);
 line->SetLineColor(kRed);
 line->Draw("same");
 
-//cs->SaveAs("simple-3000.png");
-cs->SaveAs("simple-3000-kt-1.png");
+cs->SaveAs("simple-3000.png");
+//cs->SaveAs("simple-3000-kt-1.png");
   //Save to file
   system(Form("mkdir -vp root-files/%s",version.c_str()));
   result->SetName("result");
