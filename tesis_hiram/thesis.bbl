@@ -5,6 +5,12 @@
   $\sqrt{s}=13\,\mathrm{TeV}$ and study of Higgs boson couplings}.
 \newblock Technical Report CMS-PAS-HIG-17-016, CERN, Geneva, 2018.
 
+\bibitem{cern1}
+LHC experiment.
+\newblock The large hadron collider.
+\newblock \url{https://home.cern/science/accelerators/large-hadron-collider},
+  2019.
+
 \bibitem{cern3}
 Apollinari~G. et. al.
 \newblock High-luminosity large hadron collider (hl-lhc). technical design
@@ -16,6 +22,12 @@ G.~et.~al. Bayatian.
 \newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
   Performance and Software}}.
 \newblock Technical Design Report CMS. CERN, Geneva, 2006.
+
+\bibitem{th1}
+The~CMS Collaboration.
+\newblock Search for production of a higgs boson and a single top quark in
+  multilepton final states in proton collisions at $\sqrt{s}$ = 13 tev.
+\newblock {\em The CMS Collaboration}, (CMS PAS HIG-17-005), May 2017.
 
 \bibitem{pd}
 Tanabashi~M. et. al.
@@ -43,12 +55,6 @@ D\'eliot~F. et. al.
 \newblock Properties of top quark.
 \newblock {\em arXiv.org}, (arXiv:1803.00656):45, 2018.
 
-\bibitem{th1}
-The~CMS Collaboration.
-\newblock Search for production of a higgs boson and a single top quark in
-  multilepton final states in proton collisions at $\sqrt{s}$ = 13 tev.
-\newblock {\em The CMS Collaboration}, (CMS PAS HIG-17-005), May 2017.
-
 \bibitem{ew1}
 S.~Dawson.
 \newblock Introduction to electroweak symmetry breaking.
@@ -58,12 +64,6 @@ S.~Dawson.
 PAUL LANGACKER.
 \newblock Introduction to the standard model and electroweak physics.
 \newblock {\em arXiv.org}, (arXiv:0901.0241):45, 2009.
-
-\bibitem{cern1}
-LHC experiment.
-\newblock The large hadron collider.
-\newblock \url{https://home.cern/science/accelerators/large-hadron-collider},
-  2019.
 
 \bibitem{cern2}
 CMS experiment.
