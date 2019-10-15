@@ -58,20 +58,20 @@ thw->Scale(0.71/thw->Integral());//thw
 ////////////////////////////////////////////
 //for higher luminosities
 //////////////////////////////////
-tzq->Scale(3000.0/35.9); //tzq
-vvv->Scale(3000/35.9); //vvv
-ww->Scale(3000/35.9); //wwss
-tttt->Scale(3000/35.9); // tttt
-fakes->Scale(3000/35.9); //non prompt
-wz->Scale(3000/35.9); //WZ
-ttz->Scale(3000/35.9);//ttZ
-ttw->Scale(3000/35.9);//ttW
-tth->Scale(3000/35.9);//tth
-thq->Scale(3000/35.9);//thq
-thw->Scale(3000/35.9);//thw
-tzw->Scale(3000/35.9);//tzw
-zz->Scale(3000/35.9); //zz
-ww2->Scale(3000/35.9);//wwdps
+//tzq->Scale(3000.0/35.9); //tzq
+//vvv->Scale(3000/35.9); //vvv
+//ww->Scale(3000/35.9); //wwss
+//tttt->Scale(3000/35.9); // tttt
+//fakes->Scale(3000/35.9); //non prompt
+//wz->Scale(3000/35.9); //WZ
+//ttz->Scale(3000/35.9);//ttZ
+//ttw->Scale(3000/35.9);//ttW
+//tth->Scale(3000/35.9);//tth
+//thq->Scale(3000/35.9);//thq
+//thw->Scale(3000/35.9);//thw
+//tzw->Scale(3000/35.9);//tzw
+//zz->Scale(3000/35.9); //zz
+//ww2->Scale(3000/35.9);//wwdps
 
 
 TH1F *th=(TH1F*)thq->Clone("th");
@@ -237,7 +237,7 @@ axis5->Draw();
 
 auto legend = new TLegend(0.6,0.6,0.89,0.89);
 //legend->SetHeader("Test","C"); // option "C" allows to center the header
-legend->AddEntry(hat,"Data","lep");
+//legend->AddEntry(hat,"Data","lep");
 //legend->AddEntry("th (k_t=-1)","f");
 legend->AddEntry(th,"tH (SM)","f");
 legend->AddEntry(tth,"t#bar{t}H","f");
@@ -309,7 +309,7 @@ h->GetXaxis()->SetTitle("BDT Discriminant");
 h->GetYaxis()->SetTitle("Events");
 legend->Draw();
 cs->RedrawAxis();
-//cs->SaveAs("kos.png");
+cs->SaveAs("kos.png");
 //cs-<SaveAs("kos2.png");
 
 }

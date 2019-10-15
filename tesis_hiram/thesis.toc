@@ -29,4 +29,3 @@
 \contentsline {section}{\numberline {4.3}Extrapolation for higher luminosities}{37}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusion and outlook}{42}{chapter.5}
 \contentsline {chapter}{References}{43}{chapter*.40}
-\contentsline {chapter}{Appendix \numberline {A}Scattering and cross section}{45}{Appendix.a.A}

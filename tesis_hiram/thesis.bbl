@@ -6,51 +6,40 @@
 \newblock Technical Report CMS-PAS-HIG-17-016, CERN, Geneva, 2018.
 
 \bibitem{cern3}
-O.~Brüning P. Fessia M. Lamont L. Rossi L.~Tavian G.~Apollinari, I.
-  Béjar~Alonso.
+Apollinari~G. et. al.
 \newblock High-luminosity large hadron collider (hl-lhc). technical design
   report v. 0.1,.
 \newblock {\em CERN Yellow}, (CERN-2017-007-M), 2017.
 
 \bibitem{cms-manual}
-G~L Bayatian, S~Chatrchyan, and Et~Al. Hmayakyan.
+G.~et.~al. Bayatian.
 \newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
   Performance and Software}}.
 \newblock Technical Design Report CMS. CERN, Geneva, 2006.
 
-\bibitem{landau}
-L.D.~Landau y~E.M.~Lifschitz.
-\newblock {\em Mechanics}, volume~3 of {\em Course of Theoretical Physics}.
-\newblock Butterworth Heinemann, third edition, 1966.
-
-\bibitem{gross}
-Frank Gross.
-\newblock {\em Relativistic quantum mechanics and field theory}.
-\newblock WllEY-VCH Verlag GmbH Co. KGaA, first edition, 1998.
-
 \bibitem{pd}
-Tanabashi~M. Et~Al.
+Tanabashi~M. et. al.
 \newblock {\em Review of Particle Physics}, volume~98.
 \newblock American Physical Society, Aug 2018.
 
 \bibitem{griff}
-D.J. Griffiths.
+Griffiths D.J.
 \newblock {\em Introduction to elementary particles}.
 \newblock WllEY-VCH Verlag GmbH Co. KGaA, second edition, 2008.
 
 \bibitem{mark}
-Mark Thompson.
+Thompson M.
 \newblock {\em Modern particle physics}.
 \newblock Cambridge University press, first edition, 2013.
 
 \bibitem{higgsd}
-Chatrchyan et~al.
+Chatrchyan~S. et. al.
 \newblock Observation of a new boson at a mass of 125 gev with the cms
   experiment at the lhc.
 \newblock {\em Physics Letters B}, 716(1):30 -- 61, 2012.
 
 \bibitem{top}
-Stephen Parke Tom~Schwarz Fr\'ed\'eric~D\'eliot, Nicholas~Hadley.
+D\'eliot~F. et. al.
 \newblock Properties of top quark.
 \newblock {\em arXiv.org}, (arXiv:1803.00656):45, 2018.
 
@@ -63,7 +52,7 @@ The~CMS Collaboration.
 \bibitem{ew1}
 S.~Dawson.
 \newblock Introduction to electroweak symmetry breaking.
-\newblock {\em arXiv.org}, (arXiv:hep-ph/9901280):30, 1999.
+\newblock {\em Phys. Lett.}, (arXiv:hep-ph/9901280):30, 1999.
 
 \bibitem{ew2}
 PAUL LANGACKER.
@@ -88,16 +77,13 @@ The~CMS collaboration.
 \newblock {\em Journal of Instrumentation}, 8(11):P11002--P11002, nov 2013.
 
 \bibitem{roofit}
-
+Verkerke W. $\&$~Kirkby D.
+\newblock The roofit toolkit for data modeling.
+\newblock http://roofit.sourceforge.net/.
 
 \bibitem{asimov}
 Eilam Gross Ofer~Vitells Glen~Cowan, Kyle~Cranmer.
 \newblock Asymptotic formulae for likelihood-based tests of new physics.
-\newblock {\em arXiv.org}, (arXiv:1007.1727v3):32, 2013.
-
-\bibitem{goldstein}
-Charles~Poole Herbert~Goldstein and John Safko.
-\newblock {\em Classical Mechanics}.
-\newblock Addison Wesley Longman Inc., 3 edition, 2002.
+\newblock {\em Phys. Lett.}, (arXiv:1007.1727v3):32, 2013.
 
 \end{thebibliography}

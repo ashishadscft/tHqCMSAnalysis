@@ -128,43 +128,26 @@ In order to detect signal events and reject background, the following selections
 %Also it is possible to obtain a study of three leptons, given the mentioned decays can produce them. 
 The number of events that passed the event selection are shown in table \ref{tth-table} which corresponds to  a integrated luminosity of 35.9 fb$^{-1}$ \cite{th1}.
 The backgrounds with the most events are $t\bar{t} W^\pm$, $t\bar{t}Z$ and Fakes. For the SM signal $tH$, the number of expected events is 2.14, while for the inverted coupling  scenario ($k_t=-1$) the cross section is enhanced by a factor of approximately 10. 
-This event yields  will be used to estimate the signal sensitivity. The yields include statistical uncertainties due to the simulated samples using Monte Carlo (MC) samples and systematic uncertanties are described below. 
-\begin{table}[ht!]
-	\centering
-\caption{Event yields for signal and backgrounds after the event selection for a integrated luminosity of 35.9 fb$^{-1}$. The uncertainties of yields include statistical and systematic}
-	\begin{tabular}{cc}
-	\hline
-		Process  & Number of events  \\
-		\hline
-		$t\bar{t}W$  &  68 $\pm$ 10 \\
-		$t\bar{t}Z$  & 25.9 $\pm$ 3.9\\
-		$WZ$ & 15.1$\pm$7.7\\
-		Rares & 20.9 $\pm$   4.9\\
-		Fakes  & 80.9 $\pm$9.4\\
-	   $t\bar{t}H$  &  24.2 $\pm$ 2.1 \\
-		\hline
-		$tH$ (SM) & 2.14 $\pm$ 0.13\\
-		$tH$ ($k_t=-1$) &26.2 $\pm$ 2.2
-	\end{tabular}	
-\label{tth-table}
-\end{table}
+This event yields  will be used to estimate the signal sensitivity. The yields include statistical uncertainties due to the simulated samples using Monte Carlo (MC) samples and systematic uncertanties are described in table \ref{tth-table}. 
 
 
 \section{Systematic uncertanties}
-The uncertainties on $t\bar{t}W$ and $t\bar{t}Z$ event yields are mainly due to the uncertainties of their production cross sections. The uncertainty on $WZ$ background is estimated using real data events in a three lepton control region. 
-In the Rare backgrounds, which are not measured, a $50\%$ of uncertainty is assigned.
-The uncertainty on the Fakes background is estimated using real data in a control region, defined by the muon identification criteria. For the Higgs processes $tH$ and $ttH$ , the uncertainty are due to the theoretical parameters used in that simulation.
+\begin{itemize}
+\item The uncertainties on $t\bar{t}W$ and $t\bar{t}Z$ event yields are mainly due to the uncertainties of their production cross sections. 
+\item The uncertainty on $WZ$ background is estimated using real data events in a three lepton control region. 
+\item In the Rare backgrounds, which are not measured, a $50\%$ of uncertainty is assigned.
+\item The uncertainty on the Fakes background is estimated using real data in a control region, defined by the muon identification criteria. 
+\item For the Higgs processes $tH$ and $ttH$ , the uncertainty are due to the theoretical parameters used in that simulation.
+\end{itemize}
+
 %control region: event selection with 3 leptons for compare simulation with real data. yield difference  in that region is 50 .is taken  and for wz is 50
 %selection that allows to isolate a background  respect to other backgrounds, that background allows to compare with real data 
 
 
-
 \pagebreak
-
-
 %The fake rate corresponds to  non-prompt leptons.% Non prompt leptons are leptons that passed the selection, and usually comes from decays from b-jets (hadronized quarks). But due to jet signature is reconstructed as leptons, some particular signatures or errors in reconstruction, passed as leptons and then they called fakes leptons. Rare SM is a group of other processes: t$\bar{t}$t$\bar{t}$,WWW,WWZ,WZZ,WW,$t$Zq. Due to low number of events, they grouped the events as one histogram. 
 \section{Multivariable discriminant}
-Due to small signal to background ratio caused by the small cross section of $tH$, a multivariable discriminat, which separates signal from backgrounds, is necessary to optimize the signal sensitivity. The multivariable discriminant is a Boosted Decision Tree (BDT) that takes a set of input features and splits input data recursively based on those features.  The features can be a mix of categorical and continuous data.
+Due to small signal to background ratio caused by the small cross section of $tH$, a multivariable discriminant, which separates signal from backgrounds, is necessary to optimize the signal sensitivity. The multivariable discriminant is a Boosted Decision Tree (BDT) that takes a set of input features and splits input data recursively based on those features.  The features can be a mix of categorical and continuous data.
 The BDT training is performed using several event variables.
 \\
 
@@ -182,21 +165,47 @@ In this analysis, the BDT discriminant was trained to discriminate against $t\ba
 \item min $\Delta$R (muon pairs)\footnote{$\Delta R =  \sqrt{ \Delta\eta^2  + \Delta\phi^2}$, where $\Delta R$ is the distance in the $\eta \phi$ plane}
 \item $p_t$ of muon with lower momentum
 \end{itemize}
+
+Figure \ref{bdt2} shows the BDT distribution for signal and backgrounds.
+\pagebreak
 %Closure:  hay jets en los eventos de tt  (gluon-gluon -> tt + gluon ) que se pasan como muones.  jet -> muon =  fake
 
 %Fakes:   proceso de QCD  que genera muchos  jets (por ejemplo  gluon-gluon -> gluons, quarks)  :    jet -> muons   fakes are estimated data 
 
 %bdt trained with fakes is not possible, due no simulation with that process 
 
-\begin{figure}[!tbp]
+\begin{table}[ht!]
 	\centering
-	\begin{minipage}[b]{0.45\textwidth}
+	\caption{Event yields for signal and backgrounds after the event selection for a integrated luminosity of 35.9 fb$^{-1}$. The uncertainties of yields include statistical and systematic\cite{th1}}
+	\begin{tabular}{cc}
+		\hline
+		Process  & Number of events  \\
+		\hline
+		$t\bar{t}W$  &  68 $\pm$ 10 \\
+		$t\bar{t}Z$  & 25.9 $\pm$ 3.9\\
+		$WZ$ & 15.1$\pm$7.7\\
+		Rares & 20.9 $\pm$   4.9\\
+		Fakes  & 80.9 $\pm$9.4\\
+		$t\bar{t}H$  &  24.2 $\pm$ 2.1 \\
+		\hline
+		$tH$ (SM) & 2.14 $\pm$ 0.13\\
+		$tH$ ($k_t=-1$) &26.2 $\pm$ 2.2
+	\end{tabular}	
+	\label{tth-table}
+\end{table}
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\begin{minipage}[b]{0.48\textwidth}
 		\includegraphics[width=\textwidth]{Chapter3/kos.png}
 	\end{minipage}
 	\hfill
-	\begin{minipage}[b]{0.45\textwidth}
+	\begin{minipage}[b]{0.48\textwidth}
 		\includegraphics[width=\textwidth]{Chapter3/kos2.png}
 	\end{minipage}
-\caption{Distribution of BDT discriminant for signal and background in the case of SM (left) and inverted coupling scenario (right)}
+\caption{Distribution of BDT discriminant for signal and background in the case of SM (left) and inverted coupling scenario (right) \cite{th1}}
+\label{bdt2}
 \end{figure}
 
