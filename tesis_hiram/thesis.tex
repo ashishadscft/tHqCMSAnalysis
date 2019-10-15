@@ -91,6 +91,7 @@
 % author name for submission to the Student Registry, use the `abstract' option in
 % the document class.
 
+
 \ifdefineAbstract
 \pagestyle{empty}
 \includeonly{Declaration/declaration, Abstract/abstract}
@@ -114,7 +115,7 @@
 	\maketitle
 	
 	\include{Dedication/dedication}
-	\include{Declaration/declaration}
+	%\include{Declaration/declaration}
 	\include{Acknowledgement/acknowledgement}
 	\include{Abstract/abstract}
 	
@@ -152,8 +153,8 @@
 		% Reference styles: http://sites.stat.psu.edu/~surajit/present/bib.htm
 		
 		%\bibliographystyle{apalike}
-		%\bibliographystyle{unsrt} % Use for unsorted references  
-		\bibliographystyle{plainnat} % use this to have URLs listed in References
+		\bibliographystyle{unsrt} % Use for unsorted references  
+	%	\bibliographystyle{plainnat} % use this to have URLs listed in References
 		\cleardoublepage
 		\bibliography{References/references} % Path to your References.bib file
 		

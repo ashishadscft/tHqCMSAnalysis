@@ -25,22 +25,22 @@ if [ $1 = $clean ]; then
 	rm -rf *.out*
 	rm -rf *.nlo
 	rm -rf *.nls
-	rm -rf $filename.pdf
-	rm -rf $filename.ps
-	rm -rf $filename.dvi
+	rm -rf $thesis.pdf
+	rm -rf $thesis.ps
+	rm -rf $thesis.dvi
 	rm -rf *#* 
 	echo "Cleaning complete!"
 	exit
 else
 	echo "Shell script for compiling the PhD Thesis"
-	echo "Usage: sh ./compile-thesis.sh [OPTIONS] [filename]"
+	echo "Usage: sh ./compile-thesis.sh [OPTIONS] [thesis]"
 	echo "[option]  compile: Compiles the PhD Thesis"
-	echo "[option]  clean: removes temporary files no filename required"
+	echo "[option]  clean: removes temporary files no thesis required"
 	exit
 fi
 fi
 
-filename=$2;
+thesis=$2;
 
 if [ $1 = $clean ]; then
 	echo "Cleaning please wait ..."
@@ -60,22 +60,22 @@ if [ $1 = $clean ]; then
 	rm -rf *.out*
 	rm -rf *.nlo
 	rm -rf *.nls
-	rm -rf $filename.pdf
-	rm -rf $filename.ps
-	rm -rf $filename.dvi
+	rm -rf $thesis.pdf
+	rm -rf $thesis.ps
+	rm -rf $thesis.dvi
 	rm -rf *#* 
 	echo "Cleaning complete!"
 	exit
 elif [ $1 = $compile ]; then
 	echo "Compiling your PhD Thesis...please wait...!"
-	pdflatex -interaction=nonstopmode $filename.tex
-	bibtex $filename.aux 	
-	makeindex $filename.aux
-	makeindex $filename.idx
-	makeindex $filename.nlo -s nomencl.ist -o $filename.nls
-	pdflatex -interaction=nonstopmode $filename.tex
-	makeindex $filename.nlo -s nomencl.ist -o $filename.nls
-	pdflatex -interaction=nonstopmode $filename.tex
+	pdflatex -interaction=nonstopmode $thesis.tex
+	bibtex $thesis.aux 	
+	makeindex $thesis.aux
+	makeindex $thesis.idx
+	makeindex $thesis.nlo -s nomencl.ist -o $thesis.nls
+	pdflatex -interaction=nonstopmode $thesis.tex
+	makeindex $thesis.nlo -s nomencl.ist -o $thesis.nls
+	pdflatex -interaction=nonstopmode $thesis.tex
 	echo "Success!"
 	exit
 fi
