@@ -464,7 +464,7 @@ supported!}
 \ifPHD@authoryear
   \ifPHD@biblatex
     \RequirePackage[backend=biber, style=authoryear, citestyle=alphabetic, 
-      sorting=nty, natbib=true]{biblatex}
+      sorting=none, natbib=true]{biblatex}
     \setBiBLaTeXtrue
   \else
     \RequirePackage[round, sort, numbers, authoryear]{natbib} %author year

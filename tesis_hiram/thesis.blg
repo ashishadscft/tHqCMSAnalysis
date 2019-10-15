@@ -12,67 +12,54 @@ A level-1 auxiliary file: Chapter5/chapter5.aux
 The style file: unsrt.bst
 Database file #1: References/references.bib
 Warning--string name "june" is undefined
---line 45 of file References/references.bib
+--line 164 of file References/references.bib
 Warning--string name "june" is undefined
---line 56 of file References/references.bib
-Warning--string name "january" is undefined
---line 68 of file References/references.bib
-Warning--string name "june" is undefined
---line 136 of file References/references.bib
-Warning--string name "june" is undefined
---line 154 of file References/references.bib
+--line 182 of file References/references.bib
 Warning--string name "april" is undefined
---line 163 of file References/references.bib
-Warning--string name "march" is undefined
---line 174 of file References/references.bib
+--line 191 of file References/references.bib
 Warning--empty author in bb
 Warning--there's a number but no volume in cern3
-Warning--there's a number but no volume in th1
-Warning--there's a number but no volume in top
-Warning--there's a number but no volume in ew1
-Warning--there's a number but no volume in ew2
-Too many commas in name 1 of "Glen Cowan , Kyle Cranmer, Eilam Gross , Ofer Vitells" for entry asimov
-while executing---line 944 of file unsrt.bst
-Warning--there's a number but no volume in asimov
+Warning--empty journal in ew1
+Warning--empty journal in ew2
 You've used 16 entries,
             1791 wiz_defined-function locations,
-            548 strings with 5662 characters,
-and the built_in function-call counts, 2581 in all, are:
-= -- 230
+            555 strings with 5795 characters,
+and the built_in function-call counts, 2785 in all, are:
+= -- 255
 > -- 61
-< -- 2
+< -- 4
 + -- 31
 - -- 15
-* -- 142
-:= -- 420
-add.period$ -- 48
+* -- 148
+:= -- 441
+add.period$ -- 49
 call.type$ -- 16
-change.case$ -- 14
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 132
-empty$ -- 303
+cite$ -- 20
+duplicate$ -- 141
+empty$ -- 320
 format.name$ -- 15
-if$ -- 581
+if$ -- 639
 int.to.chr$ -- 0
 int.to.str$ -- 16
 missing$ -- 16
 newline$ -- 82
 num.names$ -- 15
-pop$ -- 55
+pop$ -- 57
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 35
+skip$ -- 52
 stack$ -- 0
-substring$ -- 88
-swap$ -- 17
-text.length$ -- 2
+substring$ -- 132
+swap$ -- 23
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 22
+warning$ -- 4
+while$ -- 24
 width$ -- 18
-write$ -- 174
-(There was 1 error message)
+write$ -- 173
+(There were 7 warnings)

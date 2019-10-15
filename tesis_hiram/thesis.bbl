@@ -18,16 +18,17 @@ Apollinari~G. et. al.
 \newblock {\em CERN Yellow}, (CERN-2017-007-M), 2017.
 
 \bibitem{cms-manual}
-G.~et.~al. Bayatian.
+Bayatian~G. et. al.
 \newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
   Performance and Software}}.
 \newblock Technical Design Report CMS. CERN, Geneva, 2006.
 
 \bibitem{th1}
-The~CMS Collaboration.
-\newblock Search for production of a higgs boson and a single top quark in
-  multilepton final states in proton collisions at $\sqrt{s}$ = 13 tev.
-\newblock {\em The CMS Collaboration}, (CMS PAS HIG-17-005), May 2017.
+Sirunyan A.~M. et. al.
+\newblock Search for associated production of a higgs boson and a single top
+  quark in proton-proton collisions at $\sqrt{s}=13\text{ }\text{
+  }\mathrm{TeV}$.
+\newblock {\em Phys. Rev. D}, 99:092005, May 2019.
 
 \bibitem{pd}
 Tanabashi~M. et. al.
@@ -35,9 +36,9 @@ Tanabashi~M. et. al.
 \newblock American Physical Society, Aug 2018.
 
 \bibitem{griff}
-Griffiths D.J.
-\newblock {\em Introduction to elementary particles}.
-\newblock WllEY-VCH Verlag GmbH Co. KGaA, second edition, 2008.
+David~J Griffiths.
+\newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
+\newblock Physics textbook. Wiley, New York, NY, 2008.
 
 \bibitem{mark}
 Thompson M.
@@ -51,19 +52,20 @@ Chatrchyan~S. et. al.
 \newblock {\em Physics Letters B}, 716(1):30 -- 61, 2012.
 
 \bibitem{top}
-D\'eliot~F. et. al.
-\newblock Properties of top quark.
-\newblock {\em arXiv.org}, (arXiv:1803.00656):45, 2018.
+{D{\'e}liot} et. al.
+\newblock {Properties of the Top Quark}.
+\newblock {\em Annual Review of Nuclear and Particle Science}, 64(1):363--381,
+  Oct 2014.
 
 \bibitem{ew1}
-S.~Dawson.
-\newblock Introduction to electroweak symmetry breaking.
-\newblock {\em Phys. Lett.}, (arXiv:hep-ph/9901280):30, 1999.
+{Dawson} S.
+\newblock {Introduction to Electroweak Symmetry Breaking}.
+\newblock page~1, Jan 1999.
 
 \bibitem{ew2}
-PAUL LANGACKER.
-\newblock Introduction to the standard model and electroweak physics.
-\newblock {\em arXiv.org}, (arXiv:0901.0241):45, 2009.
+{Langacker} P.
+\newblock {Introduction to the Standard Model and Electroweak Physics}.
+\newblock pages 3--48, Aug 2010.
 
 \bibitem{cern2}
 CMS experiment.
@@ -82,8 +84,8 @@ Verkerke W. $\&$~Kirkby D.
 \newblock http://roofit.sourceforge.net/.
 
 \bibitem{asimov}
-Eilam Gross Ofer~Vitells Glen~Cowan, Kyle~Cranmer.
-\newblock Asymptotic formulae for likelihood-based tests of new physics.
-\newblock {\em Phys. Lett.}, (arXiv:1007.1727v3):32, 2013.
+Cowan~G. et. al.
+\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
+\newblock {\em European Physical Journal C}, 71:1554, Feb 2011.
 
 \end{thebibliography}
