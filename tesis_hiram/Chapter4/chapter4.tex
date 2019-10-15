@@ -23,9 +23,24 @@
 	In the Table \ref{parameters}, shows the $\mu$ and $\alpha$ parameters. For the pre-fit, values of $\alpha$ are set to zero and $\mu$ is set to 1. After the fit, $\alpha$ parameters set to zero indicates that in the fit, the values of the backgrounds didn't changed for the SM and the $\mu$ parameter set to 1 indicates that the signal strength also didn't changed.
 	\pagebreak
 	
+		\begin{figure}[!htbp]
+		\centering
+		\begin{minipage}[b]{0.48\textwidth}
+			\includegraphics[width=\textwidth]{Chapter4/simple.png}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[b]{0.48\textwidth}
+			\includegraphics[width=\textwidth]{Chapter4/simple-kt-1.png}
+		\end{minipage}
+		\caption{Post fit signal and background yields for tH process for SM (Left) and $k_t=-1$ (Right).
+			%In the box below each distribution, the ratio of the observed and predicted event yields is shown
+		}
+		\label{simple}
+	\end{figure}
+	
 	\begin{table}[ht!]
 		\centering
-		\caption{Postfit  yields for the fit to the Asimov data corresponding to 35.9 /fb. The uncertainty given is the combined statistical plus systematic.}
+		\caption{Postfit  yields for the fit to the Asimov data corresponding to 35.9 fb$^{-1}$. The uncertainty given is the combined statistical plus systematic.}
 		\begin{tabular}{ccc}
 			\hline
 			Process  & SM    & $k_{t}$=-1 \\
@@ -42,20 +57,6 @@
 		\label{table1}
 	\end{table}
 	
-	\begin{figure}[!htbp]
-		\centering
-		\begin{minipage}[b]{0.48\textwidth}
-			\includegraphics[width=\textwidth]{Chapter4/simple.png}
-		\end{minipage}
-		\hfill
-		\begin{minipage}[b]{0.48\textwidth}
-			\includegraphics[width=\textwidth]{Chapter4/simple-kt-1.png}
-		\end{minipage}
-		\caption{Post fit signal and background yields for tH process for SM (Left) and $k_t=-1$ (Right).
-			%In the box below each distribution, the ratio of the observed and predicted event yields is shown
-		}
-		\label{simple}
-	\end{figure}
 	
 	\begin{table}[ht!]
 		\small
@@ -78,7 +79,7 @@
 	
 	\pagebreak
 	\section{Limit calculation}
-	Due to the large background, the signal strength for the Asimov data with 35.9 $fb^{-1}$ is consistent with zero.
+	Due to the large background, the signal strength for the Asimov data with 35.9 fb$^{-1}$ is consistent with zero.
 	Therefore, we estimate an upper limit on the signal strength at 95$\%$  confidence level.\\
 	
 	We can define the likelihood ratio
@@ -97,9 +98,46 @@
 	Using the above technique, we find an expected upper limit $\mu < $17.0 for SM model and $\mu < $ 2.3 for $k_t$=-1 model. 
 	
 	
-	\begin{figure}[ht!]
+	
+	
+	%%sigma son las probabilidades que corresponden a 1sigma=68, 2sigma=95, 3sigma=98 y sigma son los limites de la integral de una gaussiana
+	\section{Extrapolation for higher luminosities}
+	In the past section, it was shown that the signal strength  with an integrated luminosity of 35.9 fb$^{-1}$ is not significant. The LHC has already collected data for integrated luminosity of 150 fb$^{-1}$ for run 2 finished in 2018. Run 3 that starts in 2021 and is expected an integrated luminosity of 300fb $^{-1}$ and for finally the high luminosity phase of LHC , is expected to collect 3000 fb . Therefore, is interesting to study the sensibility of the signal  strength to higher luminosities. 
+	An extrapolation (scale) is applied to the Asimov data and the statistical uncertainty is adjusted accordingly. For this analysis we assume the systematic uncertainties assigned to the background are the same.
+	\\
+	
+	In the figures \ref{hm}, it is shown an estimated prediction of the signal and background events for higher luminosities. As the luminosity increases, the number of events for both signal and backgrounds also increases, as previously explained in the chapter 1. But even with the increase of number of events, the statistical uncertainty of the data is too large with respect to the expected signal.  In the likelihood scan for higher luminosities, as the luminosity increases, the relative uncertainty on the signal strength $\mu$ decreases. This is caused by the increased events available for the fit. \\
+	
+	The same method is used for the model $k_t$=-1 in the figure \ref{hm1}. In this case, the number of events for the signal is more appreciable in comparison with the SM model. However, the likelihood scan parabolas are very closed and that indicates a decrease in the uncertainty of $\mu$ more notable than SM case. 
+	Of course, as the previous section, we estimate the upper limit for these cases and they are shown in the Table \ref{upper}\\
+	
+	However, the uncertainty of $\mu$ for the SM case is still very big, with a error of 170$\%$ in the 3000 fb$^{-1}$ case, indicating that it is necessary to increase the luminosity even higher to get better results to reduce the uncertainty on $\mu$ for a possible observation of the signal. 
+	In the $k_t$=-1 model the uncertainty of $\mu$ decreases with higher luminosities  giving better results; upper limits in this models are small. This is caused by the fact that the number of events for the $tH$ signal is greater. For 3000 fb$^{-1}$ the uncertainty on $\mu$ is $~10\%$, this indicates that for large integrated luminosities this model can be fully ruled out.
+
+	\begin{table}[ht!]
+		\caption{Results of $\mu$ and upper limits for Asimov extrapolations for SM and $k_t$=-1 models.}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Luminosity (fb$^{-1}$)	&$\mu$ (SM) &$\mu$ (SM) upper limit    &   $\mu$ ($k_t$=-1) &$\mu$ ($k_t$=-1) upper limit   \\
+			\hline
+			35.9 & 1.0 $\pm$  7.7 &  17  & 1.0 $\pm$  0.5 & 2.3  \\
+			\hline
+			150& 1.0 $\pm$  6.7& 11  &  1.0 $\pm$  0.4 &1.8\\
+			\hline
+			300&1.0 $\pm$  4.3 &8.7 &  1.0 $\pm$  0.3 &1.5 \\
+			\hline
+			3000&1.0 $\pm$  1.7 & 4.3  &	 1.0 $\pm$  0.1 & 1.1\\
+			\hline
+		\end{tabular}
+		\label{upper}
+	\end{table}
+	
+	
+	\pagebreak
+	
+		\begin{figure}[ht!]
 		\centering
-		\includegraphics[scale=0.5]{Chapter4/chi_squared.png}
+		\includegraphics[scale=0.65]{Chapter4/chi_squared.png}
 		\caption{Illustration of the $\chi^2$  distribution with number of degrees of freedom of 7 used for the limit estimation}
 		\label{chi}
 	\end{figure}
@@ -108,24 +146,16 @@
 	
 	\begin{figure}[!htbp]
 		\centering
-		\begin{minipage}[b]{0.48\textwidth}
+		\begin{minipage}[b]{0.55\textwidth}
 			\includegraphics[width=\textwidth]{Chapter4/Likelihood.png}
 		\end{minipage}
 		\hfill
-		\begin{minipage}[b]{0.48\textwidth}
+		\begin{minipage}[b]{0.55\textwidth}
 			\includegraphics[width=\textwidth]{Chapter4/Likelihood-kt-1.png}
 		\end{minipage}
-		\caption{Likelihood scan for SM (Left) and $k_t$=-1 (Right).}
+		\caption{Likelihood scan for SM (up) and $k_t$=-1 (Down).}
 		\label{scanl}
 	\end{figure}
-	
-	%%sigma son las probabilidades que corresponden a 1sigma=68, 2sigma=95, 3sigma=98 y sigma son los limites de la integral de una gaussiana
-	\section{Extrapolation for higher luminosities}
-	In the past section, it was shown that the signal strength  with an integrated luminosity of 35.9fb $^{-1}$ is not significant. The LHC has already collected data for integrated luminosity of 150fb $^{-1}$ for run 2 finished in 2018. Run 3 that starts in 2021 and is expected an integrated luminosity of 300fb $^{-1}$ and for finally the high luminosity phase of LHC , is expected to collect 3000 fb . Therefore, is interesting to study the sensibility of the signal  strength to higher luminosities. 
-	An extrapolation (scale) is applied to the Asimov data and the statistical uncertainty is adjusted accordingly. For this analysis we assume the systematic uncertainties assigned to the background are assumed to be the same.
-	\\
-	
-	In the figures \ref{hm}, it is shown an estimated prediction of the signal and background events for higher luminosities. As the luminosity increases, the number of events for both signal and backgrounds also increases, as previously explained in the chapter 1. But even with the increase of number of events, the ratio of signal and data is still very small.  In the likelihood scan for higher luminosities, as the luminosity increases, the relative uncertainty on the signal strength $\mu$ decreases. This is caused by the increased events available for the fit. 
 	\pagebreak
 	
 	\begin{figure}[!htbp]
@@ -181,35 +211,15 @@
 		\begin{minipage}[b]{0.48\textwidth}
 			\includegraphics[width=\textwidth]{Chapter4/kt-1/3000fb/Likelihood.png}
 		\end{minipage}
-		\caption{Fit and likelihood scan for 150fb $^{-1}$, 300fb $^{-1}$ and 3000fb $^{-1}$ in $k_t$=-1 model.}
+		\caption{Fit and likelihood scan for 150 fb$^{-1}$, 300 fb$^{-1}$ and 3000 fb$^{-1}$ in $k_t$=-1 model.}
 		\label{hm1}
 	\end{figure}
-	The same method is used for the model $k_t$=-1 in the figure \ref{hm1}. In this case, the number of events for the signal is more appreciable in comparison with the SM model, same as the 35.9fb $^{-1}$ case. However, the likelihood scan parabolas are very closed and that indicates a decrease in the uncertainty of $\mu$ more notable than SM case. For the 3000 fb $^{-1}$ case, the curve closes in $\mu \approx $2. 
-	Of course, as the previous section, we estimate the upper limit for these cases and they are shown in the Table \ref{upper}
 	
-	\begin{table}[ht!]
-		\caption{Results of $\mu$ and upper limits for Asimov extrapolations for SM and $k_t$=-1 models.}
-		\begin{tabular}{|c|c|c|c|c|}
-			\hline
-			Luminosity (fb $^{-1}$)	&$\mu$ (SM) &$\mu$ (SM) upper limit    &   $\mu$ ($k_t$=-1) &$\mu$ ($k_t$=-1) upper limit   \\
-			\hline
-			35.9 & 1.0 $\pm$  7.7 &  17  & 1.0 $\pm$  0.5 & 2.3  \\
-			\hline
-			150& 1.0 $\pm$  6.7& 11  &  1.0 $\pm$  0.4 &1.8\\
-			\hline
-			300&1.0 $\pm$  4.3 &8.7 &  1.0 $\pm$  0.3 &1.5 \\
-			\hline
-			3000&1.0 $\pm$  1.7 & 4.3  &	 1.0 $\pm$  0.1 & 1.1\\
-			\hline
-		\end{tabular}
-		\label{upper}
-	\end{table}
 	
 	%The Table shows the upper limits of $\mu$ for both models and different luminosities. For the SM case, the uncertainties in $\mu$ are greater than the $k_t$=-1 case. The increase of luminosity reduces the uncertainty of $\mu$ that is visualized in the likelihood graphs. 
 	%The upper limits reduces as the luminosity increases; from 150 to 3000 fb $^{-1}$, the upper limit reduces in $\Delta\mu$=12.7 with $\Delta\mu$ the change of $\mu$ .
 	
 	
-	However, the uncertainty of $\mu$ for the SM case is still very big, with a error of 75 $\%$ in the 3000 fb $^{-1}$ case, indicating that it is necessary to increase the luminosity even higher to get better results and reduce the uncertainty of $\mu$. 
-	In the $k_t$=-1 model the uncertainty of $\mu$ decreases with higher luminosities  giving better results; upper limits in this models are small , so reducing the incompatibility of model with the data. This is caused by the fact that the uncertainty of $k_t$=-1 model has a lower uncertainty than the SM model and the number of events for the $tH$ signal is greater. For 3000 fb$^{-1}$ the uncertainty on mu is $~10\%$, this indicates that for large integrated luminosities this model can be fully ruled out.
+	
 	
 \end{linenumbers}

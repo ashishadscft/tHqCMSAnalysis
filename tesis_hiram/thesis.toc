@@ -26,8 +26,7 @@
 \contentsline {chapter}{\numberline {4}Statistical Analysis}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Likelihood and fit procedure}{34}{section.4.1}
 \contentsline {section}{\numberline {4.2}Limit calculation}{37}{section.4.2}
-\contentsline {section}{\numberline {4.3}Extrapolation for higher luminosities}{38}{section.4.3}
+\contentsline {section}{\numberline {4.3}Extrapolation for higher luminosities}{37}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusion and outlook}{42}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion and outlook}{43}{chapter.6}
-\contentsline {chapter}{References}{44}{chapter*.40}
-\contentsline {chapter}{Appendix \numberline {A}Scattering and cross section}{46}{Appendix.a.A}
+\contentsline {chapter}{References}{43}{chapter*.40}
+\contentsline {chapter}{Appendix \numberline {A}Scattering and cross section}{45}{Appendix.a.A}

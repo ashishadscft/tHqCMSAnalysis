@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  14 OCT 2019 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  14 OCT 2019 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2135,7 +2135,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 \PHD@crest=\box93
-<unison-logo.png, id=139, 321.2pt x 321.2pt>
+<unison-logo.png, id=135, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 114.
@@ -2258,7 +2258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--45
  []
 
 [2]
-<Chapter1/sm1.png, id=327, 1397.22pt x 926.71219pt>
+<Chapter1/sm1.png, id=322, 1397.22pt x 926.71219pt>
 File: Chapter1/sm1.png Graphic file (type png)
 <use Chapter1/sm1.png>
 Package pdftex.def Info: Chapter1/sm1.png  used on input line 53.
@@ -2274,7 +2274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
 
  []
 
-<Chapter1/sm.png, id=332, 853.1875pt x 810.02625pt>
+<Chapter1/sm.png, id=327, 853.1875pt x 810.02625pt>
 File: Chapter1/sm.png Graphic file (type png)
 <use Chapter1/sm.png>
 Package pdftex.def Info: Chapter1/sm.png  used on input line 72.
@@ -2339,12 +2339,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
-<Chapter1/pg.png, id=437, 807.7678pt x 367.3725pt>
+<Chapter1/pg.png, id=432, 807.7678pt x 367.3725pt>
 File: Chapter1/pg.png Graphic file (type png)
 <use Chapter1/pg.png>
 Package pdftex.def Info: Chapter1/pg.png  used on input line 424.
 (pdftex.def)             Requested size: 403.8829pt x 183.68579pt.
-<Chapter1/thw.png, id=438, 181.42781pt x 142.28156pt>
+<Chapter1/thw.png, id=433, 181.42781pt x 142.28156pt>
 File: Chapter1/thw.png Graphic file (type png)
 <use Chapter1/thw.png>
 Package pdftex.def Info: Chapter1/thw.png  used on input line 432.
@@ -2365,7 +2365,7 @@ Package epstopdf Info: Source file: <Chapter1/7-14xsec.eps>
 erted-to.pdf Chapter1/7-14xsec.eps>
 (epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter1/7-14xsec-eps-converted-to.pdf, id=448, 569.12625pt x 408.52625pt>
+<Chapter1/7-14xsec-eps-converted-to.pdf, id=443, 569.12625pt x 408.52625pt>
 File: Chapter1/7-14xsec-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter1/7-14xsec-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter1/7-14xsec-eps-converted-to.pdf  used on input 
@@ -2390,7 +2390,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 545--551
 
  []
 
-<Chapter1/newtHq.png, id=480, 739.26187pt x 327.47343pt>
+<Chapter1/newtHq.png, id=475, 739.26187pt x 327.47343pt>
 File: Chapter1/newtHq.png Graphic file (type png)
 <use Chapter1/newtHq.png>
 Package pdftex.def Info: Chapter1/newtHq.png  used on input line 554.
@@ -2415,7 +2415,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
 
 ]
-<Chapter1/cern.jpg, id=503, 1445.4pt x 777.90625pt>
+<Chapter1/cern.jpg, id=498, 1445.4pt x 777.90625pt>
 File: Chapter1/cern.jpg Graphic file (type jpg)
 <use Chapter1/cern.jpg>
 Package pdftex.def Info: Chapter1/cern.jpg  used on input line 28.
@@ -2430,13 +2430,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
-<Chapter2/lum6.png, id=509, 841.64438pt x 377.15906pt>
+<Chapter2/lum6.png, id=504, 841.64438pt x 377.15906pt>
 File: Chapter2/lum6.png Graphic file (type png)
 <use Chapter2/lum6.png>
 Package pdftex.def Info: Chapter2/lum6.png  used on input line 70.
 (pdftex.def)             Requested size: 420.82117pt x 188.57907pt.
 [19 <./Chapter2/lum6.png (PNG copy)>]
-<Chapter2/cms2.png, id=518, 404.26031pt x 262.73157pt>
+<Chapter2/cms2.png, id=513, 404.26031pt x 262.73157pt>
 File: Chapter2/cms2.png Graphic file (type png)
 <use Chapter2/cms2.png>
 Package pdftex.def Info: Chapter2/cms2.png  used on input line 90.
@@ -2475,12 +2475,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--149
 
  []
 
-<Chapter2/pixel2.png, id=528, 521.69907pt x 210.03468pt>
+<Chapter2/pixel2.png, id=523, 521.69907pt x 210.03468pt>
 File: Chapter2/pixel2.png Graphic file (type png)
 <use Chapter2/pixel2.png>
 Package pdftex.def Info: Chapter2/pixel2.png  used on input line 152.
 (pdftex.def)             Requested size: 365.18684pt x 147.02327pt.
-<Chapter2/tracker.png, id=530, 366.61969pt x 324.46219pt>
+<Chapter2/tracker.png, id=525, 366.61969pt x 324.46219pt>
 File: Chapter2/tracker.png Graphic file (type png)
 <use Chapter2/tracker.png>
 Package pdftex.def Info: Chapter2/tracker.png  used on input line 161.
@@ -2491,7 +2491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  []
 
 [22 <./Chapter2/pixel2.png (PNG copy)> <./Chapter2/tracker.png>]
-<Chapter2/ecal.png, id=543, 439.6425pt x 214.55156pt>
+<Chapter2/ecal.png, id=538, 439.6425pt x 214.55156pt>
 File: Chapter2/ecal.png Graphic file (type png)
 <use Chapter2/ecal.png>
 Package pdftex.def Info: Chapter2/ecal.png  used on input line 177.
@@ -2523,7 +2523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
-<Chapter2/hcal.png, id=548, 584.1825pt x 243.91125pt>
+<Chapter2/hcal.png, id=543, 584.1825pt x 243.91125pt>
 File: Chapter2/hcal.png Graphic file (type png)
 <use Chapter2/hcal.png>
 Package pdftex.def Info: Chapter2/hcal.png  used on input line 210.
@@ -2538,7 +2538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--235
 
  []
 
-<Chapter2/csc.png, id=555, 380.92313pt x 243.15843pt>
+<Chapter2/csc.png, id=550, 380.92313pt x 243.15843pt>
 File: Chapter2/csc.png Graphic file (type png)
 <use Chapter2/csc.png>
 Package pdftex.def Info: Chapter2/csc.png  used on input line 240.
@@ -2554,7 +2554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--257
  []
 
 [25 <./Chapter2/csc.png (PNG copy)>]
-<Chapter2/mu-efi.png, id=565, 291.33844pt x 286.06876pt>
+<Chapter2/mu-efi.png, id=560, 291.33844pt x 286.06876pt>
 File: Chapter2/mu-efi.png Graphic file (type png)
 <use Chapter2/mu-efi.png>
 Package pdftex.def Info: Chapter2/mu-efi.png  used on input line 268.
@@ -2575,7 +2575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Chapter1/jet.png, id=575, 201.75375pt x 321.45094pt>
+<Chapter1/jet.png, id=570, 201.75375pt x 321.45094pt>
 File: Chapter1/jet.png Graphic file (type png)
 <use Chapter1/jet.png>
 Package pdftex.def Info: Chapter1/jet.png  used on input line 24.
@@ -2603,12 +2603,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--170
 
  []
 
-<Chapter3/kos.png, id=602, 903.375pt x 903.375pt>
+<Chapter3/kos.png, id=597, 903.375pt x 903.375pt>
 File: Chapter3/kos.png Graphic file (type png)
 <use Chapter3/kos.png>
 Package pdftex.def Info: Chapter3/kos.png  used on input line 194.
 (pdftex.def)             Requested size: 192.0548pt x 192.0439pt.
-<Chapter3/kos2.png, id=603, 903.375pt x 903.375pt>
+<Chapter3/kos2.png, id=598, 903.375pt x 903.375pt>
 File: Chapter3/kos2.png Graphic file (type png)
 <use Chapter3/kos2.png>
 Package pdftex.def Info: Chapter3/kos2.png  used on input line 198.
@@ -2623,190 +2623,203 @@ Chapter 4.
 
 
 ] [35]
-<Chapter4/simple.png, id=630, 903.375pt x 903.375pt>
+<Chapter4/simple.png, id=625, 903.375pt x 903.375pt>
 File: Chapter4/simple.png Graphic file (type png)
 <use Chapter4/simple.png>
-Package pdftex.def Info: Chapter4/simple.png  used on input line 48.
+Package pdftex.def Info: Chapter4/simple.png  used on input line 29.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/simple-kt-1.png, id=631, 903.375pt x 903.375pt>
+<Chapter4/simple-kt-1.png, id=626, 903.375pt x 903.375pt>
 File: Chapter4/simple-kt-1.png Graphic file (type png)
 <use Chapter4/simple-kt-1.png>
-Package pdftex.def Info: Chapter4/simple-kt-1.png  used on input line 52.
+Package pdftex.def Info: Chapter4/simple-kt-1.png  used on input line 33.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
  [36 <./Chapter4/simple.png> <./Chapter4/simple-kt-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
-<Chapter4/chi_squared.png, id=639, 584.93532pt x 320.69812pt>
-File: Chapter4/chi_squared.png Graphic file (type png)
-<use Chapter4/chi_squared.png>
-Package pdftex.def Info: Chapter4/chi_squared.png  used on input line 102.
-(pdftex.def)             Requested size: 292.46693pt x 160.34866pt.
-<Chapter4/Likelihood.png, id=640, 1202.4925pt x 879.285pt>
-File: Chapter4/Likelihood.png Graphic file (type png)
-<use Chapter4/Likelihood.png>
-Package pdftex.def Info: Chapter4/Likelihood.png  used on input line 112.
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/Likelihood-kt-1.png, id=641, 1202.4925pt x 879.285pt>
-File: Chapter4/Likelihood-kt-1.png Graphic file (type png)
-<use Chapter4/Likelihood-kt-1.png>
-Package pdftex.def Info: Chapter4/Likelihood-kt-1.png  used on input line 116.
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-[37 <./Chapter4/chi_squared.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--127
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
-[38 <./Chapter4/Likelihood.png> <./Chapter4/Likelihood-kt-1.png>]
-<Chapter4/150fb/simple-150.png, id=654, 903.375pt x 903.375pt>
-File: Chapter4/150fb/simple-150.png Graphic file (type png)
-<use Chapter4/150fb/simple-150.png>
-Package pdftex.def Info: Chapter4/150fb/simple-150.png  used on input line 134.
 
-(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/150fb/Likelihood.png, id=655, 1202.4925pt x 879.285pt>
-File: Chapter4/150fb/Likelihood.png Graphic file (type png)
-<use Chapter4/150fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/150fb/Likelihood.png  used on input line 138.
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/300fb/simple-300.png, id=656, 903.375pt x 903.375pt>
-File: Chapter4/300fb/simple-300.png Graphic file (type png)
-<use Chapter4/300fb/simple-300.png>
-Package pdftex.def Info: Chapter4/300fb/simple-300.png  used on input line 141.
+ []
 
-(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/300fb/Likelihood.png, id=657, 1202.4925pt x 879.285pt>
-File: Chapter4/300fb/Likelihood.png Graphic file (type png)
-<use Chapter4/300fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/300fb/Likelihood.png  used on input line 145.
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/3000fb/simple-3000.png, id=658, 903.375pt x 903.375pt>
-File: Chapter4/3000fb/simple-3000.png Graphic file (type png)
-<use Chapter4/3000fb/simple-3000.png>
-Package pdftex.def Info: Chapter4/3000fb/simple-3000.png  used on input line 14
-8.
-(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/3000fb/Likelihood.png, id=659, 1202.4925pt x 879.285pt>
-File: Chapter4/3000fb/Likelihood.png Graphic file (type png)
-<use Chapter4/3000fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/3000fb/Likelihood.png  used on input line 152
-.
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
- [39 <./Chapter4/150fb/simple-150.png> <./Chapter4/150fb/Likelihood.png> <./Cha
-pter4/300fb/simple-300.png> <./Chapter4/300fb/Likelihood.png> <./Chapter4/3000f
-b/simple-3000.png> <./Chapter4/3000fb/Likelihood.png>]
-<Chapter4/kt-1/150fb/simple-150-kt-1.png, id=664, 903.375pt x 903.375pt>
-File: Chapter4/kt-1/150fb/simple-150-kt-1.png Graphic file (type png)
-<use Chapter4/kt-1/150fb/simple-150-kt-1.png>
-Package pdftex.def Info: Chapter4/kt-1/150fb/simple-150-kt-1.png  used on input
- line 164.
-(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/kt-1/150fb/Likelihood.png, id=665, 1202.4925pt x 879.285pt>
-File: Chapter4/kt-1/150fb/Likelihood.png Graphic file (type png)
-<use Chapter4/kt-1/150fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/kt-1/150fb/Likelihood.png  used on input line
- 168.
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/kt-1/300fb/simple-300-kt-1.png, id=666, 903.375pt x 903.375pt>
-File: Chapter4/kt-1/300fb/simple-300-kt-1.png Graphic file (type png)
-<use Chapter4/kt-1/300fb/simple-300-kt-1.png>
-Package pdftex.def Info: Chapter4/kt-1/300fb/simple-300-kt-1.png  used on input
- line 171.
-(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/kt-1/300fb/Likelihood.png, id=667, 1202.4925pt x 879.285pt>
-File: Chapter4/kt-1/300fb/Likelihood.png Graphic file (type png)
-<use Chapter4/kt-1/300fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/kt-1/300fb/Likelihood.png  used on input line
- 175.
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/kt-1/3000fb/simple-3000-kt-1.png, id=668, 903.375pt x 903.375pt>
-File: Chapter4/kt-1/3000fb/simple-3000-kt-1.png Graphic file (type png)
-<use Chapter4/kt-1/3000fb/simple-3000-kt-1.png>
-Package pdftex.def Info: Chapter4/kt-1/3000fb/simple-3000-kt-1.png  used on inp
-ut line 178.
-(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/kt-1/3000fb/Likelihood.png, id=669, 1202.4925pt x 879.285pt>
-File: Chapter4/kt-1/3000fb/Likelihood.png Graphic file (type png)
-<use Chapter4/kt-1/3000fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/kt-1/3000fb/Likelihood.png  used on input lin
-e 182.
-(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
- [40 <./Chapter4/kt-1/150fb/simple-150-kt-1.png> <./Chapter4/kt-1/150fb/Likelih
-ood.png> <./Chapter4/kt-1/300fb/simple-300-kt-1.png> <./Chapter4/kt-1/300fb/Lik
-elihood.png> <./Chapter4/kt-1/3000fb/simple-3000-kt-1.png> <./Chapter4/kt-1/300
-0fb/Likelihood.png>]
-Overfull \hbox (10.80688pt too wide) in paragraph at lines 192--206
+ []
+
+
+Overfull \hbox (7.80688pt too wide) in paragraph at lines 119--133
 [][]
  []
 
-) [41]
+[38]
+<Chapter4/chi_squared.png, id=648, 584.93532pt x 320.69812pt>
+File: Chapter4/chi_squared.png Graphic file (type png)
+<use Chapter4/chi_squared.png>
+Package pdftex.def Info: Chapter4/chi_squared.png  used on input line 140.
+(pdftex.def)             Requested size: 380.20345pt x 208.4513pt.
+<Chapter4/Likelihood.png, id=649, 1202.4925pt x 879.285pt>
+File: Chapter4/Likelihood.png Graphic file (type png)
+<use Chapter4/Likelihood.png>
+Package pdftex.def Info: Chapter4/Likelihood.png  used on input line 150.
+(pdftex.def)             Requested size: 234.73654pt x 171.641pt.
+<Chapter4/Likelihood-kt-1.png, id=650, 1202.4925pt x 879.285pt>
+File: Chapter4/Likelihood-kt-1.png Graphic file (type png)
+<use Chapter4/Likelihood-kt-1.png>
+Package pdftex.def Info: Chapter4/Likelihood-kt-1.png  used on input line 154.
+(pdftex.def)             Requested size: 234.73654pt x 171.641pt.
+ [39 <./Chapter4/chi_squared.png (PNG copy)> <./Chapter4/Likelihood.png> <./Cha
+pter4/Likelihood-kt-1.png>]
+<Chapter4/150fb/simple-150.png, id=655, 903.375pt x 903.375pt>
+File: Chapter4/150fb/simple-150.png Graphic file (type png)
+<use Chapter4/150fb/simple-150.png>
+Package pdftex.def Info: Chapter4/150fb/simple-150.png  used on input line 164.
+
+(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
+<Chapter4/150fb/Likelihood.png, id=656, 1202.4925pt x 879.285pt>
+File: Chapter4/150fb/Likelihood.png Graphic file (type png)
+<use Chapter4/150fb/Likelihood.png>
+Package pdftex.def Info: Chapter4/150fb/Likelihood.png  used on input line 168.
+
+(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
+<Chapter4/300fb/simple-300.png, id=657, 903.375pt x 903.375pt>
+File: Chapter4/300fb/simple-300.png Graphic file (type png)
+<use Chapter4/300fb/simple-300.png>
+Package pdftex.def Info: Chapter4/300fb/simple-300.png  used on input line 171.
+
+(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
+<Chapter4/300fb/Likelihood.png, id=658, 1202.4925pt x 879.285pt>
+File: Chapter4/300fb/Likelihood.png Graphic file (type png)
+<use Chapter4/300fb/Likelihood.png>
+Package pdftex.def Info: Chapter4/300fb/Likelihood.png  used on input line 175.
+
+(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
+<Chapter4/3000fb/simple-3000.png, id=659, 903.375pt x 903.375pt>
+File: Chapter4/3000fb/simple-3000.png Graphic file (type png)
+<use Chapter4/3000fb/simple-3000.png>
+Package pdftex.def Info: Chapter4/3000fb/simple-3000.png  used on input line 17
+8.
+(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
+<Chapter4/3000fb/Likelihood.png, id=660, 1202.4925pt x 879.285pt>
+File: Chapter4/3000fb/Likelihood.png Graphic file (type png)
+<use Chapter4/3000fb/Likelihood.png>
+Package pdftex.def Info: Chapter4/3000fb/Likelihood.png  used on input line 182
+.
+(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
+ [40 <./Chapter4/150fb/simple-150.png> <./Chapter4/150fb/Likelihood.png> <./Cha
+pter4/300fb/simple-300.png> <./Chapter4/300fb/Likelihood.png> <./Chapter4/3000f
+b/simple-3000.png> <./Chapter4/3000fb/Likelihood.png>]
+<Chapter4/kt-1/150fb/simple-150-kt-1.png, id=666, 903.375pt x 903.375pt>
+File: Chapter4/kt-1/150fb/simple-150-kt-1.png Graphic file (type png)
+<use Chapter4/kt-1/150fb/simple-150-kt-1.png>
+Package pdftex.def Info: Chapter4/kt-1/150fb/simple-150-kt-1.png  used on input
+ line 194.
+(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
+<Chapter4/kt-1/150fb/Likelihood.png, id=667, 1202.4925pt x 879.285pt>
+File: Chapter4/kt-1/150fb/Likelihood.png Graphic file (type png)
+<use Chapter4/kt-1/150fb/Likelihood.png>
+Package pdftex.def Info: Chapter4/kt-1/150fb/Likelihood.png  used on input line
+ 198.
+(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
+<Chapter4/kt-1/300fb/simple-300-kt-1.png, id=668, 903.375pt x 903.375pt>
+File: Chapter4/kt-1/300fb/simple-300-kt-1.png Graphic file (type png)
+<use Chapter4/kt-1/300fb/simple-300-kt-1.png>
+Package pdftex.def Info: Chapter4/kt-1/300fb/simple-300-kt-1.png  used on input
+ line 201.
+(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
+<Chapter4/kt-1/300fb/Likelihood.png, id=669, 1202.4925pt x 879.285pt>
+File: Chapter4/kt-1/300fb/Likelihood.png Graphic file (type png)
+<use Chapter4/kt-1/300fb/Likelihood.png>
+Package pdftex.def Info: Chapter4/kt-1/300fb/Likelihood.png  used on input line
+ 205.
+(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
+<Chapter4/kt-1/3000fb/simple-3000-kt-1.png, id=670, 903.375pt x 903.375pt>
+File: Chapter4/kt-1/3000fb/simple-3000-kt-1.png Graphic file (type png)
+<use Chapter4/kt-1/3000fb/simple-3000-kt-1.png>
+Package pdftex.def Info: Chapter4/kt-1/3000fb/simple-3000-kt-1.png  used on inp
+ut line 208.
+(pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
+<Chapter4/kt-1/3000fb/Likelihood.png, id=671, 1202.4925pt x 879.285pt>
+File: Chapter4/kt-1/3000fb/Likelihood.png Graphic file (type png)
+<use Chapter4/kt-1/3000fb/Likelihood.png>
+Package pdftex.def Info: Chapter4/kt-1/3000fb/Likelihood.png  used on input lin
+e 212.
+(pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
+) [41 <./Chapter4/kt-1/150fb/simple-150-kt-1.png> <./Chapter4/kt-1/150fb/Likeli
+hood.png> <./Chapter4/kt-1/300fb/simple-300-kt-1.png> <./Chapter4/kt-1/300fb/Li
+kelihood.png> <./Chapter4/kt-1/3000fb/simple-3000-kt-1.png> <./Chapter4/kt-1/30
+00fb/Likelihood.png>]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (./Chapter5/chapter5.tex
 Chapter 5.
-[42
-
-
-
-]
-Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-) [43
 
-] (./thesis.bbl [44
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+) [42
 
 
 
-]) [45]
+] (./thesis.bbl [43
+
+
+
+]) [44]
 \openout2 = `Appendix2/appendix2.aux'.
 
  (./Appendix2/appendix2.tex
 Appendix A.
-<Chapter1/sc.png, id=705, 386.19281pt x 277.035pt>
+<Chapter1/sc.png, id=696, 386.19281pt x 277.035pt>
 File: Chapter1/sc.png Graphic file (type png)
 <use Chapter1/sc.png>
 Package pdftex.def Info: Chapter1/sc.png  used on input line 21.
 (pdftex.def)             Requested size: 308.95465pt x 221.6283pt.
-[46
+[45
 
 
 ]
-<Chapter1/cs1.png, id=718, 501.875pt x 266.9975pt>
+<Chapter1/cs1.png, id=708, 501.875pt x 266.9975pt>
 File: Chapter1/cs1.png Graphic file (type png)
 <use Chapter1/cs1.png>
 Package pdftex.def Info: Chapter1/cs1.png  used on input line 49.
 (pdftex.def)             Requested size: 351.31009pt x 186.89696pt.
- [47 <./Chapter1/sc.png>]
+ [46 <./Chapter1/sc.png>]
 Overfull \hbox (51.16357pt too wide) detected at line 62
 []
  []
 
 
-LaTeX Warning: Reference `dm' on page 48 undefined on input line 63.
+LaTeX Warning: Reference `dm' on page 47 undefined on input line 63.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
-) [48 <./Chapter1/cs1.png>]
+) [47 <./Chapter1/cs1.png>]
 No file thesis.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
@@ -2818,17 +2831,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6A90C7C196C7AFA88598ECD9C9368AA2;5851.
+(rerunfilecheck)             Checksum: 98C67742D7AE82755F97133E711F27A6;5679.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 50247 strings out of 494719
- 1091899 string characters out of 6174034
- 1902914 words of memory out of 5000000
- 52305 multiletter control sequences out of 15000+600000
+ 50244 strings out of 494719
+ 1091872 string characters out of 6174034
+ 1902917 words of memory out of 5000000
+ 52304 multiletter control sequences out of 15000+600000
  653242 words of font info for 368 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
  64i,19n,96p,10399b,5602s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2868,10 +2881,10 @@ r.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (57 pages, 2352635 bytes).
+Output written on thesis.pdf (56 pages, 2351591 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 692 compressed objects within 7 object streams
- 198 named destinations out of 1000 (max. 500000)
- 73171 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 684 compressed objects within 7 object streams
+ 196 named destinations out of 1000 (max. 500000)
+ 73163 words of extra memory for PDF output out of 74296 (max. 10000000)
 
