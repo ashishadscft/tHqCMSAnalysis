@@ -4,15 +4,15 @@
 %%                                                                            %%
 %% A PhD thesis LaTeX template for Cambridge University Engineering Department%%
 %%                                                                            %%
-%% Version: v2.3.1                                                             %%
+%% Version: v2.4                                                              %%
 %% Authors: Krishna Kumar                                                     %%
-%% License: MIT License (c) 2016 Krishna Kumar                                %%
+%% License: MIT License (c) 2016-2018 Krishna Kumar                           %%
 %% GitHub Repo: https://github.com/kks32/phd-thesis-template/                 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % ************************** Class Identification ******************************
-\newcommand\fileversion{2.3.1}
-\newcommand\filedate{2016/04/23}
+\newcommand\fileversion{2.4}
+\newcommand\filedate{2018/04/12}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{PhDThesisPSnPDF}[\filedate\space A PhD thesis class file
  by Krishna Kumar (v\fileversion)]
@@ -38,7 +38,7 @@
 \DeclareOption{times}{
   \ifsetFont
     \ClassWarning{PhDThesisPSnPDF}{Font selection conflict: A font package was
-      aleady specified. Please check the document class options in case you 
+      already specified. Please check the document class options in case you 
       have defined two fonts.}
   \else
     \PHD@timestrue
@@ -464,7 +464,7 @@ supported!}
 \ifPHD@authoryear
   \ifPHD@biblatex
     \RequirePackage[backend=biber, style=authoryear, citestyle=alphabetic, 
-      sorting=none, natbib=true]{biblatex}
+      sorting=nty, natbib=true]{biblatex}
     \setBiBLaTeXtrue
   \else
     \RequirePackage[round, sort, numbers, authoryear]{natbib} %author year
@@ -549,11 +549,10 @@ supported!}
   \RequirePackage{lmodern}
 \fi
 
-\RequirePackage{bm}
+
 \ifxetex
   % XeLaTeX
   \usepackage{amsmath}
-  \usepackage{alltt}
   \usepackage{fontspec}
   \usepackage[]{unicode-math}
   \setmainfont[
@@ -573,7 +572,7 @@ supported!}
   % default: pdfLaTeX
   \RequirePackage[utf8]{inputenc}
   \RequirePackage[T1]{fontenc}
-
+  
   % If building with PDFLaTeX, use microtype spacing adjustments
   \RequirePackage[final]{microtype}
   
@@ -588,7 +587,6 @@ supported!}
   \RequirePackage{amsfonts}
   \RequirePackage{amsmath}
   \RequirePackage{amssymb}
-  \RequirePackage{alltt}
 \fi
 
 % Don't break enumeration (etc.) across pages in an ugly manner
@@ -600,7 +598,7 @@ supported!}
 
 % Moved below other usepackage definitions to fix PDFLaTeX footnote warning
 % Based on the suggestion by John Plaice
-\usepackage{calligra}
+
 \RequirePackage[unicode=true]{hyperref}
 
 \if@print
@@ -676,7 +674,10 @@ supported!}
   % PDFLaTeX does it automatically.
 \else
   % dvips
-  \RequirePackage{breakurl} % to split the url over multiple lines
+  \ifxetex
+  \else % If not XeLaTeX
+    \RequirePackage{breakurl} % to split the url over multiple lines
+  \fi
 \fi
   
 % ******************************************************************************
@@ -885,6 +886,23 @@ wish to left align your text}
 \newcommand{\@subject}{}
 \newcommand{\subject}[1]{\renewcommand{\@subject}{#1}}
 
+% Declaration title text
+\newcommand{\@declarationtitle}{Declaration}
+
+% Acknowledgment title text
+\newcommand{\@acknowledgementstitle}{Acknowledgements}
+
+% Abstract title text
+\newcommand{\@abstracttitle}{Abstract}
+
+% Names for the nomenclature groups
+\newcommand{\@nomenclatureromans}{Roman Symbols}
+\newcommand{\@nomenclaturegreeks}{Greek Symbols}
+\newcommand{\@nomenclatureacronyms}{Acronyms / Abbreviations}
+\newcommand{\@nomenclaturesuperscripts}{Superscripts}
+\newcommand{\@nomenclaturesubscripts}{Subscripts}
+\newcommand{\@nomenclatureothers}{Other Symbols}
+
 
 % These macros define an environment for front matter that is always
 % single column even in a double-column document.
@@ -995,7 +1013,7 @@ wish to left align your text}
 \newenvironment{declaration}{
 \cleardoublepage
 \setsinglecolumn
-\chapter*{\centering \Large Declaration}
+\chapter*{\centering \Large \@declarationtitle}
 \thispagestyle{empty}
 }{
 \flushright
@@ -1013,7 +1031,7 @@ wish to left align your text}
 \newenvironment{acknowledgements}{
 \cleardoublepage
 \setsinglecolumn
-\chapter*{\centering \Large Acknowledgements}
+\chapter*{\centering \Large \@acknowledgementstitle}
 \thispagestyle{empty}
 }
 
@@ -1023,12 +1041,12 @@ wish to left align your text}
 \RequirePackage[intoc]{nomencl}
 \makenomenclature
 \renewcommand{\nomgroup}[1]{%
-\ifthenelse{\equal{#1}{A}}{\item[\textbf{Roman Symbols}]}{%
-\ifthenelse{\equal{#1}{G}}{\item[\textbf{Greek Symbols}]}{%
-\ifthenelse{\equal{#1}{Z}}{\item[\textbf{Acronyms / Abbreviations}]}{%
-\ifthenelse{\equal{#1}{R}}{\item[\textbf{Superscripts}]}{%
-\ifthenelse{\equal{#1}{S}}{\item[\textbf{Subscripts}]}{%
-\ifthenelse{\equal{#1}{X}}{\item[\textbf{Other Symbols}]}
+\ifthenelse{\equal{#1}{A}}{\item[\textbf{\@nomenclatureromans}]}{% 
+\ifthenelse{\equal{#1}{G}}{\item[\textbf{\@nomenclaturegreeks}]}{%
+\ifthenelse{\equal{#1}{Z}}{\item[\textbf{\@nomenclatureacronyms}]}{%
+\ifthenelse{\equal{#1}{R}}{\item[\textbf{\@nomenclaturesuperscripts}]}{%
+\ifthenelse{\equal{#1}{S}}{\item[\textbf{\@nomenclaturesubscripts}]}{%
+\ifthenelse{\equal{#1}{X}}{\item[\textbf{\@nomenclatureothers}]}
 {}
 }% matches mathematical symbols > X
 }% matches Subscripts           > S
@@ -1114,7 +1132,7 @@ wish to left align your text}
 % Normal abstract in the thesis
   \cleardoublepage
   \setsinglecolumn
-  \chapter*{\centering \Large Abstract}
+  \chapter*{\centering \Large \@abstracttitle}
   \thispagestyle{empty}
 \fi
 }

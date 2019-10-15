@@ -1,6 +1,6 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{vii}{chapter*.4}
-\contentsline {chapter}{List of tables}{ix}{chapter*.5}
+\contentsline {chapter}{List of figures}{viii}{chapter*.5}
+\contentsline {chapter}{List of tables}{x}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}General objetive and motivations}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}The Standard Model}{2}{section.1.2}
@@ -28,4 +28,4 @@
 \contentsline {section}{\numberline {4.2}Limit calculation}{37}{section.4.2}
 \contentsline {section}{\numberline {4.3}Extrapolation for higher luminosities}{37}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusion and outlook}{42}{chapter.5}
-\contentsline {chapter}{References}{43}{chapter*.40}
+\contentsline {chapter}{References}{43}{chapter*.41}

@@ -6,7 +6,7 @@
 % other page dimensions
 \ifsetCustomMargin
 \RequirePackage[left=40mm,right=20mm,top=30mm,bottom=30mm]{geometry}
-\setFancyHdr % To apply fancy header after geometry package is loaded
+  \setFancyHdr % To apply fancy header after geometry package is loaded
 \fi
 
 % Add spaces between paragraphs
@@ -16,7 +16,14 @@
 % To remove the excess top spacing for enumeration, list and description
 %\usepackage{enumitem}
 %\setlist[enumerate,itemize,description]{topsep=0em}
-\usepackage{lineno, blindtext}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage{amsmath} 
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
 
 % *****************************************************************************
 % ******************* Fonts (like different typewriter fonts etc.)*************
@@ -49,6 +56,7 @@
 
 %\usepackage{algpseudocode}
 
+
 % ********************Captions and Hyperreferencing / URL **********************
 
 % Captions: This makes captions of figures use a boldfaced small font.
@@ -77,17 +85,15 @@
 % ********************************** Tables ************************************
 \usepackage{booktabs} % For professional looking tables
 \usepackage{multirow}
-\usepackage{multicol}
+
+%\usepackage{multicol}
 %\usepackage{longtable}
 %\usepackage{tabularx}
 
-\usepackage{mathtools}
-\usepackage[makeroom]{cancel}
-\usepackage[bottom]{footmisc} %footnote at the button of page
 
 % *********************************** SI Units *********************************
 \usepackage{siunitx} % use this package module for SI units
-\usepackage{url}
+
 
 % ******************************* Line Spacing *********************************
 
@@ -97,8 +103,8 @@
 % \doublespacing
 % \onehalfspacing
 % \singlespacing
-\usepackage{pgfplots}
-\usepackage{siunitx}
+
+
 % ************************ Formatting / Footnote *******************************
 
 % Don't break enumeration (etc.) across pages in an ugly manner (default 10000)
@@ -115,11 +121,12 @@
 
 % Add `custombib' in the document class option to use this section
 \ifuseCustomBib
- \RequirePackage[square, sort, numbers, authoryear]{natbib} % CustomBib
+   \RequirePackage[square, sort, numbers, authoryear]{natbib} % CustomBib
 
 % If you would like to use biblatex for your reference management, as opposed to the default `natbibpackage` pass the option `custombib` in the document class. Comment out the previous line to make sure you don't load the natbib package. Uncomment the following lines and specify the location of references.bib file
-%\RequirePackage[%backend=biber,style=numeric-comp, citestyle=numeric, sorting=none, natbib=true]{biblatex}
-%\bibliography{References/references} %Location of references.bib only for biblatex
+
+%\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
+%\addbibresource{References/references} %Location of references.bib only for biblatex, Do not omit the .bib extension from the filename.
 
 \fi
 
@@ -190,3 +197,22 @@
 %\fi
 
 % Example todo: \mynote{Hey! I have a note}
+
+% ******************************** Highlighting Changes **********************************
+%% Uncomment the following lines to be able to highlight text/modifications.
+%\ifsetDraft
+%  \usepackage{color, soul}
+%  \newcommand{\hlc}[2][yellow]{{\sethlcolor{#1} \hl{#2}}}
+%  \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
+%\else
+%  \newcommand{\hlc}[2]{}
+%  \newcommand{\hlfix}[2]{}
+%\fi
+
+% Example highlight 1: \hlc{Text to be highlighted}
+% Example highlight 2: \hlc[green]{Text to be highlighted in green colour}
+% Example highlight 3: \hlfix{Original Text}{Fixed Text}
+
+% *****************************************************************************
+% ******************* Better enumeration my MB*************
+\usepackage{enumitem}
