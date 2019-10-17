@@ -5,34 +5,27 @@ David~J Griffiths.
 \newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
 \newblock Physics textbook. Wiley, New York, NY, 2008.
 
-\bibitem{mark}
-Thompson M.
-\newblock {\em Modern particle physics}.
-\newblock Cambridge University press, first edition, 2013.
-
-\bibitem{pd}
-Tanabashi~M. et. al.
-\newblock {\em Review of Particle Physics}, volume~98.
-\newblock American Physical Society, Aug 2018.
-
-\bibitem{higgsd}
-Chatrchyan~S. et. al.
-\newblock Observation of a new boson at a mass of 125 gev with the cms
-  experiment at the lhc.
-\newblock {\em Physics Letters B}, 716(1):30 -- 61, 2012.
-
-\bibitem{top}
-{D{\'e}liot} et. al.
-\newblock {Properties of the Top Quark}.
-\newblock {\em Annual Review of Nuclear and Particle Science}, 64(1):363--381,
-  Oct 2014.
-
 \bibitem{th1}
 Sirunyan A.~M. et. al.
 \newblock Search for associated production of a higgs boson and a single top
   quark in proton-proton collisions at $\sqrt{s}=13\text{ }\text{
   }\mathrm{TeV}$.
 \newblock {\em Phys. Rev. D}, 99:092005, May 2019.
+
+\bibitem{tth-l}
+{Search for production of a Higgs boson and a single top quark in multilepton
+  final states in proton collisions at $\sqrt{s}=13~\mathrm{TeV}$}.
+\newblock (CMS-PAS-HIG-17-005), 2017.
+
+\bibitem{bb}
+{Search for the tH(H$\to \text{b}\bar{\text{b}}$) process in pp collisions at
+  $\sqrt{s}=13\,\mathrm{TeV}$ and study of Higgs boson couplings}.
+\newblock Technical Report CMS-PAS-HIG-17-016, CERN, Geneva, 2018.
+
+\bibitem{asimov}
+Cowan~G. et. al.
+\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
+\newblock {\em European Physical Journal C}, 71:1554, Feb 2011.
 
 \bibitem{ew1}
 {Dawson} S.
@@ -44,24 +37,41 @@ Sirunyan A.~M. et. al.
 \newblock {Introduction to the Standard Model and Electroweak Physics}.
 \newblock pages 3--48, Aug 2010.
 
-\bibitem{cms-manual}
-Bayatian~G. et. al.
-\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
-  Performance and Software}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2006.
+\bibitem{landau}
+L.D. Landau $\&$~E.M. Lifschitz.
+\newblock {\em Mechanics}, volume~3 of {\em Course of Theoretical Physics}.
+\newblock Butterworth Heinemann, third edition, 1966.
 
-\bibitem{bb}
-{Search for the tH(H$\to \text{b}\bar{\text{b}}$) process in pp collisions at
-  $\sqrt{s}=13\,\mathrm{TeV}$ and study of Higgs boson couplings}.
-\newblock Technical Report CMS-PAS-HIG-17-016, CERN, Geneva, 2018.
+\bibitem{higgsd}
+Chatrchyan~S. et. al.
+\newblock Observation of a new boson at a mass of 125 gev with the cms
+  experiment at the lhc.
+\newblock {\em Physics Letters B}, 716(1):30 -- 61, 2012.
+
+\bibitem{gross}
+Gross F.
+\newblock {\em Relativistic quantum mechanics and field theory}.
+\newblock WllEY-VCH Verlag GmbH Co. KGaA, first edition, 1998.
+
+\bibitem{mark}
+Thompson M.
+\newblock {\em Modern particle physics}.
+\newblock Cambridge University press, first edition, 2013.
 
 \bibitem{cern1}
-The large hadron collider.
+LHC experiment.
+\newblock The large hadron collider.
 \newblock \url{https://home.cern/science/accelerators/large-hadron-collider},
   2019.
 
+\bibitem{roofit}
+Verkerke W. $\&$~Kirkby D.
+\newblock The roofit toolkit for data modeling.
+\newblock http://roofit.sourceforge.net/.
+
 \bibitem{cern2}
-The cms detector.
+CMS experiment.
+\newblock The cms detector.
 \newblock \url{https://cms.cern/detector}, 2019.
 
 \bibitem{cern3}
@@ -70,20 +80,32 @@ Apollinari~G. et. al.
   report v. 0.1,.
 \newblock {\em CERN Yellow}, (CERN-2017-007-M), 2017.
 
+\bibitem{top}
+{D{\'e}liot} et. al.
+\newblock {Properties of the Top Quark}.
+\newblock {\em Annual Review of Nuclear and Particle Science}, 64(1):363--381,
+  Oct 2014.
+
+\bibitem{goldstein}
+Poole C. $\&$ Safko~J. Goldstein~H.
+\newblock {\em Classical Mechanics}.
+\newblock Addison Wesley Longman Inc., 3 edition, 2002.
+
+\bibitem{pd}
+Tanabashi~M. et. al.
+\newblock {\em Review of Particle Physics}, volume~98.
+\newblock American Physical Society, Aug 2018.
+
+\bibitem{cms-manual}
+Bayatian~G. et. al.
+\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2006.
+
 \bibitem{cms7}
 The~CMS collaboration.
 \newblock The performance of the cms muon detector in proton-proton collisions
   at $\sqrt{s}$= 7 tev at the lhc.
 \newblock {\em Journal of Instrumentation}, 8(11):P11002--P11002, nov 2013.
-
-\bibitem{roofit}
-Verkerke W. $\&$~Kirkby D.
-\newblock The roofit toolkit for data modeling.
-\newblock http://roofit.sourceforge.net/.
-
-\bibitem{asimov}
-Cowan~G. et. al.
-\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
-\newblock {\em European Physical Journal C}, 71:1554, Feb 2011.
 
 \end{thebibliography}
