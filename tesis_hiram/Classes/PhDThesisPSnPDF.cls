@@ -874,7 +874,7 @@ wish to left align your text}
 \newcommand{\advisorlinewidth}[1]{\renewcommand{\@advisorlinewidth}{#1}}
 
 % Submission Text
-\newcommand{\submissiontext}{This dissertation is submitted for the degree of }
+%\newcommand{\submissiontext}{This dissertation is submitted for the degree of }
 
 % keywords (These keywords will appear in the PDF meta-information
 % called `pdfkeywords`.)
@@ -1018,7 +1018,7 @@ wish to left align your text}
 }{
 \flushright
 \@author{}\\
-\@degreedate{}
+%\@degreedate{}
 \vfill
 }
 
@@ -1246,9 +1246,9 @@ wish to left align your text}
   \large
   \ifthenelse{\equal{\@college}{}}{
     % college is not defined
-    \begin{center}
-      \@degreedate
-    \end{center}
+%    \begin{center}
+ %     \@degreedate
+  %  \end{center}
   }{
     % college is defined
     \begin{minipage}[b]{0.49\textwidth}
