@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  21 OCT 2019 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  28 OCT 2019 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1462,10 +1462,9 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 32.
 
-Overfull \hbox (173.57854pt too wide) detected at line 32
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) detected at line 32
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 
@@ -1476,16 +1475,20 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 Overfull \vbox (178.86232pt too high) detected at line 53
  []
 
+<unison-logo.png, id=117, 321.2pt x 321.2pt>
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 53.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
+ <./unison-logo.png>]
 (./presentacion-tesis.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 3.
@@ -1496,88 +1499,118 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
 )
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 58.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 75.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 86.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [4
 
 ]
-<figures/sm1.png, id=649, 1397.22pt x 926.71219pt>
+<figures/sm1.png, id=501, 1397.22pt x 926.71219pt>
 File: figures/sm1.png Graphic file (type png)
 <use figures/sm1.png>
 Package pdftex.def Info: figures/sm1.png  used on input line 96.
 (pdftex.def)             Requested size: 256.07251pt x 184.94322pt.
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 96.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [5
 
  <./figures/sm1.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 142.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [6
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 177.
+(Font)              <10> on input line 178.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 177.
+(Font)              <7> on input line 178.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 177.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 178.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 177.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 178.
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 178.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 204.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 236.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [9
@@ -1585,1104 +1618,655 @@ Overfull \hbox (173.57854pt too wide) has occurred while \output is active
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 246.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 246.
 
-<figures/pg.png, id=1179, 807.7678pt x 367.3725pt>
+<figures/pg.png, id=904, 807.7678pt x 367.3725pt>
 File: figures/pg.png Graphic file (type png)
 <use figures/pg.png>
-Package pdftex.def Info: figures/pg.png  used on input line 245.
+Package pdftex.def Info: figures/pg.png  used on input line 246.
 (pdftex.def)             Requested size: 323.1014pt x 146.94638pt.
 
-Overfull \hbox (15.81152pt too wide) in paragraph at lines 245--245
+Overfull \hbox (15.81152pt too wide) in paragraph at lines 246--246
  [] 
  []
 
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [10
 
  <./figures/pg.png (PNG copy)>]
-<figures/tq.png, id=1282, 635.37375pt x 215.30438pt>
+<figures/tq.png, id=982, 635.37375pt x 215.30438pt>
 File: figures/tq.png Graphic file (type png)
 <use figures/tq.png>
-Package pdftex.def Info: figures/tq.png  used on input line 256.
+Package pdftex.def Info: figures/tq.png  used on input line 257.
 (pdftex.def)             Requested size: 254.14499pt x 86.12022pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 256.
+(Font)              <14.4> on input line 257.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 256.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 257.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [11
 
  <./figures/tq.png (PNG copy)>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [12
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [13
 
 ]
-<figures/cs1.png, id=1597, 501.875pt x 266.9975pt>
-File: figures/cs1.png Graphic file (type png)
-<use figures/cs1.png>
-Package pdftex.def Info: figures/cs1.png  used on input line 300.
-(pdftex.def)             Requested size: 250.93687pt x 133.49841pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 331.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 331.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [14
 
- <./figures/cs1.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [15
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 349.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 349.
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [16
 
 ]
-Package epstopdf Info: Source file: <figures/7-14xsec.eps>
-(epstopdf)                    date: 2019-03-11 15:19:17
-(epstopdf)                    size: 11515 bytes
-(epstopdf)             Output file: <figures/7-14xsec-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-11 17:22:34
-(epstopdf)                    size: 11400 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/7-14xsec-eps-conve
-rted-to.pdf figures/7-14xsec.eps>
-(epstopdf)             \includegraphics on input line 359.
-Package epstopdf Info: Output file is already uptodate.
-<figures/7-14xsec-eps-converted-to.pdf, id=1906, 569.12625pt x 408.52625pt>
-File: figures/7-14xsec-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/7-14xsec-eps-converted-to.pdf>
-Package pdftex.def Info: figures/7-14xsec-eps-converted-to.pdf  used on input l
-ine 359.
-(pdftex.def)             Requested size: 239.03139pt x 171.57985pt.
+Overfull \hbox (12.55247pt too wide) in paragraph at lines 421--421
+ [] 
+ []
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [17
 
- <./figures/7-14xsec-eps-converted-to.pdf>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+<figures/CERN's-accelerator-complex2013.jpg, id=1530, 966.61125pt x 775.89874pt
+>
+File: figures/CERN's-accelerator-complex2013.jpg Graphic file (type jpg)
+<use figures/CERN's-accelerator-complex2013.jpg>
+Package pdftex.def Info: figures/CERN's-accelerator-complex2013.jpg  used on in
+put line 429.
+(pdftex.def)             Requested size: 193.31882pt x 155.177pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [18
 
-]
-Package epstopdf Info: Source file: <figures/Higgs_BR_120-130_7.eps>
-(epstopdf)                    date: 2019-03-11 15:45:36
-(epstopdf)                    size: 344504 bytes
-(epstopdf)             Output file: <figures/Higgs_BR_120-130_7-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2019-03-11 17:28:33
-(epstopdf)                    size: 38931 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/Higgs_BR_120-130_7
--eps-converted-to.pdf figures/Higgs_BR_120-130_7.eps>
-(epstopdf)             \includegraphics on input line 382.
-Package epstopdf Info: Output file is already uptodate.
-<figures/Higgs_BR_120-130_7-eps-converted-to.pdf, id=2123, 569.12625pt x 546.04
-pt>
-File: figures/Higgs_BR_120-130_7-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/Higgs_BR_120-130_7-eps-converted-to.pdf>
-Package pdftex.def Info: figures/Higgs_BR_120-130_7-eps-converted-to.pdf  used 
-on input line 382.
-(pdftex.def)             Requested size: 199.19717pt x 191.11685pt.
+ <./figures/CERN's-accelerator-complex2013.jpg>]
+<figures/lhc-t.png, id=1608, 296.60812pt x 314.67563pt>
+File: figures/lhc-t.png Graphic file (type png)
+<use figures/lhc-t.png>
+Package pdftex.def Info: figures/lhc-t.png  used on input line 466.
+(pdftex.def)             Requested size: 118.64114pt x 125.86801pt.
 
-Overfull \vbox (3.04057pt too high) detected at line 382
+Overfull \hbox (14.36966pt too wide) in paragraph at lines 466--466
+ [] 
  []
 
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [19
 
- <./figures/Higgs_BR_120-130_7-eps-converted-to.pdf>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/lhc-t.png>]
+<figures/cms.png, id=1686, 3189.9175pt x 2253.41875pt>
+File: figures/cms.png Graphic file (type png)
+<use figures/cms.png>
+Package pdftex.def Info: figures/cms.png  used on input line 476.
+(pdftex.def)             Requested size: 255.19861pt x 180.27718pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [20
 
-]
-Overfull \hbox (12.55247pt too wide) in paragraph at lines 458--458
- [] 
- []
+ <./figures/cms.png>]
+<figures/csc.png, id=1765, 380.92313pt x 243.15843pt>
+File: figures/csc.png Graphic file (type png)
+<use figures/csc.png>
+Package pdftex.def Info: figures/csc.png  used on input line 486.
+(pdftex.def)             Requested size: 228.55562pt x 145.89618pt.
 
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [21
 
-]
-<figures/CERN's-accelerator-complex2013.jpg, id=2448, 1445.4pt x 777.90625pt>
-File: figures/CERN's-accelerator-complex2013.jpg Graphic file (type jpg)
-<use figures/CERN's-accelerator-complex2013.jpg>
-Package pdftex.def Info: figures/CERN's-accelerator-complex2013.jpg  used on in
-put line 467.
-(pdftex.def)             Requested size: 361.34912pt x 194.47607pt.
+ <./figures/csc.png (PNG copy)>]
+<figures/cms_lumi.png, id=1843, 815.045pt x 646.415pt>
+File: figures/cms_lumi.png Graphic file (type png)
+<use figures/cms_lumi.png>
+Package pdftex.def Info: figures/cms_lumi.png  used on input line 498.
+(pdftex.def)             Requested size: 244.51538pt x 193.926pt.
 
-Overfull \hbox (54.05925pt too wide) in paragraph at lines 467--467
- [] 
+Overfull \vbox (5.84972pt too high) detected at line 498
  []
 
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [22
 
- <./figures/CERN's-accelerator-complex2013.jpg>]
-<figures/lhc-t.png, id=2551, 559.33969pt x 315.42844pt>
-File: figures/lhc-t.png Graphic file (type png)
-<use figures/lhc-t.png>
-Package pdftex.def Info: figures/lhc-t.png  used on input line 479.
-(pdftex.def)             Requested size: 279.66916pt x 157.71382pt.
+ <./figures/cms_lumi.png>]
+<figures/jet.png, id=1922, 201.75375pt x 321.45094pt>
+File: figures/jet.png Graphic file (type png)
+<use figures/jet.png>
+Package pdftex.def Info: figures/jet.png  used on input line 528.
+(pdftex.def)             Requested size: 100.87662pt x 160.72507pt.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [23
 
- <./figures/lhc-t.png (PNG copy)>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/jet.png (PNG copy)>]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [24
 
 ]
-<figures/cms.png, id=2756, 3189.9175pt x 2253.41875pt>
-File: figures/cms.png Graphic file (type png)
-<use figures/cms.png>
-Package pdftex.def Info: figures/cms.png  used on input line 512.
-(pdftex.def)             Requested size: 255.19861pt x 180.27718pt.
+<figures/histo.png, id=2076, 451.6875pt x 568.1225pt>
+File: figures/histo.png Graphic file (type png)
+<use figures/histo.png>
+Package pdftex.def Info: figures/histo.png  used on input line 560.
+(pdftex.def)             Requested size: 135.5073pt x 170.43805pt.
+<figures/sc.png, id=2077, 580.1675pt x 565.11125pt>
+File: figures/sc.png Graphic file (type png)
+<use figures/sc.png>
+Package pdftex.def Info: figures/sc.png  used on input line 560.
+(pdftex.def)             Requested size: 138.2795pt x 134.68958pt.
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [25
 
- <./figures/cms.png>]
-<figures/cms_lumi.png, id=2861, 815.045pt x 646.415pt>
-File: figures/cms_lumi.png Graphic file (type png)
-<use figures/cms_lumi.png>
-Package pdftex.def Info: figures/cms_lumi.png  used on input line 522.
-(pdftex.def)             Requested size: 244.51538pt x 193.926pt.
+ <./figures/histo.png> <./figures/sc.png>]
+<figures/kos.png, id=2159, 903.375pt x 903.375pt>
+File: figures/kos.png Graphic file (type png)
+<use figures/kos.png>
+Package pdftex.def Info: figures/kos.png  used on input line 580.
+(pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
+<figures/kos2.png, id=2160, 903.375pt x 903.375pt>
+File: figures/kos2.png Graphic file (type png)
+<use figures/kos2.png>
+Package pdftex.def Info: figures/kos2.png  used on input line 580.
+(pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
 
-Overfull \vbox (5.84972pt too high) detected at line 522
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [26
 
- <./figures/cms_lumi.png>]
-<figures/jet.png, id=2966, 201.75375pt x 321.45094pt>
-File: figures/jet.png Graphic file (type png)
-<use figures/jet.png>
-Package pdftex.def Info: figures/jet.png  used on input line 552.
-(pdftex.def)             Requested size: 100.87662pt x 160.72507pt.
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/kos.png> <./figures/kos2.png>]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [27
 
- <./figures/jet.png (PNG copy)>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [28
 
 ]
-<figures/tth-table.png, id=3174, 321.2pt x 527.9725pt>
-File: figures/tth-table.png Graphic file (type png)
-<use figures/tth-table.png>
-Package pdftex.def Info: figures/tth-table.png  used on input line 591.
-(pdftex.def)             Requested size: 128.47772pt x 211.18526pt.
-<figures/bdt.png, id=3175, 439.6425pt x 550.055pt>
-File: figures/bdt.png Graphic file (type png)
-<use figures/bdt.png>
-Package pdftex.def Info: figures/bdt.png  used on input line 591.
-(pdftex.def)             Requested size: 131.89375pt x 165.01776pt.
-
-Overfull \vbox (20.10895pt too high) detected at line 591
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [29
 
- <./figures/tth-table.png> <./figures/bdt.png>]
-<figures/sc.png, id=3283, 580.1675pt x 565.11125pt>
-File: figures/sc.png Graphic file (type png)
-<use figures/sc.png>
-Package pdftex.def Info: figures/sc.png  used on input line 600.
-(pdftex.def)             Requested size: 174.05157pt x 169.53468pt.
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [30
 
- <./figures/sc.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [31
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+<figures/fit-box.png, id=2628, 721.69624pt x 325.215pt>
+File: figures/fit-box.png Graphic file (type png)
+<use figures/fit-box.png>
+Package pdftex.def Info: figures/fit-box.png  used on input line 695.
+(pdftex.def)             Requested size: 298.75394pt x 134.62427pt.
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [32
 
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/fit-box.png>]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [33
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [34
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+<figures/simple.png, id=2859, 903.375pt x 903.375pt>
+File: figures/simple.png Graphic file (type png)
+<use figures/simple.png>
+Package pdftex.def Info: figures/simple.png  used on input line 737.
+(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
+
+Overfull \hbox (33.56616pt too wide) in paragraph at lines 737--737
+ [] 
+ []
+
+<figures/simple-kt-1.png, id=2860, 903.375pt x 903.375pt>
+File: figures/simple-kt-1.png Graphic file (type png)
+<use figures/simple-kt-1.png>
+Package pdftex.def Info: figures/simple-kt-1.png  used on input line 737.
+(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
+
+Overfull \hbox (33.56616pt too wide) in paragraph at lines 737--737
+ [] 
+ []
+
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [35
 
-]
-<figures/fit-box.png, id=3898, 721.69624pt x 325.215pt>
-File: figures/fit-box.png Graphic file (type png)
-<use figures/fit-box.png>
-Package pdftex.def Info: figures/fit-box.png  used on input line 750.
-(pdftex.def)             Requested size: 298.75394pt x 134.62427pt.
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/simple.png> <./figures/simple-kt-1.png>]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [36
 
- <./figures/fit-box.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [37
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [38
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+<figures/Likelihood.png, id=3170, 1202.4925pt x 879.285pt>
+File: figures/Likelihood.png Graphic file (type png)
+<use figures/Likelihood.png>
+Package pdftex.def Info: figures/Likelihood.png  used on input line 831.
+(pdftex.def)             Requested size: 170.71475pt x 142.25824pt.
+
+Overfull \hbox (17.06982pt too wide) in paragraph at lines 831--831
+ [] 
+ []
+
+<figures/kt-1/Likelihood-kt-1.png, id=3171, 1200.485pt x 875.27pt>
+File: figures/kt-1/Likelihood-kt-1.png Graphic file (type png)
+<use figures/kt-1/Likelihood-kt-1.png>
+Package pdftex.def Info: figures/kt-1/Likelihood-kt-1.png  used on input line 8
+31.
+(pdftex.def)             Requested size: 170.70453pt x 142.26308pt.
+
+Overfull \hbox (17.0596pt too wide) in paragraph at lines 831--831
+ [] 
+ []
+
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [39
 
-]
-<figures/kin.png, id=4315, 903.375pt x 903.375pt>
-File: figures/kin.png Graphic file (type png)
-<use figures/kin.png>
-Package pdftex.def Info: figures/kin.png  used on input line 823.
-(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
-
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 823--823
- [] 
- []
-
-<figures/simple.png, id=4316, 903.375pt x 903.375pt>
+ <./figures/Likelihood.png> <./figures/kt-1/Likelihood-kt-1.png>]
 File: figures/simple.png Graphic file (type png)
 <use figures/simple.png>
-Package pdftex.def Info: figures/simple.png  used on input line 823.
-(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
+Package pdftex.def Info: figures/simple.png  used on input line 847.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/150fb/simple-150.png, id=3249, 903.375pt x 903.375pt>
+File: figures/150fb/simple-150.png Graphic file (type png)
+<use figures/150fb/simple-150.png>
+Package pdftex.def Info: figures/150fb/simple-150.png  used on input line 847.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/300fb/simple-300.png, id=3250, 903.375pt x 903.375pt>
+File: figures/300fb/simple-300.png Graphic file (type png)
+<use figures/300fb/simple-300.png>
+Package pdftex.def Info: figures/300fb/simple-300.png  used on input line 847.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/3000fb/simple-3000.png, id=3251, 903.375pt x 903.375pt>
+File: figures/3000fb/simple-3000.png Graphic file (type png)
+<use figures/3000fb/simple-3000.png>
+Package pdftex.def Info: figures/3000fb/simple-3000.png  used on input line 847
+.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
 
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 823--823
+Overfull \hbox (29.67058pt too wide) in paragraph at lines 847--847
  [] 
  []
 
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \vbox (5.58946pt too high) detected at line 847
+ []
+
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [40
 
- <./figures/kin.png> <./figures/simple.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/150fb/simple-150.png> <./figures/300fb/simple-300.png> <./figures/3
+000fb/simple-3000.png>]
+File: figures/Likelihood.png Graphic file (type png)
+<use figures/Likelihood.png>
+Package pdftex.def Info: figures/Likelihood.png  used on input line 863.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/150fb/Likelihood.png, id=3328, 1202.4925pt x 879.285pt>
+File: figures/150fb/Likelihood.png Graphic file (type png)
+<use figures/150fb/Likelihood.png>
+Package pdftex.def Info: figures/150fb/Likelihood.png  used on input line 863.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/300fb/Likelihood.png, id=3329, 1202.4925pt x 879.285pt>
+File: figures/300fb/Likelihood.png Graphic file (type png)
+<use figures/300fb/Likelihood.png>
+Package pdftex.def Info: figures/300fb/Likelihood.png  used on input line 863.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/3000fb/Likelihood.png, id=3330, 1202.4925pt x 879.285pt>
+File: figures/3000fb/Likelihood.png Graphic file (type png)
+<use figures/3000fb/Likelihood.png>
+Package pdftex.def Info: figures/3000fb/Likelihood.png  used on input line 863.
+
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+
+Overfull \hbox (29.6627pt too wide) in paragraph at lines 863--863
+ [] 
+ []
+
+
+Overfull \vbox (5.59901pt too high) detected at line 863
+ []
+
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [41
 
-]
-<figures/kt-1/kin-kt-1.png, id=4521, 903.375pt x 903.375pt>
-File: figures/kt-1/kin-kt-1.png Graphic file (type png)
-<use figures/kt-1/kin-kt-1.png>
-Package pdftex.def Info: figures/kt-1/kin-kt-1.png  used on input line 873.
-(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
+ <./figures/150fb/Likelihood.png> <./figures/300fb/Likelihood.png> <./figures/3
+000fb/Likelihood.png>]
+File: figures/simple-kt-1.png Graphic file (type png)
+<use figures/simple-kt-1.png>
+Package pdftex.def Info: figures/simple-kt-1.png  used on input line 880.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/kt-1/150fb/simple-150-kt-1.png, id=3408, 903.375pt x 903.375pt>
+File: figures/kt-1/150fb/simple-150-kt-1.png Graphic file (type png)
+<use figures/kt-1/150fb/simple-150-kt-1.png>
+Package pdftex.def Info: figures/kt-1/150fb/simple-150-kt-1.png  used on input 
+line 880.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/kt-1/300fb/simple-300-kt-1.png, id=3409, 903.375pt x 903.375pt>
+File: figures/kt-1/300fb/simple-300-kt-1.png Graphic file (type png)
+<use figures/kt-1/300fb/simple-300-kt-1.png>
+Package pdftex.def Info: figures/kt-1/300fb/simple-300-kt-1.png  used on input 
+line 880.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/kt-1/3000fb/simple-3000-kt-1.png, id=3410, 903.375pt x 903.375pt>
+File: figures/kt-1/3000fb/simple-3000-kt-1.png Graphic file (type png)
+<use figures/kt-1/3000fb/simple-3000-kt-1.png>
+Package pdftex.def Info: figures/kt-1/3000fb/simple-3000-kt-1.png  used on inpu
+t line 880.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
 
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 873--873
- [][] 
+Overfull \hbox (29.67058pt too wide) in paragraph at lines 880--880
+ [] 
  []
 
-<figures/kt-1/simple-kt-1.png, id=4522, 903.375pt x 903.375pt>
-File: figures/kt-1/simple-kt-1.png Graphic file (type png)
-<use figures/kt-1/simple-kt-1.png>
-Package pdftex.def Info: figures/kt-1/simple-kt-1.png  used on input line 873.
-(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
 
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 873--873
- [][] 
+Overfull \vbox (5.58946pt too high) detected at line 880
  []
 
 
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [42
 
- <./figures/kt-1/kin-kt-1.png> <./figures/kt-1/simple-kt-1.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/kt-1/150fb/simple-150-kt-1.png> <./figures/kt-1/300fb/simple-300-kt
+-1.png> <./figures/kt-1/3000fb/simple-3000-kt-1.png>]
+<figures/kt-1/35.9fb/Likelihood-kt-1.png, id=3488, 1200.485pt x 875.27pt>
+File: figures/kt-1/35.9fb/Likelihood-kt-1.png Graphic file (type png)
+<use figures/kt-1/35.9fb/Likelihood-kt-1.png>
+Package pdftex.def Info: figures/kt-1/35.9fb/Likelihood-kt-1.png  used on input
+ line 897.
+(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
+<figures/kt-1/150fb/Likelihood.png, id=3489, 1202.4925pt x 879.285pt>
+File: figures/kt-1/150fb/Likelihood.png Graphic file (type png)
+<use figures/kt-1/150fb/Likelihood.png>
+Package pdftex.def Info: figures/kt-1/150fb/Likelihood.png  used on input line 
+897.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/kt-1/300fb/Likelihood.png, id=3490, 1202.4925pt x 879.285pt>
+File: figures/kt-1/300fb/Likelihood.png Graphic file (type png)
+<use figures/kt-1/300fb/Likelihood.png>
+Package pdftex.def Info: figures/kt-1/300fb/Likelihood.png  used on input line 
+897.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/kt-1/3000fb/Likelihood.png, id=3491, 1202.4925pt x 879.285pt>
+File: figures/kt-1/3000fb/Likelihood.png Graphic file (type png)
+<use figures/kt-1/3000fb/Likelihood.png>
+Package pdftex.def Info: figures/kt-1/3000fb/Likelihood.png  used on input line
+ 897.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+
+Overfull \hbox (29.67625pt too wide) in paragraph at lines 897--897
+ [] 
+ []
+
+
+Overfull \vbox (5.59901pt too high) detected at line 897
+ []
+
+
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [43
 
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ <./figures/kt-1/35.9fb/Likelihood-kt-1.png> <./figures/kt-1/150fb/Likelihood.p
+ng> <./figures/kt-1/300fb/Likelihood.png> <./figures/kt-1/3000fb/Likelihood.png
+>]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [44
 
 ]
-<figures/Likelihood.png, id=4830, 1200.485pt x 875.27pt>
-File: figures/Likelihood.png Graphic file (type png)
-<use figures/Likelihood.png>
-Package pdftex.def Info: figures/Likelihood.png  used on input line 946.
-(pdftex.def)             Requested size: 170.70453pt x 142.26308pt.
-
-Overfull \hbox (17.0596pt too wide) in paragraph at lines 946--946
- [] 
- []
-
-<figures/kt-1/Likelihood-kt-1.png, id=4831, 1200.485pt x 875.27pt>
-File: figures/kt-1/Likelihood-kt-1.png Graphic file (type png)
-<use figures/kt-1/Likelihood-kt-1.png>
-Package pdftex.def Info: figures/kt-1/Likelihood-kt-1.png  used on input line 9
-46.
-(pdftex.def)             Requested size: 170.70453pt x 142.26308pt.
-
-Overfull \hbox (17.0596pt too wide) in paragraph at lines 946--946
- [] 
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [45
 
- <./figures/Likelihood.png> <./figures/kt-1/Likelihood-kt-1.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [46
 
 ]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [47
 
 ]
-<figures/nos.png, id=5139, 1200.485pt x 875.27pt>
-File: figures/nos.png Graphic file (type png)
-<use figures/nos.png>
-Package pdftex.def Info: figures/nos.png  used on input line 992.
-(pdftex.def)             Requested size: 170.70453pt x 113.80244pt.
-<figures/normal-curve.jpg, id=5140, 351.3125pt x 239.89626pt>
-File: figures/normal-curve.jpg Graphic file (type jpg)
-<use figures/normal-curve.jpg>
-Package pdftex.def Info: figures/normal-curve.jpg  used on input line 992.
-(pdftex.def)             Requested size: 113.81068pt x 142.26599pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 973.
 
-Overfull \hbox (25.6676pt too wide) in paragraph at lines 992--992
- [] 
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [48
 
- <./figures/nos.png> <./figures/normal-curve.jpg>]
-<figures/lumi-table.png, id=5243, 645.41125pt x 272.01625pt>
-File: figures/lumi-table.png Graphic file (type png)
-<use figures/lumi-table.png>
-Package pdftex.def Info: figures/lumi-table.png  used on input line 1003.
-(pdftex.def)             Requested size: 322.70483pt x 136.00778pt.
-
-Overfull \hbox (15.41496pt too wide) in paragraph at lines 1003--1003
- [] 
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [49
 
- <./figures/lumi-table.png>]
-<figures/35.9fb/kin.png, id=5350, 903.375pt x 903.375pt>
-File: figures/35.9fb/kin.png Graphic file (type png)
-<use figures/35.9fb/kin.png>
-Package pdftex.def Info: figures/35.9fb/kin.png  used on input line 1017.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/150fb/kin.png, id=5351, 903.375pt x 903.375pt>
-File: figures/150fb/kin.png Graphic file (type png)
-<use figures/150fb/kin.png>
-Package pdftex.def Info: figures/150fb/kin.png  used on input line 1017.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/300fb/kin-300.png, id=5352, 903.375pt x 903.375pt>
-File: figures/300fb/kin-300.png Graphic file (type png)
-<use figures/300fb/kin-300.png>
-Package pdftex.def Info: figures/300fb/kin-300.png  used on input line 1017.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/3000fb/kin-3000.png, id=5353, 903.375pt x 903.375pt>
-File: figures/3000fb/kin-3000.png Graphic file (type png)
-<use figures/3000fb/kin-3000.png>
-Package pdftex.def Info: figures/3000fb/kin-3000.png  used on input line 1017.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-
-Overfull \hbox (29.67058pt too wide) in paragraph at lines 1017--1017
- [] 
- []
-
-
-Overfull \vbox (5.58946pt too high) detected at line 1017
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [50
 
- <./figures/35.9fb/kin.png> <./figures/150fb/kin.png> <./figures/300fb/kin-300.
-png> <./figures/3000fb/kin-3000.png>]
-<figures/35.9fb/Likelihood.png, id=5456, 1200.485pt x 875.27pt>
-File: figures/35.9fb/Likelihood.png Graphic file (type png)
-<use figures/35.9fb/Likelihood.png>
-Package pdftex.def Info: figures/35.9fb/Likelihood.png  used on input line 1033
-.
-(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
-<figures/150fb/Likelihood.png, id=5457, 903.375pt x 903.375pt>
-File: figures/150fb/Likelihood.png Graphic file (type png)
-<use figures/150fb/Likelihood.png>
-Package pdftex.def Info: figures/150fb/Likelihood.png  used on input line 1033.
-
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/300fb/Likelihood.png, id=5458, 1200.485pt x 875.27pt>
-File: figures/300fb/Likelihood.png Graphic file (type png)
-<use figures/300fb/Likelihood.png>
-Package pdftex.def Info: figures/300fb/Likelihood.png  used on input line 1033.
-
-(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
-<figures/3000fb/Likelihood.png, id=5459, 1202.4925pt x 683.55376pt>
-File: figures/3000fb/Likelihood.png Graphic file (type png)
-<use figures/3000fb/Likelihood.png>
-Package pdftex.def Info: figures/3000fb/Likelihood.png  used on input line 1033
-.
-(pdftex.def)             Requested size: 156.47629pt x 85.35013pt.
-
-Overfull \hbox (29.68019pt too wide) in paragraph at lines 1033--1033
- [] 
- []
-
-
-Overfull \vbox (5.5941pt too high) detected at line 1033
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [51
 
- <./figures/35.9fb/Likelihood.png> <./figures/150fb/Likelihood.png> <./figures/
-300fb/Likelihood.png> <./figures/3000fb/Likelihood.png>]
-<figures/kt-1/35.9fb/kin.png, id=5562, 903.375pt x 903.375pt>
-File: figures/kt-1/35.9fb/kin.png Graphic file (type png)
-<use figures/kt-1/35.9fb/kin.png>
-Package pdftex.def Info: figures/kt-1/35.9fb/kin.png  used on input line 1050.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/150fb/kin.png, id=5563, 903.375pt x 903.375pt>
-File: figures/kt-1/150fb/kin.png Graphic file (type png)
-<use figures/kt-1/150fb/kin.png>
-Package pdftex.def Info: figures/kt-1/150fb/kin.png  used on input line 1050.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/300fb/kin-300.png, id=5564, 903.375pt x 903.375pt>
-File: figures/kt-1/300fb/kin-300.png Graphic file (type png)
-<use figures/kt-1/300fb/kin-300.png>
-Package pdftex.def Info: figures/kt-1/300fb/kin-300.png  used on input line 105
-0.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/3000fb/kin-3000.png, id=5565, 903.375pt x 903.375pt>
-File: figures/kt-1/3000fb/kin-3000.png Graphic file (type png)
-<use figures/kt-1/3000fb/kin-3000.png>
-Package pdftex.def Info: figures/kt-1/3000fb/kin-3000.png  used on input line 1
-050.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-
-Overfull \hbox (29.67058pt too wide) in paragraph at lines 1050--1050
- [] 
- []
-
-
-Overfull \vbox (5.58946pt too high) detected at line 1050
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [52
 
- <./figures/kt-1/35.9fb/kin.png> <./figures/kt-1/150fb/kin.png> <./figures/kt-1
-/300fb/kin-300.png> <./figures/kt-1/3000fb/kin-3000.png>]
-<figures/kt-1/35.9fb/Likelihood-kt-1.png, id=5668, 1200.485pt x 875.27pt>
-File: figures/kt-1/35.9fb/Likelihood-kt-1.png Graphic file (type png)
-<use figures/kt-1/35.9fb/Likelihood-kt-1.png>
-Package pdftex.def Info: figures/kt-1/35.9fb/Likelihood-kt-1.png  used on input
- line 1067.
-(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
-<figures/kt-1/150fb/Likelihood.png, id=5669, 903.375pt x 903.375pt>
-File: figures/kt-1/150fb/Likelihood.png Graphic file (type png)
-<use figures/kt-1/150fb/Likelihood.png>
-Package pdftex.def Info: figures/kt-1/150fb/Likelihood.png  used on input line 
-1067.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/300fb/Likelihood.png, id=5670, 1200.485pt x 875.27pt>
-File: figures/kt-1/300fb/Likelihood.png Graphic file (type png)
-<use figures/kt-1/300fb/Likelihood.png>
-Package pdftex.def Info: figures/kt-1/300fb/Likelihood.png  used on input line 
-1067.
-(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
-<figures/kt-1/3000fb/Likelihood.png, id=5671, 1202.4925pt x 683.55376pt>
-File: figures/kt-1/3000fb/Likelihood.png Graphic file (type png)
-<use figures/kt-1/3000fb/Likelihood.png>
-Package pdftex.def Info: figures/kt-1/3000fb/Likelihood.png  used on input line
- 1067.
-(pdftex.def)             Requested size: 156.47629pt x 85.35013pt.
-
-Overfull \hbox (29.68019pt too wide) in paragraph at lines 1067--1067
- [] 
- []
-
-
-Overfull \vbox (5.5941pt too high) detected at line 1067
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [53
 
- <./figures/kt-1/35.9fb/Likelihood-kt-1.png> <./figures/kt-1/150fb/Likelihood.p
-ng> <./figures/kt-1/300fb/Likelihood.png> <./figures/kt-1/3000fb/Likelihood.png
->]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
+]
+Overfull \hbox (121.5328pt too wide) has occurred while \output is active
+  [] [][] [][][][][] [][][] [][][] [][][][][][][][][][][][][][][][] [][][][] []
+[][][][][][][][][] [][] [][] [][][][][]  
  []
 
 [54
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[55
-
-]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1122
-.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[56
-
- </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[57
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[58
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[59
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[60
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[61
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[62
-
-]
-<figures/sk.png, id=6709, 490.08093pt x 386.94562pt>
-File: figures/sk.png Graphic file (type png)
-<use figures/sk.png>
-Package pdftex.def Info: figures/sk.png  used on input line 1209.
-(pdftex.def)             Requested size: 245.03987pt x 193.47234pt.
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[63
-
- <./figures/sk.png (PNG copy)>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[64
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[65
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[66
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[67
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[68
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[69
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[70
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[71
-
-]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[72
-
-]
-<figures/tmu.png, id=7734, 1369.115pt x 687.56876pt>
-File: figures/tmu.png Graphic file (type png)
-<use figures/tmu.png>
-Package pdftex.def Info: figures/tmu.png  used on input line 1372.
-(pdftex.def)             Requested size: 342.27791pt x 171.89177pt.
-
-Overfull \hbox (34.98804pt too wide) in paragraph at lines 1372--1372
- [] 
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[73
-
- <./figures/tmu.png>]
-File: figures/150fb/kin.png Graphic file (type png)
-<use figures/150fb/kin.png>
-Package pdftex.def Info: figures/150fb/kin.png  used on input line 1395.
-(pdftex.def)             Requested size: 170.70569pt x 170.70569pt.
-
-Overfull \hbox (22.06076pt too wide) in paragraph at lines 1395--1395
- [] 
- []
-
-<figures/150fb/simple.png, id=7838, 903.375pt x 903.375pt>
-File: figures/150fb/simple.png Graphic file (type png)
-<use figures/150fb/simple.png>
-Package pdftex.def Info: figures/150fb/simple.png  used on input line 1395.
-(pdftex.def)             Requested size: 170.70569pt x 170.70569pt.
-
-Overfull \hbox (22.06076pt too wide) in paragraph at lines 1395--1395
- [] 
- []
-
-
-Overfull \vbox (14.82343pt too high) detected at line 1395
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[74
-
- <./figures/150fb/simple.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[75
-
-]
-File: figures/300fb/kin-300.png Graphic file (type png)
-<use figures/300fb/kin-300.png>
-Package pdftex.def Info: figures/300fb/kin-300.png  used on input line 1444.
-(pdftex.def)             Requested size: 170.70569pt x 170.70569pt.
-
-Overfull \hbox (22.06076pt too wide) in paragraph at lines 1444--1444
- [] 
- []
-
-<figures/300fb/simple.png, id=8043, 903.375pt x 903.375pt>
-File: figures/300fb/simple.png Graphic file (type png)
-<use figures/300fb/simple.png>
-Package pdftex.def Info: figures/300fb/simple.png  used on input line 1444.
-(pdftex.def)             Requested size: 170.70569pt x 170.70569pt.
-
-Overfull \hbox (22.06076pt too wide) in paragraph at lines 1444--1444
- [] 
- []
-
-
-Overfull \vbox (14.82343pt too high) detected at line 1444
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[76
-
- <./figures/300fb/simple.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[77
-
-]
-File: figures/3000fb/kin-3000.png Graphic file (type png)
-<use figures/3000fb/kin-3000.png>
-Package pdftex.def Info: figures/3000fb/kin-3000.png  used on input line 1494.
-(pdftex.def)             Requested size: 170.70569pt x 170.70569pt.
-
-Overfull \hbox (22.06076pt too wide) in paragraph at lines 1494--1494
- [] 
- []
-
-<figures/3000fb/simple.png, id=8248, 903.375pt x 903.375pt>
-File: figures/3000fb/simple.png Graphic file (type png)
-<use figures/3000fb/simple.png>
-Package pdftex.def Info: figures/3000fb/simple.png  used on input line 1494.
-(pdftex.def)             Requested size: 170.70569pt x 170.70569pt.
-
-Overfull \hbox (22.06076pt too wide) in paragraph at lines 1494--1494
- [] 
- []
-
-
-Overfull \vbox (14.82343pt too high) detected at line 1494
- []
-
-
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[78
-
- <./figures/3000fb/simple.png>]
-Overfull \hbox (173.57854pt too wide) has occurred while \output is active
-  [] [][] [][][][][] [][][] [][][][][][][] [][][][][][][][][][][][][][][][] [][
-][][][] [][][][][][][][][][][][][][] [] [][] [][][][][][][][][][][][][][][][][]
-[][][][][]  
- []
-
-[79
 
 ]
 \tf@nav=\write6
@@ -2694,21 +2278,21 @@ Overfull \hbox (173.57854pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentacion-tesis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1527.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1527.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1067.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1067.
  (./presentacion-tesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1067.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1067.
 
 Package rerunfilecheck Info: File `presentacion-tesis.out' has not changed.
 (rerunfilecheck)             Checksum: FE5CF144E8E77E94F4D3A6EC9F21932D;499.
  ) 
 Here is how much of TeX's memory you used:
- 24535 strings out of 494719
- 467639 string characters out of 6174034
- 597745 words of memory out of 5000000
- 27118 multiletter control sequences out of 15000+600000
- 88874 words of font info for 78 fonts, out of 8000000 for 9000
+ 24380 strings out of 494719
+ 465134 string characters out of 6174034
+ 573137 words of memory out of 5000000
+ 27017 multiletter control sequences out of 15000+600000
+ 86106 words of font info for 77 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
  56i,20n,61p,812b,885s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2723,17 +2307,16 @@ s/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb><
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmtt10.pfb>
-Output written on presentacion-tesis.pdf (79 pages, 4967793 bytes).
+xmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on presentacion-tesis.pdf (54 pages, 4435030 bytes).
 PDF statistics:
- 8577 PDF objects out of 8907 (max. 8388607)
- 8232 compressed objects within 83 object streams
- 177 named destinations out of 1000 (max. 500000)
- 402 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4543 PDF objects out of 5155 (max. 8388607)
+ 4312 compressed objects within 44 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
 
