@@ -2,8 +2,7 @@
 \beamer@sectionintoc {2}{Introduction}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Standard Model}{5}{0}{2}
 \beamer@subsectionintoc {2}{2}{Higgs mechanism}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Higgs production mechanisms}{9}{0}{2}
-\beamer@subsectionintoc {2}{4}{Production cross section}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{Higgs production mechanisms and decays}{9}{0}{2}
 \beamer@sectionintoc {3}{LHC and CMS}{17}{0}{3}
 \beamer@subsectionintoc {3}{1}{LHC}{17}{0}{3}
 \beamer@subsectionintoc {3}{2}{CMS dectector}{19}{0}{3}
@@ -14,10 +13,10 @@
 \beamer@subsectionintoc {4}{4}{Main backgrounds}{26}{0}{4}
 \beamer@subsectionintoc {4}{5}{Systematic uncertainties}{28}{0}{4}
 \beamer@subsectionintoc {4}{6}{BDT}{29}{0}{4}
-\beamer@sectionintoc {5}{Statistical analysis}{31}{0}{5}
-\beamer@subsectionintoc {5}{1}{Likelihood model}{32}{0}{5}
-\beamer@subsectionintoc {5}{2}{Results}{34}{0}{5}
-\beamer@sectionintoc {6}{Results}{35}{0}{6}
-\beamer@sectionintoc {7}{Conclusions}{44}{0}{7}
-\beamer@sectionintoc {8}{References}{46}{0}{8}
-\beamer@sectionintoc {9}{Supportive slides}{48}{0}{9}
+\beamer@sectionintoc {5}{Statistical analysis}{30}{0}{5}
+\beamer@subsectionintoc {5}{1}{Likelihood model}{31}{0}{5}
+\beamer@subsectionintoc {5}{2}{Results}{33}{0}{5}
+\beamer@sectionintoc {6}{Results}{34}{0}{6}
+\beamer@sectionintoc {7}{Conclusions}{43}{0}{7}
+\beamer@sectionintoc {8}{References}{45}{0}{8}
+\beamer@sectionintoc {9}{Supportive slides}{47}{0}{9}

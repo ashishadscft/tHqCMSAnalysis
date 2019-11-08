@@ -1,0 +1,129 @@
+******************************************************************************
+*Tree    :tuple     : tuple                                                  *
+*Entries :     1363 : Total =          186943 bytes  File  Size =     115850 *
+*        :          : Tree compression factor =   1.50                       *
+******************************************************************************
+*Br    0 :l1_pt     : l1_pt/F                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =       4907 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    1 :l1_eta    : l1_eta/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5136 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br    2 :l1_phi    : l1_phi/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5159 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br    3 :l1_ch     : l1_ch/I                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =        693 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.97     *
+*............................................................................*
+*Br    4 :l2_pt     : l2_pt/F                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =       4935 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
+*Br    5 :l2_eta    : l2_eta/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5152 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br    6 :l2_phi    : l2_phi/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5132 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br    7 :l2_ch     : l2_ch/I                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =        693 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.97     *
+*............................................................................*
+*Br    8 :nj        : nj/I                                                   *
+*Entries :     1363 : Total  Size=       5995 bytes  File Size  =       1026 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.38     *
+*............................................................................*
+*Br    9 :ncj       : ncj/I                                                  *
+*Entries :     1363 : Total  Size=       6000 bytes  File Size  =       1014 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.45     *
+*............................................................................*
+*Br   10 :nbj       : nbj/I                                                  *
+*Entries :     1363 : Total  Size=       6000 bytes  File Size  =        707 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.81     *
+*............................................................................*
+*Br   11 :nfj       : nfj/I                                                  *
+*Entries :     1363 : Total  Size=       6000 bytes  File Size  =        880 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.28     *
+*............................................................................*
+*Br   12 :j1_pt     : j1_pt/F                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =       4925 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
+*Br   13 :j1_eta    : j1_eta/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5177 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br   14 :j1_phi    : j1_phi/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5147 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br   15 :j1_csv    : j1_csv/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       4377 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.26     *
+*............................................................................*
+*Br   16 :j1_puid   : j1_puid/I                                              *
+*Entries :     1363 : Total  Size=       6020 bytes  File Size  =        482 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  11.47     *
+*............................................................................*
+*Br   17 :b1_pt     : b1_pt/F                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =       4942 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
+*Br   18 :b1_eta    : b1_eta/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5152 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br   19 :b1_phi    : b1_phi/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5152 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br   20 :b1_csv    : b1_csv/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       4574 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.21     *
+*............................................................................*
+*Br   21 :b1_puid   : b1_puid/I                                              *
+*Entries :     1363 : Total  Size=       6020 bytes  File Size  =        449 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  12.31     *
+*............................................................................*
+*Br   22 :fj_pt     : fj_pt/F                                                *
+*Entries :     1363 : Total  Size=       6010 bytes  File Size  =       4949 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
+*Br   23 :fj_eta    : fj_eta/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5048 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.09     *
+*............................................................................*
+*Br   24 :fj_phi    : fj_phi/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       5137 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br   25 :fj_csv    : fj_csv/F                                               *
+*Entries :     1363 : Total  Size=       6015 bytes  File Size  =       2420 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.28     *
+*............................................................................*
+*Br   26 :fj_puid   : fj_puid/I                                              *
+*Entries :     1363 : Total  Size=       6020 bytes  File Size  =        644 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   8.58     *
+*............................................................................*
+*Br   27 :deta_fj_b1 : deta_fj_b1/F                                          *
+*Entries :     1363 : Total  Size=       6035 bytes  File Size  =       4945 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
+*Br   28 :deta_fj_l : deta_fj_l/F                                            *
+*Entries :     1363 : Total  Size=       6030 bytes  File Size  =       4994 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.11     *
+*............................................................................*
+*Br   29 :dphi_l1_l2 : dphi_l1_l2/F                                          *
+*Entries :     1363 : Total  Size=       6035 bytes  File Size  =       5135 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br   30 :dR_l1_l2  : dR_l1_l2/F                                             *
+*Entries :     1363 : Total  Size=       6025 bytes  File Size  =       4923 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.12     *
+*............................................................................*
