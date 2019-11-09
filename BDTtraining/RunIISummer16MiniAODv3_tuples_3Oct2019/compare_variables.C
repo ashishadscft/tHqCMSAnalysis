@@ -37,13 +37,11 @@ void compare_variables(){
 
 
   ///compare one variable
-  TH1F H1("H1","",5,-3,3);
-  TH1F H2("H2","",5,-3,3);
+  TH1F H1("H1","",50,0,7);
+  TH1F H2("H2","",50,0,7);
 
-
-
- t1.Draw("(l1_ch+l2_ch)>>H1","(l1_ch+l2_ch)!=0>>H1");
- t2.Draw("(l1_ch+l2_ch)>>H2","(l1_ch+l2_ch)!=0>>H2");
+  t1.Draw("deta_fj_l>>H1");
+  t2.Draw("deta_fj_l>>H2");
 
   H1.Scale(1.0/H1.Integral());
   H2.Scale(1.0/H2.Integral());
@@ -57,13 +55,13 @@ void compare_variables(){
   H2.Draw("histsame");
 
   //
-  //H1.SetAxisRange(0,0.2,"Y");
-  H1.SetAxisRange(-4,4,"X");
+  H1.SetAxisRange(0,0.1,"Y");
+  H1.SetAxisRange(0,8,"X");
   H1.SetYTitle("Events normalized to unit area");
   H1.SetStats(0);
-  H1.SetXTitle("Number of untagged jets with |#eta|>1.0");
+  H1.SetXTitle("#Delta#eta between forward light jet and closest lepton");
 
-  auto legend = new TLegend(0.75,0.75,0.89,0.89);
+  auto legend = new TLegend(0.8,0.7,0.86,0.8);
   legend->AddEntry("H1","tHq","l");
   legend->AddEntry("H2","t#bar{t}W","l");
   legend->SetBorderSize(0);
