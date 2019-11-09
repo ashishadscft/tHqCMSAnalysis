@@ -30,18 +30,18 @@ void compare_variables(){
 
 
   TCanvas C;
-  C.Print("compare_variables.eps");
-  C.Print("compare_variables.png");
-  C.Print("compare_variables.pdf");
+  C.Print("compare_variables-pt-sub.eps");
+  C.Print("compare_variables-pt-sub.png");
+  C.Print("compare_variables-pt-sub.pdf");
 
 
 
   ///compare one variable
-  TH1F H1("H1","",50,0,7);
-  TH1F H2("H2","",50,0,7);
+  TH1F H1("H1","",40,0,200);
+  TH1F H2("H2","",40,0,200);
 
-  t1.Draw("deta_fj_l>>H1");
-  t2.Draw("deta_fj_l>>H2");
+  t1.Draw("l2_pt>>H1");
+  t2.Draw("l2_pt>>H2");
 
   H1.Scale(1.0/H1.Integral());
   H2.Scale(1.0/H2.Integral());
@@ -55,11 +55,11 @@ void compare_variables(){
   H2.Draw("histsame");
 
   //
-  H1.SetAxisRange(0,0.1,"Y");
-  H1.SetAxisRange(0,8,"X");
+  //H1.SetAxisRange(0,0.05,"Y");
+  H1.SetAxisRange(0,150,"X");
   H1.SetYTitle("Events normalized to unit area");
   H1.SetStats(0);
-  H1.SetXTitle("#Delta#eta between forward light jet and closest lepton");
+  H1.SetXTitle("pT of subleading lepton");
 
   auto legend = new TLegend(0.8,0.7,0.86,0.8);
   legend->AddEntry("H1","tHq","l");
@@ -69,9 +69,9 @@ void compare_variables(){
   legend->SetEntrySeparation(0.5);
   legend->Draw();
 
-  C.Print("compare_variables.png");
-  C.Print("compare_variables.eps");
-  C.Print("compare_variables.pdf");
+  C.Print("compare_variables-pt-sub.png");
+  C.Print("compare_variables-pt-sub.eps");
+  C.Print("compare_variables-pt-sub.pdf");
   //compare correlations
   C.Clear();
   C.Divide(1,2);

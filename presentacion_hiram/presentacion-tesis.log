@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  8 NOV 2019 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  8 NOV 2019 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1259,21 +1259,21 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 )) (./presentacion-tesis.aux)
 \openout1 = `presentacion-tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 33.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1326,7 +1326,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks50
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box87
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1336,60 +1336,60 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count191
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./presentacion-tesis.out) (./presentacion-tesis.out)
 \@outlinefile=\write5
 \openout5 = `presentacion-tesis.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 32.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 33.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 32.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 32.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 32.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 32.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 32.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 32.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 32.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 32.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 32.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 32.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 32.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 32.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1420,28 +1420,28 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count192
  (./presentacion-tesis.nav)
-Overfull \hbox (104.58089pt too wide) detected at line 32
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+Overfull \hbox (104.58089pt too wide) detected at line 33
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 35.
+(hyperref)                setting the option has no effect on input line 36.
 
 
-Overfull \vbox (178.86232pt too high) detected at line 52
+Overfull \vbox (178.86232pt too high) detected at line 53
  []
 
-<unison-logo.png, id=152, 321.2pt x 321.2pt>
+<unison-logo.png, id=155, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 52.
+Package pdftex.def Info: unison-logo.png  used on input line 53.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1493,17 +1493,17 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 10.
 )
-Overfull \vbox (42.7073pt too high) detected at line 56
+Overfull \vbox (42.7073pt too high) detected at line 57
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 56.
+Package pdftex.def Info: unison-logo.png  used on input line 57.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [2
@@ -1511,12 +1511,12 @@ Overfull \hbox (104.58089pt too wide) has occurred while \output is active
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 73.
+Package pdftex.def Info: unison-logo.png  used on input line 74.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [3
@@ -1524,57 +1524,57 @@ Overfull \hbox (104.58089pt too wide) has occurred while \output is active
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 84.
+Package pdftex.def Info: unison-logo.png  used on input line 85.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [4
 
 ]
-<figures/sm1.png, id=492, 1397.22pt x 926.71219pt>
+<figures/sm1.png, id=510, 1397.22pt x 926.71219pt>
 File: figures/sm1.png Graphic file (type png)
 <use figures/sm1.png>
-Package pdftex.def Info: figures/sm1.png  used on input line 96.
+Package pdftex.def Info: figures/sm1.png  used on input line 97.
 (pdftex.def)             Requested size: 170.7079pt x 142.25313pt.
-<figures/sm.png, id=493, 853.1875pt x 810.02625pt>
+<figures/sm.png, id=511, 853.1875pt x 810.02625pt>
 File: figures/sm.png Graphic file (type png)
 <use figures/sm.png>
-Package pdftex.def Info: figures/sm.png  used on input line 96.
+Package pdftex.def Info: figures/sm.png  used on input line 97.
 (pdftex.def)             Requested size: 142.25398pt x 142.26347pt.
 
-Overfull \hbox (29.67201pt too wide) in paragraph at lines 96--96
+Overfull \hbox (29.67201pt too wide) in paragraph at lines 97--97
  [] 
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 96.
+Package pdftex.def Info: unison-logo.png  used on input line 97.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [5
 
  <./figures/sm1.png> <./figures/sm.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 141.
+(Font)              <5> on input line 142.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 142.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 141.
+Package pdftex.def Info: unison-logo.png  used on input line 142.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [6
@@ -1582,214 +1582,214 @@ Overfull \hbox (104.58089pt too wide) has occurred while \output is active
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 205.
+Package pdftex.def Info: unison-logo.png  used on input line 206.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (2.72624pt too wide) detected at line 232
+Overfull \hbox (2.72624pt too wide) detected at line 233
 []
  []
 
 
-Overfull \vbox (1.92603pt too high) detected at line 232
+Overfull \vbox (1.92603pt too high) detected at line 233
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 232.
+Package pdftex.def Info: unison-logo.png  used on input line 233.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [8
 
 ]
-<figures/pg.png, id=765, 807.7678pt x 367.3725pt>
+<figures/pg.png, id=796, 807.7678pt x 367.3725pt>
 File: figures/pg.png Graphic file (type png)
 <use figures/pg.png>
-Package pdftex.def Info: figures/pg.png  used on input line 242.
+Package pdftex.def Info: figures/pg.png  used on input line 243.
 (pdftex.def)             Requested size: 323.1014pt x 146.94638pt.
 
-Overfull \hbox (15.81152pt too wide) in paragraph at lines 242--242
+Overfull \hbox (15.81152pt too wide) in paragraph at lines 243--243
  [] 
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [9
 
  <./figures/pg.png (PNG copy)>]
-<figures/tq.png, id=830, 635.37375pt x 215.30438pt>
+<figures/tq.png, id=863, 635.37375pt x 215.30438pt>
 File: figures/tq.png Graphic file (type png)
 <use figures/tq.png>
-Package pdftex.def Info: figures/tq.png  used on input line 253.
+Package pdftex.def Info: figures/tq.png  used on input line 254.
 (pdftex.def)             Requested size: 254.14499pt x 86.12022pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 253.
+(Font)              <10> on input line 254.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 253.
+(Font)              <7> on input line 254.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 253.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 254.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 253.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 254.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 253.
+(Font)              <14.4> on input line 254.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 253.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 254.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [10
 
  <./figures/tq.png (PNG copy)>]
 
-Package caption Warning: \label without proper reference on input line 253.
+Package caption Warning: \label without proper reference on input line 254.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `th' on page 11 undefined on input line 268.
+LaTeX Warning: Reference `th' on page 11 undefined on input line 269.
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [11
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [12
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 326.
+(Font)              <9> on input line 327.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 326.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 327.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [13
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [14
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [15
 
 ]
-Overfull \hbox (12.55247pt too wide) in paragraph at lines 415--415
+Overfull \hbox (12.55247pt too wide) in paragraph at lines 416--416
  [] 
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [16
 
 ]
-<figures/CERN's-accelerator-complex2013.jpg, id=1288, 966.61125pt x 775.89874pt
+<figures/CERN's-accelerator-complex2013.jpg, id=1343, 966.61125pt x 775.89874pt
 >
 File: figures/CERN's-accelerator-complex2013.jpg Graphic file (type jpg)
 <use figures/CERN's-accelerator-complex2013.jpg>
 Package pdftex.def Info: figures/CERN's-accelerator-complex2013.jpg  used on in
-put line 425.
+put line 426.
 (pdftex.def)             Requested size: 193.31882pt x 155.177pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [17
 
  <./figures/CERN's-accelerator-complex2013.jpg>]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [18
 
 ]
-<figures/cms.png, id=1417, 3189.9175pt x 2253.41875pt>
+<figures/cms.png, id=1477, 3189.9175pt x 2253.41875pt>
 File: figures/cms.png Graphic file (type png)
 <use figures/cms.png>
-Package pdftex.def Info: figures/cms.png  used on input line 489.
+Package pdftex.def Info: figures/cms.png  used on input line 490.
 (pdftex.def)             Requested size: 255.19861pt x 180.27718pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [19
 
  <./figures/cms.png>]
-<figures/csc.png, id=1483, 380.92313pt x 243.15843pt>
+<figures/csc.png, id=1547, 380.92313pt x 243.15843pt>
 File: figures/csc.png Graphic file (type png)
 <use figures/csc.png>
-Package pdftex.def Info: figures/csc.png  used on input line 499.
+Package pdftex.def Info: figures/csc.png  used on input line 500.
 (pdftex.def)             Requested size: 228.55562pt x 145.89618pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [20
 
  <./figures/csc.png (PNG copy)>]
-<figures/cms_lumi.png, id=1549, 815.045pt x 646.415pt>
+<figures/cms_lumi.png, id=1616, 815.045pt x 646.415pt>
 File: figures/cms_lumi.png Graphic file (type png)
 <use figures/cms_lumi.png>
-Package pdftex.def Info: figures/cms_lumi.png  used on input line 511.
+Package pdftex.def Info: figures/cms_lumi.png  used on input line 512.
 (pdftex.def)             Requested size: 244.51538pt x 193.926pt.
 
-Overfull \vbox (5.84972pt too high) detected at line 511
+Overfull \vbox (5.84972pt too high) detected at line 512
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [21
@@ -1797,451 +1797,568 @@ Overfull \hbox (104.58089pt too wide) has occurred while \output is active
  <./figures/cms_lumi.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 543.
+(hyperref)                removing `math shift' on input line 544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 543.
+(hyperref)                removing `math shift' on input line 544.
 
-<figures/jet.png, id=1615, 201.75375pt x 321.45094pt>
+<figures/jet.png, id=1684, 201.75375pt x 321.45094pt>
 File: figures/jet.png Graphic file (type png)
 <use figures/jet.png>
-Package pdftex.def Info: figures/jet.png  used on input line 543.
+Package pdftex.def Info: figures/jet.png  used on input line 544.
 (pdftex.def)             Requested size: 100.87662pt x 160.72507pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [22
 
  <./figures/jet.png (PNG copy)>]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [23
 
 ]
-<figures/histo.png, id=1743, 451.6875pt x 568.1225pt>
-File: figures/histo.png Graphic file (type png)
-<use figures/histo.png>
-Package pdftex.def Info: figures/histo.png  used on input line 577.
-(pdftex.def)             Requested size: 135.5073pt x 170.43805pt.
-<figures/sc.png, id=1744, 580.1675pt x 565.11125pt>
-File: figures/sc.png Graphic file (type png)
-<use figures/sc.png>
-Package pdftex.def Info: figures/sc.png  used on input line 577.
-(pdftex.def)             Requested size: 138.2795pt x 134.68958pt.
-
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [24
 
- <./figures/histo.png> <./figures/sc.png>]
-<figures/kos.png, id=1812, 903.375pt x 903.375pt>
-File: figures/kos.png Graphic file (type png)
-<use figures/kos.png>
-Package pdftex.def Info: figures/kos.png  used on input line 597.
-(pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
-<figures/kos2.png, id=1813, 903.375pt x 903.375pt>
-File: figures/kos2.png Graphic file (type png)
-<use figures/kos2.png>
-Package pdftex.def Info: figures/kos2.png  used on input line 597.
-(pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
+]
+<figures/histo.png, id=1885, 451.6875pt x 568.1225pt>
+File: figures/histo.png Graphic file (type png)
+<use figures/histo.png>
+Package pdftex.def Info: figures/histo.png  used on input line 588.
+(pdftex.def)             Requested size: 135.5073pt x 170.43805pt.
+<figures/sc.png, id=1886, 580.1675pt x 565.11125pt>
+File: figures/sc.png Graphic file (type png)
+<use figures/sc.png>
+Package pdftex.def Info: figures/sc.png  used on input line 588.
+(pdftex.def)             Requested size: 138.2795pt x 134.68958pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [25
 
- <./figures/kos.png> <./figures/kos2.png>]
+ <./figures/histo.png> <./figures/sc.png>]
+<figures/kos.png, id=1958, 903.375pt x 903.375pt>
+File: figures/kos.png Graphic file (type png)
+<use figures/kos.png>
+Package pdftex.def Info: figures/kos.png  used on input line 608.
+(pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
+<figures/kos2.png, id=1959, 903.375pt x 903.375pt>
+File: figures/kos2.png Graphic file (type png)
+<use figures/kos2.png>
+Package pdftex.def Info: figures/kos2.png  used on input line 608.
+(pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
+
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [26
 
-]
+ <./figures/kos.png> <./figures/kos2.png>]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [27
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [28
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [29
 
 ]
-<figures/fit-box.png, id=2138, 721.69624pt x 325.215pt>
-File: figures/fit-box.png Graphic file (type png)
-<use figures/fit-box.png>
-Package pdftex.def Info: figures/fit-box.png  used on input line 715.
-(pdftex.def)             Requested size: 298.75394pt x 134.62427pt.
-
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [30
 
- <./figures/fit-box.png>]
-Overfull \vbox (0.51755pt too high) detected at line 732
+]
+LaTeX Font Info:    Calculating math sizes for size <4> on input line 729.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4> on input line 729.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <2.79999> on input line 729.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <2> on input line 729.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 729.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <2.79999> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 729.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <2> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 729.
+<figures/distributions/compare_variables-abs-pj-eta.pdf, id=2298, 569.12625pt x
+ 386.44376pt>
+File: figures/distributions/compare_variables-abs-pj-eta.pdf Graphic file (type
+ pdf)
+<use figures/distributions/compare_variables-abs-pj-eta.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-abs-pj-eta.pdf
+  used on input line 729.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variablescompare_variables-ncj24.pdf, id=2299, 5
+69.12625pt x 386.44376pt>
+File: figures/distributions/compare_variablescompare_variables-ncj24.pdf Graphi
+c file (type pdf)
+<use figures/distributions/compare_variablescompare_variables-ncj24.pdf>
+Package pdftex.def Info: figures/distributions/compare_variablescompare_variabl
+es-ncj24.pdf  used on input line 729.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-dr.pdf, id=2300, 569.12625pt x 386.443
+76pt>
+File: figures/distributions/compare_variables-dr.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-dr.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-dr.pdf  used o
+n input line 729.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-eta-fj-b1.pdf, id=2301, 569.12625pt x 
+386.44376pt>
+File: figures/distributions/compare_variables-eta-fj-b1.pdf Graphic file (type 
+pdf)
+<use figures/distributions/compare_variables-eta-fj-b1.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-eta-fj-b1.pdf 
+ used on input line 729.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+
+Overfull \hbox (29.68712pt too wide) in paragraph at lines 729--729
+ [] 
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [31
 
-]
+ <./figures/distributions/compare_variables-abs-pj-eta.pdf, page is rotated 90 
+degrees> <./figures/distributions/compare_variablescompare_variables-ncj24.pdf,
+ page is rotated 90 degrees> <./figures/distributions/compare_variables-dr.pdf,
+ page is rotated 90 degrees> <./figures/distributions/compare_variables-eta-fj-
+b1.pdf, page is rotated 90 degrees>]
+<figures/distributions/compare_variables-eta-fj-cl.pdf, id=2543, 569.12625pt x 
+386.44376pt>
+File: figures/distributions/compare_variables-eta-fj-cl.pdf Graphic file (type 
+pdf)
+<use figures/distributions/compare_variables-eta-fj-cl.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-eta-fj-cl.pdf 
+ used on input line 747.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-nfj.pdf, id=2544, 569.12625pt x 386.44
+376pt>
+File: figures/distributions/compare_variables-nfj.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-nfj.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-nfj.pdf  used 
+on input line 747.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-phi.pdf, id=2545, 569.12625pt x 386.44
+376pt>
+File: figures/distributions/compare_variables-phi.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-phi.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-phi.pdf  used 
+on input line 747.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-sch.pdf, id=2546, 569.12625pt x 386.44
+376pt>
+File: figures/distributions/compare_variables-sch.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-sch.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-sch.pdf  used 
+on input line 747.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+
+Overfull \hbox (29.68712pt too wide) in paragraph at lines 747--747
+ [] 
+ []
+
+
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [32
 
-]
-<figures/simple.png, id=2331, 903.375pt x 903.375pt>
-File: figures/simple.png Graphic file (type png)
-<use figures/simple.png>
-Package pdftex.def Info: figures/simple.png  used on input line 761.
-(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
-
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 761--761
- [] 
- []
-
-<figures/simple-kt-1.png, id=2332, 903.375pt x 903.375pt>
-File: figures/simple-kt-1.png Graphic file (type png)
-<use figures/simple-kt-1.png>
-Package pdftex.def Info: figures/simple-kt-1.png  used on input line 761.
-(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
-
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 761--761
- [] 
- []
-
+ <./figures/distributions/compare_variables-eta-fj-cl.pdf, page is rotated 90 d
+egrees> <./figures/distributions/compare_variables-nfj.pdf, page is rotated 90 
+degrees> <./figures/distributions/compare_variables-phi.pdf, page is rotated 90
+ degrees> <./figures/distributions/compare_variables-sch.pdf, page is rotated 9
+0 degrees>]
+<figures/fit-box.png, id=2786, 721.69624pt x 325.215pt>
+File: figures/fit-box.png Graphic file (type png)
+<use figures/fit-box.png>
+Package pdftex.def Info: figures/fit-box.png  used on input line 759.
+(pdftex.def)             Requested size: 298.75394pt x 134.62427pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [33
 
- <./figures/simple.png> <./figures/simple-kt-1.png>]
+ <./figures/fit-box.png>]
+Overfull \vbox (0.51755pt too high) detected at line 776
+ []
+
+
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [34
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [35
 
 ]
-<figures/Likelihood.png, id=2526, 1202.4925pt x 879.285pt>
-File: figures/Likelihood.png Graphic file (type png)
-<use figures/Likelihood.png>
-Package pdftex.def Info: figures/Likelihood.png  used on input line 823.
-(pdftex.def)             Requested size: 170.71475pt x 142.25824pt.
+<figures/simple.png, id=2987, 903.375pt x 903.375pt>
+File: figures/simple.png Graphic file (type png)
+<use figures/simple.png>
+Package pdftex.def Info: figures/simple.png  used on input line 805.
+(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
 
-Overfull \hbox (17.06982pt too wide) in paragraph at lines 823--823
+Overfull \hbox (33.56616pt too wide) in paragraph at lines 805--805
  [] 
  []
 
-<figures/kt-1/Likelihood-kt-1.png, id=2527, 1200.485pt x 875.27pt>
-File: figures/kt-1/Likelihood-kt-1.png Graphic file (type png)
-<use figures/kt-1/Likelihood-kt-1.png>
-Package pdftex.def Info: figures/kt-1/Likelihood-kt-1.png  used on input line 8
-23.
-(pdftex.def)             Requested size: 170.70453pt x 142.26308pt.
+<figures/simple-kt-1.png, id=2988, 903.375pt x 903.375pt>
+File: figures/simple-kt-1.png Graphic file (type png)
+<use figures/simple-kt-1.png>
+Package pdftex.def Info: figures/simple-kt-1.png  used on input line 805.
+(pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
 
-Overfull \hbox (17.0596pt too wide) in paragraph at lines 823--823
+Overfull \hbox (33.56616pt too wide) in paragraph at lines 805--805
  [] 
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [36
 
- <./figures/Likelihood.png> <./figures/kt-1/Likelihood-kt-1.png>]
-File: figures/simple.png Graphic file (type png)
-<use figures/simple.png>
-Package pdftex.def Info: figures/simple.png  used on input line 839.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/150fb/simple-150.png, id=2591, 903.375pt x 903.375pt>
-File: figures/150fb/simple-150.png Graphic file (type png)
-<use figures/150fb/simple-150.png>
-Package pdftex.def Info: figures/150fb/simple-150.png  used on input line 839.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/300fb/simple-300.png, id=2592, 903.375pt x 903.375pt>
-File: figures/300fb/simple-300.png Graphic file (type png)
-<use figures/300fb/simple-300.png>
-Package pdftex.def Info: figures/300fb/simple-300.png  used on input line 839.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/3000fb/simple-3000.png, id=2593, 903.375pt x 903.375pt>
-File: figures/3000fb/simple-3000.png Graphic file (type png)
-<use figures/3000fb/simple-3000.png>
-Package pdftex.def Info: figures/3000fb/simple-3000.png  used on input line 839
-.
-(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+ <./figures/simple.png> <./figures/simple-kt-1.png>]
+Overfull \hbox (104.58089pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
+ []
 
-Overfull \hbox (29.67058pt too wide) in paragraph at lines 839--839
+[37
+
+]
+Overfull \hbox (104.58089pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
+ []
+
+[38
+
+]
+<figures/Likelihood.png, id=3192, 1202.4925pt x 879.285pt>
+File: figures/Likelihood.png Graphic file (type png)
+<use figures/Likelihood.png>
+Package pdftex.def Info: figures/Likelihood.png  used on input line 867.
+(pdftex.def)             Requested size: 170.71475pt x 142.25824pt.
+
+Overfull \hbox (17.06982pt too wide) in paragraph at lines 867--867
+ [] 
+ []
+
+<figures/kt-1/Likelihood-kt-1.png, id=3193, 1200.485pt x 875.27pt>
+File: figures/kt-1/Likelihood-kt-1.png Graphic file (type png)
+<use figures/kt-1/Likelihood-kt-1.png>
+Package pdftex.def Info: figures/kt-1/Likelihood-kt-1.png  used on input line 8
+67.
+(pdftex.def)             Requested size: 170.70453pt x 142.26308pt.
+
+Overfull \hbox (17.0596pt too wide) in paragraph at lines 867--867
  [] 
  []
 
 
-Overfull \vbox (5.58946pt too high) detected at line 839
+Overfull \hbox (104.58089pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
+ []
+
+[39
+
+ <./figures/Likelihood.png> <./figures/kt-1/Likelihood-kt-1.png>]
+File: figures/simple.png Graphic file (type png)
+<use figures/simple.png>
+Package pdftex.def Info: figures/simple.png  used on input line 883.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/150fb/simple-150.png, id=3261, 903.375pt x 903.375pt>
+File: figures/150fb/simple-150.png Graphic file (type png)
+<use figures/150fb/simple-150.png>
+Package pdftex.def Info: figures/150fb/simple-150.png  used on input line 883.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/300fb/simple-300.png, id=3262, 903.375pt x 903.375pt>
+File: figures/300fb/simple-300.png Graphic file (type png)
+<use figures/300fb/simple-300.png>
+Package pdftex.def Info: figures/300fb/simple-300.png  used on input line 883.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+<figures/3000fb/simple-3000.png, id=3263, 903.375pt x 903.375pt>
+File: figures/3000fb/simple-3000.png Graphic file (type png)
+<use figures/3000fb/simple-3000.png>
+Package pdftex.def Info: figures/3000fb/simple-3000.png  used on input line 883
+.
+(pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
+
+Overfull \hbox (29.67058pt too wide) in paragraph at lines 883--883
+ [] 
+ []
+
+
+Overfull \vbox (5.58946pt too high) detected at line 883
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
-[37
+[40
 
  <./figures/150fb/simple-150.png> <./figures/300fb/simple-300.png> <./figures/3
 000fb/simple-3000.png>]
 File: figures/Likelihood.png Graphic file (type png)
 <use figures/Likelihood.png>
-Package pdftex.def Info: figures/Likelihood.png  used on input line 855.
+Package pdftex.def Info: figures/Likelihood.png  used on input line 899.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/150fb/Likelihood.png, id=2659, 1202.4925pt x 879.285pt>
+<figures/150fb/Likelihood.png, id=3330, 1202.4925pt x 879.285pt>
 File: figures/150fb/Likelihood.png Graphic file (type png)
 <use figures/150fb/Likelihood.png>
-Package pdftex.def Info: figures/150fb/Likelihood.png  used on input line 855.
+Package pdftex.def Info: figures/150fb/Likelihood.png  used on input line 899.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/300fb/Likelihood.png, id=2660, 1202.4925pt x 879.285pt>
+<figures/300fb/Likelihood.png, id=3331, 1202.4925pt x 879.285pt>
 File: figures/300fb/Likelihood.png Graphic file (type png)
 <use figures/300fb/Likelihood.png>
-Package pdftex.def Info: figures/300fb/Likelihood.png  used on input line 855.
+Package pdftex.def Info: figures/300fb/Likelihood.png  used on input line 899.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/3000fb/Likelihood.png, id=2661, 1202.4925pt x 879.285pt>
+<figures/3000fb/Likelihood.png, id=3332, 1202.4925pt x 879.285pt>
 File: figures/3000fb/Likelihood.png Graphic file (type png)
 <use figures/3000fb/Likelihood.png>
-Package pdftex.def Info: figures/3000fb/Likelihood.png  used on input line 855.
+Package pdftex.def Info: figures/3000fb/Likelihood.png  used on input line 899.
 
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
 
-Overfull \hbox (29.6627pt too wide) in paragraph at lines 855--855
+Overfull \hbox (29.6627pt too wide) in paragraph at lines 899--899
  [] 
  []
 
 
-Overfull \vbox (5.59901pt too high) detected at line 855
+Overfull \vbox (5.59901pt too high) detected at line 899
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
-[38
+[41
 
  <./figures/150fb/Likelihood.png> <./figures/300fb/Likelihood.png> <./figures/3
 000fb/Likelihood.png>]
 File: figures/simple-kt-1.png Graphic file (type png)
 <use figures/simple-kt-1.png>
-Package pdftex.def Info: figures/simple-kt-1.png  used on input line 872.
+Package pdftex.def Info: figures/simple-kt-1.png  used on input line 916.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/150fb/simple-150-kt-1.png, id=2726, 903.375pt x 903.375pt>
+<figures/kt-1/150fb/simple-150-kt-1.png, id=3400, 903.375pt x 903.375pt>
 File: figures/kt-1/150fb/simple-150-kt-1.png Graphic file (type png)
 <use figures/kt-1/150fb/simple-150-kt-1.png>
 Package pdftex.def Info: figures/kt-1/150fb/simple-150-kt-1.png  used on input 
-line 872.
+line 916.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/300fb/simple-300-kt-1.png, id=2727, 903.375pt x 903.375pt>
+<figures/kt-1/300fb/simple-300-kt-1.png, id=3401, 903.375pt x 903.375pt>
 File: figures/kt-1/300fb/simple-300-kt-1.png Graphic file (type png)
 <use figures/kt-1/300fb/simple-300-kt-1.png>
 Package pdftex.def Info: figures/kt-1/300fb/simple-300-kt-1.png  used on input 
-line 872.
+line 916.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/3000fb/simple-3000-kt-1.png, id=2728, 903.375pt x 903.375pt>
+<figures/kt-1/3000fb/simple-3000-kt-1.png, id=3402, 903.375pt x 903.375pt>
 File: figures/kt-1/3000fb/simple-3000-kt-1.png Graphic file (type png)
 <use figures/kt-1/3000fb/simple-3000-kt-1.png>
 Package pdftex.def Info: figures/kt-1/3000fb/simple-3000-kt-1.png  used on inpu
-t line 872.
+t line 916.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
 
-Overfull \hbox (29.67058pt too wide) in paragraph at lines 872--872
+Overfull \hbox (29.67058pt too wide) in paragraph at lines 916--916
  [] 
  []
 
 
-Overfull \vbox (5.58946pt too high) detected at line 872
+Overfull \vbox (5.58946pt too high) detected at line 916
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
-[39
+[42
 
  <./figures/kt-1/150fb/simple-150-kt-1.png> <./figures/kt-1/300fb/simple-300-kt
 -1.png> <./figures/kt-1/3000fb/simple-3000-kt-1.png>]
-<figures/kt-1/35.9fb/Likelihood-kt-1.png, id=2792, 1200.485pt x 875.27pt>
+<figures/kt-1/35.9fb/Likelihood-kt-1.png, id=3470, 1200.485pt x 875.27pt>
 File: figures/kt-1/35.9fb/Likelihood-kt-1.png Graphic file (type png)
 <use figures/kt-1/35.9fb/Likelihood-kt-1.png>
 Package pdftex.def Info: figures/kt-1/35.9fb/Likelihood-kt-1.png  used on input
- line 889.
+ line 933.
 (pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
-<figures/kt-1/150fb/Likelihood.png, id=2793, 1202.4925pt x 879.285pt>
+<figures/kt-1/150fb/Likelihood.png, id=3471, 1202.4925pt x 879.285pt>
 File: figures/kt-1/150fb/Likelihood.png Graphic file (type png)
 <use figures/kt-1/150fb/Likelihood.png>
 Package pdftex.def Info: figures/kt-1/150fb/Likelihood.png  used on input line 
-889.
+933.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/kt-1/300fb/Likelihood.png, id=2794, 1202.4925pt x 879.285pt>
+<figures/kt-1/300fb/Likelihood.png, id=3472, 1202.4925pt x 879.285pt>
 File: figures/kt-1/300fb/Likelihood.png Graphic file (type png)
 <use figures/kt-1/300fb/Likelihood.png>
 Package pdftex.def Info: figures/kt-1/300fb/Likelihood.png  used on input line 
-889.
+933.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/kt-1/3000fb/Likelihood.png, id=2795, 1202.4925pt x 879.285pt>
+<figures/kt-1/3000fb/Likelihood.png, id=3473, 1202.4925pt x 879.285pt>
 File: figures/kt-1/3000fb/Likelihood.png Graphic file (type png)
 <use figures/kt-1/3000fb/Likelihood.png>
 Package pdftex.def Info: figures/kt-1/3000fb/Likelihood.png  used on input line
- 889.
+ 933.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
 
-Overfull \hbox (29.67625pt too wide) in paragraph at lines 889--889
+Overfull \hbox (29.67625pt too wide) in paragraph at lines 933--933
  [] 
  []
 
 
-Overfull \vbox (5.59901pt too high) detected at line 889
+Overfull \vbox (5.59901pt too high) detected at line 933
  []
 
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
-[40
+[43
 
  <./figures/kt-1/35.9fb/Likelihood-kt-1.png> <./figures/kt-1/150fb/Likelihood.p
 ng> <./figures/kt-1/300fb/Likelihood.png> <./figures/kt-1/3000fb/Likelihood.png
 >]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
- []
-
-[41
-
-]
-Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
- []
-
-[42
-
-]
-Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
- []
-
-[43
-
-]
-Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [44
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 965.
-
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [45
 
- </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [46
 
 ]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [47
 
 ]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1009
+.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [48
 
-]
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
 [49
+
+]
+Overfull \hbox (104.58089pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
+ []
+
+[50
+
+]
+Overfull \hbox (104.58089pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
+ []
+
+[51
+
+]
+Overfull \hbox (104.58089pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
+ []
+
+[52
 
 ]
 Package epstopdf Info: Source file: <figures/compare_variables.eps>
@@ -2253,35 +2370,35 @@ Package epstopdf Info: Source file: <figures/compare_variables.eps>
 (epstopdf)                    size: 7546 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/compare_variables-
 eps-converted-to.pdf figures/compare_variables.eps>
-(epstopdf)             \includegraphics on input line 1042.
+(epstopdf)             \includegraphics on input line 1086.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures/compare_variables-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<figures/compare_variables-eps-converted-to.pdf, id=3455, 569.12625pt x 386.443
+<figures/compare_variables-eps-converted-to.pdf, id=4163, 569.12625pt x 386.443
 76pt>
 File: figures/compare_variables-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/compare_variables-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_variables-eps-converted-to.pdf  used o
-n input line 1042.
+n input line 1086.
 (pdftex.def)             Requested size: 284.56242pt x 193.2214pt.
 
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
-[50
+[53
 
  <./figures/compare_variables-eps-converted-to.pdf>]
 Overfull \hbox (104.58089pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][][][] [][][][] [][][] [][] [][][][][][][][][] [][] [][
-] [][][][][]  
+  [] [][] [][][][][][][][][][] [][][][] [][][][][][] [][] [][][][][][][][][] []
+[] [][] [][][][][]  
  []
 
-[51
+[54
 
 ]
 \tf@nav=\write6
@@ -2293,25 +2410,25 @@ Overfull \hbox (104.58089pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentacion-tesis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1061.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1061.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1105.
  (./presentacion-tesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1061.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1061.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1105.
 
 Package rerunfilecheck Info: File `presentacion-tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8C2C4EC54C58E9406A16375AE378C2FC;1314.
+(rerunfilecheck)             Checksum: 46A02EC73F771C5C6F95370C03BEF94B;1314.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24442 strings out of 494719
- 466247 string characters out of 6174034
- 562075 words of memory out of 5000000
- 27059 multiletter control sequences out of 15000+600000
- 88874 words of font info for 78 fonts, out of 8000000 for 9000
+ 24523 strings out of 494719
+ 469020 string characters out of 6174034
+ 565554 words of memory out of 5000000
+ 27125 multiletter control sequences out of 15000+600000
+ 114204 words of font info for 98 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
  56i,20n,62p,812b,885s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2332,10 +2449,10 @@ y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmtt10.pfb>
-Output written on presentacion-tesis.pdf (51 pages, 4450473 bytes).
+Output written on presentacion-tesis.pdf (54 pages, 4562395 bytes).
 PDF statistics:
- 3702 PDF objects out of 4296 (max. 8388607)
- 3492 compressed objects within 35 object streams
- 138 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4417 PDF objects out of 5155 (max. 8388607)
+ 3988 compressed objects within 40 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 478 words of extra memory for PDF output out of 10000 (max. 10000000)
 

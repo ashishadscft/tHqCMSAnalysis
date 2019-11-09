@@ -134,9 +134,10 @@ Maximum |η | of any (untagged) jet (“forward jet”) Listo
 Sum of lepton charges Listo
 Minimum ∆R between any two leptons listo
 Number of untagged jets with |η | > 1.0 listo
+∆φ of highest-pT same-sign lepton pair listo
+∆η between forward light jet and leading b-tagged jet listo
+pT of subleading (or 3rd ) lepton listo
 
-∆η between forward light jet and leading b-tagged jet 
+
 ∆η between forward light jet and subleading b-tagged jet
 ∆η between forward light jet and closest lepton
-∆φ of highest-pT same-sign lepton pair
-pT of subleading (or 3rd ) lepton
