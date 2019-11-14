@@ -31,17 +31,22 @@
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 		\newcommand\Fontvi{\fontsize{4}{7.2}\selectfont}
 \begin{document}
-	\author{Departamento de Investigacion en F\'isica \\
-		Maestr\'ia en Ciencias (F\'isica)\\
-		Hiram Ernesto Dami\'an\\
-	Director:\\
-Jos\'e Feliciano Ben\'itez Rubio}
+	\author{\tiny
+			L.F. Hiram Ernesto Dami\'an\\
+			\vspace{5px}
+				Director:\\
+					\vspace{5px}
+			Jos\'e Feliciano Ben\'itez Rubio\\
+				\vspace{5px}
+				Maestr\'ia en Ciencias (F\'isica)\\
+					\vspace{5px}
+			 Departamento de Investigacion en F\'isica }
 	\title{Study of Higgs plus single top production using events with a same sign dimuon  at the Large Hadron Collider}
 	%\subtitle{}
 	\logo{\includegraphics[scale=0.1]{unison-logo.png}}
 	\newcommand{\nologo}{\setbeamertemplate{logo}{}}
 	\institute{Universidad de Sonora}
-	%\date{}
+	\date{\small November 15$^{th}$ 2019}
 	%\subject{}
 	\newcommand{\subf}[2]{%
 		{\small\begin{tabular}[t]{@{}c@{}}
@@ -429,10 +434,18 @@ Decay chain &BR&Events\\
 	\begin{figure}
 		\centering
 	\includegraphics[scale=0.2]{figures/CERN's-accelerator-complex2013.jpg}
+	\caption*{LHC complex}
 	\end{figure}
 \end{frame}
 
-
+\begin{frame}
+\frametitle{LHC}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{figures/lhc-u.png}
+	\caption*{Underground view of LHC complex}
+\end{figure}
+\end{frame}
 
 \begin{frame}
 \frametitle{LHC parameters}
@@ -498,7 +511,7 @@ Decay chain &BR&Events\\
 
 
 \begin{frame}
-\frametitle{LHC}
+\frametitle{CMS detector}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.6]{figures/csc.png}
@@ -506,7 +519,14 @@ Decay chain &BR&Events\\
 \end{figure}
 \end{frame}
 
-
+\begin{frame}
+\frametitle{CMS detector}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{figures/pp.png}
+	\caption*{\small A typical CMS event display of the Higgs boson decaying to four leptons with 2 muons (in red) and 2 electrons (in green) as final state signatures.}
+\end{figure}
+\end{frame}
 
 \begin{frame}
 \frametitle{CMS integrated luminosity}
@@ -618,8 +638,8 @@ In order to detect signal events and reject background, the following selections
 \small{
 	A decision tree takes a set of input features and splits input data recursively based on
 	those features.
-	Boosting is a method of combining many weak learners (trees) into a strong classifier. The features can be a mix of categorical and continuous data. \\
-	
+	Boosting is a method of combining many weak learners (trees) into a strong classifier. The features can be a mix of categorical and continuous data.\\
+	\vspace{10px}
 	BDT Variables}
 \tiny{
 	\begin{itemize}
@@ -634,19 +654,19 @@ In order to detect signal events and reject background, the following selections
 		\item	$\Delta\eta$ (most forward light jet, hardest loosely b-tagged jet)
 		\item	$\Delta\eta$ (most forward light jet, 2nd hardest loosely b-tagged jet)
 \end{itemize} }
-\end{frame}`
+\end{frame}
 
 {\nologo
 	\begin{frame}
 	\Fontvi
 	\begin{center}
 		\begin{tabular}{cc}
-			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-abs-pj-eta} &
-			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variablescompare_variables-ncj24}\\ 
-			{Distribution of selected events as a function of the jet with largest value of $|\eta|$} & {Distribution of selected events with higher pt with a |$\eta$| < 2.4 } \\
-			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-nfj}&
-			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-pt-sub}\\
-			{Distribution of jet events for $|\eta|$>1 } & {Distribution of events of pt of the sub leading leptons} \\
+			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-pt-sub} &
+			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-abs-pj-eta}\\ 
+			  {Distribution of events of pt of the sub leading leptons} &{Distribution of selected events as a function of the jet with largest value of $|\eta|$}\\
+			  	\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variablescompare_variables-ncj24}&
+			\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-nfj}\\		
+			 {Distribution of selected events with higher pt with a |$\eta$| < 2.4 } & {Distribution of jet events for $|\eta|$>1 } \\
 		\end{tabular}
 	\end{center}
 \end{frame}
@@ -658,11 +678,11 @@ In order to detect signal events and reject background, the following selections
 \begin{center}
 	\begin{tabular}{cc}
 	\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-cl} &
-\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-phi}\\ 
-{Distribution of events of $|\Delta\eta|$ between a forward jet and the closest lepton} & {Distribution of events of $\Delta\phi$ between the higher pt pair of leptons } \\
+\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-b1}\\ 
+{Distribution of events of $|\Delta\eta|$ between a forward jet and the closest lepton} & {	Distribution of events as function of $|\Delta\eta|$ between a forward jet and a b-tagged jet } \\
 		\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-dr}&
-		\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-b1}\\
-		{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest pt)} & {Distribution of events as function of $|\Delta\eta|$ between a forward jet and a b-tagged jet } \\
+		\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-phi}\\
+		{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest pt)} & {Distribution of events of $\Delta\phi$ between the higher pt pair of leptons } \\
 	\end{tabular}
 \end{center}
 \end{frame}
@@ -806,8 +826,8 @@ In order to detect signal events and reject background, the following selections
 	\begin{center}
 	\begin{figure}
 		\includegraphics[width=5.5cm,height=5cm]{figures/simple-kt-1.png}
-		\caption*{\tiny{Post-fit signal and background yields for tH process in the $k_t$=-1. In the
-			box below each distribution, the ratio of the observed and event yields is shown}}
+		\caption*{\tiny{Post-fit signal and background yields for tH process in the $k_t$=-1. 
+	In the box below each distribution, the ratio of the observed and event yields is shown}}
 	\end{figure}
 \end{center}
 \end{minipage}
@@ -847,13 +867,11 @@ In order to detect signal events and reject background, the following selections
 	\begin{itemize}
 \item Due to the large background, the signal strength for the Asimov data with 35.9 fb$^{-1}$ is consistent with zero.
 Therefore, we estimate an upper limit on the signal strength at 95$\%$ confidence level.
-
 \item We can define the likelihood ratio
 \begin{align}
 \lambda(\mu,\alpha)=\frac{L(\mu,\alpha)}{L(\hat{\mu},\hat{\alpha})}
 \end{align}
 Where $\hat{\alpha}$ and $\hat{\mu}$ are the parameters obtained in the previous section which correspond to the minimal of the NLL.
-
 \item To determine an upper limit on the strength parameter $\mu$, we use the following statistical test
 \begin{align}
 q(\mu,\alpha)= -2\ln{\lambda} 
@@ -1006,7 +1024,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 	\begin{thebibliography}{99}
 		\bibliographystyle{unsrt}
 	\begin{frame}
-	\small
+	\tiny
 %	\section{References}
 	\frametitle{References}
 	\bibliographystyle{amsalpha}
@@ -1016,10 +1034,6 @@ $q$ is a random variable with a $\chi^2$ distribution.
 	quark in multilepton final states in proton collisions at 13 TeV}, CMS-HIG-18-009, Phys. Rev. D 99, 092005
 	\bibitem{3}Verkerke W \textit{Dealing with systematic uncertainties} 2014. From
 \url{https://indico.cern.ch/event/287744/contributions/1641261/attachments/535763/738679/Verkerke_Statistics_3.pdf}
-\end{frame}
-
-\begin{frame}
-\small
 \bibitem{5} ATLAS and CMS
 Collaborations, \textit{Combined measurement of the Higgs boson mass in
 	pp collisions at $\sqrt{s}$= 7 and 8 TeV with the ATLAS and CMS experiments}, Phys. Rev. Lett.
@@ -1028,35 +1042,32 @@ Collaborations, \textit{Combined measurement of the Higgs boson mass in
 	likelihood-based tests of new physics} 2013 , arXiv:1007.1727
 \bibitem{7}CMS collaboration \textit{Search for tHq production in multilepton final states at 13 TeV} ,2017,CMS AN-16-378
 \bibitem{6}CMS collaboration \textit{High-Luminosity Large Hadron Collider (HL-LHC)}, 2017,CERN-2017-007-M
-
-
 \end{frame}
 \end{thebibliography}
 
-\begin{frame}
+%\begin{frame}
 %\section{Supportive slides}
-\huge{Back up}
-\end{frame}
+%\huge{Back up}
+%\end{frame}
 
 
-\begin{frame}
-\frametitle{Sources of uncertainty on event yields}
-\begin{itemize}
-	\item Luminosity measurement: ~2.6$\%$.
-	\item Data/MC scale factors for lepton selection (ID, iso) and trigger efficiencies ~5$\%$ per lepton.
-	\item Choice of PDF set:
-	\begin{itemize}
-		\item 3.7$\%$ for tHq
-		\item ~4$\%$ for tHW t$\bar{t}$W, t$\bar{t}$Z, t$\bar{t}$H 
-		\item Scale uncertainties: 12$\%$, 4 for t$\bar{t}$W, 10$\%$ for t$\bar{t}$Z, +5.8/-9.2$\%$ for t$\bar{t}$H.
-	\end{itemize}
-	\item Background: WZ, ZZ sample modelling and statistics: ~50$\%$.
-	\item Rare SM (tZ,tri-bosons, WWqq, tttt) : 50$\%$
-	\item Fake rate estimation:
-	The predicted event yield has a normalization uncertainty of ~30-50$\%$ \cite{7}
-\end{itemize}
-
-\end{frame}
+%\begin{frame}
+%\frametitle{Sources of uncertainty on event yields}
+%\begin{itemize}
+%	\item Luminosity measurement: ~2.6$\%$.
+%	\item Data/MC scale factors for lepton selection (ID, iso) and trigger efficiencies ~5$\%$ per lepton.
+%	\item Choice of PDF set:
+%	\begin{itemize}
+%		\item 3.7$\%$ for tHq
+%		\item ~4$\%$ for tHW t$\bar{t}$W, t$\bar{t}$Z, t$\bar{t}$H 
+%		\item Scale uncertainties: 12$\%$, 4 for t$\bar{t}$W, 10$\%$ for t$\bar{t}$Z, +5.8/-9.2$\%$ for t$\bar{t}$H.
+%	\end{itemize}
+%	\item Background: WZ, ZZ sample modelling and statistics: ~50$\%$.
+%	\item Rare SM (tZ,tri-bosons, WWqq, tttt) : 50$\%$
+%	\item Fake rate estimation:
+%	The predicted event yield has a normalization uncertainty of ~30-50$\%$ \cite{7}
+%\end{itemize}
+%\end{frame}
 
 
 
@@ -1070,44 +1081,44 @@ Collaborations, \textit{Combined measurement of the Higgs boson mass in
 
 
 
-\begin{frame}
-\frametitle{Sources of systematic uncertainty}
-Detector-simulation related uncertainty
-\begin{itemize}
-\item Calibrations (electron, jet energy scale)
-\item Efficiencies (particle ID, reconstruction)
-\item Resolutions (jet energy, muon momentum)
-\end{itemize}
-Theoretical uncertainties
-\begin{itemize}
-\item  Factorization/Normalization scale of MC generators
-\item Choice of MC generator (ME and/or PS, e.g. Herwig vs Pythia)
-\end{itemize}
-Monte Carlo Statistical uncertainties
-\begin{itemize}\item Statistical uncertainty of simulated samples\cite{2} \end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Sources of systematic uncertainty}
+%Detector-simulation related uncertainty
+%\begin{itemize}
+%\item Calibrations (electron, jet energy scale)
+%%\item Efficiencies (particle ID, reconstruction)
+%\item Resolutions (jet energy, muon momentum)
+%\end{itemize}
+%Theoretical uncertainties
+%\begin{itemize}
+%\item  Factorization/Normalization scale of MC generators
+%\item Choice of MC generator (ME and/or PS, e.g. Herwig vs Pythia)
+%\end{itemize}
+%Monte Carlo Statistical uncertainties
+%\begin{itemize}\item Statistical uncertainty of simulated samples\cite{2} \end{itemize}
+%\end{frame}
 
-\begin{frame}
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.5]{figures/compare_variables}
-	\caption*{Signal and background kinematic distributions}
-\end{figure}
-\end{frame}
+%\begin{frame}
+%\begin{figure}
+%	\centering
+%	\includegraphics[scale=0.5]{figures/compare_variables}
+%	\caption*{Signal and background kinematic distributions}
+%\end{figure}
+%\end{frame}
 
-\begin{frame}
-\frametitle{Results}
-\framesubtitle{Likelihood scan}
-\begin{itemize}
-	\item Likelihood function (often simply the likelihood) is a function of the
-	parameters of a statistical model, given specific observed data.
-	\item Likelihood functions play a key role in frequentist inference,
-	especially methods of estimating a parameter from a set of
-	statistics.
-	\item In informal contexts, "likelihood" is often used as a synonym for
-	probability.
-\end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Results}
+%\framesubtitle{Likelihood scan}
+%\begin{itemize}
+%	\item Likelihood function (often simply the likelihood) is a function of the
+%	parameters of a statistical model, given specific observed data.
+%	\item Likelihood functions play a key role in frequentist inference,
+%	especially methods of estimating a parameter from a set of
+%	statistics.
+%	\item In informal contexts, "likelihood" is often used as a synonym for
+%	probability.
+%\end{itemize}
+%\end{frame}
 
 
 

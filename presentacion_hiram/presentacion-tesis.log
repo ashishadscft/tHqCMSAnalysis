@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  13 NOV 2019 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  14 NOV 2019 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,779 +1422,729 @@ Package caption Info: End \AtBeginDocument code.
  (./presentacion-tesis.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 38.
+(hyperref)                setting the option has no effect on input line 43.
 
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 60.
 
-Overfull \vbox (206.06233pt too high) detected at line 55
- []
-
-<unison-logo.png, id=138, 321.2pt x 321.2pt>
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 55.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
- <./unison-logo.png>]
-(./presentacion-tesis.toc
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 9.
- (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 60.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 60.
+
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 9.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 60.
+
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <10> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+(Font)              <7> on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 60.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 60.
+
+Overfull \vbox (196.98344pt too high) detected at line 60
+ []
+
+<unison-logo.png, id=129, 321.2pt x 321.2pt>
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 60.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./unison-logo.png>]
+(./presentacion-tesis.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 9.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
 )
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 60.
+Package pdftex.def Info: unison-logo.png  used on input line 65.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 88.
+(Font)              <10.95> on input line 93.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 93.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 88.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 88.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 93.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 88.
+Package pdftex.def Info: unison-logo.png  used on input line 93.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [3
 
 ]
-<figures/sm1.png, id=405, 1397.22pt x 926.71219pt>
+<figures/sm1.png, id=375, 1397.22pt x 926.71219pt>
 File: figures/sm1.png Graphic file (type png)
 <use figures/sm1.png>
-Package pdftex.def Info: figures/sm1.png  used on input line 100.
+Package pdftex.def Info: figures/sm1.png  used on input line 105.
 (pdftex.def)             Requested size: 170.7079pt x 142.25313pt.
-<figures/sm.png, id=406, 853.1875pt x 810.02625pt>
+<figures/sm.png, id=376, 853.1875pt x 810.02625pt>
 File: figures/sm.png Graphic file (type png)
 <use figures/sm.png>
-Package pdftex.def Info: figures/sm.png  used on input line 100.
+Package pdftex.def Info: figures/sm.png  used on input line 105.
 (pdftex.def)             Requested size: 142.25398pt x 142.26347pt.
 
-Overfull \hbox (29.67201pt too wide) in paragraph at lines 100--100
+Overfull \hbox (29.67201pt too wide) in paragraph at lines 105--105
  [] 
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 100.
+Package pdftex.def Info: unison-logo.png  used on input line 105.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 [4
 
  <./figures/sm1.png> <./figures/sm.png>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 145.
+Package pdftex.def Info: unison-logo.png  used on input line 150.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [5
 
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 209.
+Package pdftex.def Info: unison-logo.png  used on input line 214.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [6
 
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 236.
+Package pdftex.def Info: unison-logo.png  used on input line 241.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [7
 
 ]
-<figures/pg.png, id=669, 807.7678pt x 367.3725pt>
+<figures/pg.png, id=619, 807.7678pt x 367.3725pt>
 File: figures/pg.png Graphic file (type png)
 <use figures/pg.png>
-Package pdftex.def Info: figures/pg.png  used on input line 247.
+Package pdftex.def Info: figures/pg.png  used on input line 252.
 (pdftex.def)             Requested size: 323.1014pt x 146.94638pt.
 
-Overfull \hbox (15.81152pt too wide) in paragraph at lines 247--247
+Overfull \hbox (15.81152pt too wide) in paragraph at lines 252--252
  [] 
  []
 
 [8
 
  <./figures/pg.png (PNG copy)>]
-<figures/tq.png, id=732, 635.37375pt x 215.30438pt>
+<figures/tq.png, id=677, 635.37375pt x 215.30438pt>
 File: figures/tq.png Graphic file (type png)
 <use figures/tq.png>
-Package pdftex.def Info: figures/tq.png  used on input line 260.
+Package pdftex.def Info: figures/tq.png  used on input line 265.
 (pdftex.def)             Requested size: 254.14499pt x 86.12022pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 260.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 260.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 260.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 260.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 260.
+(Font)              <14.4> on input line 265.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 260.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 265.
  [9
 
  <./figures/tq.png (PNG copy)>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 276.
+Package pdftex.def Info: unison-logo.png  used on input line 281.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [10
 
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 294.
+Package pdftex.def Info: unison-logo.png  used on input line 299.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
 [11
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 334.
+(Font)              <9> on input line 339.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 334.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 339.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 334.
+Package pdftex.def Info: unison-logo.png  used on input line 339.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [12
 
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 347.
+Package pdftex.def Info: unison-logo.png  used on input line 352.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [13
 
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 385.
+Package pdftex.def Info: unison-logo.png  used on input line 390.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [14
 
 ]
-Overfull \hbox (12.55247pt too wide) in paragraph at lines 423--423
+Overfull \hbox (12.55247pt too wide) in paragraph at lines 428--428
  [] 
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 423.
+Package pdftex.def Info: unison-logo.png  used on input line 428.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 [15
 
 ]
-<figures/CERN's-accelerator-complex2013.jpg, id=1174, 966.61125pt x 775.89874pt
+<figures/CERN's-accelerator-complex2013.jpg, id=1084, 966.61125pt x 775.89874pt
 >
 File: figures/CERN's-accelerator-complex2013.jpg Graphic file (type jpg)
 <use figures/CERN's-accelerator-complex2013.jpg>
 Package pdftex.def Info: figures/CERN's-accelerator-complex2013.jpg  used on in
-put line 433.
+put line 439.
 (pdftex.def)             Requested size: 193.31882pt x 155.177pt.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 433.
+Package pdftex.def Info: unison-logo.png  used on input line 439.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [16
 
  <./figures/CERN's-accelerator-complex2013.jpg>]
+<figures/lhc-u.png, id=1141, 486.81876pt x 305.14pt>
+File: figures/lhc-u.png Graphic file (type png)
+<use figures/lhc-u.png>
+Package pdftex.def Info: figures/lhc-u.png  used on input line 448.
+(pdftex.def)             Requested size: 292.0935pt x 183.0854pt.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 486.
+Package pdftex.def Info: unison-logo.png  used on input line 448.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [17
 
-]
-<figures/cms.png, id=1299, 3189.9175pt x 2253.41875pt>
-File: figures/cms.png Graphic file (type png)
-<use figures/cms.png>
-Package pdftex.def Info: figures/cms.png  used on input line 497.
-(pdftex.def)             Requested size: 255.19861pt x 180.27718pt.
+ <./figures/lhc-u.png>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 497.
+Package pdftex.def Info: unison-logo.png  used on input line 499.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [18
 
- <./figures/cms.png>]
-<figures/csc.png, id=1362, 380.92313pt x 243.15843pt>
-File: figures/csc.png Graphic file (type png)
-<use figures/csc.png>
-Package pdftex.def Info: figures/csc.png  used on input line 507.
-(pdftex.def)             Requested size: 228.55562pt x 145.89618pt.
+]
+<figures/cms.png, id=1256, 3189.9175pt x 2253.41875pt>
+File: figures/cms.png Graphic file (type png)
+<use figures/cms.png>
+Package pdftex.def Info: figures/cms.png  used on input line 510.
+(pdftex.def)             Requested size: 255.19861pt x 180.27718pt.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 507.
+Package pdftex.def Info: unison-logo.png  used on input line 510.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [19
 
+ <./figures/cms.png>]
+<figures/csc.png, id=1316, 380.92313pt x 243.15843pt>
+File: figures/csc.png Graphic file (type png)
+<use figures/csc.png>
+Package pdftex.def Info: figures/csc.png  used on input line 520.
+(pdftex.def)             Requested size: 228.55562pt x 145.89618pt.
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 520.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+ [20
+
  <./figures/csc.png (PNG copy)>]
-<figures/cms_lumi.png, id=1427, 815.045pt x 646.415pt>
+<figures/pp.png, id=1374, 682.55pt x 416.55624pt>
+File: figures/pp.png Graphic file (type png)
+<use figures/pp.png>
+Package pdftex.def Info: figures/pp.png  used on input line 529.
+(pdftex.def)             Requested size: 273.01517pt x 166.61954pt.
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 529.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+ [21
+
+ <./figures/pp.png>]
+<figures/cms_lumi.png, id=1433, 815.045pt x 646.415pt>
 File: figures/cms_lumi.png Graphic file (type png)
 <use figures/cms_lumi.png>
-Package pdftex.def Info: figures/cms_lumi.png  used on input line 519.
+Package pdftex.def Info: figures/cms_lumi.png  used on input line 539.
 (pdftex.def)             Requested size: 244.51538pt x 193.926pt.
 
-Overfull \vbox (5.84972pt too high) detected at line 519
+Overfull \vbox (5.84972pt too high) detected at line 539
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 519.
+Package pdftex.def Info: unison-logo.png  used on input line 539.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-[20
+[22
 
  <./figures/cms_lumi.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 551.
+(hyperref)                removing `math shift' on input line 571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 551.
+(hyperref)                removing `math shift' on input line 571.
 
-<figures/jet.png, id=1491, 201.75375pt x 321.45094pt>
+<figures/jet.png, id=1492, 201.75375pt x 321.45094pt>
 File: figures/jet.png Graphic file (type png)
 <use figures/jet.png>
-Package pdftex.def Info: figures/jet.png  used on input line 551.
+Package pdftex.def Info: figures/jet.png  used on input line 571.
 (pdftex.def)             Requested size: 100.87662pt x 160.72507pt.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 551.
+Package pdftex.def Info: unison-logo.png  used on input line 571.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-[21
+[23
 
  <./figures/jet.png (PNG copy)>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 600.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [22
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 613.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [23
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 637.
+Package pdftex.def Info: unison-logo.png  used on input line 620.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [24
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <4> on input line 652.
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 633.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+ [25
+
+]
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 657.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+ [26
+
+]
+LaTeX Font Info:    Calculating math sizes for size <4> on input line 672.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4> on input line 652.
+(Font)              <4> on input line 672.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <2.79999> on input line 652.
+(Font)              <2.79999> on input line 672.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <2> on input line 652.
+(Font)              <2> on input line 672.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 652.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 672.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <2.79999> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 652.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 672.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <2> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 652.
-<figures/distributions/compare_variables-abs-pj-eta.pdf, id=1739, 569.12625pt x
- 386.44376pt>
-File: figures/distributions/compare_variables-abs-pj-eta.pdf Graphic file (type
- pdf)
-<use figures/distributions/compare_variables-abs-pj-eta.pdf>
-Package pdftex.def Info: figures/distributions/compare_variables-abs-pj-eta.pdf
-  used on input line 652.
-(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-<figures/distributions/compare_variablescompare_variables-ncj24.pdf, id=1740, 5
-69.12625pt x 386.44376pt>
-File: figures/distributions/compare_variablescompare_variables-ncj24.pdf Graphi
-c file (type pdf)
-<use figures/distributions/compare_variablescompare_variables-ncj24.pdf>
-Package pdftex.def Info: figures/distributions/compare_variablescompare_variabl
-es-ncj24.pdf  used on input line 652.
-(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-<figures/distributions/compare_variables-nfj.pdf, id=1741, 569.12625pt x 386.44
-376pt>
-File: figures/distributions/compare_variables-nfj.pdf Graphic file (type pdf)
-<use figures/distributions/compare_variables-nfj.pdf>
-Package pdftex.def Info: figures/distributions/compare_variables-nfj.pdf  used 
-on input line 652.
-(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-<figures/distributions/compare_variables-pt-sub.pdf, id=1742, 569.12625pt x 386
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 672.
+<figures/distributions/compare_variables-pt-sub.pdf, id=1721, 569.12625pt x 386
 .44376pt>
 File: figures/distributions/compare_variables-pt-sub.pdf Graphic file (type pdf
 )
 <use figures/distributions/compare_variables-pt-sub.pdf>
 Package pdftex.def Info: figures/distributions/compare_variables-pt-sub.pdf  us
-ed on input line 652.
+ed on input line 672.
 (pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-
-Overfull \hbox (29.68712pt too wide) in paragraph at lines 652--652
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25
-
-]
-[26 <./figures/distributions/compare_variables-abs-pj-eta.pdf, page is rotated 
-90 degrees> <./figures/distributions/compare_variablescompare_variables-ncj24.p
-df, page is rotated 90 degrees> <./figures/distributions/compare_variables-nfj.
-pdf, page is rotated 90 degrees> <./figures/distributions/compare_variables-pt-
-sub.pdf, page is rotated 90 degrees>]
-<figures/distributions/compare_variables-eta-fj-cl.pdf, id=2041, 569.12625pt x 
-386.44376pt>
-File: figures/distributions/compare_variables-eta-fj-cl.pdf Graphic file (type 
-pdf)
-<use figures/distributions/compare_variables-eta-fj-cl.pdf>
-Package pdftex.def Info: figures/distributions/compare_variables-eta-fj-cl.pdf 
- used on input line 668.
+<figures/distributions/compare_variables-abs-pj-eta.pdf, id=1722, 569.12625pt x
+ 386.44376pt>
+File: figures/distributions/compare_variables-abs-pj-eta.pdf Graphic file (type
+ pdf)
+<use figures/distributions/compare_variables-abs-pj-eta.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-abs-pj-eta.pdf
+  used on input line 672.
 (pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-<figures/distributions/compare_variables-phi.pdf, id=2042, 569.12625pt x 386.44
+<figures/distributions/compare_variablescompare_variables-ncj24.pdf, id=1723, 5
+69.12625pt x 386.44376pt>
+File: figures/distributions/compare_variablescompare_variables-ncj24.pdf Graphi
+c file (type pdf)
+<use figures/distributions/compare_variablescompare_variables-ncj24.pdf>
+Package pdftex.def Info: figures/distributions/compare_variablescompare_variabl
+es-ncj24.pdf  used on input line 672.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-nfj.pdf, id=1724, 569.12625pt x 386.44
 376pt>
-File: figures/distributions/compare_variables-phi.pdf Graphic file (type pdf)
-<use figures/distributions/compare_variables-phi.pdf>
-Package pdftex.def Info: figures/distributions/compare_variables-phi.pdf  used 
-on input line 668.
-(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-<figures/distributions/compare_variables-dr.pdf, id=2043, 569.12625pt x 386.443
-76pt>
-File: figures/distributions/compare_variables-dr.pdf Graphic file (type pdf)
-<use figures/distributions/compare_variables-dr.pdf>
-Package pdftex.def Info: figures/distributions/compare_variables-dr.pdf  used o
-n input line 668.
-(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
-<figures/distributions/compare_variables-eta-fj-b1.pdf, id=2044, 569.12625pt x 
-386.44376pt>
-File: figures/distributions/compare_variables-eta-fj-b1.pdf Graphic file (type 
-pdf)
-<use figures/distributions/compare_variables-eta-fj-b1.pdf>
-Package pdftex.def Info: figures/distributions/compare_variables-eta-fj-b1.pdf 
- used on input line 668.
+File: figures/distributions/compare_variables-nfj.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-nfj.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-nfj.pdf  used 
+on input line 672.
 (pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
 
-Overfull \hbox (29.68712pt too wide) in paragraph at lines 668--668
+Overfull \hbox (29.68712pt too wide) in paragraph at lines 672--672
  [] 
  []
 
 [27
 
- <./figures/distributions/compare_variables-eta-fj-cl.pdf, page is rotated 90 d
-egrees> <./figures/distributions/compare_variables-phi.pdf, page is rotated 90 
-degrees> <./figures/distributions/compare_variables-dr.pdf, page is rotated 90 
-degrees> <./figures/distributions/compare_variables-eta-fj-b1.pdf, page is rota
-ted 90 degrees>]
-<figures/histo.png, id=2279, 451.6875pt x 568.1225pt>
-File: figures/histo.png Graphic file (type png)
-<use figures/histo.png>
-Package pdftex.def Info: figures/histo.png  used on input line 712.
-(pdftex.def)             Requested size: 135.5073pt x 170.43805pt.
+ <./figures/distributions/compare_variables-pt-sub.pdf, page is rotated 90 degr
+ees> <./figures/distributions/compare_variables-abs-pj-eta.pdf, page is rotated
+ 90 degrees> <./figures/distributions/compare_variablescompare_variables-ncj24.
+pdf, page is rotated 90 degrees> <./figures/distributions/compare_variables-nfj
+.pdf, page is rotated 90 degrees>]
+<figures/distributions/compare_variables-eta-fj-cl.pdf, id=1954, 569.12625pt x 
+386.44376pt>
+File: figures/distributions/compare_variables-eta-fj-cl.pdf Graphic file (type 
+pdf)
+<use figures/distributions/compare_variables-eta-fj-cl.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-eta-fj-cl.pdf 
+ used on input line 688.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-eta-fj-b1.pdf, id=1955, 569.12625pt x 
+386.44376pt>
+File: figures/distributions/compare_variables-eta-fj-b1.pdf Graphic file (type 
+pdf)
+<use figures/distributions/compare_variables-eta-fj-b1.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-eta-fj-b1.pdf 
+ used on input line 688.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-dr.pdf, id=1956, 569.12625pt x 386.443
+76pt>
+File: figures/distributions/compare_variables-dr.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-dr.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-dr.pdf  used o
+n input line 688.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
+<figures/distributions/compare_variables-phi.pdf, id=1957, 569.12625pt x 386.44
+376pt>
+File: figures/distributions/compare_variables-phi.pdf Graphic file (type pdf)
+<use figures/distributions/compare_variables-phi.pdf>
+Package pdftex.def Info: figures/distributions/compare_variables-phi.pdf  used 
+on input line 688.
+(pdftex.def)             Requested size: 156.4885pt x 85.35399pt.
 
-Overfull \hbox (17.37042pt too wide) in paragraph at lines 712--712
+Overfull \hbox (29.68712pt too wide) in paragraph at lines 688--688
  [] 
  []
 
 [28
 
+ <./figures/distributions/compare_variables-eta-fj-cl.pdf, page is rotated 90 d
+egrees> <./figures/distributions/compare_variables-eta-fj-b1.pdf, page is rotat
+ed 90 degrees> <./figures/distributions/compare_variables-dr.pdf, page is rotat
+ed 90 degrees> <./figures/distributions/compare_variables-phi.pdf, page is rota
+ted 90 degrees>]
+<figures/histo.png, id=2187, 451.6875pt x 568.1225pt>
+File: figures/histo.png Graphic file (type png)
+<use figures/histo.png>
+Package pdftex.def Info: figures/histo.png  used on input line 731.
+(pdftex.def)             Requested size: 135.5073pt x 170.43805pt.
+
+Overfull \hbox (17.37042pt too wide) in paragraph at lines 731--731
+ [] 
+ []
+
+[29
+
  <./figures/histo.png>]
-<figures/kos.png, id=2345, 903.375pt x 903.375pt>
+<figures/kos.png, id=2248, 903.375pt x 903.375pt>
 File: figures/kos.png Graphic file (type png)
 <use figures/kos.png>
-Package pdftex.def Info: figures/kos.png  used on input line 734.
+Package pdftex.def Info: figures/kos.png  used on input line 753.
 (pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
-<figures/kos2.png, id=2346, 903.375pt x 903.375pt>
+<figures/kos2.png, id=2249, 903.375pt x 903.375pt>
 File: figures/kos2.png Graphic file (type png)
 <use figures/kos2.png>
-Package pdftex.def Info: figures/kos2.png  used on input line 734.
+Package pdftex.def Info: figures/kos2.png  used on input line 753.
 (pdftex.def)             Requested size: 147.49782pt x 147.4928pt.
- [29
+ [30
 
  <./figures/kos.png> <./figures/kos2.png>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 749.
+Package pdftex.def Info: unison-logo.png  used on input line 768.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
 
-[30
+[31
 
 ]
-<figures/fit-box.png, id=2470, 721.69624pt x 325.215pt>
+<figures/fit-box.png, id=2364, 721.69624pt x 325.215pt>
 File: figures/fit-box.png Graphic file (type png)
 <use figures/fit-box.png>
-Package pdftex.def Info: figures/fit-box.png  used on input line 764.
+Package pdftex.def Info: figures/fit-box.png  used on input line 783.
 (pdftex.def)             Requested size: 298.75394pt x 134.62427pt.
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 764.
+Package pdftex.def Info: unison-logo.png  used on input line 783.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [31
+ [32
 
  <./figures/fit-box.png>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 778.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [32
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 792.
+Package pdftex.def Info: unison-logo.png  used on input line 797.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [33
 
 ]
-<figures/simple.png, id=2657, 903.375pt x 903.375pt>
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 811.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+ [34
+
+]
+<figures/simple.png, id=2535, 903.375pt x 903.375pt>
 File: figures/simple.png Graphic file (type png)
 <use figures/simple.png>
-Package pdftex.def Info: figures/simple.png  used on input line 815.
+Package pdftex.def Info: figures/simple.png  used on input line 834.
 (pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
 
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 815--815
+Overfull \hbox (33.56616pt too wide) in paragraph at lines 834--834
  [] 
  []
 
-<figures/simple-kt-1.png, id=2658, 903.375pt x 903.375pt>
+<figures/simple-kt-1.png, id=2536, 903.375pt x 903.375pt>
 File: figures/simple-kt-1.png Graphic file (type png)
 <use figures/simple-kt-1.png>
-Package pdftex.def Info: figures/simple-kt-1.png  used on input line 815.
+Package pdftex.def Info: figures/simple-kt-1.png  used on input line 834.
 (pdftex.def)             Requested size: 156.48022pt x 142.25475pt.
 
-Overfull \hbox (33.56616pt too wide) in paragraph at lines 815--815
+Overfull \hbox (33.56616pt too wide) in paragraph at lines 834--834
  [] 
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 815.
+Package pdftex.def Info: unison-logo.png  used on input line 834.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-[34
+[35
 
  <./figures/simple.png> <./figures/simple-kt-1.png>]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 840.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [35
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 866.
+Package pdftex.def Info: unison-logo.png  used on input line 859.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [36
 
 ]
-<figures/Likelihood.png, id=2846, 1202.4925pt x 879.285pt>
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 883.
+(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
+ [37
+
+]
+<figures/Likelihood.png, id=2710, 1202.4925pt x 879.285pt>
 File: figures/Likelihood.png Graphic file (type png)
 <use figures/Likelihood.png>
-Package pdftex.def Info: figures/Likelihood.png  used on input line 888.
+Package pdftex.def Info: figures/Likelihood.png  used on input line 905.
 (pdftex.def)             Requested size: 170.71475pt x 142.25824pt.
 
-Overfull \hbox (17.06982pt too wide) in paragraph at lines 888--888
+Overfull \hbox (17.06982pt too wide) in paragraph at lines 905--905
  [] 
  []
 
-<figures/kt-1/Likelihood-kt-1.png, id=2847, 1200.485pt x 875.27pt>
+<figures/kt-1/Likelihood-kt-1.png, id=2711, 1200.485pt x 875.27pt>
 File: figures/kt-1/Likelihood-kt-1.png Graphic file (type png)
 <use figures/kt-1/Likelihood-kt-1.png>
-Package pdftex.def Info: figures/kt-1/Likelihood-kt-1.png  used on input line 8
-88.
+Package pdftex.def Info: figures/kt-1/Likelihood-kt-1.png  used on input line 9
+05.
 (pdftex.def)             Requested size: 170.70453pt x 142.26308pt.
 
-Overfull \hbox (17.0596pt too wide) in paragraph at lines 888--888
+Overfull \hbox (17.0596pt too wide) in paragraph at lines 905--905
  [] 
  []
 
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 888.
+Package pdftex.def Info: unison-logo.png  used on input line 905.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-[37
+[38
 
  <./figures/Likelihood.png> <./figures/kt-1/Likelihood-kt-1.png>]
 File: figures/simple.png Graphic file (type png)
 <use figures/simple.png>
-Package pdftex.def Info: figures/simple.png  used on input line 904.
+Package pdftex.def Info: figures/simple.png  used on input line 921.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/150fb/simple-150.png, id=2910, 903.375pt x 903.375pt>
+<figures/150fb/simple-150.png, id=2768, 903.375pt x 903.375pt>
 File: figures/150fb/simple-150.png Graphic file (type png)
 <use figures/150fb/simple-150.png>
-Package pdftex.def Info: figures/150fb/simple-150.png  used on input line 904.
+Package pdftex.def Info: figures/150fb/simple-150.png  used on input line 921.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/300fb/simple-300.png, id=2911, 903.375pt x 903.375pt>
+<figures/300fb/simple-300.png, id=2769, 903.375pt x 903.375pt>
 File: figures/300fb/simple-300.png Graphic file (type png)
 <use figures/300fb/simple-300.png>
-Package pdftex.def Info: figures/300fb/simple-300.png  used on input line 904.
+Package pdftex.def Info: figures/300fb/simple-300.png  used on input line 921.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/3000fb/simple-3000.png, id=2912, 903.375pt x 903.375pt>
+<figures/3000fb/simple-3000.png, id=2770, 903.375pt x 903.375pt>
 File: figures/3000fb/simple-3000.png Graphic file (type png)
 <use figures/3000fb/simple-3000.png>
-Package pdftex.def Info: figures/3000fb/simple-3000.png  used on input line 904
+Package pdftex.def Info: figures/3000fb/simple-3000.png  used on input line 921
 .
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
 
-Overfull \hbox (29.67058pt too wide) in paragraph at lines 904--904
+Overfull \hbox (29.67058pt too wide) in paragraph at lines 921--921
  [] 
  []
 
 
-Overfull \vbox (5.58946pt too high) detected at line 904
+Overfull \vbox (5.58946pt too high) detected at line 921
  []
 
-[38
+[39
 
  <./figures/150fb/simple-150.png> <./figures/300fb/simple-300.png> <./figures/3
 000fb/simple-3000.png>]
 File: figures/Likelihood.png Graphic file (type png)
 <use figures/Likelihood.png>
-Package pdftex.def Info: figures/Likelihood.png  used on input line 920.
+Package pdftex.def Info: figures/Likelihood.png  used on input line 937.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/150fb/Likelihood.png, id=2975, 1202.4925pt x 879.285pt>
+<figures/150fb/Likelihood.png, id=2828, 1202.4925pt x 879.285pt>
 File: figures/150fb/Likelihood.png Graphic file (type png)
 <use figures/150fb/Likelihood.png>
-Package pdftex.def Info: figures/150fb/Likelihood.png  used on input line 920.
+Package pdftex.def Info: figures/150fb/Likelihood.png  used on input line 937.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/300fb/Likelihood.png, id=2976, 1202.4925pt x 879.285pt>
+<figures/300fb/Likelihood.png, id=2829, 1202.4925pt x 879.285pt>
 File: figures/300fb/Likelihood.png Graphic file (type png)
 <use figures/300fb/Likelihood.png>
-Package pdftex.def Info: figures/300fb/Likelihood.png  used on input line 920.
+Package pdftex.def Info: figures/300fb/Likelihood.png  used on input line 937.
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/3000fb/Likelihood.png, id=2977, 1202.4925pt x 879.285pt>
+<figures/3000fb/Likelihood.png, id=2830, 1202.4925pt x 879.285pt>
 File: figures/3000fb/Likelihood.png Graphic file (type png)
 <use figures/3000fb/Likelihood.png>
-Package pdftex.def Info: figures/3000fb/Likelihood.png  used on input line 920.
+Package pdftex.def Info: figures/3000fb/Likelihood.png  used on input line 937.
 
 (pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
 
-Overfull \hbox (29.6627pt too wide) in paragraph at lines 920--920
+Overfull \hbox (29.6627pt too wide) in paragraph at lines 937--937
  [] 
  []
 
 
-Overfull \vbox (5.59901pt too high) detected at line 920
+Overfull \vbox (5.59901pt too high) detected at line 937
  []
 
-[39
+[40
 
  <./figures/150fb/Likelihood.png> <./figures/300fb/Likelihood.png> <./figures/3
 000fb/Likelihood.png>]
 File: figures/simple-kt-1.png Graphic file (type png)
 <use figures/simple-kt-1.png>
-Package pdftex.def Info: figures/simple-kt-1.png  used on input line 937.
+Package pdftex.def Info: figures/simple-kt-1.png  used on input line 954.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/150fb/simple-150-kt-1.png, id=3040, 903.375pt x 903.375pt>
+<figures/kt-1/150fb/simple-150-kt-1.png, id=2887, 903.375pt x 903.375pt>
 File: figures/kt-1/150fb/simple-150-kt-1.png Graphic file (type png)
 <use figures/kt-1/150fb/simple-150-kt-1.png>
 Package pdftex.def Info: figures/kt-1/150fb/simple-150-kt-1.png  used on input 
-line 937.
+line 954.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/300fb/simple-300-kt-1.png, id=3041, 903.375pt x 903.375pt>
+<figures/kt-1/300fb/simple-300-kt-1.png, id=2888, 903.375pt x 903.375pt>
 File: figures/kt-1/300fb/simple-300-kt-1.png Graphic file (type png)
 <use figures/kt-1/300fb/simple-300-kt-1.png>
 Package pdftex.def Info: figures/kt-1/300fb/simple-300-kt-1.png  used on input 
-line 937.
+line 954.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
-<figures/kt-1/3000fb/simple-3000-kt-1.png, id=3042, 903.375pt x 903.375pt>
+<figures/kt-1/3000fb/simple-3000-kt-1.png, id=2889, 903.375pt x 903.375pt>
 File: figures/kt-1/3000fb/simple-3000-kt-1.png Graphic file (type png)
 <use figures/kt-1/3000fb/simple-3000-kt-1.png>
 Package pdftex.def Info: figures/kt-1/3000fb/simple-3000-kt-1.png  used on inpu
-t line 937.
+t line 954.
 (pdftex.def)             Requested size: 156.48022pt x 85.35284pt.
 
-Overfull \hbox (29.67058pt too wide) in paragraph at lines 937--937
+Overfull \hbox (29.67058pt too wide) in paragraph at lines 954--954
  [] 
  []
 
 
-Overfull \vbox (5.58946pt too high) detected at line 937
- []
-
-[40
-
- <./figures/kt-1/150fb/simple-150-kt-1.png> <./figures/kt-1/300fb/simple-300-kt
--1.png> <./figures/kt-1/3000fb/simple-3000-kt-1.png>]
-<figures/kt-1/35.9fb/Likelihood-kt-1.png, id=3104, 1200.485pt x 875.27pt>
-File: figures/kt-1/35.9fb/Likelihood-kt-1.png Graphic file (type png)
-<use figures/kt-1/35.9fb/Likelihood-kt-1.png>
-Package pdftex.def Info: figures/kt-1/35.9fb/Likelihood-kt-1.png  used on input
- line 954.
-(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
-<figures/kt-1/150fb/Likelihood.png, id=3105, 1202.4925pt x 879.285pt>
-File: figures/kt-1/150fb/Likelihood.png Graphic file (type png)
-<use figures/kt-1/150fb/Likelihood.png>
-Package pdftex.def Info: figures/kt-1/150fb/Likelihood.png  used on input line 
-954.
-(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/kt-1/300fb/Likelihood.png, id=3106, 1202.4925pt x 879.285pt>
-File: figures/kt-1/300fb/Likelihood.png Graphic file (type png)
-<use figures/kt-1/300fb/Likelihood.png>
-Package pdftex.def Info: figures/kt-1/300fb/Likelihood.png  used on input line 
-954.
-(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-<figures/kt-1/3000fb/Likelihood.png, id=3107, 1202.4925pt x 879.285pt>
-File: figures/kt-1/3000fb/Likelihood.png Graphic file (type png)
-<use figures/kt-1/3000fb/Likelihood.png>
-Package pdftex.def Info: figures/kt-1/3000fb/Likelihood.png  used on input line
- 954.
-(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
-
-Overfull \hbox (29.67625pt too wide) in paragraph at lines 954--954
- [] 
- []
-
-
-Overfull \vbox (5.59901pt too high) detected at line 954
+Overfull \vbox (5.58946pt too high) detected at line 954
  []
 
 [41
+
+ <./figures/kt-1/150fb/simple-150-kt-1.png> <./figures/kt-1/300fb/simple-300-kt
+-1.png> <./figures/kt-1/3000fb/simple-3000-kt-1.png>]
+<figures/kt-1/35.9fb/Likelihood-kt-1.png, id=2947, 1200.485pt x 875.27pt>
+File: figures/kt-1/35.9fb/Likelihood-kt-1.png Graphic file (type png)
+<use figures/kt-1/35.9fb/Likelihood-kt-1.png>
+Package pdftex.def Info: figures/kt-1/35.9fb/Likelihood-kt-1.png  used on input
+ line 971.
+(pdftex.def)             Requested size: 156.48984pt x 85.35516pt.
+<figures/kt-1/150fb/Likelihood.png, id=2948, 1202.4925pt x 879.285pt>
+File: figures/kt-1/150fb/Likelihood.png Graphic file (type png)
+<use figures/kt-1/150fb/Likelihood.png>
+Package pdftex.def Info: figures/kt-1/150fb/Likelihood.png  used on input line 
+971.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/kt-1/300fb/Likelihood.png, id=2949, 1202.4925pt x 879.285pt>
+File: figures/kt-1/300fb/Likelihood.png Graphic file (type png)
+<use figures/kt-1/300fb/Likelihood.png>
+Package pdftex.def Info: figures/kt-1/300fb/Likelihood.png  used on input line 
+971.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+<figures/kt-1/3000fb/Likelihood.png, id=2950, 1202.4925pt x 879.285pt>
+File: figures/kt-1/3000fb/Likelihood.png Graphic file (type png)
+<use figures/kt-1/3000fb/Likelihood.png>
+Package pdftex.def Info: figures/kt-1/3000fb/Likelihood.png  used on input line
+ 971.
+(pdftex.def)             Requested size: 156.47629pt x 85.35762pt.
+
+Overfull \hbox (29.67625pt too wide) in paragraph at lines 971--971
+ [] 
+ []
+
+
+Overfull \vbox (5.59901pt too high) detected at line 971
+ []
+
+[42
 
  <./figures/kt-1/35.9fb/Likelihood-kt-1.png> <./figures/kt-1/150fb/Likelihood.p
 ng> <./figures/kt-1/300fb/Likelihood.png> <./figures/kt-1/3000fb/Likelihood.png
 >]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 981.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [42
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 994.
+Package pdftex.def Info: unison-logo.png  used on input line 998.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [43
 
 ]
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1004.
+Package pdftex.def Info: unison-logo.png  used on input line 1021.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [44
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1020
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1045
 .
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1020.
+Package pdftex.def Info: unison-logo.png  used on input line 1045.
 (pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
  [45
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1034.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [46
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1040.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [47
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1060.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [48
-
-]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1089.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-
-[49
-
-]
-Package epstopdf Info: Source file: <figures/compare_variables.eps>
-(epstopdf)                    date: 2019-11-05 13:42:29
-(epstopdf)                    size: 10383 bytes
-(epstopdf)             Output file: <figures/compare_variables-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2019-11-05 14:09:56
-(epstopdf)                    size: 7546 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/compare_variables-
-eps-converted-to.pdf figures/compare_variables.eps>
-(epstopdf)             \includegraphics on input line 1097.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/compare_variables-eps-convert
-ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
-llowed
-<figures/compare_variables-eps-converted-to.pdf, id=3686, 569.12625pt x 386.443
-76pt>
-File: figures/compare_variables-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/compare_variables-eps-converted-to.pdf>
-Package pdftex.def Info: figures/compare_variables-eps-converted-to.pdf  used o
-n input line 1097.
-(pdftex.def)             Requested size: 284.56242pt x 193.2214pt.
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1097.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
-[50
-
- <./figures/compare_variables-eps-converted-to.pdf>]
-File: unison-logo.png Graphic file (type png)
-<use unison-logo.png>
-Package pdftex.def Info: unison-logo.png  used on input line 1111.
-(pdftex.def)             Requested size: 32.12187pt x 32.12187pt.
- [51
-
-]
 \tf@nav=\write6
 \openout6 = `presentacion-tesis.nav'.
 
@@ -2204,24 +2154,24 @@ Package pdftex.def Info: unison-logo.png  used on input line 1111.
 \tf@snm=\write8
 \openout8 = `presentacion-tesis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1125.
 
 (./presentacion-tesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1125.
 
 Package rerunfilecheck Info: File `presentacion-tesis.out' has not changed.
-(rerunfilecheck)             Checksum: AF2767245C2B3C159B35BDE97F74EBFD;1156.
+(rerunfilecheck)             Checksum: 294FA12388753A324AC18BFB9E5AD47A;1109.
  ) 
 Here is how much of TeX's memory you used:
- 24488 strings out of 494719
- 468651 string characters out of 6174034
- 561202 words of memory out of 5000000
- 27100 multiletter control sequences out of 15000+600000
- 111436 words of font info for 97 fonts, out of 8000000 for 9000
+ 24422 strings out of 494719
+ 467295 string characters out of 6174034
+ 560700 words of memory out of 5000000
+ 27058 multiletter control sequences out of 15000+600000
+ 108649 words of font info for 96 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 56i,20n,62p,812b,885s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,62p,812b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2231,18 +2181,17 @@ f/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 s/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on presentacion-tesis.pdf (51 pages, 4474982 bytes).
+hare/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb>
+Output written on presentacion-tesis.pdf (45 pages, 4591093 bytes).
 PDF statistics:
- 3927 PDF objects out of 4296 (max. 8388607)
- 3514 compressed objects within 36 object streams
- 135 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3297 PDF objects out of 3580 (max. 8388607)
+ 2902 compressed objects within 30 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 
