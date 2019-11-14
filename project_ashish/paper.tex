@@ -2,46 +2,41 @@
 \usepackage{amssymb}
 \usepackage{changepage}
 \usepackage{float}
+
 \usepackage{fancyhdr}
-%\usepackage[margin=1in,headsep=.2in]{geometry}
-
-
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Thesis Project Proposal}
-\lhead{Ashish Sehrawat}
+
+\def\Student{Ashish Sehrawat}
+\def\Title{THESIS PROJECT PROPOSAL}
+\def\Prog{Doctorado en Ciencias (F\'{i}sica) }
+\def\Dept{Departamento de Investigac\'{i}on en Fis\'{i}ca}
+\def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
+\def\ProjectTitle{Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider}
+
+%%header and footer
+\lhead{\Student}
+\rhead{\Title}
+\lfoot{\Dept}
 \rfoot{Page \thepage}
- 
 \setlength{\headsep}{0.2in}
+\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+
 
 \begin{document}
 
-%\begin{frontmatter}
-%\title{THESIS PROJECT PROPOSAL}  
-%\author[]{Ashish Sehrawat$^a$}
-%\author[]{Dr. Jose Feliciano Benitez Rubio$^b$}
-%\cortext[mycorrespondingauthor]{Corresponding author}
-%\ead{support@Icm.com}
-%\address[mymainaddress]{Universidad de Sonora}
-%\begin{keyword}\rm
-%\begin{adjustwidth}{2cm}{2cm}{\itshape\textbf{Keyword:}}  
-%Higgs boson, Higgs boson production, Higgs boson decay, Higgs boson coupling, 
-%\end{adjustwidth}
-%\end{keyword}
-%\begin{keyword} \rm
-%\end{keyword}
-%\begin{abstract}\rm
-%\end{abstract}
-%\end{frontmatter}
-
+%%%%Title Page
 \begin{titlepage}
-	\centering
-        {\scshape\Large THESIS PROJECT PROPOSAL\par}
+  \centering
+  \hspace{0pt}
+  \vfill
+        {\scshape\Large \Title \par}
 
 	\vspace{2cm}
         \begin{adjustwidth}{2cm}{2cm}{
             TITLE:\par
-            \large{Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider}\par}
+            {\large \ProjectTitle \par}
+          }
         \end{adjustwidth}
 
 	\vspace{0.5cm}
@@ -53,58 +48,55 @@
         
         \vspace{4cm}
         {\underline{\hspace{8cm}}\par}
-	{\scshape\large Ashish Sehrawat\par}
+	{\scshape\large \Student \par}
         {Student\par}
 
         \vspace{1cm}
         {\underline{\hspace{8cm}}\par}
-	{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio\par}
+	{\Director \par}
         {Director\par}
 
         \vspace{1cm}
-        {Program: Doctorado en Ciencias (F\'{i}sica) \par}
-        {Departamento de Investigac\'{i}on en Fis\'{i}ca (DIFUS) \par}
+        {\Prog \par}
+        {\Dept \par}
         {Universidad de Sonora \par}
 
-        \vfill
+        \vspace{4cm}
 	{\today}
 
-      
+\hspace{0pt}
+\vfill
+
 \end{titlepage}
 
 
+%%%%% white page for print out
+\shipout\null
+
+
+%%%% Abstract Page
 \newpage
-{
 \hspace{0pt}
 \vfill
-\centering
 
-  \begin{adjustwidth}{2cm}{2cm}{\large Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider\par}
+\begin{adjustwidth}{1cm}{1cm}
+
+  \begin{center}
+    {\Large \ProjectTitle \par}
     \vspace{1cm}
-    \centering
-    {\itshape\textbf{Abstract:}\par}
-    The abstract \par
-  \end{adjustwidth}
+    {\itshape\textbf{Abstract}\par}
+  \end{center}
+
+  The abstract \par
+
+\end{adjustwidth}
 
 \hspace{0pt}
 \vfill
-}
-
-
-%\centering Ashish Sehrawat
-%\newline \newline
-%\centering Director: Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio
-%\newline \newline
-%Posgrado en Ciencias (Fis\'{i}ca)
-%\newline 
-%Departamento de Investigac\'{i}on en Fis\'{i}ca (DIFUS)
-%\newline 
-%Universidad de Sonora
-%\newline \newline
-%\today
 
 
 
+%%%%%% Begin the body
 \newpage
 \section{BACKGROUND}
 
