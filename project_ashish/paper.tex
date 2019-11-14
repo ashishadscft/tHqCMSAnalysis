@@ -1,48 +1,111 @@
-%% 
-%% Copyright 2016 Icm Ltd
 \documentclass[final,3p]{CSP}
 \usepackage{amssymb}
 \usepackage{changepage}
 \usepackage{float}
+\usepackage{fancyhdr}
+%\usepackage[margin=1in,headsep=.2in]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Thesis Project Proposal}
+\lhead{Ashish Sehrawat}
+\rfoot{Page \thepage}
+ 
+\setlength{\headsep}{0.2in}
+
 \begin{document}
 
-\begin{frontmatter}
-
-\title{THESIS PROJECT PROPOSAL}
-
-\author[]{Ashish Sehrawat$^a$}
-\author[]{Dr. Jose Feliciano Benitez Rubio$^b$}
-
-%\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+%\begin{frontmatter}
+%\title{THESIS PROJECT PROPOSAL}  
+%\author[]{Ashish Sehrawat$^a$}
+%\author[]{Dr. Jose Feliciano Benitez Rubio$^b$}
 %\cortext[mycorrespondingauthor]{Corresponding author}
 %\ead{support@Icm.com}
-
-\address[mymainaddress]{Universidad de Sonora}
-%\address[mysecondaryaddress]{Universidad de Sonora}
-
-\begin{keyword}\rm
-\begin{adjustwidth}{2cm}{2cm}{\itshape\textbf{Keyword:}}  
-Higgs boson, Higgs boson production, Higgs boson decay, Higgs boson coupling, 
-\end{adjustwidth}
-\end{keyword}
-
-
-\begin{keyword}\rm
-\begin{adjustwidth}{2cm}{2cm}{\itshape\textbf{Title:}}  
-Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider.
-\end{adjustwidth}
-\end{keyword}
-
-\begin{abstract}\rm
-% \begin{adjustwidth}{2cm}{2cm}{
-\itshape\textbf{Abstract:}
-The abstract
+%\address[mymainaddress]{Universidad de Sonora}
+%\begin{keyword}\rm
+%\begin{adjustwidth}{2cm}{2cm}{\itshape\textbf{Keyword:}}  
+%Higgs boson, Higgs boson production, Higgs boson decay, Higgs boson coupling, 
 %\end{adjustwidth}
-\end{abstract}
+%\end{keyword}
+%\begin{keyword} \rm
+%\end{keyword}
+%\begin{abstract}\rm
+%\end{abstract}
+%\end{frontmatter}
+
+\begin{titlepage}
+	\centering
+        {\scshape\Large THESIS PROJECT PROPOSAL\par}
+
+	\vspace{2cm}
+        \begin{adjustwidth}{2cm}{2cm}{
+            TITLE:\par
+            \large{Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider}\par}
+        \end{adjustwidth}
+
+	\vspace{0.5cm}
+        \begin{adjustwidth}{2cm}{2cm}{
+            RESEARCH LINE: \par
+            Astrof\'{i}sica, Cosmolog\'{i}a y F\'{i}sica de Part\'{i}culas \par}
+        \end{adjustwidth}
+
+        
+        \vspace{4cm}
+        {\underline{\hspace{8cm}}\par}
+	{\scshape\large Ashish Sehrawat\par}
+        {Student\par}
+
+        \vspace{1cm}
+        {\underline{\hspace{8cm}}\par}
+	{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio\par}
+        {Director\par}
+
+        \vspace{1cm}
+        {Program: Doctorado en Ciencias (F\'{i}sica) \par}
+        {Departamento de Investigac\'{i}on en Fis\'{i}ca (DIFUS) \par}
+        {Universidad de Sonora \par}
+
+        \vfill
+	{\today}
+
+      
+\end{titlepage}
 
 
-\end{frontmatter}
+\newpage
+{
+\hspace{0pt}
+\vfill
+\centering
 
+  \begin{adjustwidth}{2cm}{2cm}{\large Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider\par}
+    \vspace{1cm}
+    \centering
+    {\itshape\textbf{Abstract:}\par}
+    The abstract \par
+  \end{adjustwidth}
+
+\hspace{0pt}
+\vfill
+}
+
+
+%\centering Ashish Sehrawat
+%\newline \newline
+%\centering Director: Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio
+%\newline \newline
+%Posgrado en Ciencias (Fis\'{i}ca)
+%\newline 
+%Departamento de Investigac\'{i}on en Fis\'{i}ca (DIFUS)
+%\newline 
+%Universidad de Sonora
+%\newline \newline
+%\today
+
+
+
+\newpage
 \section{BACKGROUND}
 
 -SM, Higgs, couplings, previous Higgs measurements, previous tH searches
@@ -324,18 +387,13 @@ distributions of the different particles, and others properties.
 - a limit, also predictions for future runs
 
 The expected results of this project are the following:
-• Improve data adjustments and study the effects of uncertainties.
-• Improve the sensitivity to the tH signal in the data of the second CMS run.
-• Limit calculations in the effective section incorporating data from the second
-run of the LHC.
-• Calculate projections of signal sensitivity for the different phases of the LHC.
-
-\bibliographystyle{unsrt}
-\cleardoublepage
-\bibliography{paper}
+- Improve data adjustments and study the effects of uncertainties.
+- Improve the sensitivity to the tH signal in the data of the second CMS run.
+- Limit calculations in the effective section incorporating data from the second run of the LHC.
+- Calculate projections of signal sensitivity for the different phases of the LHC.
 
 
-\appendix
+
 \section{SKILLS THAT WILL BE DEVELOPED}
 The following are skills that will be developed based on the work on this project:
 - understand particle physics from an experimental point of view.
@@ -344,6 +402,12 @@ The following are skills that will be developed based on the work on this projec
 - use high performance computing.
 
 \section{CALENDAR OF ACTIVITIES}
+
+
+\bibliographystyle{unsrt}
+\cleardoublepage
+\bibliography{paper}
+
 
 \end{document}
 
