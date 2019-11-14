@@ -94,7 +94,7 @@
 
 \ifdefineAbstract
 \pagestyle{empty}
-\includeonly{Declaration/declaration, Abstract/abstract}
+\includeonly{Declaration/declaration, Abstract/abstract, Abstract/resumen}
 \fi
 
 % ***************************** Chapter Mode ***********************************
@@ -118,6 +118,9 @@
 	%\include{Declaration/declaration}
 	\include{Acknowledgement/acknowledgement}
 	\include{Abstract/abstract}
+	\renewcommand{\abstractname}{}    % clear the title
+	\renewcommand{\absnamepos}{empty} % originally center
+	\include{Abstract/resumen}
 	
 	% *********************** Adding TOC and List of Figures ***********************
 	

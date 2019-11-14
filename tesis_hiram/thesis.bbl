@@ -1,9 +1,22 @@
 \begin{thebibliography}{10}
 
-\bibitem{griff}
-David~J Griffiths.
-\newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
-\newblock Physics textbook. Wiley, New York, NY, 2008.
+\bibitem{cern1}
+LHC experiment.
+\newblock The large hadron collider.
+\newblock \url{https://home.cern/science/accelerators/large-hadron-collider},
+  2019.
+
+\bibitem{cern3}
+Apollinari~G. et. al.
+\newblock High-luminosity large hadron collider (hl-lhc). technical design
+  report v. 0.1,.
+\newblock {\em CERN Yellow}, (CERN-2017-007-M), 2017.
+
+\bibitem{cms-manual}
+Bayatian~G. et. al.
+\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2006.
 
 \bibitem{th1}
 Sirunyan A.~M. et. al.
@@ -11,6 +24,16 @@ Sirunyan A.~M. et. al.
   quark in proton-proton collisions at $\sqrt{s}=13\text{ }\text{
   }\mathrm{TeV}$.
 \newblock {\em Phys. Rev. D}, 99:092005, May 2019.
+
+\bibitem{pd}
+Tanabashi~M. et. al.
+\newblock {\em Review of Particle Physics}, volume~98.
+\newblock American Physical Society, Aug 2018.
+
+\bibitem{griff}
+David~J Griffiths.
+\newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
+\newblock Physics textbook. Wiley, New York, NY, 2008.
 
 \bibitem{tth-l}
 {Search for production of a Higgs boson and a single top quark in multilepton
@@ -58,12 +81,6 @@ Thompson M.
 \newblock {\em Modern particle physics}.
 \newblock Cambridge University press, first edition, 2013.
 
-\bibitem{cern1}
-LHC experiment.
-\newblock The large hadron collider.
-\newblock \url{https://home.cern/science/accelerators/large-hadron-collider},
-  2019.
-
 \bibitem{roofit}
 Verkerke W. $\&$~Kirkby D.
 \newblock The roofit toolkit for data modeling.
@@ -73,12 +90,6 @@ Verkerke W. $\&$~Kirkby D.
 CMS experiment.
 \newblock The cms detector.
 \newblock \url{https://cms.cern/detector}, 2019.
-
-\bibitem{cern3}
-Apollinari~G. et. al.
-\newblock High-luminosity large hadron collider (hl-lhc). technical design
-  report v. 0.1,.
-\newblock {\em CERN Yellow}, (CERN-2017-007-M), 2017.
 
 \bibitem{top}
 {D{\'e}liot} et. al.
@@ -90,17 +101,6 @@ Apollinari~G. et. al.
 Poole C. $\&$ Safko~J. Goldstein~H.
 \newblock {\em Classical Mechanics}.
 \newblock Addison Wesley Longman Inc., 3 edition, 2002.
-
-\bibitem{pd}
-Tanabashi~M. et. al.
-\newblock {\em Review of Particle Physics}, volume~98.
-\newblock American Physical Society, Aug 2018.
-
-\bibitem{cms-manual}
-Bayatian~G. et. al.
-\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
-  Performance and Software}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2006.
 
 \bibitem{cms7}
 The~CMS collaboration.

@@ -4,6 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Abstract/resumen.aux
 A level-1 auxiliary file: Chapter1/chapter1.aux
 A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
@@ -17,16 +18,17 @@ Warning--string name "june" is undefined
 --line 182 of file References/references.bib
 Warning--string name "april" is undefined
 --line 191 of file References/references.bib
+Warning--I didn't find a database entry for "gross.griff"
+Warning--there's a number but no volume in cern3
 Warning--empty author in tth-l
 Warning--empty journal in tth-l
 Warning--there's a number but no volume in tth-l
 Warning--empty author in bb
 Warning--empty journal in ew1
 Warning--empty journal in ew2
-Warning--there's a number but no volume in cern3
 You've used 20 entries,
             1791 wiz_defined-function locations,
-            579 strings with 6378 characters,
+            581 strings with 6409 characters,
 and the built_in function-call counts, 3384 in all, are:
 = -- 307
 > -- 74
@@ -65,4 +67,4 @@ warning$ -- 7
 while$ -- 27
 width$ -- 22
 write$ -- 215
-(There were 10 warnings)
+(There were 11 warnings)
