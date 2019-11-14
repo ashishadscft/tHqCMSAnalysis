@@ -894,6 +894,7 @@ wish to left align your text}
 
 % Abstract title text
 \newcommand{\@abstracttitle}{Abstract}
+\newcommand{\@resumentitle}{Resumen}
 
 % Names for the nomenclature groups
 \newcommand{\@nomenclatureromans}{Roman Symbols}
@@ -1136,8 +1137,12 @@ wish to left align your text}
   \thispagestyle{empty}
 \fi
 }
+%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{poliabstract}[1]
+{\renewcommand{\abstractname}{#1}\begin{abstract}}
+	{\end{abstract}}
 
-
+%%%%%%%%%%%%%%%%%%%%%
 % ******************** To compute empty space in title page *******************
 % Boxes below are used to space different contents on the title page
 % Based on https://github.com/cambridge/thesis
