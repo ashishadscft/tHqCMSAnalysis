@@ -335,7 +335,7 @@ Studies in the tH channel have already started with the collaborations CMS and A
 In these results it was not found evidence of signal and upper limits have been set on the production cross-section.
 The current results combine three types of searches: H$\rightarrow WW/ZZ/\tau\tau \rightarrow$leptons, H$\rightarrow\gamma\gamma$, and H$\rightarrow b\bar{b}$.
 %The most sensitive channel is  with leptons, however this channel is a combination of two sub-channels: two-lepton and three-lepton.
-The currently published result uses 36 fb$^{-1}$ of collision data and obtains an upper limit of 2.04 pb while only 0.077 pb are expected in the SM \cite{ref:tH2019}, the limit is 26 times larger than the expected value.
+The currently published result uses 36 fb$^{-1}$ of collision data and obtains an upper limit of 2.04 pb while only 0.077 pb are expected in the SM \cite{ref:tH2019,ref:tHMultilep}, the limit is 26 times larger than the expected value.
 In BSM models, for example with $\kappa_t = -1$,  the expected cross-section increases up to 0.834 pb due to quantum interference effects; in this case also the observed upper limit changes to 0.86 pb at 95$\%$ confidence level, this result almost rules out this model.  
 
 With this project we propose to incorporate the full Run 2 dataset corresponding to 150 pb$^{-1}$.
@@ -351,17 +351,29 @@ This will provide additional improvements in the limits and a possible observati
 
 
 \section{SPECIFIC OBJECTIVES}
-- details 
 
-Some of the objectives in this project include:
+The measurement of the tH production mechanism is a collaborative effort in the LHC experiment due to the various channels that need to be combined.
+This project focuses on the channels with leptons in the final state: two-lepton ($\ell\ell$)or three-lepton ($\ell\ell\ell$).
+The $\ell\ell$ sub-channel uses events with same sign dimuon ($\mu^\pm\mu^\pm$) or electron-muon ($e^\pm\mu^\pm$).
+The $\ell\ell\ell$ sub-channel uses events in the topologies: $\mu\mu\mu$, $\mu\mu e$, $\mu e e$ and $e e e$ , where no charge requirements are made.
+The leptons are generated from the decays of the $W$ and $Z$ bosons or $\tau$ leptons from decays of the Higgs or top quarks.
+Furthermore, light-quark and b-quark jets are generated from the initial state collision and from the decay of the top quark, these must be used in the signal identification.
+
+In order to complete a journal publication of a  measurement of tH production using one of these channels, several aspects  must be worked on:
 \begin{itemize}
-\item We will study the distribution of events in one of the decay channels and the  sensitivity that we get with the current data.
-\item study one or more decay channels.
-\item verify that simulation of signal events is adequate.
-\item study the extraction of signal strength through adjustments to the data.
-\item study the impact of statistical and systematic uncertainties.
+\item Simulation of the signal events using Monte Carlo generators which implement the theoretical model.
+\item Implementation of event reconstruction and selection algorithms which select high quality signal events and reduce the background events to a minimum.
+\item Studies of lepton and jet identification algorithms which improve the background rejection.
+\item For this search, due to the small signal over background ratio, a multi-variate algorith is employed which combines different event variables and exploits the correlations to construct a final discrimiant. This algorithm must be trained using simulated signal and background events.
+\item A model for the observed data must be constructed from the known background processes. These processes are normally simulated individually and then summed together with the signal to construct the final statistical model.
+\item An algorithm is developed that adjusts the model to the observed data distribution and incorporates several systematic uncertainties due to differences between simulation and real data.
+\item The signal strength observed from the statistical analysis must be interpreted as evidence of a signal and in the abscence as a limit. Further analysis is required to place constraints on paramater space of BSM models.
 \end{itemize}
 
+In addition to the above objectives, members of the experimental collaboration are expected to participate in the detector operation and upgrade activities (or service work).
+During shut-down periods, these activities include testing and installation of new detectors.
+During regular data-taking periods, activities include monitoring the data acquisition systems and data quality through comparisons of new data and old data.
+Presence at CERN or at a remote control center like Fermilab is required in order to perform these activities and meet a minimum requirement per year. 
 
 
 \section{METHODOLOGY}
