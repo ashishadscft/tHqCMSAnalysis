@@ -16,6 +16,12 @@
 \def\ProjectTitle{Study of the Higgs boson production in association with a single top quark in proton collisions at the Large Hadron Collider}
 \def\ResearchLine{Astrof\'{i}sica, Cosmolog\'{i}a y F\'{i}sica de Part\'{i}culas}
 
+
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+
 %%header and footer
 \lhead{\Student}
 \rhead{\Title}
@@ -384,12 +390,15 @@ Finally, the results of this project will be presented at national or internatio
 %- methods used in the search: which dataset,  lepton reconstruction, selections, jets, BDT, backgrounds, statistical analysis
 
 
+\afterpage{
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.6\columnwidth]{./topology.png}
+	\includegraphics[width=0.5\columnwidth]{./topology.png}
 	\caption{Topology of a tH signal event in a proton-proton collision. The decay products from the top quark include a b-jet and a W boson decaying to a lepton and neutrino. In this diagram the Higgs decays to a pair of W bosons, one decays to a lepton and neutrino while the other one can decay leptonically or hadronically. In addition there is a forward jet from initial collision of the quarks.}
 	\label{figureTopology}
 \end{figure}
+\clearpage
+}
 
 
 The methods for a measurement of the coupling of the Higgs boson and the top quark in proton collisions are extensive and require several stages.
@@ -403,46 +412,128 @@ Presence at CERN or at a remote control center like Fermilab is required in orde
 
 The reconstruction and selection of signal events is studied using the \textsc{MadGraph}~\cite{alwall2014automated} Monte Carlo generator which implements the theoretical model and predict the amount and distribution of events for a given LHC dataset.
 Figure~\ref{figureTopology} shows the main features of the topology of a tH event, including the subsequent decay products of the top quark and Higgs boson, these are the particles which are generated at the interaction point before entering the detector components.
-A separate simulation of the detector is employed using \textsc{GEANT}~\cite{agostinelli2003geant4} which simulates the trajectory of the stable particles and the response and efficiency of each sensor in the CMS detector.
+A separate simulation of the detector is employed using \textsc{Geant}~\cite{agostinelli2003geant4} which simulates the trajectory of the stable particles and the response and efficiency of each sensor in the CMS detector.
 The information obtained from this chain is saved as raw data similar to the one obtained from the real experiment and is later reconstructed in the same way.
 
 The event reconstruction is designed to capture the distinguishing features of the signal topology.
 In the channels which are the focus of this project we require that there be at least two leptons of electron or muon type, however also jets need to be identified as shown in the figure.
 The event reconstruction begins with the identification of the different types of particles: photon, electrons, muons, taus, and jets.
 Particle lists are formed for each kind using a general purpose event reconstruction software called \textsc{CMSSW}~\cite{Bayatian:2006nff} which is maintained by the collaboration and which includes basic calibration of the particle energy and momenta.
-A new data structure at this level defines new datasets stored in computing centers around the world which are available to students and scientists at all research institutions.
 
-The \textsc{CMSSW} datasets are processed using computing clusters which use parallel computing systems such as \textsc{Condor} which allows hundreds of jobs to be run at the same time by individual users and save the output in \textsc{ROOT} format which allows visualization and further optimization of the event selection.
-In this level of reconstruction, the particle lists are used to filter out  events and construct composite particles  and new event variables.
+The Tracker subdetector of CMS shown in Figure~\ref{figure5} is composed of silicon sensors which detect minimum ionizing charged particles coming from the interaction region. The Tracker onsists of an inner Pixel detector with layers of pixel sensors and an outer Strip detector. The Pixel system consists of 66 Million pixels while the Strip system of 9.6 Million strip sensors. The Tracker provides a precision measurement of the track curvature (momentum) and position at the interaction region.
+
+Electrons are reconstructed from clusters of energy in the Electromagnetic calorimeter (ECAL)  . The ECAL is made of rectangular transparent crystals which cause a shower of secondary photons and electrons. The energy deposited in the crystal is read out and determines the energy of the primary electron. The cluster must match to a track in the Tracker subdetector. Photons are similar to electrons, but a track must not be matched in this case.
+
+Muons are identified by tracks which exit the inner subdetectors and cross the solenoid into the Muon chambers. Drift Tubes (DT's) in the barrel region or Cathode Strip Chambers (CSC's) in the forward region use ionizing gas to detect the passage of muon tracks.  The track in the Muon chambers is matched to the track in the Tracker to provide a measurement of the muon momentum.
+
+Jets are reconstructed from energetic clusters found in both the ECAL and the Hadronic calorimeter (HCAL).
+Pions, kaons, and other hadrons create showers of secondary particles in the dense metal plates of the HCAL, the ionization energy of secondary particles is read out with scintillating plastics interleaved with the metal plates.  
+Jets originate at the interaction region from collisions of quarks and gluons which create showers of mesons and baryons (mainly pions).
+Jets which originate from b quarks are important in this study because they identify the decay of a top quark, b-jets are identified with a multivariate algorithm which searches for secondary vertices in the Tracker and electrons or muons (from decays of B-mesons) within the cone of the jet.
+
+A new data structure with the above particle reconstruction defines new  datasets (\textsc{CMSSW}) stored in computing centers around the world which are available to students and scientists at all research institutions.
+These  datasets are processed using computing clusters which use high-performance computing systems, normally using \textsc{Condor}~\cite{ref:condor} to link the processing nodes, which allows hundreds of jobs to be run at the same time by individual users and save the output in \textsc{Root} format \cite{ref:root}.
+In this processing, the particle lists are used to require certain event selections and filter out uninteresting events.
+
+In the search for tH events using the dimuon channel the following event selections are applied:
+\begin{itemize}
+\item exactly two muons with the same sign,
+\item leading muon with at least 25 GeV,
+\item sub-leading muon with at least 15 GeV,
+\item at least one b-tagged jet,
+  \item and at least one non-b-tagged jet.
+\end{itemize}
 
 
+\textsc{Root} is a \textsc{c++} based software that allows visualization of event distributions and variable correlations.
+Further optimization of the event selections is performed by considering the different processes which contribute to the background.
+In this search several SM processes contribute to the background due to their decays to leptons: $pp\rightarrow ZZ, WZ, WW, ZZZZ, t\bar{t}W, t\bar{t}Z, t\bar{t}H, tWZ, tZq,$ and $t\bar{t}t\bar{t}$.
+These backgrounds must be determined from MC simulation and normalized to their predicted SM crossections. 
+
+Due to the small signal over noise ratio in this search, a multivariate algorithm is trained to help separate signal events from background events.
+A typical algorithm used is the Boosted Decision Tree~\cite{ref:tmva}, which takes as input several event variables related to the signal topology.
+In the previous search for tH these variables included:
+\begin{itemize}
+\item rapidity of the most forward jet,
+\item momentum of the sub-leading lepton,
+\item number of central jets,
+\item number of forward jets,
+\item and other angular variables between the jets and leptons.
+\end{itemize}
+The multivariate algorithm takes into account the correlations between the variables and combines the information into a single discriminant.
+
+Due to the maximum separation of the signal and background in the multivariate discriminant, this distribution is used for the statisical analysis of the events.
+A fit is applied using the \textsc{RooFit} software package~\cite{ref:roofit} which constructs a model for the data consisting of the sum of the backgrounds and the signal simulations. A likelihood function is constructed from a Poison function using the expected and measured number of events.
+Systematic uncertainties are incorporated as nuissance parameters using gaussian probability functions, these account for uncertaintes in the normalization and shapes of the background.
+The signal strength extracted from this fit determines if there is any evidence for a signal.
+In the absence of a signal an upper limit is placed on the signal strength using the likelihood function and subsequently translated into a limit in the tH production cross-section and the Higgs coupling parameters. 
 
 
 \section{EXPECTED RESULTS}
-- a limit, also predictions for future runs
+%- a limit, also predictions for future runs
 
-The expected results of this project are the following:
-- Improve data adjustments and study the effects of uncertainties.
-- Improve the sensitivity to the tH signal in the data of the second CMS run.
-- Limit calculations in the effective section incorporating data from the second run of the LHC.
-- Calculate projections of signal sensitivity for the different phases of the LHC.
+The results from this project include the following items:
+\begin{itemize}
+\item The student will become part of an international collaboration.
+\item A leading contribution in one of the search channels for the tH process using the data from the Run II of the LHC, resulting in a publication in a scientific journal.
+\item Participation in the CMS detector Phase II upgrade through development and possible installation of particle detectors possibly resulting in a technical report.
+\item A presentation of a poster or a talk in one of the national conferences of the Division of Paticles and Fields of the Mexican Society of Physics.
+\item A presentation of a poster or a talk in an international physics conference.
+\item An academic stay at a scientific center like CERN or Fermilab.
+\item A high quality thesis.
+\end{itemize}
 
 
-
-\section{SKILLS THAT WILL BE DEVELOPED}
-The following are skills that will be developed based on the work on this project:
-- understand particle physics from an experimental point of view.
-- analyze and manipulate data using modern programming languages such as C++, Python and ROOT.
-- data analysis techniques.
-- use high performance computing.
 
 \section{CALENDAR OF ACTIVITIES}
 
+\begin{itemize}
+\item {\bf Semester 1 (2019-2)}:
+  \SubItem{ Readings on Standard Model theory}
+  \SubItem{ Basic Linux computing skills (\textsc{Bash, Emacs, Root})}
+  \SubItem{ Initial planning of the analysis strategy}
+\item {\bf Semester 2 (2020-1)}:
+  \SubItem{ Course I on particle physics and/or particle detection}
+  \SubItem{ Basic Linux computing skills (\textsc{Bash, Emacs, Root})}
+  \SubItem{ Readings on SM and tH literature}
+  \SubItem{ Computing accounts at CERN and Fermilab}
+  \SubItem{ Studies of the tH event selections}
+  \SubItem{ CMS service work for authorship}
+  \SubItem{ Possible summer stay at CERN or Fermilab}
+\item {\bf Semester 3 (2020-2)}:
+  \SubItem{ Course II on particle physics and/or particle detection.}
+  \SubItem{ Studies of the tH event selections}
+  \SubItem{ Development of a Multivariate algorithm for the event selections}
+  \SubItem{ Studies of the background processes}
+  \SubItem{ CMS service work for authorship}
+\item {\bf Semester 4 (2021-1)}:
+  \SubItem{ CMS service work for authorship}
+  \SubItem{ Studies of the tH event selections}
+  \SubItem{ Development of a Multivariate algorithm for the event selections}
+  \SubItem{ Studies of the tH background processes}
+  \SubItem{ Development of the statistical model and signal extraction}
+  \SubItem{ Possible summer stay at CERN or Fermilab}
+\item {\bf Semester 5 (2021-2)}:
+  \SubItem{ Studies of the tH event selections}
+  \SubItem{ Development of a Multivariate algorithm for the event selections}
+  \SubItem{ Studies of the tH background processes}
+  \SubItem{ Development of the statistical model and signal extraction}
+  \SubItem{ Presentation of poster or talk at national or international conference}
+\item {\bf Semester 6 (2022-1)}:
+  \SubItem{ Development of software for the statistical analysis and interpretation of the results}
+  \SubItem{ Review process of the results within the CMS collaboration}
+  \SubItem{ Presentation of poster or talk at national or international conference}
+  \SubItem{ Writing of the paper publication}
+  \SubItem{ Writing of the thesis}
+\end{itemize}
 
-\bibliographystyle{unsrt}
+
+
+
+
 \cleardoublepage
+\bibliographystyle{unsrt}
 \bibliography{paper}
-
 
 \end{document}
 

@@ -790,7 +790,7 @@
   footskip=42pt,
   footnotesep=0pt plus 2pt minus 0pt,
  }
- \global\let\bibfont=\footnotesize
+% \global\let\bibfont=\footnotesize
  \global\bibsep=0pt
  \if@twocolumn\global\@twocolumnfalse\fi
 \else\ifnum\jtype=3
@@ -807,7 +807,7 @@
   footnotesep=0pt plus 0pt minus 0pt,
   columnsep=2pc
  }
- \global\let\bibfont=\footnotesize
+% \global\let\bibfont=\footnotesize
  \global\bibsep=0pt
  \if@twocolumn\input{fleqn.clo}\fi
 \else\ifnum\jtype=5
@@ -824,7 +824,7 @@
   footnotesep=0pt plus 0pt minus 0pt,
   columnsep=1pt
  }%
- \global\let\bibfont=\footnotesize
+% \global\let\bibfont=\footnotesize
  \global\bibsep=0pt
  \input{fleqn.clo}
  \global\@twocolumntrue
