@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  13 NOV 2019 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  18 NOV 2019 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,152 +992,6 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 
 
 Writing index file thesis.idx
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1141 \newenvironment{p
-                        oliabstract}[1]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \abstractname undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1142 {\renewcommand{\abstractname}
-                                    {#1}\begin{abstract}}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Illegal parameter number in definition of \abstractname.
-<to be read again> 
-                   1
-l.1142 {\renewcommand{\abstractname}{#1}
-                                        \begin{abstract}}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 1142.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.1142 ...mmand{\abstractname}{#1}\begin{abstract}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.1142 ...mmand{\abstractname}{#1}\begin{abstract}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-\@writefile{toc}{\thispagestyle {empty}}
-]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1142.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1142.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1142 ...mmand{\abstractname}{#1}\begin{abstract}
-                                                  }
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra }, or forgotten \endgroup.
-l.1142 ...mand{\abstractname}{#1}\begin{abstract}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.1143 	{\end{abstract}
-                       }
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.1143 	{\end{abstract}
-                       }
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \fi.
-<argument> ...vir \else \@badend {\endcsname }\fi 
-                                                  [
-l.1143 	{\end{abstract}
-                       }
-I'm ignoring this; it doesn't match any \if.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.1143 	{\end{abstract}
-                       }
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! LaTeX Error: \begin{abstract} on input line 1142 ended by \end{\endcsname }.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1143 	{\end{abstract}
-                       }
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1143 	{\end{abstract}
-                       }
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 ) (./Preamble/preamble.tex
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -1635,54 +1489,30 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@dima=\skip65
 \bigstrutjot=\dimen274
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count187
-\U@D=\dimen275
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count188
-)
-\es@quottoks=\toks44
-\es@quotdepth=\count189
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
-))
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018/02/21 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
-\c_max_int=\count190
-\l_tmpa_int=\count191
-\l_tmpb_int=\count192
-\g_tmpa_int=\count193
-\g_tmpb_int=\count194
-\g__intarray_font_int=\count195
-\g__prg_map_int=\count196
-\c_log_iow=\count197
-\l_iow_line_count_int=\count198
-\l__iow_line_target_int=\count199
-\l__iow_one_indent_int=\count266
-\l__iow_indent_int=\count267
-\c_zero_dim=\dimen276
-\c_max_dim=\dimen277
-\l_tmpa_dim=\dimen278
-\l_tmpb_dim=\dimen279
-\g_tmpa_dim=\dimen280
-\g_tmpb_dim=\dimen281
+\c_max_int=\count187
+\l_tmpa_int=\count188
+\l_tmpb_int=\count189
+\g_tmpa_int=\count190
+\g_tmpb_int=\count191
+\g__intarray_font_int=\count192
+\g__prg_map_int=\count193
+\c_log_iow=\count194
+\l_iow_line_count_int=\count195
+\l__iow_line_target_int=\count196
+\l__iow_one_indent_int=\count197
+\l__iow_indent_int=\count198
+\c_zero_dim=\dimen275
+\c_max_dim=\dimen276
+\l_tmpa_dim=\dimen277
+\l_tmpb_dim=\dimen278
+\g_tmpa_dim=\dimen279
+\g_tmpb_dim=\dimen280
 \c_zero_skip=\skip66
 \c_max_skip=\skip67
 \l_tmpa_skip=\skip68
@@ -1695,99 +1525,99 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count268
-\c__fp_leading_shift_int=\count269
-\c__fp_middle_shift_int=\count270
-\c__fp_trailing_shift_int=\count271
-\c__fp_big_leading_shift_int=\count272
-\c__fp_big_middle_shift_int=\count273
-\c__fp_big_trailing_shift_int=\count274
-\c__fp_Bigg_leading_shift_int=\count275
-\c__fp_Bigg_middle_shift_int=\count276
-\c__fp_Bigg_trailing_shift_int=\count277
-\c__fp_rand_size_int=\count278
-\c__fp_rand_four_int=\count279
-\c__fp_rand_eight_int=\count280
-\l__sort_length_int=\count281
-\l__sort_min_int=\count282
-\l__sort_top_int=\count283
-\l__sort_max_int=\count284
-\l__sort_true_max_int=\count285
-\l__sort_block_int=\count286
-\l__sort_begin_int=\count287
-\l__sort_end_int=\count288
-\l__sort_A_int=\count289
-\l__sort_B_int=\count290
-\l__sort_C_int=\count291
-\l__tl_build_start_index_int=\count292
-\l__tl_build_index_int=\count293
-\l__tl_analysis_normal_int=\count294
-\l__tl_analysis_index_int=\count295
-\l__tl_analysis_nesting_int=\count296
-\l__tl_analysis_type_int=\count297
-\l__regex_internal_a_int=\count298
-\l__regex_internal_b_int=\count299
-\l__regex_internal_c_int=\count300
-\l__regex_balance_int=\count301
-\l__regex_group_level_int=\count302
-\l__regex_mode_int=\count303
-\c__regex_cs_in_class_mode_int=\count304
-\c__regex_cs_mode_int=\count305
-\l__regex_catcodes_int=\count306
-\l__regex_default_catcodes_int=\count307
-\c__regex_catcode_D_int=\count308
-\c__regex_catcode_S_int=\count309
-\c__regex_catcode_L_int=\count310
-\c__regex_catcode_O_int=\count311
-\c__regex_catcode_A_int=\count312
-\c__regex_all_catcodes_int=\count313
-\l__regex_show_lines_int=\count314
-\l__regex_min_state_int=\count315
-\l__regex_max_state_int=\count316
-\l__regex_left_state_int=\count317
-\l__regex_right_state_int=\count318
-\l__regex_capturing_group_int=\count319
-\l__regex_min_pos_int=\count320
-\l__regex_max_pos_int=\count321
-\l__regex_curr_pos_int=\count322
-\l__regex_start_pos_int=\count323
-\l__regex_success_pos_int=\count324
-\l__regex_curr_char_int=\count325
-\l__regex_curr_catcode_int=\count326
-\l__regex_last_char_int=\count327
-\l__regex_case_changed_char_int=\count328
-\l__regex_curr_state_int=\count329
-\l__regex_step_int=\count330
-\l__regex_min_active_int=\count331
-\l__regex_max_active_int=\count332
-\l__regex_replacement_csnames_int=\count333
-\l__regex_match_count_int=\count334
-\l__regex_min_submatch_int=\count335
-\l__regex_submatch_int=\count336
-\l__regex_zeroth_submatch_int=\count337
-\g__regex_trace_regex_int=\count338
+\l_keys_choice_int=\count199
+\c__fp_leading_shift_int=\count266
+\c__fp_middle_shift_int=\count267
+\c__fp_trailing_shift_int=\count268
+\c__fp_big_leading_shift_int=\count269
+\c__fp_big_middle_shift_int=\count270
+\c__fp_big_trailing_shift_int=\count271
+\c__fp_Bigg_leading_shift_int=\count272
+\c__fp_Bigg_middle_shift_int=\count273
+\c__fp_Bigg_trailing_shift_int=\count274
+\c__fp_rand_size_int=\count275
+\c__fp_rand_four_int=\count276
+\c__fp_rand_eight_int=\count277
+\l__sort_length_int=\count278
+\l__sort_min_int=\count279
+\l__sort_top_int=\count280
+\l__sort_max_int=\count281
+\l__sort_true_max_int=\count282
+\l__sort_block_int=\count283
+\l__sort_begin_int=\count284
+\l__sort_end_int=\count285
+\l__sort_A_int=\count286
+\l__sort_B_int=\count287
+\l__sort_C_int=\count288
+\l__tl_build_start_index_int=\count289
+\l__tl_build_index_int=\count290
+\l__tl_analysis_normal_int=\count291
+\l__tl_analysis_index_int=\count292
+\l__tl_analysis_nesting_int=\count293
+\l__tl_analysis_type_int=\count294
+\l__regex_internal_a_int=\count295
+\l__regex_internal_b_int=\count296
+\l__regex_internal_c_int=\count297
+\l__regex_balance_int=\count298
+\l__regex_group_level_int=\count299
+\l__regex_mode_int=\count300
+\c__regex_cs_in_class_mode_int=\count301
+\c__regex_cs_mode_int=\count302
+\l__regex_catcodes_int=\count303
+\l__regex_default_catcodes_int=\count304
+\c__regex_catcode_D_int=\count305
+\c__regex_catcode_S_int=\count306
+\c__regex_catcode_L_int=\count307
+\c__regex_catcode_O_int=\count308
+\c__regex_catcode_A_int=\count309
+\c__regex_all_catcodes_int=\count310
+\l__regex_show_lines_int=\count311
+\l__regex_min_state_int=\count312
+\l__regex_max_state_int=\count313
+\l__regex_left_state_int=\count314
+\l__regex_right_state_int=\count315
+\l__regex_capturing_group_int=\count316
+\l__regex_min_pos_int=\count317
+\l__regex_max_pos_int=\count318
+\l__regex_curr_pos_int=\count319
+\l__regex_start_pos_int=\count320
+\l__regex_success_pos_int=\count321
+\l__regex_curr_char_int=\count322
+\l__regex_curr_catcode_int=\count323
+\l__regex_last_char_int=\count324
+\l__regex_case_changed_char_int=\count325
+\l__regex_curr_state_int=\count326
+\l__regex_step_int=\count327
+\l__regex_min_active_int=\count328
+\l__regex_max_active_int=\count329
+\l__regex_replacement_csnames_int=\count330
+\l__regex_match_count_int=\count331
+\l__regex_min_submatch_int=\count332
+\l__regex_submatch_int=\count333
+\l__regex_zeroth_submatch_int=\count334
+\g__regex_trace_regex_int=\count335
 \c_empty_box=\box40
 \l_tmpa_box=\box41
 \l_tmpb_box=\box42
 \g_tmpa_box=\box43
 \g_tmpb_box=\box44
-\l__box_top_dim=\dimen282
-\l__box_bottom_dim=\dimen283
-\l__box_left_dim=\dimen284
-\l__box_right_dim=\dimen285
-\l__box_top_new_dim=\dimen286
-\l__box_bottom_new_dim=\dimen287
-\l__box_left_new_dim=\dimen288
-\l__box_right_new_dim=\dimen289
+\l__box_top_dim=\dimen281
+\l__box_bottom_dim=\dimen282
+\l__box_left_dim=\dimen283
+\l__box_right_dim=\dimen284
+\l__box_top_new_dim=\dimen285
+\l__box_bottom_new_dim=\dimen286
+\l__box_left_new_dim=\dimen287
+\l__box_right_new_dim=\dimen288
 \l__box_internal_box=\box45
 \l__coffin_internal_box=\box46
-\l__coffin_internal_dim=\dimen290
-\l__coffin_offset_x_dim=\dimen291
-\l__coffin_offset_y_dim=\dimen292
-\l__coffin_x_dim=\dimen293
-\l__coffin_y_dim=\dimen294
-\l__coffin_x_prime_dim=\dimen295
-\l__coffin_y_prime_dim=\dimen296
+\l__coffin_internal_dim=\dimen289
+\l__coffin_offset_x_dim=\dimen290
+\l__coffin_offset_y_dim=\dimen291
+\l__coffin_x_dim=\dimen292
+\l__coffin_y_dim=\dimen293
+\l__coffin_x_prime_dim=\dimen294
+\l__coffin_y_prime_dim=\dimen295
 \c_empty_coffin=\box47
 \l__coffin_aligned_coffin=\box48
 \l__coffin_aligned_internal_coffin=\box49
@@ -1796,37 +1626,37 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__coffin_display_coffin=\box52
 \l__coffin_display_coord_coffin=\box53
 \l__coffin_display_pole_coffin=\box54
-\l__coffin_display_offset_dim=\dimen297
-\l__coffin_display_x_dim=\dimen298
-\l__coffin_display_y_dim=\dimen299
-\l__coffin_bounding_shift_dim=\dimen300
-\l__coffin_left_corner_dim=\dimen301
-\l__coffin_right_corner_dim=\dimen302
-\l__coffin_bottom_corner_dim=\dimen303
-\l__coffin_top_corner_dim=\dimen304
-\l__coffin_scaled_total_height_dim=\dimen305
-\l__coffin_scaled_width_dim=\dimen306
+\l__coffin_display_offset_dim=\dimen296
+\l__coffin_display_x_dim=\dimen297
+\l__coffin_display_y_dim=\dimen298
+\l__coffin_bounding_shift_dim=\dimen299
+\l__coffin_left_corner_dim=\dimen300
+\l__coffin_right_corner_dim=\dimen301
+\l__coffin_bottom_corner_dim=\dimen302
+\l__coffin_top_corner_dim=\dimen303
+\l__coffin_scaled_total_height_dim=\dimen304
+\l__coffin_scaled_width_dim=\dimen305
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count339
+\l__driver_color_stack_int=\count336
 \l__driver_tmp_box=\box55
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count340
-\g__xparse_grabber_int=\count341
-\l__xparse_m_args_int=\count342
-\l__xparse_mandatory_args_int=\count343
-\l__xparse_v_nesting_int=\count344
+\l__xparse_current_arg_int=\count337
+\g__xparse_grabber_int=\count338
+\l__xparse_m_args_int=\count339
+\l__xparse_mandatory_args_int=\count340
+\l__xparse_v_nesting_int=\count341
 )
 Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen307
-\extrarowheight=\dimen308
-\NC@list=\toks45
+\col@sep=\dimen306
+\extrarowheight=\dimen307
+\NC@list=\toks44
 \extratabsurround=\skip72
 \backup@length=\skip73
 )
@@ -1834,39 +1664,39 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box56
-\l__siunitx_tmp_dim=\dimen309
-\l__siunitx_tmp_int=\count345
-\l__siunitx_number_mantissa_length_int=\count346
-\l__siunitx_number_uncert_length_int=\count347
-\l__siunitx_round_int=\count348
-\l__siunitx_process_decimal_int=\count349
-\l__siunitx_process_uncertainty_int=\count350
-\l__siunitx_process_fixed_int=\count351
-\l__siunitx_process_integer_min_int=\count352
-\l__siunitx_process_precision_int=\count353
-\l__siunitx_group_min_int=\count354
+\l__siunitx_tmp_dim=\dimen308
+\l__siunitx_tmp_int=\count342
+\l__siunitx_number_mantissa_length_int=\count343
+\l__siunitx_number_uncert_length_int=\count344
+\l__siunitx_round_int=\count345
+\l__siunitx_process_decimal_int=\count346
+\l__siunitx_process_uncertainty_int=\count347
+\l__siunitx_process_fixed_int=\count348
+\l__siunitx_process_integer_min_int=\count349
+\l__siunitx_process_precision_int=\count350
+\l__siunitx_group_min_int=\count351
 \l__siunitx_angle_marker_box=\box57
 \l__siunitx_angle_unit_box=\box58
-\l__siunitx_angle_marker_dim=\dimen310
-\l__siunitx_angle_unit_dim=\dimen311
-\l__siunitx_unit_int=\count355
-\l__siunitx_unit_denominator_int=\count356
-\l__siunitx_unit_numerator_int=\count357
-\l__siunitx_unit_prefix_int=\count358
-\l__siunitx_unit_prefix_base_int=\count359
-\l__siunitx_unit_prefix_gram_int=\count360
-\l__siunitx_number_product_int=\count361
+\l__siunitx_angle_marker_dim=\dimen309
+\l__siunitx_angle_unit_dim=\dimen310
+\l__siunitx_unit_int=\count352
+\l__siunitx_unit_denominator_int=\count353
+\l__siunitx_unit_numerator_int=\count354
+\l__siunitx_unit_prefix_int=\count355
+\l__siunitx_unit_prefix_base_int=\count356
+\l__siunitx_unit_prefix_gram_int=\count357
+\l__siunitx_number_product_int=\count358
 \c__siunitx_one_fill_skip=\skip74
 \l__siunitx_table_unit_align_skip=\skip75
-\l__siunitx_table_exponent_dim=\dimen312
-\l__siunitx_table_integer_dim=\dimen313
-\l__siunitx_table_mantissa_dim=\dimen314
-\l__siunitx_table_marker_dim=\dimen315
-\l__siunitx_table_result_dim=\dimen316
-\l__siunitx_table_uncert_dim=\dimen317
-\l__siunitx_table_fill_pre_dim=\dimen318
-\l__siunitx_table_fill_post_dim=\dimen319
-\l__siunitx_table_fill_mid_dim=\dimen320
+\l__siunitx_table_exponent_dim=\dimen311
+\l__siunitx_table_integer_dim=\dimen312
+\l__siunitx_table_mantissa_dim=\dimen313
+\l__siunitx_table_marker_dim=\dimen314
+\l__siunitx_table_result_dim=\dimen315
+\l__siunitx_table_uncert_dim=\dimen316
+\l__siunitx_table_fill_pre_dim=\dimen317
+\l__siunitx_table_fill_post_dim=\dimen318
+\l__siunitx_table_fill_mid_dim=\dimen319
 \l__siunitx_table_pre_box=\box59
 \l__siunitx_table_post_box=\box60
 \l__siunitx_table_mantissa_box=\box61
@@ -1996,10 +1826,10 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip78
-\enit@outerparindent=\dimen321
-\enit@toks=\toks46
+\enit@outerparindent=\dimen320
+\enit@toks=\toks45
 \enit@inbox=\box63
-\enitdp@description=\count362
+\enitdp@description=\count359
 )
 (./thesis-info.tex
 
@@ -2025,7 +1855,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 2.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -2069,7 +1904,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<unison-logo.png, id=11, 321.2pt x 321.2pt>
+<unison-logo.png, id=4, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 5.
@@ -2086,6 +1921,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
 
 Overfull \hbox (60.79137pt too wide) in paragraph at lines 3--17
 [][] 
@@ -2106,29 +1945,14 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
-l.51 \end{center}
-                 
+l.59 \newpage
+             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.51 \end{center}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[2
-
-
- <./unison-logo.png>]
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
@@ -2140,28 +1964,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.59 \newpage
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[1
 
-[3]) (./thesis.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
- (./Dedication/dedication.aux)
-(./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
-(./Abstract/resumen.aux
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+
+\@writefile{toc}{\thispagestyle {empty}}
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./unison-logo.png>])
+(./thesis.aux (./Dedication/dedication.aux)
+(./Acknowledgement/acknowledgement.aux) (./Abstract/resumen.aux)
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux))
 \openout1 = `thesis.aux'.
 
@@ -2192,17 +2002,19 @@ LaTeX Font Info:    ... okay on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count363
-\scratchdimen=\dimen322
+\scratchcounter=\count360
+\scratchdimen=\dimen321
 \scratchbox=\box64
-\nofMPsegments=\count364
-\nofMParguments=\count365
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count366
-\MPscratchDim=\dimen323
-\MPnumerator=\count367
-\makeMPintoPDFobject=\count368
-\everyMPtoPDFconversion=\toks48
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen322
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks47
+) (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
 )
 LaTeX Info: Redefining \microtypecontext on input line 111.
 Package microtype Info: Generating PDF output.
@@ -2214,7 +2026,8 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box65
@@ -2226,7 +2039,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count369
+\c@section@level=\count366
 )
 LaTeX Info: Redefining \ref on input line 111.
 LaTeX Info: Redefining \pageref on input line 111.
@@ -2280,8 +2093,6 @@ your preamble.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -2290,7 +2101,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count370
+\c__siunitx_mathsf_int=\count367
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2306,7 +2117,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count371
+\c__siunitx_mathtt_int=\count368
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2417,65 +2228,49 @@ Package microtype Info: Character `textgreater ' is missing
 
 
 ]
+\openout2 = `Abstract/resumen.aux'.
+
+ (./Abstract/resumen.tex
+! Undefined control sequence.
+l.11 	\justifying
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [4
+
+
+]
 \openout2 = `Abstract/abstract.aux'.
 
  (./Abstract/abstract.tex
-! Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.8 \end{abstract}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+! Undefined control sequence.
+l.12 	\justifying
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.8 \end{abstract}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.8 \end{abstract}
-                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+) [5
 
 
-! LaTeX Error: \begin{abstract} on input line 3 ended by \end{\endcsname }.
+]
+
+! LaTeX Error: \abstractname undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \end{abstract}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [4
-
-
-
-
-]
-! Extra \else.
-\@include ...ediate \closeout \@partaux \fi \else 
-                                                  \deadcycles \z@ \@nameuse ...
-l.120 	\include{Abstract/abstract}
-                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Extra \fi.
-\include ...e nested}\@eha \else \@include #1 \fi 
-                                                  
-l.120 	\include{Abstract/abstract}
-                                  
-I'm ignoring this; it doesn't match any \if.
+l.122 	\renewcommand{\abstractname}
+                                   {}    % clear the title
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 ! LaTeX Error: \absnamepos undefined.
@@ -2484,53 +2279,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 	\renewcommand{\absnamepos}
+l.123 	\renewcommand{\absnamepos}
                                  {empty} % originally center
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\openout2 = `Abstract/resumen.aux'.
-
-(./Abstract/resumen.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-
-
-! LaTeX Error: Environment poliabstract undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 	\begin{poliabstract}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{poliabstract}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \end{poliabstract}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [5
-
-
-] (./thesis.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 3.
+(./thesis.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
  [6
 
 
@@ -2539,51 +2295,24 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.5pt): 
- Make it at least 15.13202pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] (./thesis.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [8
+ [7] (./thesis.lof [8
 
 ])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.5pt): 
- Make it at least 15.13202pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9] (./thesis.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-)
+ [9] (./thesis.lot)
 \tf@lot=\write9
 \openout9 = `thesis.lot'.
 
- (./thesis.nls) [10
+ (./thesis.nls)
+[10
 
 ]
 \openout2 = `Chapter1/chapter1.aux'.
 
  (./Chapter1/chapter1.tex
-Cap\'{\i }tulo 1.
+Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
@@ -2614,10 +2343,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
  []
 
 
-Package natbib Warning: Citation `gross.griff' on page 2 undefined on input lin
-e 39.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
@@ -2627,10 +2352,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
 [2]
-<Chapter1/sm1.png, id=339, 1397.22pt x 926.71219pt>
+<Chapter1/sm1.png, id=312, 1397.22pt x 926.71219pt>
 File: Chapter1/sm1.png Graphic file (type png)
 <use Chapter1/sm1.png>
 Package pdftex.def Info: Chapter1/sm1.png  used on input line 53.
@@ -2646,13 +2369,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
-<Chapter1/sm.png, id=344, 853.1875pt x 810.02625pt>
+<Chapter1/sm.png, id=317, 853.1875pt x 810.02625pt>
 File: Chapter1/sm.png Graphic file (type png)
 <use Chapter1/sm.png>
 Package pdftex.def Info: Chapter1/sm.png  used on input line 73.
 (pdftex.def)             Requested size: 298.6201pt x 283.51343pt.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
 [3 <./Chapter1/sm1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
@@ -2663,8 +2384,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--88
 
  []
 
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
 [4 <./Chapter1/sm.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 []|\T1/ptm/m/n/12 (+20) Distance
@@ -2672,11 +2391,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
-\T1/ptm/m/n/12 (+20) in li-fe-ti-me
+\T1/ptm/m/n/12 (+20) in life-time
  []
 
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
 [5]
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
@@ -2687,8 +2404,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--140
 
  []
 
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
 [6]
 Underfull \hbox (badness 10000) in paragraph at lines 144--148
 
@@ -2699,43 +2414,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--153
 
  []
 
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
-[8]
-LaTeX Info: Redefining \. on input line 304.
-LaTeX Info: Redefining \% on input line 304.
- [9]
+[8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
-LaTeX Info: Redefining \. on input line 359.
-LaTeX Info: Redefining \% on input line 359.
 [10]
 Underfull \hbox (badness 10000) in paragraph at lines 391--402
 
  []
 
-LaTeX Info: Redefining \. on input line 414.
-LaTeX Info: Redefining \% on input line 414.
 [11]
 Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
-<Chapter1/pg.png, id=448, 807.7678pt x 367.3725pt>
+<Chapter1/pg.png, id=424, 807.7678pt x 367.3725pt>
 File: Chapter1/pg.png Graphic file (type png)
 <use Chapter1/pg.png>
 Package pdftex.def Info: Chapter1/pg.png  used on input line 426.
 (pdftex.def)             Requested size: 403.8829pt x 183.68579pt.
-<Chapter1/thw.png, id=449, 181.42781pt x 142.28156pt>
+<Chapter1/thw.png, id=425, 181.42781pt x 142.28156pt>
 File: Chapter1/thw.png Graphic file (type png)
 <use Chapter1/thw.png>
 Package pdftex.def Info: Chapter1/thw.png  used on input line 434.
@@ -2745,8 +2449,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-LaTeX Info: Redefining \. on input line 441.
-LaTeX Info: Redefining \% on input line 441.
 [12 <./Chapter1/pg.png (PNG copy)> <./Chapter1/thw.png (PNG copy)>]
 Package epstopdf Info: Source file: <Chapter1/7-14xsec.eps>
 (epstopdf)                    date: 2019-08-19 22:04:24
@@ -2758,7 +2460,7 @@ Package epstopdf Info: Source file: <Chapter1/7-14xsec.eps>
 erted-to.pdf Chapter1/7-14xsec.eps>
 (epstopdf)             \includegraphics on input line 482.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter1/7-14xsec-eps-converted-to.pdf, id=460, 569.12625pt x 408.52625pt>
+<Chapter1/7-14xsec-eps-converted-to.pdf, id=435, 569.12625pt x 408.52625pt>
 File: Chapter1/7-14xsec-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter1/7-14xsec-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter1/7-14xsec-eps-converted-to.pdf  used on input 
@@ -2770,12 +2472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 490--490
 ki . cern . ch / twiki / bin / view / LHCPhysics /
  []
 
-LaTeX Info: Redefining \. on input line 491.
-LaTeX Info: Redefining \% on input line 491.
-[13]
-LaTeX Info: Redefining \. on input line 517.
-LaTeX Info: Redefining \% on input line 517.
- [14 <./Chapter1/7-14xsec-eps-converted-to.pdf>]
+[13] [14 <./Chapter1/7-14xsec-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 517--546
 
  []
@@ -2795,21 +2492,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--554
 
  []
 
-<Chapter1/newtHq.png, id=497, 739.26187pt x 327.47343pt>
+<Chapter1/newtHq.png, id=473, 739.26187pt x 327.47343pt>
 File: Chapter1/newtHq.png Graphic file (type png)
 <use Chapter1/newtHq.png>
 Package pdftex.def Info: Chapter1/newtHq.png  used on input line 557.
 (pdftex.def)             Requested size: 369.63002pt x 163.73631pt.
-LaTeX Info: Redefining \. on input line 561.
-LaTeX Info: Redefining \% on input line 561.
-[15])
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
- [16 <./Chapter1/newtHq.png>]
+[15]) [16 <./Chapter1/newtHq.png>]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (./Chapter2/chapter2.tex
-Cap\'{\i }tulo 2.
+Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
@@ -2825,7 +2517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
 
 ]
-<Chapter1/cern.jpg, id=519, 1445.4pt x 777.90625pt>
+<Chapter1/cern.jpg, id=497, 1445.4pt x 777.90625pt>
 File: Chapter1/cern.jpg Graphic file (type jpg)
 <use Chapter1/cern.jpg>
 Package pdftex.def Info: Chapter1/cern.jpg  used on input line 28.
@@ -2835,22 +2527,18 @@ Overfull \hbox (56.89685pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
 [18 <./Chapter1/cern.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
-<Chapter2/lum6.png, id=532, 841.64438pt x 377.15906pt>
+<Chapter2/lum6.png, id=510, 841.64438pt x 377.15906pt>
 File: Chapter2/lum6.png Graphic file (type png)
 <use Chapter2/lum6.png>
 Package pdftex.def Info: Chapter2/lum6.png  used on input line 70.
 (pdftex.def)             Requested size: 420.82117pt x 188.57907pt.
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
 [19 <./Chapter2/lum6.png (PNG copy)>]
-<Chapter2/cms2.png, id=541, 404.26031pt x 262.73157pt>
+<Chapter2/cms2.png, id=519, 404.26031pt x 262.73157pt>
 File: Chapter2/cms2.png Graphic file (type png)
 <use Chapter2/cms2.png>
 Package pdftex.def Info: Chapter2/cms2.png  used on input line 89.
@@ -2877,8 +2565,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
 [20 <./Chapter2/cms2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 126--132
 
@@ -2893,27 +2579,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--148
 
  []
 
-<Chapter2/pixel2.png, id=553, 521.69907pt x 210.03468pt>
+<Chapter2/pixel2.png, id=532, 521.69907pt x 210.03468pt>
 File: Chapter2/pixel2.png Graphic file (type png)
 <use Chapter2/pixel2.png>
 Package pdftex.def Info: Chapter2/pixel2.png  used on input line 151.
 (pdftex.def)             Requested size: 365.18684pt x 147.02327pt.
-<Chapter2/tracker.png, id=557, 366.61969pt x 324.46219pt>
+<Chapter2/tracker.png, id=536, 366.61969pt x 324.46219pt>
 File: Chapter2/tracker.png Graphic file (type png)
 <use Chapter2/tracker.png>
 Package pdftex.def Info: Chapter2/tracker.png  used on input line 160.
 (pdftex.def)             Requested size: 284.54688pt x 170.7165pt.
-LaTeX Info: Redefining \. on input line 166.
-LaTeX Info: Redefining \% on input line 166.
 [21]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-LaTeX Info: Redefining \. on input line 170.
-LaTeX Info: Redefining \% on input line 170.
 [22 <./Chapter2/pixel2.png (PNG copy)> <./Chapter2/tracker.png>]
-<Chapter2/ecal.png, id=571, 439.6425pt x 214.55156pt>
+<Chapter2/ecal.png, id=550, 439.6425pt x 214.55156pt>
 File: Chapter2/ecal.png Graphic file (type png)
 <use Chapter2/ecal.png>
 Package pdftex.def Info: Chapter2/ecal.png  used on input line 176.
@@ -2933,8 +2615,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
 [23 <./Chapter2/ecal.png (PNG copy)>]
 
 LaTeX Warning: Command \texttimes invalid in math mode on input line 200.
@@ -2948,7 +2628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--203
 
  []
 
-<Chapter2/hcal.png, id=579, 584.1825pt x 243.91125pt>
+<Chapter2/hcal.png, id=557, 584.1825pt x 243.91125pt>
 File: Chapter2/hcal.png Graphic file (type png)
 <use Chapter2/hcal.png>
 Package pdftex.def Info: Chapter2/hcal.png  used on input line 209.
@@ -2958,14 +2638,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--219
 
  []
 
-LaTeX Info: Redefining \. on input line 227.
-LaTeX Info: Redefining \% on input line 227.
 [24 <./Chapter2/hcal.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
  []
 
-<Chapter2/csc.png, id=589, 380.92313pt x 243.15843pt>
+<Chapter2/csc.png, id=566, 380.92313pt x 243.15843pt>
 File: Chapter2/csc.png Graphic file (type png)
 <use Chapter2/csc.png>
 Package pdftex.def Info: Chapter2/csc.png  used on input line 239.
@@ -2980,23 +2658,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--256
 
  []
 
-LaTeX Info: Redefining \. on input line 256.
-LaTeX Info: Redefining \% on input line 256.
 [25 <./Chapter2/csc.png (PNG copy)>]
-<Chapter2/mu-efi.png, id=601, 291.33844pt x 286.06876pt>
+<Chapter2/mu-efi.png, id=578, 291.33844pt x 286.06876pt>
 File: Chapter2/mu-efi.png Graphic file (type png)
 <use Chapter2/mu-efi.png>
 Package pdftex.def Info: Chapter2/mu-efi.png  used on input line 267.
 (pdftex.def)             Requested size: 170.71393pt x 167.63109pt.
-)
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
- [26 <./Chapter2/mu-efi.png>]
+) [26 <./Chapter2/mu-efi.png>]
 \openout2 = `Chapter3/chapter3.aux'.
 
 
 (./Chapter3/chapter3.tex
-Cap\'{\i }tulo 3.
+Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
@@ -3007,7 +2680,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Chapter1/jet.png, id=611, 201.75375pt x 321.45094pt>
+<Chapter1/jet.png, id=590, 201.75375pt x 321.45094pt>
 File: Chapter1/jet.png Graphic file (type png)
 <use Chapter1/jet.png>
 Package pdftex.def Info: Chapter1/jet.png  used on input line 24.
@@ -3020,12 +2693,7 @@ Package pdftex.def Info: Chapter1/jet.png  used on input line 24.
 
 Package mathptmx Warning: There are no bold math fonts on input line 36.
 
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-[28 <./Chapter1/jet.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
- [29]
+[28 <./Chapter1/jet.png (PNG copy)>] [29]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -3035,211 +2703,185 @@ Overfull \hbox (23.65527pt too wide) in paragraph at lines 54--77
 [][]
  []
 
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
-[30]
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
- [31]
+[30] [31]
 Underfull \hbox (badness 10000) in paragraph at lines 150--153
 
  []
 
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
 [32]
-<Chapter3/kos.png, id=646, 903.375pt x 903.375pt>
+<Chapter3/kos.png, id=625, 903.375pt x 903.375pt>
 File: Chapter3/kos.png Graphic file (type png)
 <use Chapter3/kos.png>
 Package pdftex.def Info: Chapter3/kos.png  used on input line 202.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter3/kos2.png, id=647, 903.375pt x 903.375pt>
+<Chapter3/kos2.png, id=626, 903.375pt x 903.375pt>
 File: Chapter3/kos2.png Graphic file (type png)
 <use Chapter3/kos2.png>
 Package pdftex.def Info: Chapter3/kos2.png  used on input line 206.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-)
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
- [33 <./Chapter3/kos.png> <./Chapter3/kos2.png>]
+) [33 <./Chapter3/kos.png> <./Chapter3/kos2.png>]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (./Chapter4/chapter4.tex
-Cap\'{\i }tulo 4.
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
 [34
 
 
 
-]
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [35]
-<Chapter4/simple.png, id=670, 903.375pt x 903.375pt>
+] [35]
+<Chapter4/simple.png, id=649, 903.375pt x 903.375pt>
 File: Chapter4/simple.png Graphic file (type png)
 <use Chapter4/simple.png>
-Package pdftex.def Info: Chapter4/simple.png  used on input line 28.
+Package pdftex.def Info: Chapter4/simple.png  used on input line 29.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/simple-kt-1.png, id=671, 903.375pt x 903.375pt>
+<Chapter4/simple-kt-1.png, id=650, 903.375pt x 903.375pt>
 File: Chapter4/simple-kt-1.png Graphic file (type png)
 <use Chapter4/simple-kt-1.png>
-Package pdftex.def Info: Chapter4/simple-kt-1.png  used on input line 32.
+Package pdftex.def Info: Chapter4/simple-kt-1.png  used on input line 33.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
  [36 <./Chapter4/simple.png> <./Chapter4/simple-kt-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-LaTeX Info: Redefining \. on input line 109.
-LaTeX Info: Redefining \% on input line 109.
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Overfull \hbox (7.80688pt too wide) in paragraph at lines 118--132
+Overfull \hbox (7.80688pt too wide) in paragraph at lines 119--133
 [][]
  []
 
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
 [38]
-<Chapter4/chi_squared.png, id=695, 584.93532pt x 320.69812pt>
+<Chapter4/chi_squared.png, id=673, 584.93532pt x 320.69812pt>
 File: Chapter4/chi_squared.png Graphic file (type png)
 <use Chapter4/chi_squared.png>
-Package pdftex.def Info: Chapter4/chi_squared.png  used on input line 139.
+Package pdftex.def Info: Chapter4/chi_squared.png  used on input line 140.
 (pdftex.def)             Requested size: 380.20345pt x 208.4513pt.
-<Chapter4/Likelihood.png, id=696, 1202.4925pt x 879.285pt>
+<Chapter4/Likelihood.png, id=674, 1202.4925pt x 879.285pt>
 File: Chapter4/Likelihood.png Graphic file (type png)
 <use Chapter4/Likelihood.png>
-Package pdftex.def Info: Chapter4/Likelihood.png  used on input line 149.
+Package pdftex.def Info: Chapter4/Likelihood.png  used on input line 150.
 (pdftex.def)             Requested size: 234.73654pt x 171.641pt.
-<Chapter4/Likelihood-kt-1.png, id=697, 1202.4925pt x 879.285pt>
+<Chapter4/Likelihood-kt-1.png, id=675, 1202.4925pt x 879.285pt>
 File: Chapter4/Likelihood-kt-1.png Graphic file (type png)
 <use Chapter4/Likelihood-kt-1.png>
-Package pdftex.def Info: Chapter4/Likelihood-kt-1.png  used on input line 153.
+Package pdftex.def Info: Chapter4/Likelihood-kt-1.png  used on input line 154.
 (pdftex.def)             Requested size: 234.73654pt x 171.641pt.
-LaTeX Info: Redefining \. on input line 159.
-LaTeX Info: Redefining \% on input line 159.
  [39 <./Chapter4/chi_squared.png (PNG copy)> <./Chapter4/Likelihood.png> <./Cha
 pter4/Likelihood-kt-1.png>]
-<Chapter4/150fb/simple-150.png, id=702, 903.375pt x 903.375pt>
+<Chapter4/150fb/simple-150.png, id=680, 903.375pt x 903.375pt>
 File: Chapter4/150fb/simple-150.png Graphic file (type png)
 <use Chapter4/150fb/simple-150.png>
-Package pdftex.def Info: Chapter4/150fb/simple-150.png  used on input line 163.
+Package pdftex.def Info: Chapter4/150fb/simple-150.png  used on input line 164.
 
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/150fb/Likelihood.png, id=703, 1202.4925pt x 879.285pt>
+<Chapter4/150fb/Likelihood.png, id=681, 1202.4925pt x 879.285pt>
 File: Chapter4/150fb/Likelihood.png Graphic file (type png)
 <use Chapter4/150fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/150fb/Likelihood.png  used on input line 167.
+Package pdftex.def Info: Chapter4/150fb/Likelihood.png  used on input line 168.
 
 (pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/300fb/simple-300.png, id=704, 903.375pt x 903.375pt>
+<Chapter4/300fb/simple-300.png, id=682, 903.375pt x 903.375pt>
 File: Chapter4/300fb/simple-300.png Graphic file (type png)
 <use Chapter4/300fb/simple-300.png>
-Package pdftex.def Info: Chapter4/300fb/simple-300.png  used on input line 170.
+Package pdftex.def Info: Chapter4/300fb/simple-300.png  used on input line 171.
 
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/300fb/Likelihood.png, id=705, 1202.4925pt x 879.285pt>
+<Chapter4/300fb/Likelihood.png, id=683, 1202.4925pt x 879.285pt>
 File: Chapter4/300fb/Likelihood.png Graphic file (type png)
 <use Chapter4/300fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/300fb/Likelihood.png  used on input line 174.
+Package pdftex.def Info: Chapter4/300fb/Likelihood.png  used on input line 175.
 
 (pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/3000fb/simple-3000.png, id=706, 903.375pt x 903.375pt>
+<Chapter4/3000fb/simple-3000.png, id=684, 903.375pt x 903.375pt>
 File: Chapter4/3000fb/simple-3000.png Graphic file (type png)
 <use Chapter4/3000fb/simple-3000.png>
 Package pdftex.def Info: Chapter4/3000fb/simple-3000.png  used on input line 17
-7.
+8.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/3000fb/Likelihood.png, id=707, 1202.4925pt x 879.285pt>
+<Chapter4/3000fb/Likelihood.png, id=685, 1202.4925pt x 879.285pt>
 File: Chapter4/3000fb/Likelihood.png Graphic file (type png)
 <use Chapter4/3000fb/Likelihood.png>
-Package pdftex.def Info: Chapter4/3000fb/Likelihood.png  used on input line 181
+Package pdftex.def Info: Chapter4/3000fb/Likelihood.png  used on input line 182
 .
 (pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
  [40 <./Chapter4/150fb/simple-150.png> <./Chapter4/150fb/Likelihood.png> <./Cha
 pter4/300fb/simple-300.png> <./Chapter4/300fb/Likelihood.png> <./Chapter4/3000f
 b/simple-3000.png> <./Chapter4/3000fb/Likelihood.png>]
-<Chapter4/kt-1/150fb/simple-150-kt-1.png, id=712, 903.375pt x 903.375pt>
+<Chapter4/kt-1/150fb/simple-150-kt-1.png, id=690, 903.375pt x 903.375pt>
 File: Chapter4/kt-1/150fb/simple-150-kt-1.png Graphic file (type png)
 <use Chapter4/kt-1/150fb/simple-150-kt-1.png>
 Package pdftex.def Info: Chapter4/kt-1/150fb/simple-150-kt-1.png  used on input
- line 193.
+ line 194.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/kt-1/150fb/Likelihood.png, id=713, 1202.4925pt x 879.285pt>
+<Chapter4/kt-1/150fb/Likelihood.png, id=691, 1202.4925pt x 879.285pt>
 File: Chapter4/kt-1/150fb/Likelihood.png Graphic file (type png)
 <use Chapter4/kt-1/150fb/Likelihood.png>
 Package pdftex.def Info: Chapter4/kt-1/150fb/Likelihood.png  used on input line
- 197.
+ 198.
 (pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/kt-1/300fb/simple-300-kt-1.png, id=714, 903.375pt x 903.375pt>
+<Chapter4/kt-1/300fb/simple-300-kt-1.png, id=692, 903.375pt x 903.375pt>
 File: Chapter4/kt-1/300fb/simple-300-kt-1.png Graphic file (type png)
 <use Chapter4/kt-1/300fb/simple-300-kt-1.png>
 Package pdftex.def Info: Chapter4/kt-1/300fb/simple-300-kt-1.png  used on input
- line 200.
+ line 201.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/kt-1/300fb/Likelihood.png, id=715, 1202.4925pt x 879.285pt>
+<Chapter4/kt-1/300fb/Likelihood.png, id=693, 1202.4925pt x 879.285pt>
 File: Chapter4/kt-1/300fb/Likelihood.png Graphic file (type png)
 <use Chapter4/kt-1/300fb/Likelihood.png>
 Package pdftex.def Info: Chapter4/kt-1/300fb/Likelihood.png  used on input line
- 204.
+ 205.
 (pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-<Chapter4/kt-1/3000fb/simple-3000-kt-1.png, id=716, 903.375pt x 903.375pt>
+<Chapter4/kt-1/3000fb/simple-3000-kt-1.png, id=694, 903.375pt x 903.375pt>
 File: Chapter4/kt-1/3000fb/simple-3000-kt-1.png Graphic file (type png)
 <use Chapter4/kt-1/3000fb/simple-3000-kt-1.png>
 Package pdftex.def Info: Chapter4/kt-1/3000fb/simple-3000-kt-1.png  used on inp
-ut line 207.
+ut line 208.
 (pdftex.def)             Requested size: 204.85802pt x 204.8496pt.
-<Chapter4/kt-1/3000fb/Likelihood.png, id=717, 1202.4925pt x 879.285pt>
+<Chapter4/kt-1/3000fb/Likelihood.png, id=695, 1202.4925pt x 879.285pt>
 File: Chapter4/kt-1/3000fb/Likelihood.png Graphic file (type png)
 <use Chapter4/kt-1/3000fb/Likelihood.png>
 Package pdftex.def Info: Chapter4/kt-1/3000fb/Likelihood.png  used on input lin
-e 211.
+e 212.
 (pdftex.def)             Requested size: 204.85802pt x 149.78505pt.
-)
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
- [41 <./Chapter4/kt-1/150fb/simple-150-kt-1.png> <./Chapter4/kt-1/150fb/Likelih
-ood.png> <./Chapter4/kt-1/300fb/simple-300-kt-1.png> <./Chapter4/kt-1/300fb/Lik
-elihood.png> <./Chapter4/kt-1/3000fb/simple-3000-kt-1.png> <./Chapter4/kt-1/300
-0fb/Likelihood.png>]
+) [41 <./Chapter4/kt-1/150fb/simple-150-kt-1.png> <./Chapter4/kt-1/150fb/Likeli
+hood.png> <./Chapter4/kt-1/300fb/simple-300-kt-1.png> <./Chapter4/kt-1/300fb/Li
+kelihood.png> <./Chapter4/kt-1/3000fb/simple-3000-kt-1.png> <./Chapter4/kt-1/30
+00fb/Likelihood.png>]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (./Chapter5/chapter5.tex
-Cap\'{\i }tulo 5.
+Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--11
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
@@ -3248,47 +2890,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 ]) [43] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 []\T1/ptm/m/n/12 (+20) Verkerke W. $\OT1/ztmcm/m/n/12 &$ \T1/ptm/m/n/12 (+20) K
-irkby D.  The roo-fit tool-kit for da-ta mo-de-ling.
+irkby D.  The roofit toolkit for data mod-el-ing.
  []
 
 [44
 
 
 
-])
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
- [45] (./thesis.ind)
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
-(./thesis.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
- (./Dedication/dedication.aux)
-(./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
-(./Abstract/resumen.aux
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+]) [45] (./thesis.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+ (./thesis.aux (./Dedication/dedication.aux)
+(./Acknowledgement/acknowledgement.aux) (./Abstract/resumen.aux)
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 555C34B845FA7843A4261CD66A6400CB;5452.
+(rerunfilecheck)             Checksum: A7531E7E2CAAE104F00EA91E1E4E1F39;5423.
  ) 
 Here is how much of TeX's memory you used:
- 50674 strings out of 494719
- 1096425 string characters out of 6174034
- 1907959 words of memory out of 5000000
- 52756 multiletter control sequences out of 15000+600000
- 651095 words of font info for 336 fonts, out of 8000000 for 9000
+ 49814 strings out of 494719
+ 1085234 string characters out of 6174034
+ 1891344 words of memory out of 5000000
+ 51932 multiletter control sequences out of 15000+600000
+ 643648 words of font info for 327 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 64i,19n,96p,10383b,5622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,96p,10383b,5620s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3297,8 +2927,8 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/hiram/.texli
 ve2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/hiram/.texl
-ive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/hiram/.tex
-live2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texli
+ive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/hiram/.tex
+live2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texli
 ve/texmf-dist/fonts/type1/public/calligra-type1/callig15.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -3310,10 +2940,10 @@ yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (58 pages, 2356120 bytes).
+Output written on thesis.pdf (56 pages, 2352548 bytes).
 PDF statistics:
- 934 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 186 named destinations out of 1000 (max. 500000)
- 63929 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 903 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 63417 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -893,8 +893,8 @@ wish to left align your text}
 \newcommand{\@acknowledgementstitle}{Acknowledgements}
 
 % Abstract title text
-\newcommand{\@abstracttitle}{Abstract}
-\newcommand{\@resumentitle}{Resumen}
+%\newcommand{\@abstracttitle}{Abstract}
+
 
 % Names for the nomenclature groups
 \newcommand{\@nomenclatureromans}{Roman Symbols}
@@ -1133,14 +1133,11 @@ wish to left align your text}
 % Normal abstract in the thesis
   \cleardoublepage
   \setsinglecolumn
-  \chapter*{\centering \Large \@abstracttitle}
+  \chapter*{\centering }	%\Large \@abstracttitle}
   \thispagestyle{empty}
 \fi
 }
 %%%%%%%%%%%%%%%%%%%%%%
-\newenvironment{poliabstract}[1]
-{\renewcommand{\abstractname}{#1}\begin{abstract}}
-	{\end{abstract}}
 
 %%%%%%%%%%%%%%%%%%%%%
 % ******************** To compute empty space in title page *******************

@@ -13,8 +13,9 @@
 	\begin{align}
 		b_j=\sum_k^M b_j^k(1+ \alpha_k \sigma_k)
 	\end{align}
-	$\alpha_k$ is the parameter that modifies the expected background prediction and $\sigma_k$ is the systematic uncertainty of the associated background. $\sigma_k$ for the backgrounds are shown in the Table \ref{tth-table}.
-	The fit is applied by minimizing the $-\log{L}$ (NLL) with respect to the parameter $\mu$ and $\alpha_k$. The minimization is performed by using the package ROOFIT \cite{roofit}. In the figure \ref{simple} and Table \ref{table1}, shows the results of the model fitting using the Asimov data for both models. \\
+	$\alpha_k$ is the parameter that modifies the expected background prediction and $\sigma_k$ is the systematic uncertainty of the associated background. $\sigma_k$ for the backgrounds are shown in the Table \ref{tth-table}.\\
+	
+	The fit is applied by minimizing the $-\log{L}$ (NLL) with respect to the parameter $\mu$ and $\alpha_k$. The minimization is performed by using programming language ROOT. ROOT is a scientific software toolkit, based on the C++ language, which main objective is the handling of data processing, statistical analysis, including visualization and storage. The package ROOFIT is used here, because of its implementations of modeling probability distributions and statistical tools\cite{roofit}. In the figure \ref{simple} and Table \ref{table1}, shows the results of the model fitting using the Asimov data for both models. \\
 	%log es usado para evitar valores extremadamente pequenos debido a los productos de los exponenciales
 	%negativo es para hacer una minimizacion, positivo es maximizacion
 	As mentioned before, for the $k_t$=-1 the number of events for signal is more than ten times compared to SM. This improves the sensitivity to the signal. Due to the small number of signal events the uncertainty for the SM is large compared to the $k_t$=-1 scenario, where the uncertainty is around 50$\%$. In this analysis only the signal is affected by the change $k_t$=1 (SM) $\rightarrow$ $k_t=-1$, therefore the backgrounds remain the same.
@@ -110,8 +111,8 @@
 	The same method is used for the model $k_t$=-1 in the figure \ref{hm1}. In this case, the number of events for the signal is more appreciable in comparison with the SM model. However, the likelihood scan parabolas are very closed and that indicates a decrease in the uncertainty of $\mu$ more notable than SM case. 
 	Of course, as the previous section, we estimate the upper limit for these cases and they are shown in the Table \ref{upper}\\
 	
-	However, the uncertainty of $\mu$ for the SM case is still very big, with a error of 170$\%$ in the 3000 fb$^{-1}$ case, indicating that it is necessary to increase the luminosity even higher to get better results to reduce the uncertainty on $\mu$ for a possible observation of the signal. 
-	In the $k_t$=-1 model the uncertainty of $\mu$ decreases with higher luminosities giving better results; upper limits in this models are small. This is caused by the fact that the number of events for the $tH$ signal is greater. For 3000 fb$^{-1}$ the uncertainty on $\mu$ is $~10\%$, this indicates that for large integrated luminosities this model can be fully ruled out.
+	However, the uncertainty of $\mu$ for the SM case is 170$\%$ for  in the 3000 fb$^{-1}$ case, making impossible to get an evidence of a Higgs boson in the $tH$ process for the same sign muon channel. Even at higher luminosities, the uncertainty of $\mu$ in SM case is still very big.\\
+	In the $k_t$=-1 model the uncertainty of $\mu$ decreases with higher luminosities giving better results; upper limits in this models are small. This is caused by the fact that the number of events for the $tH$ signal is greater. For 3000 fb$^{-1}$ the uncertainty on $\mu$ is $~10\%$, and it has an upper limit that rounds between 0.9-1.1. In the likelihood scan, the statistical test $q$ gets very high values at $\mu$>1.1. This indicates that for large integrated luminosities this model can be fully ruled out. This can be visualized in the likelihood scan of  3000 fb$^{-1}$, where the curve is very closed and values of $q$ are very high, giving incompatibility of the model with data.
 
 	\begin{table}[ht!]
 		\caption{Results of $\mu$ and upper limits for Asimov extrapolations for SM and $k_t$=-1 models.}
@@ -125,7 +126,7 @@
 			\hline
 			300&1.0 $\pm$ 4.3 &8.7 & 1.0 $\pm$ 0.3 &1.5 \\
 			\hline
-			3000&1.0 $\pm$ 1.7 & 4.3 &	 1.0 $\pm$ 0.1 & 1.1\\
+			3000&1.0 $\pm$ 1.7 & 4.3 &	 1.0 $\pm$ 0.1 & 0.9-1.1\\
 			\hline
 		\end{tabular}
 		\label{upper}

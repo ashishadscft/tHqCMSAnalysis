@@ -17,6 +17,7 @@
 \usepackage[makeroom]{cancel}
 \usetheme{Frankfurt}
 \usepackage{tikz} 
+\usepackage{pgfplots}
 \usetikzlibrary{patterns}
 \usetikzlibrary{plotmarks}
 \titlegraphic{\vspace{8cm}}% to push the other text to the top
@@ -88,7 +89,7 @@
 \item Coupling measurement is essential to establish the nature of the Higgs
 \item The exploration of Higgs production on the $tH$ channel is subject relatively new. Measurements of CMS and ATLAS are compatible with SM predictions.
 \item The $tH$ study explores the relative sign of top-Higgs  and W-Higgs couplings.\\ Small deviations from SM predictions could be associated with physics beyond the
-standard model (BSM) such as String Theory and  Supersymmetry.
+standard model (BSM) such as Supersymmetry.
 \end{itemize}
 \end{frame}
 
@@ -213,6 +214,44 @@ with
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{Electroweak SM Lagrangian}
+	\begin{figure}[ht!]
+		\centering
+		\begin{tikzpicture}[scale=1.2]
+		\begin{axis}[
+		hide axis,
+		%axis lines=middle,
+		%      axis on top,
+		%      axis line style={blue,dashed,thick},
+		%      ymin=-2,ymax=2,
+		%      xmin=-2,xmax=2,
+		%      zmin=-2,zmax=2,
+		samples=30,
+		domain=0:360,
+		y domain=0:1.25,clip=false
+		]
+		\addplot3 [surf, shader=flat, draw=black, fill=white, z buffer=sort]
+		({sin(x)*y}, {cos(x)*y}, {(y^2-1)^2});
+		\draw[blue,thick,dashed] (axis cs:0,0,0) -- (axis cs:1,0,0)
+		node[below,font=\footnotesize]{$\Phi_{\text{IM}}$};
+		\draw[blue,thick,-stealth] (axis cs:1,0,0) -- (axis cs:1.3,0,0)
+		node[above,font=\footnotesize]{};
+		\draw[blue,thick,dashed] (axis cs:0,0,0) -- (axis cs:0,-1,0)
+		node[left=2mm,font=\footnotesize]{$\Phi_{\text{RE}}$};
+		\draw[blue,thick,-stealth] (axis cs:0,-1,0) -- (axis cs:0,-1.5,0)
+		node[right=1mm,font=\footnotesize]{};
+		\draw[blue,thick,dashed] (axis cs:0,0,0) -- (axis cs:0,0,1)
+		%node[left=2mm,font=\footnotesize]{$\phi_{\text{RE}}$}
+		;
+		\draw[blue,thick,-stealth] (axis cs:0,0,1) -- (axis cs:0,0,1.3)
+		node[right,font=\footnotesize]{$V(\Phi)$};
+		\end{axis}
+		\end{tikzpicture}
+		\caption*{\small Higgs potential $V(\Phi^\dagger \Phi)$ for $\mu^2<0$ and $\lambda>0$, also called the mexican hat potential.}
+		\label{hat}
+	\end{figure}
+\end{frame}
 \begin{frame}
 \frametitle{SM Lagrangian}
 Yukawa lagrangian
