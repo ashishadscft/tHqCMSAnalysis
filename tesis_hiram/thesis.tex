@@ -84,7 +84,6 @@
 
 % ************************ Thesis Information & Meta-data **********************
 % Thesis title and author information, refernce file for biblatex
-\input{thesis-info}
 
 % ***************************** Abstract Separate ******************************
 % To printout only the titlepage and the abstract with the PhD title and the
@@ -109,18 +108,20 @@
 
 % ******************************** Front Matter ********************************
 \begin{document}
+
+\input{thesis-info}
 	
-	\frontmatter
+%	\frontmatter
 	
-	\maketitle
+%	\maketitle
 	
 	\include{Dedication/dedication}
 	%\include{Declaration/declaration}
 	\include{Acknowledgement/acknowledgement}
 	\include{Abstract/resumen}
 	\include{Abstract/abstract}
-	\renewcommand{\abstractname}{}    % clear the title
-	\renewcommand{\absnamepos}{empty} % originally center
+%	\renewcommand{\abstractname}{}    % clear the title
+%	\renewcommand{\absnamepos}{empty} % originally center
 
 	
 	% *********************** Adding TOC and List of Figures ***********************
