@@ -81,7 +81,7 @@
 % ********************************** Preamble **********************************
 % Preamble: Contains packages and user-defined commands and settings
 \input{Preamble/preamble}
-
+\input{thesis-info}
 % ************************ Thesis Information & Meta-data **********************
 % Thesis title and author information, refernce file for biblatex
 
@@ -108,22 +108,15 @@
 
 % ******************************** Front Matter ********************************
 \begin{document}
-
-\input{thesis-info}
 	
-%	\frontmatter
-	
-%	\maketitle
+	\frontmatter
+	\maketitle
 	
 	\include{Dedication/dedication}
 	%\include{Declaration/declaration}
 	\include{Acknowledgement/acknowledgement}
 	\include{Abstract/resumen}
 	\include{Abstract/abstract}
-%	\renewcommand{\abstractname}{}    % clear the title
-%	\renewcommand{\absnamepos}{empty} % originally center
-
-	
 	% *********************** Adding TOC and List of Figures ***********************
 	
 	\tableofcontents

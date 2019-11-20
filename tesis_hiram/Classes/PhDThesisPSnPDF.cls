@@ -853,11 +853,11 @@ wish to left align your text}
 \newcommand{\supervisor}[1]{\renewcommand{\@supervisor}{#1}\PHD@supervisortrue}
 
 % Supervisor Title (Supervisor - Default, can be changed)
-\newcommand{\@supervisorrole}{Supervisor: }
+\newcommand{\@supervisorrole}{Director de Tesis:}
 \newcommand{\supervisorrole}[1]{\renewcommand{\@supervisorrole}{#1}}
 
 % Supervisor width to align
-\newcommand{\@supervisorlinewidth}{0.35\textwidth}
+\newcommand{\@supervisorlinewidth}{0.5\textwidth}
 \newcommand{\supervisorlinewidth}[1]{\renewcommand{\@supervisorlinewidth}{#1}}
 
 % Advisor
@@ -874,7 +874,7 @@ wish to left align your text}
 \newcommand{\advisorlinewidth}[1]{\renewcommand{\@advisorlinewidth}{#1}}
 
 % Submission Text
-%\newcommand{\submissiontext}{This dissertation is submitted for the degree of }
+\newcommand{\submissiontext}{This dissertation is submitted for the degree of }
 
 % keywords (These keywords will appear in the PDF meta-information
 % called `pdfkeywords`.)
@@ -965,10 +965,10 @@ wish to left align your text}
 \vspace*{1em}
 
 % Supervisor
-\ifPHD@supervisor%
-{\usebox{\PHD@supervisor}}
-\vspace*{0.5em}
-\fi
+%\ifPHD@supervisor%
+%{\usebox{\PHD@supervisor}}
+%\vspace*{0.5em}
+%\fi
 
 % Advisor
 \ifPHD@advisor%
@@ -982,6 +982,13 @@ wish to left align your text}
 
 % Submission Text
 {\usebox{\PHD@submission}}
+
+% Supervisor
+\ifPHD@supervisor%
+{\usebox{\PHD@supervisor}}
+\vspace*{0.8em}
+\fi
+
 
 % College and degree date
 \vfill
@@ -1192,11 +1199,13 @@ wish to left align your text}
     \ifthenelse{\equal{\@supervisor}{}}{
       % supervisor is not defined
     }{
-      \begin{center}
-        \makebox[\widthof{supervisorrole} + \@supervisorlinewidth][c]{
-          \Large
-          \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
-        }
+     \begin{center}
+     %   \makebox[\widthof{supervisorrole} + \@supervisorlinewidth][c]{
+    %      \Large
+     %     \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
+      %  }
+      \@supervisorrole \\
+      {Jos\'e Feliciano Ben\'tez Rubio}
       \end{center}
       \vspace{0.5em}
     } % supervisor is defined
