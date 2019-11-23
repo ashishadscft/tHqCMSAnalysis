@@ -958,7 +958,9 @@ wish to left align your text}
 	\vspace{.15\PHD@titlepagespacing}
 \fi
 
-
+% Department and University
+{\usebox{\PHD@dept}}
+\vspace{.2\PHD@titlepagespacing}
 
 % Author
 {\usebox{\PHD@author}}
@@ -976,9 +978,6 @@ wish to left align your text}
 \vspace*{0.5em}
 \fi
 
-% Department and University
-{\usebox{\PHD@dept}}
-\vspace{.2\PHD@titlepagespacing}
 
 % Submission Text
 {\usebox{\PHD@submission}}
@@ -1234,8 +1233,8 @@ wish to left align your text}
 \newsavebox{\PHD@dept}
 \begin{lrbox}{\PHD@dept}
   \begin{minipage}[c]{\textwidth}
-    \centering {\large \@dept \par}
-	       {\large \@university \par}
+    \centering {\large \@university \par}
+    {\large \@dept \par}
   \end{minipage}
 \end{lrbox}
 
