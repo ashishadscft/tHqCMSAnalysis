@@ -6,9 +6,8 @@
 During the proton collision, many types of processes happen whose information is saved in the CMS data storage system. But the events are only saved if they fulfill certain conditions compatible with the signal. 
 For the tH process, the search is based on the presence of a pair of muons with the same sign. The rest of the processes that also generate a pair of muons with the same sign will be considered backgrounds. 
 \section{Signal Event Topology} 
-In this search, top quark decays to $Wb$ and from the $W$ boson decays to a muon and a neutrino. The Higgs decays to a pair of opposite sign $W$ bosons, where one of the bosons can decay to a $\mu$ and its neutrino. This is the main process that generates events with two same sign muons. The tH process topology is shown in  figure \ref{jet}.
-
-Figure \ref{jet}, also shows a b-jet that comes from the tH process. Finally there is a forward quark jet (highest $\eta$ value) generated from the initial collision. Additional jets or leptons can be generated from the other $W$ boson.
+In this search, top quark decays to $Wb$ and from the $W$ boson decays to a muon and a neutrino. The Higgs decays to a pair of opposite sign $W$ bosons, where one of the bosons can decay to a $\mu$ and its neutrino. $b$ quark creates a b-jet. This is the main process that generates events with two same sign muons. The tH process topology is shown in  figure \ref{jet}.
+ Finally there is a forward quark jet (highest $\eta$ value) generated from the initial collision. Additional jets or leptons can be generated from the other $W$ boson.
 	
  %The W bosons can also decay to quarks that generate jets. 
 Due to the small cross section of the $tH$ process, the amount of $tH$ events is low compared to other Higgs production processes. 
@@ -21,12 +20,12 @@ Table \ref{tdecay} shows several processes that generate same sign muon events f
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[scale=1]{Chapter1/jet.png}
-		\caption{Topology of $t$H process which generates two same sign muons, a forward jet and a b-jet.} 
+		\caption[Topology of $tH$]{Topology of $tH$ process which generates two same sign muons, a forward jet and a b-jet.} 
 		\label{jet}
 	\end{figure}
 %Quarks and gluons only exist in bound states. Because of it, we cannot isolate quarks except the top quark because of their decay times that don't form a bound state. When two quarks are separated, the strong force interacting between them increases. The energy transforms into quark anti-quark pairs. The hadronization results in a jet of particles. 
 \begin{table}[ht]
-	\caption{Expected number of events for different $tH$ decay chains assuming integrated luminosity of 35.9 fb$^{-1}$. $l$ represents $\mu^{\pm},e^\pm, \tau^\pm$.}
+	\caption[Expected number of events for $tH$ decay chain with 35.9 fb$^{-1}$ of integrated luminosity at center of mass energy of $\sqrt{s}$=13 TeV ]{Expected number of events for different $tH$ decay chains assuming integrated luminosity of 35.9 fb$^{-1}$. $l$ represents $\mu^{\pm},e^\pm, \tau^\pm$.}
 	\begin{tabular}{|l|c|c|}
 		\hline
 		Decay chain & BR & Events\\
@@ -70,7 +69,7 @@ Several processes contribute to the background in this search:
 			\item $\bm{t\bar{t}H}$: This Higgs production mechanism is considered a background in this analysis. The muons in this case comes from one top and Higgs decays. 
 	\item $\bm{Fakes}$:This background refers to events where two muons come from $b$ meson decays in jets.
 \end{itemize}
-Table \ref{back} shows the decay chains and production cross sections for the backgrounds. Due to small expected event yields, the processes $W^\pm$ $W^\pm$,$tZq$,$t\bar{t}t\bar{t}$, $VVV$, $tZW^+$ and $ZZ$ are grouped as one called Rares in the results below.
+Table \ref{back} shows the decay chains for the backgrounds. Due to small expected event yields, the processes $W^\pm$ $W^\pm$,$tZq$,$t\bar{t}t\bar{t}$, $VVV$, $tZW^+$ and $ZZ$ are grouped as one called Rares in the results below.
 
 
 \begin{table}[ht]
@@ -111,9 +110,8 @@ Table \ref{back} shows the decay chains and production cross sections for the ba
 %Due to a large cross section, the main
 %background contribution comes from WZ production.
 
-
 \section{Event Selection}
-In order to detect signal events and reject background, the following selections are applied. 
+In order to detect signal events and reject background, the following selections are applied, according to the CMS publication\cite{th1} 
 \begin{itemize}
 	\item The events must contain two muons with the same sign.
 	\item Transverse momentum $p_{t}$ > 25 GeV for the highest $p_t$ muon and $p_{t}$ > 15 GeV for the lowest $p_t$ muon.
@@ -121,13 +119,13 @@ In order to detect signal events and reject background, the following selections
 	\item One or more b-tagged jets with $|\eta|$ < 2.4
 \end{itemize}
 %Also it is possible to obtain a study of three leptons, given the mentioned decays can produce them. 
-The number of events that passed the event selection are shown in table \ref{tth-table} which corresponds to a integrated luminosity of 35.9 fb$^{-1}$ \cite{th1}.
+The number of expected events after the event selection predicted by the Monte Carlo simulations used in the CMS publication are shown in table \ref{tth-table} which corresponds to a integrated luminosity of 35.9 fb$^{-1}$\cite{th1}.
 The backgrounds with the most events are $t\bar{t} W^\pm$, $t\bar{t}Z$ and Fakes. For the SM signal $tH$, the number of expected events is 2.14, while for the inverted coupling scenario ($k_t=-1$) the cross section is enhanced by a factor of approximately 10. 
 These event yields will be used to estimate the signal sensitivity. The yields include statistical uncertainties due to the  Monte Carlo (MC) samples and systematic uncertainties as described in table \ref{tth-table}. 
 
 \begin{table}[ht]
 	\centering
-	\caption[Event yields for signal and backgrounds after the event selection for a integrated luminosity of 35.9 fb$^{-1}$. The uncertainties of yields include statistical and systematic]{Event yields for signal and backgrounds after the event selection for a integrated luminosity of 35.9 fb$^{-1}$. The uncertainties of yields include statistical and systematic\cite{th1}}
+	\caption[Event yields for signal and backgrounds after the event selection]{Event yields for signal and backgrounds after the event selection for a integrated luminosity of 35.9 fb$^{-1}$. The uncertainties of yields include statistical and systematic\cite{th1}}
 	\begin{tabular}{cc}
 		\hline
 		Process & Number of events \\
@@ -148,12 +146,13 @@ These event yields will be used to estimate the signal sensitivity. The yields i
 \pagebreak
 
 \section{Systematic uncertanties}
+The uncertainties of the yields shown in Table \ref{tth-table} include systematic uncertainties due to the following sources, described in the CMS publication\cite{th1} and summarized here:
 \begin{itemize}
 \item The uncertainties on $t\bar{t}W$ and $t\bar{t}Z$ event yields are mainly due to the uncertainties of their production cross sections. 
 \item The uncertainty on $WZ$ background is estimated using real data events in a three lepton control region. 
-\item In the Rare backgrounds, which are not measured, a $50\%$ of uncertainty is assigned.
+\item In the Rare background, a $50\%$ of uncertainty is assigned.
 \item The uncertainty on the Fakes background is estimated using real data in a control region, defined by the muon identification criteria. 
-\item For the Higgs processes $tH$ and $ttH$, the uncertainty are due to the theoretical parameters used in that simulation.
+\item For the Higgs processes $tH$ and $ttH$, the uncertainty are due to the theoretical parameters (e.g. the strong coupling constant $\alpha_s$ and Parton Distribution Functions (PDF) ) used in that simulation.
 \end{itemize}
 
 %control region: event selection with 3 leptons for compare simulation with real data. yield difference in that region is 50. Is taken and for wz is 50
@@ -200,7 +199,7 @@ Figure \ref{bdt2} shows the BDT distribution for signal and backgrounds.
 	\begin{minipage}[b]{0.6\textwidth}
 		\includegraphics[width=\textwidth]{Chapter3/kos2.png}
 	\end{minipage}
-\caption[Distribution of BDT discriminant for signal and background in the case of SM (left) and inverted coupling scenario (right)]{Distribution of BDT discriminant for signal and background in the case of SM (Up) and inverted coupling scenario (Down) \cite{th1}}
+\caption[Distribution of BDT for signal and backgrounds ]{Distribution of BDT discriminant for signal and background in the case of SM (Up) and inverted coupling scenario (Down) \cite{th1}}
 \label{bdt2}
 \end{figure}
 

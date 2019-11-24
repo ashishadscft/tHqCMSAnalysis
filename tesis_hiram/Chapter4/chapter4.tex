@@ -13,13 +13,13 @@
 	\end{align}
 	$\alpha_k$ is the parameter that modifies the expected background prediction and $\sigma_k$ is the systematic uncertainty of the associated background. $\sigma_k$ for the backgrounds are shown in the Table \ref{tth-table}.
 	
-	The fit is applied by minimizing the $-\log{L}$ (NLL) with respect to the parameter $\mu$ and $\alpha_k$. The minimization is performed by using programming language ROOT. ROOT is a scientific software toolkit, based on the C++ language, which main objective is the handling of data processing, statistical analysis, including visualization and storage. The package ROOFIT is used here, because of its implementations of modeling probability distributions and statistical tools\cite{roofit}. Figure \ref{simple} and Table \ref{table1}, shows the results of the model fitting using the Asimov data for both models. 
+	The fit is applied by minimizing the negative logarithm of the likelihood function (NLL) with respect to the parameter $\mu$ and $\alpha_k$. The minimization is performed by using programming language ROOT. ROOT is a scientific software toolkit, based on the C++ language, which main objective is the handling of data processing, statistical analysis, including visualization and storage. The package ROOFIT is used here, because of its implementations of modeling probability distributions and statistical tools\cite{roofit}. Figure \ref{simple} and Table \ref{table1}, shows the results of the fit to the Asimov data. 
 	
 	%log es usado para evitar valores extremadamente pequenos debido a los productos de los exponenciales
 	%negativo es para hacer una minimizacion, positivo es maximizacion
 	As mentioned before, for the $k_t$=-1 the number of events for signal is more than ten times compared to SM. This improves the sensitivity of the signal. Due to the small number of signal events the uncertainty for the SM is large compared to the $k_t$=-1 scenario, where the uncertainty is around 50$\%$. In this analysis only the signal is affected by the change $k_t$=1 (SM) $\rightarrow$ $k_t=-1$, therefore the backgrounds remain the same.
 	
- Table \ref{parameters}, shows the $\mu$ and $\alpha$ parameters. For the pre-fit, values of $\alpha$ are set to zero and $\mu$ is set to 1. After the fit, $\alpha$ parameters set to zero indicates that in the fit, the values of the backgrounds didn't change for the SM and the $\mu$ parameter set to 1 indicates that the signal strength also didn't change.
+ Table \ref{parameters}, shows the $\mu$ and $\alpha$ parameters. For the pre-fit, values of $\alpha$ are set to zero and $\mu$ is set to 1. After the fit, $\alpha$ parameters set to zero indicates that in the fit, the values of the backgrounds did not change for the SM and the $\mu$ parameter set to 1 indicates that the signal strength also did not change.
 	
 	\pagebreak
 	
@@ -32,14 +32,14 @@
 		\begin{minipage}[b]{0.48\textwidth}
 			\includegraphics[width=\textwidth]{Chapter4/simple-kt-1.png}
 		\end{minipage}
-		\caption{Post fit signal and background yields for tH process for SM (Left) and $k_t=-1$ (Right).
+		\caption[Post-fit Signal and Backgrounds for $tH$ process]{Post-fit signal and background yields for $tH$ process for SM (Left) and $k_t=-1$ (Right).
 			%In the box below each distribution, the ratio of the observed and predicted event yields is shown
 		}
 		\label{simple}
 	\end{figure}
 	\begin{table}[ht]
 		\centering
-		\caption{Postfit yields for the fit to the Asimov data corresponding to 35.9 fb$^{-1}$. The uncertainty given is the combined statistical plus systematic.}
+		\caption[Postfit yields for the fit to the Asimov data corresponding to 35.9 fb$^{-1}$]{Postfit yields for the fit to the Asimov data corresponding to 35.9 fb$^{-1}$. The uncertainty given is the combined statistical plus systematic.}
 		\begin{tabular}{ccc}
 			\hline
 			Process & SM & $k_{t}$=-1 \\
@@ -95,8 +95,7 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[scale=0.5]{Chapter4/chi}
-		\caption{Illustration of the $\chi^2$ distribution %with 7 degrees of freedom 
-			used for the limit estimation}
+		\caption[$\chi^2$ Distribution]{Illustration of the $\chi^2$ distribution with 7 degrees of freedom used for the limit estimation}
 		\label{chi}
 	\end{figure}
 	
@@ -111,22 +110,22 @@ In order to find the upper limit value of $\mu$, we search for the largest value
 		\begin{minipage}[b]{0.49\textwidth}
 			\includegraphics[width=\textwidth,height=0.31\textheight]{Chapter4/Likelihood-kt-1.png}
 		\end{minipage}
-		\caption{Likelihood scan for SM (Left) and $k_t$=-1 (Right).}
+		\caption[Likelihood scan for SM and $k_t$=-1]{Likelihood scan for SM (Left) and $k_t$=-1 (Right).}
 		\label{scanl}
 	\end{figure}
 	\pagebreak
 	%%sigma son las probabilidades que corresponden a 1sigma=68, 2sigma=95, 3sigma=98 y sigma son los limites de la integral de una gaussiana
-	\section{Extrapolation to higher luminosities}
-	In the past section, it was shown that the signal strength with an integrated luminosity of 35.9 fb$^{-1}$ is not significant. The LHC has already collected data for integrated luminosity of 150 fb$^{-1}$ for run 2 which finished in 2018. Run 3 starts in 2021 and is expected an integrated luminosity of 300fb$^{-1}$ and for the high luminosity phase of LHC, expected to collect 3000 fb$^{-1}$. Therefore, it is interesting to study the sensitivity of the signal strength at higher luminosities. 
+	\section{Extrapolation to higher luminosity}
+	In the past section, it was shown that the signal strength with an integrated luminosity of 35.9 fb$^{-1}$ is not significant. The LHC has already collected data for integrated luminosity of 150 fb$^{-1}$ for run 2 which finished in 2018. Run 3 starts in 2021 and is expected an integrated luminosity of 300fb$^{-1}$ and for the high luminosity phase of LHC, expected to collect 3000 fb$^{-1}$. Therefore, it is interesting to study the sensitivity of the signal strength at higher luminosity. 
 	An extrapolation (scale) is applied to the Asimov data and the statistical uncertainty is adjusted accordingly. For this analysis we assume the systematic uncertainties assigned to the background are the same.
 	
-	In figure \ref{hm}, an estimated prediction of the signal and background events for higher luminosities is shown. As the luminosity increases, the number of events for both signal and backgrounds also increases, as previously explained in Chapter 1. But even with the increase of number of events, the statistical uncertainty of the data is too large with respect to the expected signal. In the likelihood scan for higher luminosities, as the luminosity increases, the relative uncertainty on the signal strength $\mu$ decreases. This is caused by the increased events available for the fit. 
+	In figure \ref{hm}, an estimated prediction of the signal and background events for higher luminosity is shown. As the luminosity increases, the number of events for both signal and backgrounds also increases, as previously explained in Chapter 1. But even with the increase of number of events, the statistical uncertainty of the data is too large with respect to the expected signal. In the likelihood scan for higher luminosity, as the luminosity increases, the relative uncertainty on the signal strength $\mu$ decreases. This is caused by the increased events available for the fit. 
 	
 	The same method is used for the model $k_t$=-1 in figure \ref{hm1}. In this case, the number of events for the signal is more appreciable in comparison with the SM model. However, the likelihood scan parabolas are very closed and that indicates a decrease in the uncertainty of $\mu$ more notable than SM case. 
 	Of course, as the previous section, we estimate the upper limit for these cases and they are shown in the Table \ref{upper}
 	
 		\begin{table}[ht]
-		\caption{Results of $\mu$ and upper limits for Asimov extrapolations for SM  and $k_t$=-1 models at 95$\%$ confidence level.}
+		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM  and $k_t$=-1 models at 95$\%$ confidence level.}
 		\begin{tabular}{|c|c|c|c|c|}
 			\hline
 			\multirow{2}{*}{Luminosity (fb$^{-1}$)}  &\multicolumn{2}{c|}{SM ($k_t$=1)} &\multicolumn{2}{c|}{$k_t$=-1 scenario}\\
@@ -145,8 +144,8 @@ In order to find the upper limit value of $\mu$, we search for the largest value
 	\end{table}
 	
 	
-	However, the uncertainty of $\mu$ for the SM case is 170$\%$ for  in the 3000 fb$^{-1}$ case, making impossible to get an evidence of a Higgs boson in the $tH$ process for the same sign muon channel. Even at higher luminosities, the uncertainty of $\mu$ in SM case is still very big.
-	In the $k_t$=-1 model the uncertainty of $\mu$ decreases with higher luminosities giving better results. This is caused by the fact that the number of events for the $tH$ signal is greater. For 3000 fb$^{-1}$ the uncertainty on $\mu$ is $~10\%$, and it has an upper limit that rounds between 0.9-1.1. In the likelihood scan, the statistical test $q$ gets very high values at $\mu$>1.1. This indicates that for large integrated luminosities this model can be fully ruled out. This can be visualized in the likelihood scan of  3000 fb$^{-1}$, where the curve is very closed and values of $q$ are very high, giving incompatibility of the model with data.
+	However, the uncertainty of $\mu$ for the SM case is 170$\%$ for  in the 3000 fb$^{-1}$ case, making impossible to get an evidence of a Higgs boson in the $tH$ process for the same sign muon channel. Even at higher luminosity, the uncertainty of $\mu$ in SM case is still very big.
+	In the $k_t$=-1 model the uncertainty of $\mu$ decreases with higher luminosity giving better results. This is caused by the fact that the number of events for the $tH$ signal is greater. For 3000 fb$^{-1}$ the uncertainty on $\mu$ is $~10\%$, and it has an upper limit that rounds between 0.9-1.1. In the likelihood scan, the statistical test $q$ gets very high values at $\mu$>1.1. This indicates that for large luminosity this model can be fully ruled out. This can be visualized in the likelihood scan of  3000 fb$^{-1}$, where the curve is very closed and values of $q$ are very high, giving incompatibility of the model with data.
 
 
 
