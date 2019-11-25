@@ -11,6 +11,8 @@
 \usepackage{epstopdf}
 \usepackage{caption}
 \usepackage{multicol}
+\usepackage{multirow}
+\usepackage{hhline}
 \usepackage{listings}
 \usepackage{alltt}
 \usepackage{mathtools}
@@ -30,32 +32,37 @@
 	\setbeamerfont{footline}{series=\bfseries}
 }
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
-		\newcommand\Fontvi{\fontsize{4}{7.2}\selectfont}
+\newcommand\Fontvi{\fontsize{4}{7.2}\selectfont}
+
+
+ \author{\tiny
+   L.F. Hiram Ernesto Dami\'an\\
+   \vspace{5px}
+   Director:\\
+   \vspace{5px}
+   Jos\'e Feliciano Ben\'itez Rubio\\
+   \vspace{5px}
+   Maestr\'ia en Ciencias (F\'isica)\\
+   \vspace{5px}
+   Departamento de Investigacion en F\'isica }
+ \title{Study of Higgs plus single top production using events with a same sign dimuon  at the Large Hadron Collider}
+ %\subtitle{}
+ \logo{\includegraphics[scale=0.1]{unison-logo.png}}
+ \newcommand{\nologo}{\setbeamertemplate{logo}{}}
+ \institute{Universidad de Sonora}
+ \date{\small November 25$^{th}$ 2019}
+ %\subject{}
+ \newcommand{\subf}[2]{%
+   {\small\begin{tabular}[t]{@{}c@{}}
+     #1\\#2
+   \end{tabular}}%
+ }
+ %\setbeamercovered{transparent}
+ %\setbeamertemplate{navigation symbols}{}
+        
+
 \begin{document}
-	\author{\tiny
-			L.F. Hiram Ernesto Dami\'an\\
-			\vspace{5px}
-				Director:\\
-					\vspace{5px}
-			Jos\'e Feliciano Ben\'itez Rubio\\
-				\vspace{5px}
-				Maestr\'ia en Ciencias (F\'isica)\\
-					\vspace{5px}
-			 Departamento de Investigacion en F\'isica }
-	\title{Study of Higgs plus single top production using events with a same sign dimuon  at the Large Hadron Collider}
-	%\subtitle{}
-	\logo{\includegraphics[scale=0.1]{unison-logo.png}}
-	\newcommand{\nologo}{\setbeamertemplate{logo}{}}
-	\institute{Universidad de Sonora}
-	\date{\small November 25$^{th}$ 2019}
-	%\subject{}
-	\newcommand{\subf}[2]{%
-		{\small\begin{tabular}[t]{@{}c@{}}
-				#1\\#2
-		\end{tabular}}%
-	}
-	%\setbeamercovered{transparent}
-	%\setbeamertemplate{navigation symbols}{}
+
 \begin{frame}
 \titlepage
 \end{frame}
@@ -65,22 +72,6 @@
 \tableofcontents
 \end{frame}
 
-
-%\begin{frame}
-%\section{Overview and motivation}
-%\frametitle{Overview}
-%\begin{itemize}
-%\item Through this project it was studied the production of Higgs boson in association with a
-%single top quark ($tH$) in proton-proton collisions. 
-%This mechanism of production of the Higgs boson has not been observed before by any
-%experiment.
-%\item Standard Model and the Higgs production mechanism
-%\item A brief introduction to the LHC and CMS
-%\item Event selection and reconstruction of the tH signal
-%\item Creation and application of a statistical model for the analysis of events 
-%\item Making predictions for the future experiments.
-%\end{itemize}
-%\end{frame}
 
 \begin{frame}
 \section{Introduction}
@@ -104,42 +95,6 @@ standard model (BSM) such as Supersymmetry.
 \end{itemize}
 \end{frame}
 
-%\begin{frame}
-%\subframetitle{Higgs mechanism}
-%\frametitle{Electroweak SM Lagrangian}
-%The Standard Model is a theory of fields for particles with spins 0, $\frac{1}{2}$ and 1. 
-%The  SM lagrangian 	
-%\begin{align*}
-%\mathcal{L}=\mathcal{L}_\text{gauge}+\mathcal{L}_f +\mathcal{L}_\text{higgs} + \mathcal{L}_\text{yukawa}
-%\end{align*}
-%donde 
-%\begin{itemize}
-%	\item $\mathcal{L}_\text{gauge}$=$ -\frac{1}{4}\left[F^{\mu\nu}F_{\mu\nu}\right]-\frac{1}{4}\left[G^{i\mu\nu}G^i_{\mu\nu}\right]$ 
-%	\begin{itemize}
-%		\item  $F^{\mu \nu}=\partial_\mu B_\nu -\partial_\nu B_\mu $
-%		\item  $G^{i\mu\nu}=\partial_\mu W^i_\nu -\partial_\nu W^i_\mu -g\epsilon^{ijk}W^j_\mu W^k_\nu $
-%	\end{itemize}
-%	\item $\mathcal{L}_f=i\bar{\Psi}_L \cancel{D}{\Psi}_L+i\bar{\psi}_R \cancel{D}{\psi}_R  $ is the kinematic term for fermions 
-%\scriptsize{
-%	\begin{itemize}
-%		\item $D_\mu {\Psi}_L=\left(\partial_\mu+igW_\mu+ig'Y_LB_\mu\right)\Psi_L$
-%		\item $D_\mu \psi_R=\left(\partial_\mu +ig' Y_RB_\mu\right)\psi_R $
-%		\item g and g' are boson coupling constants.
-%\footnote{\tiny{L(R) refers to Left and right fields.
-%Y is the  weak hypercharge,Y=T$^3$-Q.Q is charge of particle field and T is weak isospin. $T^3=\pm 1/2$ for left handed doublets and $T^3=0$ for right handed singlets.} }
-%\item $W_\mu=\sigma^iW^i_\mu$, where $\sigma^i$ are the pauli matrices.
-%	\end{itemize}
-%}
-%\end{itemize}
-%\begin{equation}
-%\begin{split}
-%\mathcal{L}=-\frac{1}{2}\text{Tr}\left[F^{\mu\nu}F_{\mu\nu} \right]+\bar{\Psi_L}i\gamma^\mu D_\mu \Psi_L  
-%+\text{Tr}\left[(D_\mu \Phi)^\dagger (D^\mu \Phi)\right]+\mu^2 \Phi^\dagger \Phi  \\
-%-\frac{1}{2}  \lambda (\Phi^\dagger \Phi)^2 & +\left(\frac{1}{2}\Psi_L^T Ch \Phi \Psi_L +h.c \right)
-%\end{split}
-%\end{equation}
-%The matrix C in the last term is the charge conjugation matrix acting on the spinors, h is a matrix of Yukawa couplings
-%\end{frame}
 
 \begin{frame}
 \subsection{Higgs mechanism}
@@ -612,15 +567,6 @@ In order to detect signal events and reject background, the following selections
 \end{itemize}
 \end{frame}
 
-%\begin{frame}
-%\frametitle{Backgrounds}
-%\subsection{Backgrounds}
-%\begin{itemize}
-%	\item Backgrounds are considered information in the data that is not the signal. 
-%	\item Backgrounds share certain characteristics of the signal.
-%	\item Backgrounds are a big factor in the statistical study of the signal.
-%\end{itemize}
-%\end{frame}
 
 \begin{frame}\subsection{Main backgrounds}
 \frametitle{Main backgrounds}
@@ -719,10 +665,7 @@ In order to detect signal events and reject background, the following selections
 	\end{tabular}	
 	\label{tth-table}
 \end{table}
-%	\begin{figure}	\centering
-%	\includegraphics[width=\textwidth]{figures/sc.png}
-%	\caption*{\tiny{Observed and expected 95$\%$ C.L. upper limit on the tH + t$\bar{t}$H cross section times H $\rightarrow$ WW $+$ $\tau\tau$ $+$ ZZ branching fraction for different 20 values of the coupling ratio $\kappa_t /\kappa_v$ . The expected limit is derived from a background-only MC dataset.}}
-%	\end{figure}
+
 \end{minipage}
 \footnotetext{\tiny The CMS collaboration, \textit{Search for production of a Higgs boson and a single top
 			quark in multilepton final states in proton collisions at 13 TeV}, CMS-HIG-18-009, Phys. Rev. D 99, 092005}
@@ -771,7 +714,7 @@ In order to detect signal events and reject background, the following selections
 %	\begin{center}
 %	\begin{figure}
 %		\includegraphics[width=10.5cm]{figures/fit-box.png}
-		\caption*{}
+%		\caption*{}
 %	\end{figure}
 %\end{center}
 %\end{frame}
@@ -966,30 +909,30 @@ $q$ is a random variable with a $\chi^2$ distribution.
 }
 
 
-\begin{frame}
-\frametitle{Results}
-\framesubtitle{Upper limit}
-		\begin{table}[ht]
-		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM  and $k_t$=-1 models at 95$\%$ confidence level.}
-		\begin{tabular}{|c|c|c|c|c|}
-			\hline
-			\multirow{2}{*}{Luminosity (fb$^{-1}$)}  &\multicolumn{2}{c|}{SM ($k_t$=1)} &\multicolumn{2}{c|}{$k_t$=-1 scenario}\\
-			\hhline{~----}	&$\mu$  &$\mu$ upper limit & $\mu$ &$\mu$ upper limit or interval\\
-			\hline
-			35.9 & 1.0 $\pm$ 7.7 & 17 & 1.0 $\pm$ 0.5 & 2.3 \\
-			\hline
-			150& 1.0 $\pm$ 6.7& 11 & 1.0 $\pm$ 0.4 &1.8\\
-			\hline
-			300&1.0 $\pm$ 4.3 &8.7 & 1.0 $\pm$ 0.3 &1.5 \\
-			\hline
-			3000&1.0 $\pm$ 1.7 & 4.3 & 1.0 $\pm$ 0.1 & 0.9-1.1\\
-			\hline
-		\end{tabular}
-		\label{upper}
-	\end{table}
-	
-}
-\end{frame}
+ \begin{frame}
+ \frametitle{Results}
+ \framesubtitle{Upper limit}
+ \begin{table}[ht]
+ {  \tiny
+ 		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM  and $k_t$=-1 models at 95$\%$ confidence level.}
+ 		\begin{tabular}{|c|c|c|c|c|}
+ 			\hline
+ 			\multirow{2}{*}{Luminosity (fb$^{-1}$)}  &\multicolumn{2}{c|}{SM ($k_t$=1)} &\multicolumn{2}{c|}{$k_t$=-1 scenario}\\
+ 			\hhline{~----}                        &$\mu$  &$\mu$ upper limit & $\mu$ &$\mu$ upper limit or interval\\
+ 			\hline
+ 			35.9 & 1.0 $\pm$ 7.7 & 17 & 1.0 $\pm$ 0.5 & 2.3 \\
+ 			\hline
+ 			150& 1.0 $\pm$ 6.7& 11 & 1.0 $\pm$ 0.4 &1.8\\
+ 			\hline
+ 			300&1.0 $\pm$ 4.3 &8.7 & 1.0 $\pm$ 0.3 &1.5 \\
+ 			\hline
+ 			3000&1.0 $\pm$ 1.7 & 4.3 & 1.0 $\pm$ 0.1 & 0.9-1.1\\
+ 			\hline
+ 		\end{tabular}
+ 		\label{upper}
+                }
+ 	\end{table}
+ \end{frame}
 
 
 %\begin{frame}
