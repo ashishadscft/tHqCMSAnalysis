@@ -853,7 +853,7 @@ wish to left align your text}
 \newcommand{\supervisor}[1]{\renewcommand{\@supervisor}{#1}\PHD@supervisortrue}
 
 % Supervisor Title (Supervisor - Default, can be changed)
-\newcommand{\@supervisorrole}{Director de Tesis:}
+\newcommand{\@supervisorrole}{\large Director de Tesis:}
 \newcommand{\supervisorrole}[1]{\renewcommand{\@supervisorrole}{#1}}
 
 % Supervisor width to align
@@ -942,29 +942,35 @@ wish to left align your text}
 	\vspace{.15\PHD@titlepagespacing}
 \fi
 
-% Title
-{\usebox{\PHD@Title}} % subtitle is defined
+
+% Department and University
+{\usebox{\PHD@dept}}
+\vspace{.1\PHD@titlepagespacing}
+
 
 
 % Crest
 
 \ifPHD@collegeshield%
-	\vspace{.15\PHD@titlepagespacing}
+	\vspace{.03\PHD@titlepagespacing}
 	{\usebox{\PHD@collegecrest}}
-	\vspace{.1\PHD@titlepagespacing}
+	\vspace{.2\PHD@titlepagespacing}
 \else
-	\vspace{.25\PHD@titlepagespacing}
+	\vspace{.03\PHD@titlepagespacing}
 	{\usebox{\PHD@crest}}
-	\vspace{.15\PHD@titlepagespacing}
+	\vspace{.2\PHD@titlepagespacing}
 \fi
 
-% Department and University
-{\usebox{\PHD@dept}}
-\vspace{.2\PHD@titlepagespacing}
+
+% Title
+{\usebox{\PHD@Title}} % subtitle is defined
+\vspace*{0.2em}
+
+
 
 % Author
 {\usebox{\PHD@author}}
-\vspace*{1em}
+\vspace*{0.5em}
 
 % Supervisor
 %\ifPHD@supervisor%
@@ -1157,13 +1163,17 @@ wish to left align your text}
 \newsavebox{\PHD@Title}
 \begin{lrbox}{\PHD@Title}
   \begin{minipage}[c]{0.98\textwidth}
-    \centering \Huge \bfseries{\@title}
+    \centering \large \bfseries{\@title}
     \ifthenelse{\equal{\@subtitle}{}}{
       % subtitle is not defined
     }{
       \\
       \centering \Large {\@subtitle}
     } % subtitle is defined
+    \\
+    \vspace{1.5em}   
+    {\Large TESIS}
+    \vspace{1em}   
   \end{minipage}
 \end{lrbox}
 
@@ -1186,8 +1196,10 @@ wish to left align your text}
 \newsavebox{\PHD@author}
 \begin{lrbox}{\PHD@author}
   \begin{minipage}[c]{\textwidth}
-    \centering \Large \bfseries{\@author}
-      \vspace{0.5em}   
+    \centering
+    \large
+    \bfseries{\@author}
+    \vspace{0.5em}   
   \end{minipage}
 \end{lrbox}
 
@@ -1204,7 +1216,7 @@ wish to left align your text}
      %     \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
       %  }
       \@supervisorrole \\
-      {Jos\'e Feliciano Ben\'tez Rubio}
+      {\large Dr. Jos\'e Feliciano Ben\'tez Rubio}
       \end{center}
       \vspace{0.5em}
     } % supervisor is defined
@@ -1233,7 +1245,7 @@ wish to left align your text}
 \newsavebox{\PHD@dept}
 \begin{lrbox}{\PHD@dept}
   \begin{minipage}[c]{\textwidth}
-    \centering {\large \@university \par}
+    \centering {\Large \@university \par}
     {\large \@dept \par}
   \end{minipage}
 \end{lrbox}
