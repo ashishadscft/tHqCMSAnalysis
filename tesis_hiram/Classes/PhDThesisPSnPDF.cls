@@ -665,11 +665,11 @@ supported!}
 % ************************ URL Package and Definition **************************
 \RequirePackage{url}
 % Redefining urlstyle to use smaller fontsize in References with URLs
-%\newcommand{\url@leostyle}{%
-% \@ifundefined{selectfont}{\renewcommand{\UrlFont}{\sffamily}}
-% {\renewcommand{\UrlFont}{\normalsize}}}
+\newcommand{\url@leostyle}{%
+ \@ifundefined{selectfont}{\renewcommand{\UrlFont}{\sffamily}}
+ {\renewcommand{\UrlFont}{\normalsize}}}
 
-\urlstyle{rm}
+\urlstyle{leo}
 
 % option to split urls over multiple lines for latex >> DVIPS >> PDF option
 \ifpdf
@@ -855,7 +855,7 @@ wish to left align your text}
 \newcommand{\supervisor}[1]{\renewcommand{\@supervisor}{#1}\PHD@supervisortrue}
 
 % Supervisor Title (Supervisor - Default, can be changed)
-\newcommand{\@supervisorrole}{\large Director de Tesis:}
+\newcommand{\@supervisorrole}{\large Supervisor:}
 \newcommand{\supervisorrole}[1]{\renewcommand{\@supervisorrole}{#1}}
 
 % Supervisor width to align
@@ -966,34 +966,22 @@ wish to left align your text}
 
 % Title
 {\usebox{\PHD@Title}} % subtitle is defined
-\vspace*{0.2em}
-
 
 
 % Author
+\vspace*{1.7em}
 {\usebox{\PHD@author}}
-\vspace*{0.5em}
-
-% Supervisor
-%\ifPHD@supervisor%
-%{\usebox{\PHD@supervisor}}
-%\vspace*{0.5em}
-%\fi
-
-% Advisor
-\ifPHD@advisor%
-{\usebox{\PHD@advisor}}
-\vspace*{0.5em}
-\fi
 
 
 % Submission Text
+\vspace*{1.5em}
 {\usebox{\PHD@submission}}
 
+
 % Supervisor
+\vspace*{2em}
 \ifPHD@supervisor%
 {\usebox{\PHD@supervisor}}
-\vspace*{0.8em}
 \fi
 
 
@@ -1172,10 +1160,6 @@ wish to left align your text}
       \\
       \centering \Large {\@subtitle}
     } % subtitle is defined
-    \\
-    \vspace{1.5em}   
-    {\Large TESIS}
-    \vspace{1em}   
   \end{minipage}
 \end{lrbox}
 
@@ -1200,8 +1184,9 @@ wish to left align your text}
   \begin{minipage}[c]{\textwidth}
     \centering
     \large
+    BY: \\
+    \vspace{1em}   
     \bfseries{\@author}
-    \vspace{0.5em}   
   \end{minipage}
 \end{lrbox}
 
@@ -1213,12 +1198,8 @@ wish to left align your text}
       % supervisor is not defined
     }{
      \begin{center}
-     %   \makebox[\widthof{supervisorrole} + \@supervisorlinewidth][c]{
-    %      \Large
-     %     \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
-      %  }
-      \@supervisorrole \\
-      {\large Dr. Jos\'e Feliciano Ben\'tez Rubio}
+       \@supervisorrole \\
+       \@supervisor
       \end{center}
       \vspace{0.5em}
     } % supervisor is defined
@@ -1255,10 +1236,10 @@ wish to left align your text}
 % Submission Box
 \newsavebox{\PHD@submission}
 \begin{lrbox}{\PHD@submission}
-  \begin{minipage}[c]{\textwidth}
+  \begin{minipage}[c]{0.7\textwidth}
     \begin{center}
       \large \submissiontext \par
-      \large \textit {\@degreetitle} \par
+      \large \textit {\degreetitle} \par
     \end{center}
   \end{minipage}
 \end{lrbox}
