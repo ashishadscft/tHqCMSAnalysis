@@ -665,11 +665,11 @@ supported!}
 % ************************ URL Package and Definition **************************
 \RequirePackage{url}
 % Redefining urlstyle to use smaller fontsize in References with URLs
-\newcommand{\url@leostyle}{%
- \@ifundefined{selectfont}{\renewcommand{\UrlFont}{\sffamily}}
- {\renewcommand{\UrlFont}{\normalsize}}}
+%\newcommand{\url@leostyle}{%
+% \@ifundefined{selectfont}{\renewcommand{\UrlFont}{\sffamily}}
+% {\renewcommand{\UrlFont}{\normalsize}}}
 
-\urlstyle{leo}
+\urlstyle{rm}
 
 % option to split urls over multiple lines for latex >> DVIPS >> PDF option
 \ifpdf
