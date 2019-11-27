@@ -27,7 +27,7 @@
 \usepackage{fancyhdr}
 \usepackage{calligra}
 \usepackage[bottom]{footmisc}
-
+\usepackage[T1]{fontenc}
 % *****************************************************************************
 % ******************* Fonts (like different typewriter fonts etc.)*************
 
@@ -65,12 +65,17 @@
 %\usepackage{algpseudocode}
 
 \usepackage{color}   %May be necessary if you want to color links
-\usepackage{hyperref}
-\hypersetup{
-	colorlinks=true, %set true if you want colored links
-	linktoc=all,     %set to all if you want both sections and subsections linked
-	linkcolor=black,  %choose some color if you want links to stand out
-}
+%\usepackage{hyperref}
+%\hypersetup{
+%	colorlinks,
+%	citecolor=black,
+%	filecolor=black,
+%	linkcolor=black,
+%	urlcolor=cyan
+%}
+
+\usepackage{url}
+\urlstyle{rm}
 % ********************Captions and Hyperreferencing / URL **********************
 
 % Captions: This makes captions of figures use a boldfaced small font.
@@ -136,12 +141,12 @@
 % Add `custombib' in the document class option to use this section
 
 \ifuseCustomBib
- \RequirePackage[square, sort, numbers, authoryear]{natbib} % CustomBib
+ %\RequirePackage[square, sort, numbers, authoryear]{natbib} % CustomBib
 
 % If you would like to use biblatex for your reference management, as opposed to the default `natbibpackage` pass the option `custombib` in the document class. Comment out the previous line to make sure you don't load the natbib package. Uncomment the following lines and specify the location of references.bib file
 
-%\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
-%\addbibresource{References/references} %Location of references.bib only for biblatex, Do not omit the .bib extension from the filename.
+\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nyt, url=false, doi=true, natbib=true]{biblatex}
+\addbibresource{References/references} %Location of references.bib only for biblatex, Do not omit the .bib extension from the filename.
 
 \fi
 
@@ -213,7 +218,7 @@
 %	\newcommand{\mynote}[1]{}
 %	\newcommand{\listoftodos}{}
 %\fi
-
+\pgfplotsset{compat=1.16}
 % Example todo: \mynote{Hey! I have a note}
 
 % ******************************** Highlighting Changes **********************************

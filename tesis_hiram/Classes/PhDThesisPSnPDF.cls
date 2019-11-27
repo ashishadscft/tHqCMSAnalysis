@@ -615,9 +615,10 @@ supported!}
     linktocpage,
     colorlinks=true,
     linkcolor=black,
-    urlcolor=black,
+    urlcolor=blue,
     citecolor=black,
     anchorcolor=black
+    %pdfborder=0 0 4
   }
   \ifsetCustomMargin
   % Margin to be define in preamble using geometry package
@@ -667,6 +668,7 @@ supported!}
 \newcommand{\url@leostyle}{%
  \@ifundefined{selectfont}{\renewcommand{\UrlFont}{\sffamily}}
  {\renewcommand{\UrlFont}{\normalsize}}}
+
 \urlstyle{leo}
 
 % option to split urls over multiple lines for latex >> DVIPS >> PDF option
