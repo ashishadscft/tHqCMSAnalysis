@@ -190,6 +190,16 @@ int TMVAClassification2( )
    //dataloader->AddVariable( "myvar2 := var1-var2", "Expression 2", "", 'F' );
    dataloader->AddVariable( "abs(fj_eta)", "fwd jet |eta|", "", 'F' );
    dataloader->AddVariable( "l1_pt", "lead muon pT", "GeV", 'F' );
+  /////////////////////////////////////////////////////////////////
+   dataloader->AddVariable( "l2_pt", "sublead muon pT", "GeV", 'F' );
+   dataloader->AddVariable( "ncj", "Number of jets with pT>25", "GeV", 'F' );
+   dataloader->AddVariable( "dR_l1_l2", "minimum #Delta R", "", 'F' );
+   dataloader->AddVariable( "deta_fj_b1", "#eta fwd jet and b-jet", "", 'F' );
+   dataloader->AddVariable( "deta_fj_l", "#eta fwd jet and cl", "", 'F' );
+   dataloader->AddVariable( "nfj", "number untagged jets", "", 'F' );
+   dataloader->AddVariable( "dphi_l1_l2", "#phi lepton high pT", "", 'F' );
+   dataloader->AddVariable( "l1_ch+l2_ch", "sum of charges", "", 'F' );
+
 
    // You can add so-called "Spectator variables", which are not used in the MVA training,
    // but will appear in the final "TestTree" produced by TMVA. This TestTree will contain the
