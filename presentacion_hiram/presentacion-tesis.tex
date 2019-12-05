@@ -17,7 +17,9 @@
 \usepackage{alltt}
 \usepackage{mathtools}
 \usepackage[makeroom]{cancel}
-%\usetheme{Frankfurt}
+\usetheme{Rochester}
+%\usecolortheme{dove}
+%\usetheme{Pittsburgh}
 \usepackage{tikz} 
 \usepackage{pgfplots}
 \usetikzlibrary{patterns}
@@ -35,21 +37,25 @@
 \newcommand\Fontvi{\fontsize{4}{7.2}\selectfont}
 
 
- \author{\tiny
+ \author{\scriptsize
+ 	Universidad de Sonora\\
+ 	\vspace{5px}
+ 	Divisi\'on de Ciencias Exactas y Naturales\\
+ 	\vspace{5px}
+ 	Departamento de Investigaci\'on en F\'isica\\
+ 	   \vspace{5px}
    L.F. Hiram Ernesto Dami\'an\\
-   \vspace{5px}
+   Defensa de tesis para obtener el grado de \\
+      Maestr\'ia en Ciencias (F\'isica)\\
+         \vspace{5px}
    Director:\\
    \vspace{5px}
    Jos\'e Feliciano Ben\'itez Rubio\\
-   \vspace{5px}
-   Maestr\'ia en Ciencias (F\'isica)\\
-   \vspace{5px}
-   Departamento de Investigacion en F\'isica }
+   \vspace{5px}}
  \title{Study of Higgs plus single top production using events with a same sign dimuon  at the Large Hadron Collider}
  %\subtitle{}
  \logo{\includegraphics[scale=0.1]{unison-logo.png}}
  \newcommand{\nologo}{\setbeamertemplate{logo}{}}
- \institute{Universidad de Sonora}
  \date{\small November 25$^{th}$ 2019}
  %\subject{}
  \newcommand{\subf}[2]{%
@@ -68,6 +74,7 @@
 \end{frame}
 
 \begin{frame}
+	\frametitle{Table of contents}
 \tiny
 \tableofcontents
 \end{frame}
@@ -97,7 +104,7 @@ standard model (BSM) such as Supersymmetry.
 
 
 \begin{frame}
-\subsection{Higgs mechanism}
+\subsection{Electroweak SM Lagrangian}
 \frametitle{Electroweak SM Lagrangian}
 Higgs lagrangian 
 \begin{align}
@@ -248,17 +255,18 @@ $\nu_e$	$\nu_\mu$ $\nu_\tau$& 0 & 0 & $\frac{1}{2}$ & Stable & -\\
 \begin{frame}
 \frametitle{Cross section}
 \begin{itemize}
+	\item The reaction rate $N_R$ is determined by the total cross section $\sigma$ and the incident flux L.
+	\begin{align}
+	N_R=\sigma \text{L}
+	\end{align}
 \item Cross section describes the likelihood of two particles interacting under certain conditions\cite{1}\cite{6}
-\begin{align}
-N_R=\sigma \text{L}
-\end{align}
 %\item Experimentally
 %\begin{align}
 %d\sigma=\frac{\text{number of particles scattered into solid angle} \Delta\Omega}{\text{(number of particles incident)(scattering centers/area)}}
 %\end{align}
 \item Cross sections are expressed in barns , where 1 barn=$10^{-34}$ cm$^{-2}$ 
-\item The reaction rate $N_R$ is determined by the total cross section $\sigma$ and the incident flux L.\\
-L is called luminosity and it is measured in cm$^{-2}$s$^{-1}$.\cite{6}
+
+\item L is called luminosity and it is measured in cm$^{-2}$s$^{-1}$.\cite{6}
 \end{itemize}
 \end{frame}
 
@@ -295,22 +303,19 @@ L is called luminosity and it is measured in cm$^{-2}$s$^{-1}$.\cite{6}
 		\hline
 	\end{tabular}
 \end{table}
-
 \footnotetext[1]{\tiny{Data taken from The cern collaborarion “Higgs Physics the HL-LHC and HE-LHC” 2019, CERN-LPCC-2018-04}}
-
 \end{frame}
 
 
 
 \begin{frame}
 \frametitle{Branching ratio}
-\small{In particle physics, the branching ratio for a decay process is the ratio of the number of particles which decay via a specific decay mode with respect to the total number of particles which decay via all decay modes. \footnotemark.}
+\small{In particle physics, the branching ratio for a decay process is the ratio of the number of particles which decay via a specific decay mode with respect to the total number of particles which decay via all decay modes.}
 \begin{align}
 \text{BR} =\frac{\Gamma_i}{\sum_{i}\Gamma_i}
 \end{align}
-\small{Where $\Gamma=\sum_i\Gamma_i$ is the total decay width (sum of all partial widths) of the particle and is related to lifetime of the particle: $\Gamma=1/\tau$.
-Since the dimension of $\Gamma$ is the inverse of time, in our system of natural units, it is measured in inverse seconds} .%it has the same dimension as mass (or energy).}
-\footnote[0]{\tiny{Cleaves H.J. (2011) Branching Ratio. In: Gargaud M. et al. (eds) Encyclopedia of Astrobiology. Springer, Berlin, Heidelberg} }
+\small{Where $\Gamma=\sum_i\Gamma_i$ is the total decay width (sum of all partial widths) of the particle and is related to lifetime of the particle: $\Gamma=1/\tau$.}
+%it has the same dimension as mass (or energy).}
 \end{frame}
  
 
@@ -633,6 +638,40 @@ In order to detect signal events and reject background, the following selections
 
 
 {\nologo
+	\begin{frame}
+		\Fontvi
+		\begin{center}
+			\begin{tabular}{cc}
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-pt-sub} &
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-abs-pj-eta}\\ 
+				{Distribution of events of pt of the sub leading leptons} &{Distribution of selected events as a function of the jet with largest value of $|\eta|$}\\
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variablescompare_variables-ncj24}&
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-nfj}\\		
+				{Distribution of selected events with higher pt with a |$\eta$| < 2.4 } & {Distribution of jet events for $|\eta|$>1 } \\
+			\end{tabular}
+		\end{center}
+	\end{frame}
+}
+
+{\nologo
+	\begin{frame}
+		\Fontvi
+		\begin{center}
+			\begin{tabular}{cc}
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-cl} &
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-b1}\\ 
+				{Distribution of events of $|\Delta\eta|$ between a forward jet and the closest lepton} & {	Distribution of events as function of $|\Delta\eta|$ between a forward jet and a b-tagged jet } \\
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-dr}&
+				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-phi}\\
+				{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest pt)} & {Distribution of events of $\Delta\phi$ between the higher pt pair of leptons } \\
+			\end{tabular}
+		\end{center}
+	\end{frame}
+}
+
+
+
+{\nologo
 \begin{frame}
 \subsection{Previous results}
 \frametitle{Previous results for $t\bar{t}H$+$tH$ production}
@@ -709,7 +748,7 @@ In order to detect signal events and reject background, the following selections
 
 
 %\begin{frame}
-%\section{Statistical analysis}
+\section{Statistical analysis}
 %\frametitle{Fitting}
 %	\begin{center}
 %	\begin{figure}
@@ -773,7 +812,6 @@ In order to detect signal events and reject background, the following selections
 
 
 \begin{frame}
-\section{Results}
 \frametitle{Results}
 	\begin{table}[ht!]
 		\centering
@@ -799,6 +837,7 @@ In order to detect signal events and reject background, the following selections
 
 
 \begin{frame}
+	\subsection{Extrapolation to higher luminosity}
 \frametitle{Results}
 \framesubtitle{Likelihood scan}
 {\small
@@ -949,6 +988,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 %\end{frame}
 
 \begin{frame}
+	\section{Conclusions}
 \frametitle{Conclusions}
 \begin{itemize}
 \item The results of the analysis for the SM case indicates that it is impossible to give an evidence of a Higgs boson using same sign dimuon channel in the $tH$ process due to large statistical uncertainty.
@@ -984,42 +1024,12 @@ Collaborations, \textit{Combined measurement of the Higgs boson mass in
 \end{frame}
 \end{thebibliography}
 
-\begin{frame}
-\section{Supportive slides}
-\huge{Back up}
-\end{frame}
+%\begin{frame}
+%\section{Supportive slides}
+%\huge{Back up}
+%\end{frame}
 
-{\nologo
-	\begin{frame}
-		\Fontvi
-		\begin{center}
-			\begin{tabular}{cc}
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-pt-sub} &
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-abs-pj-eta}\\ 
-				{Distribution of events of pt of the sub leading leptons} &{Distribution of selected events as a function of the jet with largest value of $|\eta|$}\\
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variablescompare_variables-ncj24}&
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-nfj}\\		
-				{Distribution of selected events with higher pt with a |$\eta$| < 2.4 } & {Distribution of jet events for $|\eta|$>1 } \\
-			\end{tabular}
-		\end{center}
-	\end{frame}
-}
 
-{\nologo
-	\begin{frame}
-		\Fontvi
-		\begin{center}
-			\begin{tabular}{cc}
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-cl} &
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-b1}\\ 
-				{Distribution of events of $|\Delta\eta|$ between a forward jet and the closest lepton} & {	Distribution of events as function of $|\Delta\eta|$ between a forward jet and a b-tagged jet } \\
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-dr}&
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-phi}\\
-				{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest pt)} & {Distribution of events of $\Delta\phi$ between the higher pt pair of leptons } \\
-			\end{tabular}
-		\end{center}
-	\end{frame}
-}
 
 
 %\begin{frame}
