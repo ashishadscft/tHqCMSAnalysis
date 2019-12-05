@@ -59,7 +59,7 @@
 #include "TMVA/Tools.h"
 #include "TMVA/TMVAGui.h"
 
-int TMVAClassification( )
+int TMVAClassification2( )
 {
    // The explicit loading of the shared libTMVA is done in TMVAlogon.C, defined in .rootrc
    // if you use your private .rootrc, or run from a different directory, please copy the
@@ -156,8 +156,8 @@ int TMVAClassification( )
 
 
 
-   signalTree->Add("/home/hiram/Documents/tHqCMSAnalysis/BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2_MINIAODSIM_*.root");
-   background->Add("/home/hiram/Documents/tHqCMSAnalysis/BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2_MINIAODSIM_*.root");
+   signalTree->Add("../BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2_MINIAODSIM_*.root");
+   background->Add("../BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2_MINIAODSIM_*.root");
 
    // Create a ROOT output file where TMVA will store ntuples, histograms, etc.
    TString outfileName( "TMVA.root" );
