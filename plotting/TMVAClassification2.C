@@ -126,8 +126,8 @@ int TMVAClassification2( )
    Use["SVM"]             = 0;
    //
    // Boosted Decision Trees
-   Use["BDT"]             = 1; // uses Adaptive Boost
-   Use["BDTG"]            = 0; // uses Gradient Boost
+   Use["BDT"]             = 0; // uses Adaptive Boost
+   Use["BDTG"]            = 1; // uses Gradient Boost
    Use["BDTB"]            = 0; // uses Bagging
    Use["BDTD"]            = 0; // decorrelation + Adaptive Boost
    Use["BDTF"]            = 0; // allow usage of fisher discriminant for node splitting

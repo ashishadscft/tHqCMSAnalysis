@@ -39,24 +39,25 @@
 
  \author{\scriptsize
  	Universidad de Sonora\\
- 	\vspace{5px}
+ 	\vspace{1px}
  	Divisi\'on de Ciencias Exactas y Naturales\\
- 	\vspace{5px}
+ 	\vspace{1px}
  	Departamento de Investigaci\'on en F\'isica\\
- 	   \vspace{5px}
-   L.F. Hiram Ernesto Dami\'an\\
+ 	   \vspace{1px}
+   \textbf{L.F. Hiram Ernesto Dami\'an}\\
    Defensa de tesis para obtener el grado de \\
       Maestr\'ia en Ciencias (F\'isica)\\
-         \vspace{5px}
+         \vspace{1px}
    Director:\\
-   \vspace{5px}
+   \vspace{1px}
    Jos\'e Feliciano Ben\'itez Rubio\\
-   \vspace{5px}}
+\vspace{1px}
+11 de Diciembre de 2019}
  \title{Study of Higgs plus single top production using events with a same sign dimuon  at the Large Hadron Collider}
  %\subtitle{}
+ \date{}
  \logo{\includegraphics[scale=0.1]{unison-logo.png}}
  \newcommand{\nologo}{\setbeamertemplate{logo}{}}
- \date{\small November 25$^{th}$ 2019}
  %\subject{}
  \newcommand{\subf}[2]{%
    {\small\begin{tabular}[t]{@{}c@{}}
@@ -614,7 +615,7 @@ In order to detect signal events and reject background, the following selections
 
 \begin{frame}
 \subsection{BDT}
-\frametitle{BDT}
+\frametitle{Multivariable discriminator algorithm}
 \small{
 	A decision tree takes a set of input features and splits input data recursively based on
 	those features.
@@ -639,6 +640,7 @@ In order to detect signal events and reject background, the following selections
 
 {\nologo
 	\begin{frame}
+		\frametitle{Kinematic variables}
 		\Fontvi
 		\begin{center}
 			\begin{tabular}{cc}
@@ -655,6 +657,7 @@ In order to detect signal events and reject background, the following selections
 
 {\nologo
 	\begin{frame}
+	\frametitle{Kinematic variables}
 		\Fontvi
 		\begin{center}
 			\begin{tabular}{cc}
@@ -669,7 +672,14 @@ In order to detect signal events and reject background, the following selections
 	\end{frame}
 }
 
-
+{\nologo
+\begin{frame}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.5]{figures/bdt1}
+		\caption*{BDT training}
+	\end{figure}
+\end{frame}}
 
 {\nologo
 \begin{frame}
@@ -789,7 +799,7 @@ In order to detect signal events and reject background, the following selections
 
 \begin{frame}
 \subsection{Results}
-\frametitle{Results}
+\frametitle{Post -fit Results}
 \begin{minipage}{0.4\textwidth}
 	\begin{center}
 	\begin{figure}
@@ -812,7 +822,7 @@ In order to detect signal events and reject background, the following selections
 
 
 \begin{frame}
-\frametitle{Results}
+\frametitle{Post -fit Results}
 	\begin{table}[ht!]
 		\centering
 		\caption*{Postfit yields for the fit to the Asimov data corresponding to 35.9 fb$^{-1}$. The uncertainty given is the combined statistical plus systematic.}
@@ -838,8 +848,7 @@ In order to detect signal events and reject background, the following selections
 
 \begin{frame}
 	\subsection{Extrapolation to higher luminosity}
-\frametitle{Results}
-\framesubtitle{Likelihood scan}
+\frametitle{Likelihood scan}
 {\small
 	\begin{itemize}
 \item Due to the large background, the signal strength for the Asimov data with 35.9 fb$^{-1}$ is consistent with zero.
@@ -861,8 +870,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 
 
 \begin{frame}
-\frametitle{Results}
-\framesubtitle{Likelihood scan for an integrated luminosity of 35.9 fb$^{-1}$}
+\frametitle{Likelihood scan for an integrated luminosity of 35.9 fb$^{-1}$}
 \begin{minipage}{0.5\textwidth}
 	\begin{center}
 		\begin{figure}
@@ -949,8 +957,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 }
 
  \begin{frame}
- \frametitle{Results}
- \framesubtitle{Upper limit}
+ \frametitle{Upper limit}
  \begin{table}[ht]
  {  \tiny
  		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM  and $k_t$=-1 models at 95$\%$ confidence level.}
