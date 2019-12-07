@@ -160,7 +160,7 @@ int TMVAClassification2( )
    background->Add("../BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2_MINIAODSIM_*.root");
 
    // Create a ROOT output file where TMVA will store ntuples, histograms, etc.
-   TString outfileName( "TMVA.root" );
+   TString outfileName( "TMVA8.root" );
    TFile* outputFile = TFile::Open( outfileName, "RECREATE" );
 
    // Create the factory object. Later you can choose the methods
@@ -196,9 +196,9 @@ int TMVAClassification2( )
    dataloader->AddVariable( "dR_l1_l2", "minimum #Delta R", "", 'F' );
    dataloader->AddVariable( "deta_fj_b1", "#eta fwd jet and b-jet", "", 'F' );
    dataloader->AddVariable( "deta_fj_l", "#eta fwd jet and cl", "", 'F' );
-   dataloader->AddVariable( "nfj", "number untagged jets", "", 'F' );
+   //dataloader->AddVariable( "nfj", "number untagged jets", "", 'F' );
    dataloader->AddVariable( "dphi_l1_l2", "#phi lepton high pT", "", 'F' );
-   dataloader->AddVariable( "l1_ch+l2_ch", "sum of charges", "", 'F' );
+  //dataloader->AddVariable( "l1_ch+l2_ch", "sum of charges", "", 'F' );
 
 
    // You can add so-called "Spectator variables", which are not used in the MVA training,
