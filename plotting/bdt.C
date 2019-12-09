@@ -20,27 +20,27 @@ TH2F *cs =(TH2F*)f->Get("dataset/CorrelationMatrixS");
 TH2F *cb =(TH2F*)f->Get("dataset/CorrelationMatrixB");
 
 
-TH1F H1("H1","",40,-1,1); //signal
-TH1F H2("H2","",40,-1,1); //background
+TH1F H1("H1","",20,-1,1); //signal
+TH1F H2("H2","",20,-1,1); //background
 
-TH1F H3("H3","",40,-1,1); //signal
-TH1F H4("H4","",40,-1,1); //background
+TH1F H3("H3","",20,-1,1); //signal
+TH1F H4("H4","",20,-1,1); //background
 
-TH1F H5("H5","",40,-1,1); //signal
-TH1F H6("H6","",40,-1,1); //background
+TH1F H5("H5","",20,-1,1); //signal
+TH1F H6("H6","",20,-1,1); //background
 
-H1.SetLineColor(kRed);
-H2.SetLineColor(kBlue);
-H3.SetLineColor(kRed+4);
-H4.SetLineColor(kBlue+4);
-H5.SetLineColor(kAzure+3);
-H6.SetLineColor(kGreen+3);
-  H1.SetLineWidth(6);
-  H2.SetLineWidth(6);
-  H3.SetLineWidth(6);
-  H4.SetLineWidth(6);
-  H5.SetLineWidth(6);
-  H6.SetLineWidth(6);
+H1.SetLineColor(kBlack);
+H2.SetLineColor(kBlack);
+H3.SetLineColor(kRed);
+H4.SetLineColor(kRed);
+H5.SetLineColor(kAzure);
+H6.SetLineColor(kAzure);
+  H1.SetLineWidth(4);
+  H2.SetLineWidth(4);
+  H3.SetLineWidth(4);
+  H4.SetLineWidth(4);
+  H5.SetLineWidth(4);
+  H6.SetLineWidth(4);
 
 
 t->Draw("BDTG>>H1","classID==0");
@@ -72,35 +72,35 @@ H6.Scale(1.0/H6.Integral());
 TCanvas *C = new TCanvas("C","C",100,100,1200,900);
 H6.Draw("hist");
 H1.Draw("histsame");
-H3.Draw("histsame");
+//H3.Draw("histsame");
 H5.Draw("histsame");
 H2.Draw("histsame");
-H4.Draw("histsame");
+//H4.Draw("histsame");
 
 H6.SetStats(0);
 H6.SetXTitle("BDT Discriminant");
 H6.SetYTitle("Events normalized to unit area");
-  H6.SetAxisRange(0,0.1,"Y");
+  H6.SetAxisRange(0,0.2,"Y");
 //H2.SetTitle("BDT Training 2 variables");
-auto legend = new TLegend(0.7,0.6,0.8,0.8);
+auto legend = new TLegend(0.6,0.6,0.75,0.8);
 legend->AddEntry("H1","4 variables","l");
-legend->AddEntry("H3","6 variables","l");
+//legend->AddEntry("H3","6 variables","l");
 legend->AddEntry("H5","8 variables ","l");
-legend->SetHeader("Signal","C");
+legend->SetHeader("tHq","C");
 
 legend->SetBorderSize(1);
-legend->SetTextSize(.02);
+legend->SetTextSize(.03);
 legend->SetEntrySeparation(0.5);
 legend->Draw();
 
-auto legend2 = new TLegend(0.55,0.6,0.65,0.8);
+auto legend2 = new TLegend(0.25,0.6,0.4,0.8);
 legend2->AddEntry("H2","4 variables ","l");
-legend2->AddEntry("H4","6 variables","l");
+//legend2->AddEntry("H4","6 variables","l");
 legend2->AddEntry("H6","8 variables","l");
-legend2->SetHeader("Background","C");
+legend2->SetHeader("t#bar{t}W","C");
 
 legend2->SetBorderSize(1);
-legend2->SetTextSize(.02);
+legend2->SetTextSize(.03);
 legend2->SetEntrySeparation(0.5);
 legend2->Draw();
 
