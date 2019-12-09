@@ -35,6 +35,13 @@ H3.SetLineColor(kRed+4);
 H4.SetLineColor(kBlue+4);
 H5.SetLineColor(kAzure+3);
 H6.SetLineColor(kGreen+3);
+  H1.SetLineWidth(6);
+  H2.SetLineWidth(6);
+  H3.SetLineWidth(6);
+  H4.SetLineWidth(6);
+  H5.SetLineWidth(6);
+  H6.SetLineWidth(6);
+
 
 t->Draw("BDTG>>H1","classID==0");
 t2->Draw("BDTG>>H1","classID==0");
