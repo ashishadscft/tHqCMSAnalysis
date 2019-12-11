@@ -16,7 +16,7 @@ TH1D *tzq =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tZq");
 TH1D *ttz =(TH1D*)f->Get("thqMVA_ttv_2lss_40_ttZ");
 TH1D *tzw =(TH1D*)f->Get("thqMVA_ttv_2lss_40_tZW");
 TH1D *vvv =(TH1D*)f->Get("thqMVA_ttv_2lss_40_VVV");
-TH1D *sg =(TH1D*)f->Get("thqMVA_ttv_2lss_40_signal"); ///////**
+TH1D *sg =(TH1D*)f->Get("thqMVA_ttv_2lss_40_signal"); 
 TH1D *ttw =(TH1D*)f->Get("thqMVA_ttv_2lss_40_ttW");
 TH1D *fakes =(TH1D*)f->Get("thqMVA_ttv_2lss_40_data_fakes");
 TH1D *gstar =(TH1D*)f->Get("thqMVA_ttv_2lss_40_Gstar"); ///****
@@ -50,14 +50,16 @@ zz->Scale(1.16/zz->Integral()); //zz
 /////////////////////////////////////////////
 thq->Scale(1.43/thq->Integral());//thq
 thw->Scale(0.71/thw->Integral());//thw
-
+///////////////////////////////////////////
 //for kt=-1
+/////////////////////////////////////////
 //thq->Scale(18.5/thq->Integral());//thq
 //thw->Scale(7.72/thw->Integral());//thw
 
 ////////////////////////////////////////////
 //for higher luminosities
 //////////////////////////////////
+//
 //tzq->Scale(3000.0/35.9); //tzq
 //vvv->Scale(3000/35.9); //vvv
 //ww->Scale(3000/35.9); //wwss
@@ -236,9 +238,6 @@ axis5->SetLabelSize(15);
 axis5->Draw();
 
 auto legend = new TLegend(0.6,0.6,0.89,0.89);
-//legend->SetHeader("Test","C"); // option "C" allows to center the header
-//legend->AddEntry(hat,"Data","lep");
-//legend->AddEntry("th (k_t=-1)","f");
 legend->AddEntry(th,"tH (SM)","f");
 legend->AddEntry(tth,"t#bar{t}H","f");
 legend->AddEntry(ttw,"t#bar{t}W","f");
@@ -252,6 +251,7 @@ legend->Draw();
 pad1->RedrawAxis();
 /////////////////////////////////////////////////////////////////
 // Draw the ratio plot
+// /////////////////////////////////////////////////////
 TH1F *data1 = (TH1F*)hat->Clone("hat");
 TH1F *sum =(TH1F*)th->Clone("sum");
 sum->Add(ttw);
@@ -310,6 +310,5 @@ h->GetYaxis()->SetTitle("Events");
 legend->Draw();
 cs->RedrawAxis();
 cs->SaveAs("kos.png");
-//cs-<SaveAs("kos2.png");
 
 }
