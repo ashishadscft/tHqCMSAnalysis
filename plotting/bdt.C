@@ -1,7 +1,7 @@
 void bdt(){
 
-TFile *f= new TFile("TMVA.root");
-TFile *d= new TFile("TMVA6.root");
+TFile *f= new TFile("TMVA4.root");
+//TFile *d= new TFile("TMVA6.root");
 TFile *q= new TFile("TMVA8.root");
 /////////////////////////
 ///4 variables//////
@@ -9,8 +9,8 @@ TTree *t = (TTree*)f->Get("dataset/TrainTree");
 TTree *t2= (TTree*)f->Get("dataset/TestTree");
 /////////////////////////
 ///6 variables//////
-TTree *t3 = (TTree*)d->Get("dataset/TrainTree");
-TTree *t4= (TTree*)d->Get("dataset/TestTree");
+//TTree *t3 = (TTree*)d->Get("dataset/TrainTree");
+//TTree *t4= (TTree*)d->Get("dataset/TestTree");
 /////////////////////////
 ///8 variables//////
 TTree *t5 = (TTree*)q->Get("dataset/TrainTree");
@@ -31,16 +31,21 @@ TH1F H6("H6","",20,-1,1); //background
 
 H1.SetLineColor(kBlack);
 H2.SetLineColor(kBlack);
-H3.SetLineColor(kRed);
-H4.SetLineColor(kRed);
+//H3.SetLineColor(kRed);
+//H4.SetLineColor(kRed);
 H5.SetLineColor(kAzure);
 H6.SetLineColor(kAzure);
   H1.SetLineWidth(4);
   H2.SetLineWidth(4);
-  H3.SetLineWidth(4);
-  H4.SetLineWidth(4);
+  //H3.SetLineWidth(4);
+  //H4.SetLineWidth(4);
   H5.SetLineWidth(4);
   H6.SetLineWidth(4);
+
+ H1.SetLineStyle(kDashed);
+H2.SetLineStyle(kDashed);
+H5.SetLineStyle(kDashed);
+H6.SetLineStyle(kDashed);
 
 
 t->Draw("BDTG>>H1","classID==0");
@@ -48,10 +53,10 @@ t2->Draw("BDTG>>H1","classID==0");
 t->Draw("BDTG>>H2","classID==1");
 t2->Draw("BDTG>>H2","classID==1");
 
-t3->Draw("BDTG>>H3","classID==0");
-t4->Draw("BDTG>>H3","classID==0");
-t3->Draw("BDTG>>H4","classID==1");
-t4->Draw("BDTG>>H4","classID==1");
+//t3->Draw("BDTG>>H3","classID==0");
+//t4->Draw("BDTG>>H3","classID==0");
+//t3->Draw("BDTG>>H4","classID==1");
+//t4->Draw("BDTG>>H4","classID==1");
 
 t5->Draw("BDTG>>H5","classID==0");
 t6->Draw("BDTG>>H5","classID==0");
@@ -63,8 +68,8 @@ t6->Draw("BDTG>>H6","classID==1");
 H1.Scale(1.0/H1.Integral());
 H2.Scale(1.0/H2.Integral());
 
-H3.Scale(1.0/H3.Integral());
-H4.Scale(1.0/H4.Integral());
+//H3.Scale(1.0/H3.Integral());
+//H4.Scale(1.0/H4.Integral());
 
 H5.Scale(1.0/H5.Integral());
 H6.Scale(1.0/H6.Integral());
@@ -82,10 +87,10 @@ H6.SetXTitle("BDT Discriminant");
 H6.SetYTitle("Events normalized to unit area");
   H6.SetAxisRange(0,0.2,"Y");
 //H2.SetTitle("BDT Training 2 variables");
-auto legend = new TLegend(0.6,0.6,0.75,0.8);
-legend->AddEntry("H1","4 variables","l");
+auto legend = new TLegend(0.6,0.6,0.8,0.8);
+legend->AddEntry("H1","4 variables 1-4","l");
 //legend->AddEntry("H3","6 variables","l");
-legend->AddEntry("H5","8 variables ","l");
+legend->AddEntry("H5","8 variables 1-8 ","l");
 legend->SetHeader("tHq","C");
 
 legend->SetBorderSize(1);
@@ -93,10 +98,10 @@ legend->SetTextSize(.03);
 legend->SetEntrySeparation(0.5);
 legend->Draw();
 
-auto legend2 = new TLegend(0.25,0.6,0.4,0.8);
-legend2->AddEntry("H2","4 variables ","l");
+auto legend2 = new TLegend(0.25,0.6,0.45,0.8);
+legend2->AddEntry("H2","4 variables 1-4 ","l");
 //legend2->AddEntry("H4","6 variables","l");
-legend2->AddEntry("H6","8 variables","l");
+legend2->AddEntry("H6","8 variables 1-8","l");
 legend2->SetHeader("t#bar{t}W","C");
 
 legend2->SetBorderSize(1);
