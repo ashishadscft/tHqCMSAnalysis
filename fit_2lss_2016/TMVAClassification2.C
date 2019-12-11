@@ -156,8 +156,8 @@ int TMVAClassification2( )
 
 
 
-   signalTree->Add("../BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2_MINIAODSIM_*.root");
-   background->Add("../BDTtraining/RunIISummer16MiniAODv3_tuples_3Oct2019/_TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2_MINIAODSIM_*.root");
+   signalTree->Add("../data/RunIISummer16MiniAODv3_tuples_3Oct2019/_THQ_Hincl_13TeV-madgraph-pythia8_TuneCUETP8M1_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2_MINIAODSIM_*.root");
+   background->Add("../data/RunIISummer16MiniAODv3_tuples_3Oct2019/_TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2_MINIAODSIM_*.root");
 
    // Create a ROOT output file where TMVA will store ntuples, histograms, etc.
    TString outfileName( "TMVA8.root" );
