@@ -28,7 +28,8 @@ if [ $1 = $clean ]; then
 	rm -rf $thesis.pdf
 	rm -rf $thesis.ps
 	rm -rf $thesis.dvi
-	rm -rf *#* 
+	rm -rf *#*
+	rm -f ./*/*.aux
 	echo "Cleaning complete!"
 	exit
 else
@@ -63,7 +64,8 @@ if [ $1 = $clean ]; then
 	rm -rf $thesis.pdf
 	rm -rf $thesis.ps
 	rm -rf $thesis.dvi
-	rm -rf *#* 
+	rm -rf *#*
+	rm -f ./*/*.aux
 	echo "Cleaning complete!"
 	exit
 elif [ $1 = $compile ]; then
