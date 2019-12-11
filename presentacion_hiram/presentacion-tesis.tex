@@ -542,11 +542,11 @@ The characteristics of the signal $tH$:
 \begin{multicols}{2}
 	\small{
 \begin{itemize}
-\item $t\rightarrow W^+$$^+$b$\rightarrow$ $l^+ \nu_\mu b$
+\item $t\rightarrow W^+$b$\rightarrow$ $l^+ \nu_\mu b$
 \item $H\rightarrow$ $W^+$$W^-$ 
 
 \begin{list}{--}{}
-\item  \small{$W\rightarrow$ $l^\pm \nu$, where $l$ can be $\mu$,$e^-$  $\tau$} 
+\item  \small{$W\rightarrow$ $l^\pm \nu$, where $l$ can be $\mu$, $e$, $\tau$} 
 \item   \small{$W\rightarrow$ $q\bar{q'}$}
 %\item \small{$W$ bosons decay leptonically resulting in a signature of two same-sign leptons }
 \end{list}
@@ -627,7 +627,7 @@ In order to detect signal events and reject background, the following selections
 	\begin{enumerate}
 		\item	$p_t$ of the sub leading leptons
 		\item 	Maximum  $|\eta|$ of any  (untagged)  jet (forward jet)
-		\item 	Number of jets with high $p_t$ and |$\eta$| < 2.4
+		\item 	Number of jets with high $p_t$ >25 GeV and |$\eta$| < 2.4
 		\item	Number of untagged jets with |$\eta$| > 1.0
 		\item	$|\Delta\eta|$ between a forward light jet and closest lepton
 		\item	$|\Delta\eta|$ between a forward light jet and a b-tagged jet
@@ -642,16 +642,17 @@ In order to detect signal events and reject background, the following selections
 	\begin{frame}
 		\frametitle{Kinematic variables}
 		\Fontvi
-		\begin{center}
+		\begin{table}
+			\centering
 			\begin{tabular}{cc}
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-pt-sub} &
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-abs-pj-eta}\\ 
-				{Distribution of events of pt of the sub leading leptons} &{Distribution of selected events as a function of the jet with largest value of $|\eta|$}\\
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variablescompare_variables-ncj24}&
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-nfj}\\		
-				{Distribution of selected events with higher pt with a |$\eta$| < 2.4 } & {Distribution of jet events for $|\eta|$>1 } \\
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-pt-sub} &
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-abs-pj-eta}\\ 
+				{} &{}\\
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variablescompare_variables-ncj24}&
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-nfj}\\		
+				{} & { } \\
 			\end{tabular}
-		\end{center}
+		\end{table}
 	\end{frame}
 }
 
@@ -661,12 +662,12 @@ In order to detect signal events and reject background, the following selections
 		\Fontvi
 		\begin{center}
 			\begin{tabular}{cc}
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-cl} &
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-eta-fj-b1}\\ 
-				{Distribution of events of $|\Delta\eta|$ between a forward jet and the closest lepton} & {	Distribution of events as function of $|\Delta\eta|$ between a forward jet and a b-tagged jet } \\
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-dr}&
-				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-phi}\\
-				{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest $p_t$)} & {Distribution of events of $\Delta\phi$ between the higher $p_t$ pair of leptons } \\
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-eta-fj-cl} &
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-eta-fj-b1}\\ 
+				{} & {	} \\
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-dr}&
+				\includegraphics[width=5.5cm,height=3.5cm]{figures/distributions/compare_variables-phi}\\
+				{} & {} \\
 			\end{tabular}
 		\end{center}
 	\end{frame}
@@ -940,8 +941,8 @@ $q$ is a random variable with a $\chi^2$ distribution.
  \begin{frame}
  \frametitle{Upper limit}
  \begin{table}[ht]
- {  \tiny
- 		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM and $k_t$=-1 models at 95$\%$ confidence level.}
+ {  \scriptsize
+ 		\caption*{Results of $\mu$ and upper limits for Asimov extrapolations for SM and $k_t$=-1 models at 95$\%$ confidence level.}
  		\begin{tabular}{|c|c|c|c|c|}
  			\hline
  			\multirow{2}{*}{Luminosity (fb$^{-1}$)}  &\multicolumn{2}{c|}{SM ($k_t$=1)} &\multicolumn{2}{c|}{$k_t$=-1 scenario}\\
@@ -1011,6 +1012,12 @@ Collaborations, \textit{Combined measurement of the Higgs boson mass in
 \bibitem{6}CMS collaboration \textit{High-Luminosity Large Hadron Collider (HL-LHC)}, 2017,CERN-2017-007-M
 \end{frame}
 \end{thebibliography}
+
+
+\begin{frame}
+\Huge
+	Thank You
+\end{frame}
 
 %\begin{frame}
 %\section{Supportive slides}
