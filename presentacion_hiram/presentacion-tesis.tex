@@ -36,6 +36,7 @@
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \newcommand\Fontvi{\fontsize{4}{7.2}\selectfont}
 
+\setbeamercolor*{frametitle}{bg=white}
 
  \author{\scriptsize
  	Universidad de Sonora\\
@@ -99,7 +100,7 @@
 \item Coupling measurement is essential to establish the nature of the Higgs
 \item The exploration of Higgs production on the $tH$ channel is subject relatively new. Measurements of CMS and ATLAS are compatible with SM predictions.
 \item The $tH$ study explores the relative sign of top-Higgs  and W-Higgs couplings.\\ Small deviations from SM predictions could be associated with physics beyond the
-standard model (BSM) such as Supersymmetry.
+standard model (BSM)..
 \end{itemize}
 \end{frame}
 
@@ -177,7 +178,7 @@ Yukawa lagrangian
 \end{align}
 \scriptsize{where h.c is hermitian conjugate. m and n are flavors of quarks and leptons.
 \\
-The matrices $\Gamma_{mn}$ describe the so called Yukawa couplings between higgs doublet $\phi$ and the fermions.\\
+The matrices $\Gamma_{mn}$ describe the so called Yukawa couplings between Higgs doublet $\phi$ and the fermions.\\
 Choosing}
 \begin{align*}
 \Phi=-\frac{1}{2}\left(\begin{array}{c}
@@ -267,7 +268,7 @@ $\nu_e$	$\nu_\mu$ $\nu_\tau$& 0 & 0 & $\frac{1}{2}$ & Stable & -\\
 %\end{align}
 \item Cross sections are expressed in barns , where 1 barn=$10^{-34}$ cm$^{-2}$ 
 
-\item L is called luminosity and it is measured in cm$^{-2}$s$^{-1}$.\cite{6}
+\item L is called luminosity and it is measured in cm$^{2}$s$^{-1}$.\cite{6}
 \end{itemize}
 \end{frame}
 
@@ -304,7 +305,7 @@ $\nu_e$	$\nu_\mu$ $\nu_\tau$& 0 & 0 & $\frac{1}{2}$ & Stable & -\\
 		\hline
 	\end{tabular}
 \end{table}
-\footnotetext[1]{\tiny{Data taken from The cern collaborarion “Higgs Physics the HL-LHC and HE-LHC” 2019, CERN-LPCC-2018-04}}
+\footnotetext[1]{\tiny{Data taken from The CERN collaboration “Higgs Physics the HL-LHC and HE-LHC” 2019, CERN-LPCC-2018-04}}
 \end{frame}
 
 
@@ -503,7 +504,7 @@ Decay chain &BR&Events\\
 \end{frame}
 
 \begin{frame}
-\subsection{CMS dectector}
+\subsection{CMS detector}
 \frametitle{CMS detector}
 \begin{center}
 	\begin{figure}
@@ -541,12 +542,12 @@ The characteristics of the signal $tH$:
 \begin{multicols}{2}
 	\small{
 \begin{itemize}
-\item $t\rightarrow W$$^+$b$\rightarrow$ $l^+ \nu_\mu b$
+\item $t\rightarrow W^+$$^+$b$\rightarrow$ $l^+ \nu_\mu b$
 \item $H\rightarrow$ $W^+$$W^-$ 
 
 \begin{list}{--}{}
-\item  \small{$W\rightarrow$ $l^\pm \nu$, where $l$ can be $\mu^\pm$,$e^-$  $\tau^\pm$} 
-\item   \small{$W\rightarrow$ $q\bar{q}$}
+\item  \small{$W\rightarrow$ $l^\pm \nu$, where $l$ can be $\mu$,$e^-$  $\tau$} 
+\item   \small{$W\rightarrow$ $q\bar{q'}$}
 %\item \small{$W$ bosons decay leptonically resulting in a signature of two same-sign leptons }
 \end{list}
 \item A light-flavor quark (Forward jet)
@@ -623,18 +624,17 @@ In order to detect signal events and reject background, the following selections
 	\vspace{10px}
 	BDT Variables}
 \tiny{
-	\begin{itemize}
-		\item	Trailing lepton $p_{t}$
-		\item 	Total charge of tight leptons
+	\begin{enumerate}
+		\item	$p_t$ of the sub leading leptons
+		\item 	jets with largest value of $|\eta|$
+		\item 	Number of jets with high $p_t$ and |$\eta$| < 2.4
+		\item	Number of jets with |$\eta$| > 1.0
+		\item	$\Delta\eta$ (most forward jet, closest lepton)
+		\item	$\Delta\eta$ (most forward jet and b-tagged jet)
 		\item 	min $\Delta$R (lepton pairs)
 		\item 	$\Delta\phi$ between highest $p_t$ lepton pair
-		\item 	Number of jets with |$\eta$| < 2.4
-		\item	Number of non b-tagged jets with |$\eta$| > 1.0
-		\item	Maximum |$\eta$| for jets
-		\item	$\Delta\eta$ (most forward light jet, closest lepton)
-		\item	$\Delta\eta$ (most forward light jet, hardest loosely b-tagged jet)
-		\item	$\Delta\eta$ (most forward light jet, 2nd hardest loosely b-tagged jet)
-\end{itemize} }
+	%	\item	$\Delta\eta$ (most forward light jet, 2nd hardest loosely b-tagged jet)
+\end{enumerate} }
 \end{frame}
 
 
@@ -676,20 +676,20 @@ In order to detect signal events and reject background, the following selections
 \begin{frame}
 	\begin{figure}[ht]
 		\centering
-		\includegraphics[scale=0.5]{figures/bdt-4}
+		\includegraphics[scale=0.48]{figures/bdt-8var}
 		\caption*{\scriptsize BDT training}
 	\end{figure}
 \end{frame}}
 
 {\nologo
 \begin{frame}
-\subsection{Previous results}
-\frametitle{Previous results for $t\bar{t}H$+$tH$ production}
+\subsection{Event distributions and yields}
+\frametitle{Event distributions and yields}
 \begin{minipage}[c]{0.45\textwidth}
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.3]{figures/histo.png}
-	\caption*{\tiny{Pre-fit classifier outputs for same sign dimuon, for training against $t\bar{t}V$ }}
+	\includegraphics[scale=0.18]{figures/kos.png}
+	\caption*{\tiny{Pre-fit classifier outputs for same sign dimuon }}
 \end{figure}
 \end{minipage}
 \hfill
@@ -721,27 +721,8 @@ In order to detect signal events and reject background, the following selections
 \end{frame}
 }
 
-{\nologo
-\begin{frame}
-\frametitle{Distribution of events in the BDT discriminant}
-\begin{minipage}[b]{.48\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{figures/kos.png}
-\end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[b]{.48\textwidth}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{figures/kos2.png}
-	\end{figure}
-\end{minipage}
-\begin{center}
-\small{SM signal and backgrounds (Left) and $k_t$=-1 model (Right).}
-\end{center}
-\end{frame}
-}
+
+
 
 
 \begin{frame}
@@ -960,7 +941,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
  \frametitle{Upper limit}
  \begin{table}[ht]
  {  \tiny
- 		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM  and $k_t$=-1 models at 95$\%$ confidence level.}
+ 		\caption[Results of $\mu$ and upper limits for SM and $k_t$=-1]{Results of $\mu$ and upper limits for Asimov extrapolations for SM and $k_t$=-1 models at 95$\%$ confidence level.}
  		\begin{tabular}{|c|c|c|c|c|}
  			\hline
  			\multirow{2}{*}{Luminosity (fb$^{-1}$)}  &\multicolumn{2}{c|}{SM ($k_t$=1)} &\multicolumn{2}{c|}{$k_t$=-1 scenario}\\
