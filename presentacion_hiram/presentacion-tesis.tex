@@ -51,7 +51,7 @@
          \vspace{5px}
    Director:\\
    \vspace{1px}
-   Jos\'e Feliciano Ben\'itez Rubio\\
+  Dr. Jos\'e Feliciano Ben\'itez Rubio\\
 \vspace{5px}
 11 de Diciembre de 2019}
  \title{Study of Higgs plus single top production using events with a same sign dimuon  at the Large Hadron Collider}
@@ -95,7 +95,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Motivation  for single top Higgs (tH)}
+\frametitle{Motivation for single top Higgs (tH)}
 \begin{itemize}
 \item Coupling measurement is essential to establish the nature of the Higgs
 \item The exploration of Higgs production on the $tH$ channel is subject relatively new. Measurements of CMS and ATLAS are compatible with SM predictions.
@@ -266,9 +266,9 @@ $\nu_e$	$\nu_\mu$ $\nu_\tau$& 0 & 0 & $\frac{1}{2}$ & Stable & -\\
 %\begin{align}
 %d\sigma=\frac{\text{number of particles scattered into solid angle} \Delta\Omega}{\text{(number of particles incident)(scattering centers/area)}}
 %\end{align}
-\item Cross sections are expressed in barns , where 1 barn=$10^{-34}$ cm$^{-2}$ 
+\item Cross sections are expressed in barns , where 1 barn=$10^{-34}$ cm$^{2}$ 
 
-\item L is called luminosity and it is measured in cm$^{2}$s$^{-1}$.\cite{6}
+\item L is called luminosity and it is measured in cm$^{-2}$s$^{-1}$.\cite{6}
 \end{itemize}
 \end{frame}
 
@@ -626,13 +626,13 @@ In order to detect signal events and reject background, the following selections
 \tiny{
 	\begin{enumerate}
 		\item	$p_t$ of the sub leading leptons
-		\item 	jets with largest value of $|\eta|$
+		\item 	Maximum  $|\eta|$ of any  (untagged)  jet (forward jet)
 		\item 	Number of jets with high $p_t$ and |$\eta$| < 2.4
-		\item	Number of jets with |$\eta$| > 1.0
-		\item	$\Delta\eta$ (most forward jet, closest lepton)
-		\item	$\Delta\eta$ (most forward jet and b-tagged jet)
-		\item 	min $\Delta$R (lepton pairs)
-		\item 	$\Delta\phi$ between highest $p_t$ lepton pair
+		\item	Number of untagged jets with |$\eta$| > 1.0
+		\item	$|\Delta\eta|$ between a forward light jet and closest lepton
+		\item	$|\Delta\eta|$ between a forward light jet and a b-tagged jet
+		\item 	Minimum $\Delta$R between any two leptons
+		\item 	$\Delta\phi$ of the highest $p_t$ same-sign lepton pair
 	%	\item	$\Delta\eta$ (most forward light jet, 2nd hardest loosely b-tagged jet)
 \end{enumerate} }
 \end{frame}
@@ -666,7 +666,7 @@ In order to detect signal events and reject background, the following selections
 				{Distribution of events of $|\Delta\eta|$ between a forward jet and the closest lepton} & {	Distribution of events as function of $|\Delta\eta|$ between a forward jet and a b-tagged jet } \\
 				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-dr}&
 				\includegraphics[width=5.5cm,height=3cm]{figures/distributions/compare_variables-phi}\\
-				{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest pt)} & {Distribution of events of $\Delta\phi$ between the higher pt pair of leptons } \\
+				{Distribution of events with a $\Delta R$ between the lepton pairs (highest and lowest $p_t$)} & {Distribution of events of $\Delta\phi$ between the higher $p_t$ pair of leptons } \\
 			\end{tabular}
 		\end{center}
 	\end{frame}
@@ -674,10 +674,10 @@ In order to detect signal events and reject background, the following selections
 
 {\nologo
 \begin{frame}
+	\frametitle{BDT Training Result}
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[scale=0.48]{figures/bdt-8var}
-		\caption*{\scriptsize BDT training}
 	\end{figure}
 \end{frame}}
 
@@ -822,13 +822,13 @@ In order to detect signal events and reject background, the following selections
 		\end{tabular}
 		\label{table1}
 	\end{table}
- Prefit uncertainty is statistical only. Post-fit uncertainty is statistical + systematic.
+ Pre-fit uncertainty is statistical only. Post-fit uncertainty is statistical + systematic.
 \end{frame}
 
 
 
 \begin{frame}
-	\subsection{Extrapolation to higher luminosity}
+	\subsection{Extrapolation to high luminosity}
 \frametitle{Likelihood scan}
 {\small
 	\begin{itemize}
@@ -873,7 +873,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 
 {\nologo
 	\begin{frame}
-	\frametitle{Extrapolation of luminosity for SM }
+	\frametitle{Extrapolation to high luminosity for SM }
 	\begin{center}
 		\begin{tabular}{cc}
 			\includegraphics[width=5.5cm,height=3cm]{figures/simple.png} &
@@ -906,7 +906,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 
 {\nologo
 	\begin{frame}
-	\frametitle{Extrapolation of luminosity for $k_t=-1$}
+	\frametitle{Extrapolation to high luminosity for $k_t=-1$ scenario}
 	\begin{center}
 		\begin{tabular}{cc}
 			\includegraphics[width=5.5cm,height=3cm]{figures/simple-kt-1.png} &
@@ -923,7 +923,7 @@ $q$ is a random variable with a $\chi^2$ distribution.
 
 {\nologo
 	\begin{frame}
-	\frametitle{Likelihood scan for  $k_t=-1$}
+	\frametitle{Likelihood scan for $k_t=-1$ scenario}
 	\begin{center}
 		\begin{tabular}{cc}
 			\includegraphics[width=5.5cm,height=3cm]{figures/kt-1/35.9fb/Likelihood-kt-1.png} &
