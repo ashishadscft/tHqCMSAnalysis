@@ -2,7 +2,7 @@ Codes created by Hiram Ernesto Damian
 
 This list of codes made in ROOT is for the analysis of data by fitting a statistical model with data.
 The codes require the roofit package of ROOT in order to work. See the ROOT webpage for more information.
-
+The rest of the codes contains the statistical tools for the creation of workspace (model and data) and the fitting.
 
 //////////////////////
 make_workspace.C
