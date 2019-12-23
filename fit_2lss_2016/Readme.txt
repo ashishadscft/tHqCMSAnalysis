@@ -8,7 +8,7 @@ The codes require the roofit package of ROOT in order to work. See the ROOT webp
 make_workspace.C
 //////////////////////
 This algorithm creates a workspace. Here the model is created. Also the data to fit is loaded.
-The programs requires to load the MC data file that will be the model.
+The programs requires to load the MC data file that will be the model. The file is plots-thq-2lss-kinMVA.root
 The product will be _combined_kinMVA_model.root that contains the model.
 Further instructions are in the code.
 
