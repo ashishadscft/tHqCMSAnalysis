@@ -12,6 +12,9 @@ using namespace std;
 using namespace RooFit;
 using namespace RooStats;
 
+//////////////
+//redistribuite the histogram info
+//////////////////
 void qw(TH1* ht)
 {
 for (int i=1;i<=16;i++){
@@ -23,7 +26,7 @@ void fit_workspace(string version, int strategy=0)
 {
   //Open the file, grab the workspace
   TFile* f = new TFile(Form("_combined_kinMVA_model.root",version.c_str(),version.c_str()));
-
+//combined is where the model and data are saved
   RooWorkspace* w = (RooWorkspace*)f->Get("combined");
   if (!w)
   {
@@ -34,7 +37,7 @@ void fit_workspace(string version, int strategy=0)
   ModelConfig* mc = (ModelConfig*)w->obj("ModelConfig");
   RooDataSet* data = (RooDataSet*)w->data("obsData");
 
-  //Configure MINUIT
+  //Configure MINUIT. MINUIT contains the tools to make a numerical minimization
   ROOT::Math::MinimizerOptions::SetDefaultMinimizer("Minuit2");
   ROOT::Math::MinimizerOptions::SetDefaultStrategy(strategy);
   ROOT::Math::MinimizerOptions::SetDefaultPrintLevel(1);
@@ -42,12 +45,12 @@ void fit_workspace(string version, int strategy=0)
   //Put the NPs and POIs into one set to send to the NLL
 RooArgSet params(*mc->GetNuisanceParameters(),*mc->GetParametersOfInterest());
 
-
-  //Build the NLL
+  //Build the NLL (negative logarith likelihood )
   RooNLLVar* nll = (RooNLLVar*)mc->GetPdf()->createNLL(*data, Constrain(params),
 						       GlobalObservables(*mc->GetGlobalObservables()),
 						       RooFit::Offset(1));
 ////////////////////////////////////////////////////////////////////////////////
+//Load the parameters of interest
 RooAbsArg* a1 =params.find("alpha_sample_ttz_sys");
 RooAbsArg* a2 =params.find("alpha_sample_fakes_sys");
 RooAbsArg* a3 =params.find("alpha_sample_tth_sys");
@@ -56,8 +59,6 @@ RooAbsArg* a5 =params.find("alpha_sample_wz_sys");
 RooAbsArg* a6 =params.find("alpha_sample_tz_sys");
 RooAbsArg* a7 =params.find("mu");
 RooAbsArg* a8 =params.find("Lumi");
-
-//cout<<a8->ClassName()<<endl;
 
 RooRealVar* alpha_ttz=(RooRealVar*)a1; //ttz
 RooRealVar* alpha_fakes=(RooRealVar*)a2; //non prompt /fakes
@@ -76,11 +77,10 @@ RooRealVar* lumi=(RooRealVar*)a8;
 //Definition in macros/minimize.C:
 RooFitResult* minimize(RooAbsReal* fcn, bool save=0, int retry_mode=3, int* ret_status=NULL);
 
+////fit the model and the data
 RooFitResult* result = minimize(nll, true, 0);
 //////////////////////////////////
-////RooPlot
-
-
+//load and creates the histograms after the minimazation (fit)
 RooAbsPdf* mf= mc->GetPdf();
 RooArgSet spdf(*mf->getComponents());
 RooHistFunc* th_SR_nominal=(RooHistFunc*)spdf.find("th_SR_nominal");
@@ -104,7 +104,6 @@ RooDataHist swz=wz_SR_nominal->dataHist();//wz
 RooDataHist stz=tz_SR_nominal->dataHist();//tz
 /////////////////////////////////////////////////////////////
 
-
 TH1* data1=data->createHistogram("obs_x_SR",16);
 TH1* th=sth.createHistogram("obs_x_SR",16); //th
 TH1* tth=stth.createHistogram("obs_x_SR",16);  //tth
@@ -116,30 +115,10 @@ TH1* tz=stz.createHistogram("obs_x_SR",16); /// tz
 
 qw(data1);
 
-cout<<"error tth  "<<tth->Integral()*eps_tth<<endl;
-cout<<"error ttw  "<<ttw->Integral()*eps_ttw<<endl;
-cout<<"error ttz  "<<ttz->Integral()*eps_ttz<<endl;
-cout<<"error wz "<<wz->Integral()*eps_wz<<endl;
-cout<<"error tz "<<tz->Integral()*eps_tz<<endl;
-cout<<"error fakes  "<<fakes->Integral()*eps_fakes<<endl;
-cout <<"error th prefit   "<<th->Integral()*(0.13/2.14)<<endl;
-/////////////////////////////////////////////
 
-
-////////////////////////////////////////
-tth->SetFillColor(kOrange+7);
-th->SetFillColor(kRed+1);
-ttz->SetFillColor(kSpring+2);
-ttw->SetFillColor(kSpring+3);
-wz->SetFillColor(kMagenta-3);
-tz->SetFillColor(kCyan);
-fakes->SetFillStyle(3005);
-fakes->SetFillColor(kBlue-3);
-data1->SetMarkerStyle(8);
-data1->SetLineColor(kBlack);
 ///////////////////////////////////////////////
 //number of events post fit//
-
+//////////////////////////////////////////////////
 float i1 =(fakes->Integral())*(1.0+eps_fakes*alpha_fakes->getVal());//*lumi->getVal();  //fakes
 float i2 =(tz->Integral())*(1.0+ eps_tz*alpha_tz->getVal());//*lumi->getVal();  //Rares
 float i3=(wz->Integral())*(1.0+ eps_wz*alpha_wz->getVal());//*lumi->getVal(); //wz
@@ -149,9 +128,13 @@ float i6=(th->Integral())*(alpha_mu->getVal());//*lumi->getVal();  //signal
 float i7=(tth->Integral())*(1.0+ eps_tth*alpha_tth->getVal());//*lumi->getVal(); //tth
 float id=data1->Integral(); //data
 
+//Shows the class of the object
 //cout<<params.InheritsFrom(RooAbsArg::Class())<<endl;
 //cout<< result->ClassName()<<endl;
 
+///////////////////////////////////////////////////////////////
+//calculate the error of the fit for signal and backgrounds
+///////////////////////////////////////////////////////////
 float(efakes)=(fakes->Integral())*(eps_fakes*alpha_fakes->getError()); //fakes
 float(etz)=(tz->Integral())*(eps_tz*alpha_tz->getError());  //tz
 float(ewz)=(wz->Integral())*(eps_wz*alpha_wz->getError()); //wz
@@ -180,6 +163,20 @@ th->Scale(i6/th->Integral());  //signal
 tth->Scale(i7/tth->Integral()); //tth
 
 
+
+/////////////////////////////////////////////
+//Plot the fit
+//////////////////////////////////////
+tth->SetFillColor(kOrange+7);
+th->SetFillColor(kRed+1);
+ttz->SetFillColor(kSpring+2);
+ttw->SetFillColor(kSpring+3);
+wz->SetFillColor(kMagenta-3);
+tz->SetFillColor(kCyan);
+fakes->SetFillStyle(3005);
+fakes->SetFillColor(kBlue-3);
+data1->SetMarkerStyle(8);
+data1->SetLineColor(kBlack);
 /////////////////////////////////////////////////////////////
 THStack *hs = new THStack("hs","");
 hs->Add(fakes,"hist");
@@ -189,14 +186,6 @@ hs->Add(ttz,"hist");
 hs->Add(ttw,"hist");
 hs->Add(tth,"hist");
 hs->Add(th,"hist");
-
-
-cout<<"######################################"<<endl;
-result->Print();
-cout<<"######################################"<<endl;
-params.Print();
-cout<<"######################################"<<endl;
-mc->Print();
 ///////////////////////////////////////////
 TCanvas *cs = new TCanvas("cs","cs",100,100,700,900);
 TPad *pad1 = new TPad("pad1", "pad1", 0, 0.3, 1, 1.0);
@@ -272,6 +261,7 @@ TLine *line = new TLine(-1.0,1,1,1.0);
 line->SetLineColor(kRed);
 line->Draw("same");
 
+//save the plot as an image
 cs->SaveAs("simple-3000.png");
 //cs->SaveAs("simple-3000-kt-1.png");
   //Save to file

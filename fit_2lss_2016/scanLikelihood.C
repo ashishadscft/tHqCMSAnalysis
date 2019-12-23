@@ -126,10 +126,11 @@ lat.DrawLatex(45,4,"2#sigma");
 lat.DrawLatex(45,9,"3#sigma");
 
 cs->SaveAs("Likelihood.png");
-//cs->SaveAs("Likelihood-kt-1.png");
 
 
-
+////////////////////////////////////////////////////////////
+///plot the chi squared distribution and its Integral for ilustrates the significance in terms of sigma.
+//Also ilustrates the significance in the likelihood scan plots.
 /////////////////////////////////////////////////////////
 TCanvas *tm1 = new TCanvas("tm1","tm1",100,100,1200,900);
 tm1->Range(0,0,10,1);
@@ -144,7 +145,6 @@ hoto->Draw();
 hoto->GetXaxis()->SetRangeUser(0,10.9);
 hoto->GetYaxis()->SetRangeUser(0,1.1);
 fa2->DrawIntegral("same");
-
 
 TF1 *fa3 = new TF1("fa3","((1/sqrt(2.*pi))*(1/sqrt(x))*exp(-x/2.))",0,10);
 fa3->SetLineColor(kBlue);
@@ -184,8 +184,6 @@ lat2.SetTextSize(0.03);
 lat2.SetTextColor(kGreen+4);
 lat2.DrawLatex(9.32,-0.1,"99.7%");
 
-
-
 TGaxis *axis5 = new TGaxis(10.9,0,10.9,1.1,0,1.1,510,"+L");
 //axis5->SetLabelFont(0.5); // Absolute font size in pixel (precision 3)
 axis5->SetLabelSize(0.04);
@@ -194,16 +192,8 @@ axis5->Draw();
 
 
 cout<<fa3->Integral(0,4)<<endl;
-
+//save the scan in a image file
 tm1->SaveAs("nos.png");
 
-//TCanvas *tm2 = new TCanvas("tm2","tm2",100,100,1200,900);
-//fa2->SetLineColor(kRed);
-//fa2->SetTitle();
-//fa2->GetXaxis()->SetTitle("t_{#mu}");
-//fa2->GetYaxis()->SetTitle("f(t_{#mu})");
-//fa2->GetXaxis()->SetLimits(0,10);
-//fa2->Draw();
-//tm2->SaveAs("tmu.png");
 
 }

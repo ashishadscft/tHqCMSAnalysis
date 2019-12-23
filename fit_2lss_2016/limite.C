@@ -91,9 +91,7 @@ void limite()
    plc.SetTestSize(.05);  //confidence level, it means with  95%  the true value of the signal is within the range determined by this test
    ConfInterval *lrinterval = plc.GetInterval();
 
-////limite defino una region
-
-   // Let's make a plot
+   // Create a plot
    TCanvas *dataCanvas = new TCanvas("dataCanvas");
    LikelihoodIntervalPlot plotInt((LikelihoodInterval *)lrinterval);
    plotInt.SetTitle("; #mu ; -2ln#lambda(#mu) ");
@@ -120,6 +118,7 @@ void limite()
    cout<<"Results:"<<endl;
    //cout<<"lower limit= "<<lowerlimit<<endl;
    cout<<"upper limit= "<<upperlimit<<endl;
+  //Save the plot
 dataCanvas->SaveAs("limitsm.png");
 
 
