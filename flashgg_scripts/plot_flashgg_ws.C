@@ -15,33 +15,32 @@ using namespace RooFit ;
 
 //taglist from workspaceStd.py
 std::vector<TString> taglist={
-"Data_13TeV_TTHDiLeptonTag",
-"Data_13TeV_THQLeptonicTag",
-"Data_13TeV_TTHLeptonicTag_0",
-"Data_13TeV_TTHLeptonicTag_1",
-"Data_13TeV_TTHLeptonicTag_2",
-"Data_13TeV_TTHLeptonicTag_3",
-"Data_13TeV_TTHHadronicTag_0",
-"Data_13TeV_TTHHadronicTag_1",
-"Data_13TeV_TTHHadronicTag_2",
-"Data_13TeV_TTHHadronicTag_3",
-"Data_13TeV_VHHadronicTag",
-"Data_13TeV_VHMetTag",
-"Data_13TeV_VHLeptonicLooseTag",
-"Data_13TeV_WHLeptonicTag",
-"Data_13TeV_ZHLeptonicTag",
-"Data_13TeV_VBFTag_0",
-"Data_13TeV_VBFTag_1",
-"Data_13TeV_VBFTag_2",
-"Data_13TeV_UntaggedTag_0",
-"Data_13TeV_UntaggedTag_1",
-"Data_13TeV_UntaggedTag_2",
-"Data_13TeV_UntaggedTag_3",
-//"Data_13TeV_NoTag",
+"TTHDiLeptonTag",
+"THQLeptonicTag",
+"TTHLeptonicTag_0",
+"TTHLeptonicTag_1",
+"TTHLeptonicTag_2",
+"TTHLeptonicTag_3",
+"TTHHadronicTag_0",
+"TTHHadronicTag_1",
+"TTHHadronicTag_2",
+"TTHHadronicTag_3",
+"VHHadronicTag",
+"VHMetTag",
+"VHLeptonicLooseTag",
+"WHLeptonicTag",
+"ZHLeptonicTag",
+"VBFTag_0",
+"VBFTag_1",
+"VBFTag_2",
+"UntaggedTag_0",
+"UntaggedTag_1",
+"UntaggedTag_2",
+"UntaggedTag_3",
 };
 
 
-void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
+void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
   gROOT->ProcessLine(".x tHqCMSAnalysis/flashgg_scripts/rootlogon.C");
 
 
@@ -65,7 +64,7 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
 
 
   ofstream file;
-  file.open(OUTPUTDIR+"/plot_flash_ws.txt");
+  file.open(OUTPUTDIR+"/plot_flash_ws_"+Sample+".txt");
 
   TLatex text;
   text.SetTextSize(0.2);
@@ -75,7 +74,7 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
   C.Divide(3,7);
 
   for(int t=0;t<taglist.size();t++){
-    RooDataSet * ds=(RooDataSet*)ws->data(taglist[t].Data());
+    RooDataSet * ds=(RooDataSet*)ws->data(Sample+"_13TeV_"+taglist[t]);
     if(!ds){
       cout<<"tag:"<<taglist[t].Data()<<" not found"<<endl;
       continue;
@@ -84,7 +83,7 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
     TString tagname=taglist[t];
     tagname.ReplaceAll("Data_13TeV_","");
 
-    TH1*h=ds->createHistogram("CMS_hgg_mass",20);
+    TH1*h=ds->createHistogram("CMS_hgg_mass",40);
     h->SetTitle("");
     h->GetYaxis()->SetTitle("Events");
     h->GetYaxis()->SetNdivisions(2);
@@ -102,7 +101,7 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
     TVirtualPad*P=C.cd(t+1);
     P->SetTopMargin(0.05);    
     P->SetBottomMargin(0.35);
-    h->Draw("histpe");
+    h->Draw("histlp");
 
     text.DrawLatexNDC(0.5,0.75,tagname);
     
@@ -110,5 +109,5 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
   }
 
   file.close();
-  C.Print(OUTPUTDIR+"/plot_flash_ws.gif");
+  C.Print(OUTPUTDIR+"/plot_flash_ws_"+Sample+".gif");
 }
