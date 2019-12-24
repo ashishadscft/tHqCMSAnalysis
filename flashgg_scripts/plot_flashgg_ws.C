@@ -13,7 +13,7 @@
 #include "RooPlot.h"
 using namespace RooFit ;
 
-
+//taglist from workspaceStd.py
 std::vector<TString> taglist={
 "Data_13TeV_TTHDiLeptonTag",
 "Data_13TeV_THQLeptonicTag",
@@ -40,50 +40,46 @@ std::vector<TString> taglist={
 //"Data_13TeV_NoTag",
 };
 
-//from workspaceStd.py
-//  ["NoTag",0],
-//  ["UntaggedTag",4],
-//  ["VBFTag",3],
-//  ["ZHLeptonicTag",0],
-//  ["WHLeptonicTag",0],
-//  ["VHLeptonicLooseTag",0],
-//  ["VHMetTag",0],
-//  ["VHHadronicTag",0],
-//  ["TTHHadronicTag",4],
-//  ["TTHLeptonicTag",4],
-//  ["THQLeptonicTag",0],
-//  ["TTHDiLeptonTag",0]
-
-
 
 void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
+  gROOT->ProcessLine(".x tHqCMSAnalysis/flashgg_scripts/rootlogon.C");
+
 
   TFile input(INPUT.Data(),"read");
+  if(input.IsZombie()){
+    cout<<"unable to open input"<<endl;
+    return;
+  }
+
   RooWorkspace* ws=(RooWorkspace*)input.Get("tagsDumper/cms_hgg_13TeV");
   if(!ws){
     cout<<"Workspace not found"<<endl;
-  }
-  //ws->Print();
-
-  const RooRealVar* var=(RooRealVar*)ws->var("CMS_hgg_mass");
-  if(!var){
-    cout<<"variable not found"<<endl;
+    return;
   }
 
+  // const RooRealVar* var=(RooRealVar*)ws->var("CMS_hgg_mass");
+  // if(!var){
+  //   cout<<"variable not found"<<endl;
+  //   return;
+  // }
 
-  
+
+  ofstream file;
+  file.open(OUTPUTDIR+"/plot_flash_ws.txt");
+
+  TLatex text;
+  text.SetTextSize(0.2);
+  text.SetTextColor(4);
+
   TCanvas C;
   C.Divide(3,7);
 
   for(int t=0;t<taglist.size();t++){
-    //cout<<taglist[t].Data()<<endl;
     RooDataSet * ds=(RooDataSet*)ws->data(taglist[t].Data());
     if(!ds){
       cout<<"tag:"<<taglist[t].Data()<<" not found"<<endl;
       continue;
     }
-    //ds->Print();
-
 
     TString tagname=taglist[t];
     tagname.ReplaceAll("Data_13TeV_","");
@@ -97,7 +93,7 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
     h->GetYaxis()->SetLabelSize(.17);
     h->GetYaxis()->SetDecimals(0);
     h->GetYaxis()->SetRangeUser(0,h->GetMaximum()*1.2);
-    h->GetXaxis()->SetTitle(tagname+"   m(#gamma#gamma) ");
+    h->GetXaxis()->SetTitle("m(#gamma#gamma)    [GeV]       ");
     h->GetXaxis()->SetNdivisions(5);
     h->GetXaxis()->SetLabelSize(.2);
     h->GetXaxis()->SetTitleSize(.2);
@@ -107,8 +103,12 @@ void plot_flashgg_ws(TString INPUT,TString OUTPUTDIR="."){
     P->SetTopMargin(0.05);    
     P->SetBottomMargin(0.35);
     h->Draw("histpe");
-    cout<<taglist[t].Data()<<" "<<h->Integral()<<endl;
+
+    text.DrawLatexNDC(0.5,0.75,tagname);
+    
+    file<<tagname<<" "<<h->Integral()<<endl;
   }
-  
+
+  file.close();
   C.Print(OUTPUTDIR+"/plot_flash_ws.gif");
 }
