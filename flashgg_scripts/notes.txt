@@ -1,0 +1,7 @@
+
+
+MetaData/python/JobConfig.py
+- reads the dataset.json's
+- reads the crossections
+
+ 
