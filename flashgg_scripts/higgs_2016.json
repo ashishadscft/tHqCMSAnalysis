@@ -5,7 +5,6 @@
 	"vh" : ["/VHToGG_M125_13TeV_amcatnloFXFX_madspin_pythia8/spigazzi-Era2016_RR-17Jul2018_v2-legacyRun2FullV1-v0-RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2-b8a5b6287120fce79bb02069cbed82a0/USER"],
 	"tth_" : ["/ttHJetToGG_M125_13TeV_amcatnloFXFX_madspin_pythia8_v2/spigazzi-Era2016_RR-17Jul2018_v2-legacyRun2FullV1-v0-RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1-4b15415e8d56c44d7f20bde93a158c60/USER"],
 	"thw_" : ["/THW_ctcvcp_HToGG_13TeV-madgraph-pythia8_TuneCUETP8M1/spigazzi-Era2016_RR-17Jul2018_v2-legacyRun2FullV1-v0-RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2-0f39adba5dbc548d611578513f3de618/USER"],
-	"zh_" : ["/ZH_HToGG_ZToAll_M125_13TeV_powheg_pythia8/spigazzi-Era2016_RR-17Jul2018_v2-legacyRun2FullV1-v0-RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1-4de0a2b2fd62f04f46180d08e0d1e346/USER"],
 	"bbh_" : ["/bbHToGG_M-125_4FS_ybyt_13TeV_amcatnlo/spigazzi-Era2016_RR-17Jul2018_v2-legacyRun2FullV1-v0-RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2-4de0a2b2fd62f04f46180d08e0d1e346/USER"]
 
     },
