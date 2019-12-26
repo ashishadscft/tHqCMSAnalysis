@@ -120,7 +120,7 @@ customize.options.register('acceptance',
                            'acceptance'
                            )
 customize.options.register('doSystematics',
-                           True,
+                           False,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'doSystematics'
@@ -529,7 +529,7 @@ for tag in tagList:
       is_signal = reduce(lambda y,z: y or z, map(lambda x: customize.processId.count(x), signal_processes))
       if ( customize.doPdfWeights or customize.doSystematics ) and ( (customize.datasetName() and customize.datasetName().count("HToGG")) or customize.processId.count("h_") or customize.processId.count("vbf_") or is_signal ) and (systlabel ==  "") and not (customize.processId == "th_125" or customize.processId == "bbh_125"):
           print "Signal MC central value, so dumping PDF weights"
-          dumpPdfWeights = True
+          dumpPdfWeights = False
           nPdfWeights = 60
           nAlphaSWeights = 2
           nScaleWeights = 9

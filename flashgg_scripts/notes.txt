@@ -1,7 +1,11 @@
 
 
-MetaData/python/JobConfig.py
+* processId name values (eg. 'thq_') defined in the config.json are used within the code.
+
+
+* MetaData/python/JobConfig.py
 - reads the dataset.json's
 - reads the crossections
+
 
  
