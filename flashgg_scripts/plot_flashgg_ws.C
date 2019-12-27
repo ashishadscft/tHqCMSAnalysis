@@ -40,6 +40,30 @@ std::vector<TString> taglist={
 };
 
 
+void fitmgg(TString Sample, TH1* h,ofstream * o){
+  TF1* f=NULL;
+  float fmin,fmax;
+  if(Sample.CompareTo("Data")==0){
+    fmin=h->GetXaxis()->GetXmin();
+    fmax=h->GetXaxis()->GetXmax();
+    f=new TF1("fit","[0]+[1]*x+[2]*x*x",fmin,fmax);
+  }else {
+    fmin=115;
+    fmax=135;
+    f=new TF1("fit","[0]*exp(-0.5*(x-[1])**2/[2]**2)",fmin,fmax);
+    //f->SetParameter(0,1);
+    f->SetParameter(1,125);
+    f->SetParameter(2,1);
+    f->SetParLimits(1,120,130);
+    f->SetParLimits(2,1.,10);
+  }
+  h->Fit(f,"QNLL","",fmin,fmax);
+  h->Fit(f,"Q","",fmin,fmax);
+  f->SetLineColor(2);
+  f->Draw("lsame");
+  (*o)<<" "<<f->GetParameter(0)<<" "<<f->GetParameter(1)<<" "<<f->GetParameter(2);
+}
+
 void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
   gROOT->ProcessLine(".x tHqCMSAnalysis/flashgg_scripts/rootlogon.C");
 
@@ -55,6 +79,7 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
     cout<<"Workspace not found"<<endl;
     return;
   }
+  ws->Print();
 
   // const RooRealVar* var=(RooRealVar*)ws->var("CMS_hgg_mass");
   // if(!var){
@@ -74,14 +99,14 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
   C.Divide(3,7);
 
   for(int t=0;t<taglist.size();t++){
-    RooDataSet * ds=(RooDataSet*)ws->data(Sample+"_13TeV_"+taglist[t]);
+    TString tagname=taglist[t];
+
+    RooDataSet * ds=(RooDataSet*)ws->data(Sample+"_13TeV_"+tagname);
     if(!ds){
-      cout<<"tag:"<<taglist[t].Data()<<" not found"<<endl;
+      cout<<"tag:"<<tagname<<" not found"<<endl;
       continue;
     }
-
-    TString tagname=taglist[t];
-    tagname.ReplaceAll("Data_13TeV_","");
+    //ds->Print();
 
     TH1*h=ds->createHistogram("CMS_hgg_mass",40);
     h->SetTitle("");
@@ -101,11 +126,28 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
     TVirtualPad*P=C.cd(t+1);
     P->SetTopMargin(0.05);    
     P->SetBottomMargin(0.35);
-    h->Draw("histlp");
 
-    text.DrawLatexNDC(0.5,0.75,tagname);
+
+    ///blind
+    if(Sample.CompareTo("Data")==0){
+      for(int b=1;b<=h->GetNbinsX();b++)
+	if(fabs(h->GetBinCenter(b)-125)<10){
+	  h->SetBinContent(b,0);
+	  h->SetBinError(b,0);
+	}
+    }    
+
+    //draw first pass
+    h->Draw("histp");
     
-    file<<tagname<<" "<<h->Integral()<<endl;
+    //write out results
+    file<<tagname<<" "<<ds->numEntries()<<" "<<h->Integral();
+    fitmgg(Sample,h,&file);
+    file<<endl;
+  
+    //draw again on top of fit
+    h->Draw("histpsame");
+    text.DrawLatexNDC(0.5,0.75,tagname);
   }
 
   file.close();
