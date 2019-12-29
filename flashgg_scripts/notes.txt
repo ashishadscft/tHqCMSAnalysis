@@ -8,4 +8,13 @@
 - reads the crossections
 
 
- 
+* 2016 analysis categories priority:
+ttH Leptonic, 
+ttH Hadronic, 
+ZH Leptonic,
+WH Leptonic, 
+VH LeptonicLoose, 
+VBF categories, 
+VH MET, 
+VH Hadronic,
+Untagged. 

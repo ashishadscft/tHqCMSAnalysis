@@ -15,7 +15,7 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
     cout<<"Workspace not found"<<endl;
     return;
   }
-  ws->Print();
+  //ws->Print();
 
   // const RooRealVar* var=(RooRealVar*)ws->var("CMS_hgg_mass");
   // if(!var){
@@ -45,6 +45,8 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
     //ds->Print();
 
     TH1*h=ds->createHistogram("CMS_hgg_mass",40);
+    if(!(Sample.CompareTo("Data")==0))
+      h->Scale(LUMI);
     h->SetTitle("");
     h->GetYaxis()->SetTitle("Events");
     h->GetYaxis()->SetNdivisions(2);
@@ -59,6 +61,7 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
     h->GetXaxis()->SetTitleSize(.2);
     h->GetXaxis()->SetTitleOffset(.7);
 
+
     TVirtualPad*P=C.cd(t+1);
     P->SetTopMargin(0.05);    
     P->SetBottomMargin(0.35);
@@ -66,23 +69,23 @@ void plot_flashgg_ws(TString INPUT,TString Sample,TString OUTPUTDIR="."){
 
     ///blind
     if(Sample.CompareTo("Data")==0){
-      for(int b=1;b<=h->GetNbinsX();b++)
+      for(int b=1;b<=h->GetNbinsX();b++){
 	if(fabs(h->GetBinCenter(b)-125)<10){
 	  h->SetBinContent(b,0);
 	  h->SetBinError(b,0);
 	}
+      }
+      cout<<Sample.Data()<<"Binning: "<<h->GetXaxis()->GetNbins()<<","<<h->GetXaxis()->GetXmin()<<","<<h->GetXaxis()->GetXmax()<<endl;
     }    
 
-    //draw first pass
-    h->Draw("histp");
-    
     //write out results
     file<<tagname<<" "<<ds->numEntries()<<" "<<h->Integral();
-    fitMgg(Sample,h,&file);
+    TF1*f=fitMgg(Sample,h,&file);
     file<<endl;
   
     //draw again on top of fit
-    h->Draw("histpsame");
+    h->Draw("histp");
+    f->Draw("lsame");
     text.DrawLatexNDC(0.5,0.75,tagname);
   }
 
