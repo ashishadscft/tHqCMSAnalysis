@@ -31,7 +31,7 @@ void fit_higgs(TString INPUT,TString OUTPUTDIR="."){
     TFile input(INPUT+"/"+samples[s]+".root","read");
     if(input.IsZombie()){
       cout<<"unable to open input"<<endl;
-      return;
+      continue;
     }
 
     RooWorkspace* ws=(RooWorkspace*)input.Get("tagsDumper/cms_hgg_13TeV");
@@ -49,7 +49,7 @@ void fit_higgs(TString INPUT,TString OUTPUTDIR="."){
       }
       
       TH1*h=ds->createHistogram("CMS_hgg_mass",40);
-      h->Scale(LUMI);
+      h->Scale(LUMI(OUTPUTDIR));
       hist[taglist[t]]->Add(h);
     }
   }

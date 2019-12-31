@@ -14,7 +14,13 @@
 using namespace RooFit ;
 
 
-const float LUMI=35.9;
+float LUMI(TString INDIR){
+  if(INDIR.Contains("Era2016") ) return 35.9;
+  if(INDIR.Contains("Era2017") ) return 41.5;
+  if(INDIR.Contains("Era2018") ) return 63.7;
+  return 0.;
+}
+
 TH1F HMGG("HMGG","",40,100,180);//binning for m(gg) histograms 
 
 std::vector<TString> samples={"ggh_","vbf_","tth_","bbh_","thq_","thw_","vh"};
