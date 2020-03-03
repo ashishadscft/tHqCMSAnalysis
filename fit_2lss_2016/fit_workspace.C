@@ -1,12 +1,12 @@
-    #include "RooWorkspace.h"
-    #include "RooStats/ModelConfig.h"
-    #include "RooRealVar.h"
-    #include "RooMinimizerFcn.h"
-    #include "RooNLLVar.h"
-    #include "TFile.h"
-    #include "minimize.C"
-    #include <iostream>
-    #include "eps.h"
+   #include "RooWorkspace.h"
+   #include "RooStats/ModelConfig.h"
+   #include "RooRealVar.h"
+   #include "RooMinimizerFcn.h"
+   #include "RooNLLVar.h"
+   #include "TFile.h"
+   #include "minimize.C"
+   #include <iostream>
+   #include "eps.h"
 
     using namespace std;
     using namespace RooFit;
@@ -15,12 +15,12 @@
     //redistribuite the histogram info
     //////////////////
     void qw(TH1* ht)
-    {
-      for (int i=1;i<=16;i++)
       {
-        ht->SetBinError(i,sqrt(ht->GetBinContent(i)));
+	for (int i=1;i<=16;i++)
+	  {
+	    ht->SetBinError(i,sqrt(ht->GetBinContent(i)));
+	  }
       }
-    }
 
     void fit_workspace(string version, int strategy=0)
     {
@@ -28,10 +28,11 @@
       TFile* f = new TFile(Form("_combined_kinMVA_model.root",version.c_str(),version.c_str()));
     //combined is where the model and data are saved
       RooWorkspace* w = (RooWorkspace*)f->Get("combined");
-      if (!w){
-        cout << "ERROR::Workspace doesn't exist! Check file name" << endl;
-        exit(1);
-      }
+      if (!w )
+	{
+	  cout << "ERROR::Workspace doesn't exist! Check file name" << endl;
+	  exit(1);
+	}
       //Grab the ModelConfig and the data
       ModelConfig* mc = (ModelConfig*)w->obj("ModelConfig");
       RooDataSet* data = (RooDataSet*)w->data("obsData");

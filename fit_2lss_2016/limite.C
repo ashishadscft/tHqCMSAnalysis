@@ -93,33 +93,32 @@ void limite()
 
    // Create a plot
    TCanvas *dataCanvas = new TCanvas("dataCanvas");
-   LikelihoodIntervalPlot plotInt((LikelihoodInterval *)lrinterval);
-   plotInt.SetTitle("; #mu ; -2ln#lambda(#mu) ");
-//   plotInt.SetTitle("Profile Likelihood Ratio and Posterior for S");
-   plotInt.SetNPoints(300);
-   plotInt.SetRange(0,60);
-   plotInt.SetMaximum(4);
-   plotInt.Draw();
+    LikelihoodIntervalPlot plotInt((LikelihoodInterval *)lrinterval);
+    plotInt.SetTitle("; #mu ; -2ln#lambda(#mu) ");
+    //plotInt.SetTitle("Profile Likelihood Ratio and Posterior for S");
+     plotInt.SetNPoints(300);
+     plotInt.SetRange(0,60);
+     plotInt.SetMaximum(4);
+     pltoInt.Draw();
 
 
    //Scan the parameter of interest to determine numerical values for the limits:
    int NPTS=1000;
    float lowerlimit=mu->getMax();
    float upperlimit=mu->getMin();
-   for(int i=0;i<NPTS;i++){
-     float val=mu->getMin()+i*(mu->getMax()-mu->getMin())/NPTS;
-     mu->setVal(val);
-     if(lrinterval->IsInInterval(*mu)){
-       if(val<lowerlimit) lowerlimit=val;
-       if(val>upperlimit) upperlimit=val;
+   for(int i=0;i<NPTS;i++)
+     {
+       float val=mu->getMin()+i*(mu->getMax()-mu->getMin())/NPTS;
+       mu->setVal(val);
+        if(lrinterval->IsInInterval(*mu)){
+	  if(val<lowerlimit) lowerlimit=val;
+	    if(val>upperlimit) upperlimit=val;
+	}
      }
-   }
    cout<<endl;
    cout<<"Results:"<<endl;
    //cout<<"lower limit= "<<lowerlimit<<endl;
    cout<<"upper limit= "<<upperlimit<<endl;
-  //Save the plot
-dataCanvas->SaveAs("limitsm.png");
-
-
+   //Save the plot
+   dataCanvas->SaveAs("limitsm.png");
 }
